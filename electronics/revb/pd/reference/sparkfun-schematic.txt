@@ -1,0 +1,40 @@
+                                                                                                                                                                                VBUS_EN_SNK DISCH              POWER_OK2   POWER_OK3      GPIO  A_B_SIDE  ATTACH ALERT                SDA SCL        RESET
+
+  D
+
+
+      G
+  S                                                                VSYS                     VBUS_VS_DISCH     VDD             VREG_2V7  VREG_1V2        CC1DB CC1 CC2 CC2DB        ADDR1 ADDR0     GND
+                                                                                                                                                                                                                                                                                                                                                                                         Commons                                                                                                                                                                                                                                                                                                                                                                                                   License
+                                                                                                                                                                      4.0                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative
+                                                                                                                                                                 the
+                                                                                                                                                                                                                                                                             under      Share-Alike                                                                                                                                             by:                                                                                                                                                                                                                                                                                                                                                                                                                                               Released      Attribution                        https://creativecommons.org/licenses/by-sa/4.0/                                                                                                                                                                                                                                                                                          Design
+
+
+
+
+
+1 2 3 4 5 6
+
+
+
+
+
+               1 2   1 2
+
+
+
+
+
+1 2 3 4 5 6 7
+
+
+
+
+
+                  4 3 2 1
+
+
+VBUS1*2 A6*2 A7*2 A5 B5  SHLD1*8 GND*2
+  VBUS D+ D- CC1 CC2 SHLD GND
+  USB-C

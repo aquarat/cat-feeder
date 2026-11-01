@@ -1,0 +1,86 @@
+{
+ "_note": "Which downloaded manufacturer model each part key uses (see vendor/manifest.json for URL + SHA-256). 'use': false keeps the behavioural fallback. Pin order is the subckt's node order.",
+ "IRF4905": {
+  "file": "irf4905/irf4905.spi",
+  "model": "irf4905",
+  "type": "subckt",
+  "pins": [
+   "D",
+   "G",
+   "S"
+  ],
+  "source": "Infineon IRF4905 SPICE (Symmetry macro)"
+ },
+ "1N5819": {
+  "file": "1n5819/1N5819.lib",
+  "model": "D1n5819",
+  "type": "model",
+  "source": "onsemi 1N5819"
+ },
+ "1N4007": {
+  "file": "1n4007/vishay-doc89789/1n4007.txt",
+  "model": "d1n4007",
+  "type": "model",
+  "source": "Vishay 1N4007 (second source for the onsemi part)"
+ },
+ "1N4148": {
+  "file": "1n4148/1N4148.lib",
+  "model": "1N4148WT",
+  "type": "subckt",
+  "pins": [
+   "A",
+   "K"
+  ],
+  "source": "onsemi 1N4148.lib (contains the 1N4148WT die model; stand-in for the DO-35 1N4148)"
+ },
+ "2N3904": {
+  "file": "2n3904/2N3904.lib",
+  "model": "Q2n3904",
+  "type": "model",
+  "source": "onsemi 2N3904"
+ },
+ "1N5245B": {
+  "use": false,
+  "note": "no manufacturer model; onsemi BZX84C15 proxy exists but behavioural 1N5245B fit is used (datasheet Vz/Zzt)"
+ },
+ "P6KE30A": {
+  "use": false,
+  "note": "no manufacturer P6KE30A model; behavioural datasheet-line fit with BV corners; Vishay P6KE27A model used only to validate the fitting method"
+ },
+ "ULN2003A": {
+  "use": false,
+  "note": "TI publishes no SPICE model; transistor-level behavioural channel"
+ },
+ "1N5817": {
+  "file": "1n5817/1N5817.lib",
+  "model": "D1n5817",
+  "type": "model",
+  "source": "onsemi 1N5817 (temperature parameters EG/XTI are odd fits; leakage when hot not relied on)"
+ },
+ "IRLZ44N": {
+  "file": "irlz44n/irlz44n.spi",
+  "model": "irlz44n",
+  "type": "subckt",
+  "pins": [
+   "D",
+   "G",
+   "S"
+  ],
+  "source": "Infineon IRLZ44N (1996 Level-1; Vth 2.09 V vs datasheet 1-2 V: conservative for 3.3 V drive)"
+ },
+ "TL431": {
+  "file": "tl431/sloj174/tl431.mod",
+  "model": "TL431",
+  "type": "subckt",
+  "pins": [
+   "REF",
+   "A",
+   "K"
+  ],
+  "source": "TI SLOJ174 TL431 macromodel (1992, DC; nominal Vref 2.494 V). The SLVM071 transient model needs ngbehavior=ps and is not used."
+ },
+ "BC327": {
+  "use": false,
+  "note": "no manufacturer model reachable; behavioural PNP"
+ }
+}

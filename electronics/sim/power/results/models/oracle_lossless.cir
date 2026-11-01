@@ -1,0 +1,15 @@
+oracle_lossless: generated sensitivity study; see README
+Vbus src 0 PULSE(0 24 10u 1n 1n 5m 10m)
+Llead src cap 10u
+C10 cap 0 100u
+.options reltol=1e-6 abstol=1e-10 vntol=1e-8
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 5e-08 0.0003 0 5e-08
+wrdata oracle_lossless.dat v(cap) i(Llead)
+quit
+.endc
+.end

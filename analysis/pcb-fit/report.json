@@ -1,0 +1,137 @@
+{
+  "status": "Geometry only; provisional bought-part/harness envelopes",
+  "mesh": {
+    "cradle": {
+      "triangles": 370,
+      "surface_components": 1,
+      "removed_zero_area_triangles": 0,
+      "enclosed_voids": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        61.598785400390625,
+        44.0,
+        9.0
+      ],
+      "size_mm": [
+        61.598785400390625,
+        44.0,
+        9.0
+      ],
+      "volume_ml": 2.258765521116972
+    },
+    "coupon": {
+      "triangles": 2054,
+      "surface_components": 1,
+      "removed_zero_area_triangles": 0,
+      "enclosed_voids": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        66.0,
+        88.0,
+        32.0
+      ],
+      "size_mm": [
+        66.0,
+        88.0,
+        32.0
+      ],
+      "volume_ml": 24.306616427534586
+    },
+    "adapted-shell": {
+      "triangles": 129128,
+      "surface_components": 1,
+      "removed_zero_area_triangles": 232,
+      "enclosed_voids": 0,
+      "min_mm": [
+        -158.0,
+        -158.0,
+        0.0
+      ],
+      "max_mm": [
+        158.0,
+        164.5,
+        123.5
+      ],
+      "size_mm": [
+        316.0,
+        322.5,
+        123.5
+      ],
+      "volume_ml": 1272.1371376216205
+    }
+  },
+  "intersections_mm3": {
+    "adapted fixed internals / populated PCB": 1.12417e-10,
+    "fan seats skirt and motor posts preserved": 0.0,
+    "ten unrelated cartridge support sets preserved": 4.96433e-12,
+    "adapted fixed internals / PCB loading": 2.17343e-11,
+    "removable cradles / populated PCB": 0.0,
+    "removable cradles / fixed internals": 2.58495e-11,
+    "adapted fixed internals / fan loading": 4.85064e-12,
+    "cradles / fan loading": 0.0,
+    "adapted supports / full sink loading": 3.18702e-11,
+    "new fixed supports / existing motor bridge": 5.6275e-12,
+    "PCB and cradles / remaining three board allowances": 0.0,
+    "adapted complete shell / populated PCB": 9.39764e-11,
+    "adapted complete shell / PCB loading": 1.99544e-12,
+    "adapted complete shell / cradles": 7.06398e-12,
+    "PCB + cradles / full 40mm sinks": 4.88853e-12,
+    "PCB + cradles / deck": 0.0,
+    "cradle vertical removal / PCB": 0.0,
+    "cradle vertical removal / motor bridge": 0.0,
+    "continuous cradle loading / complete adapted shell": 1.69926e-11,
+    "continuous cradle loading / populated PCB": 0.0,
+    "terminal vertical driver access after cradle removal": 0.0
+  },
+  "diagnostic_volumes_mm3": {
+    "old board laminate / pockets": 317.859,
+    "old board laminate / sink supports": 69.6,
+    "old underside pins / raceways": 22.464,
+    "old populated board / fixed internals": 780.401,
+    "old populated loading path / fixed internals": 1665.28,
+    "old PCB shadow / low raceways": 429.728,
+    "connected terminal harness loading / adapted shell": 5.26979,
+    "cradle loading / original ledge": 170.357,
+    "ledge material removed for four notches": 241.988,
+    "assembled harness / original minus30 supports": 217.005,
+    "PCB raised to Z65 / full 40mm sinks": 13974.1,
+    "15deg PCB rotation / same cradle geometry": 70.3988,
+    "one cradle bearing shadow mm2 using 1mm prism": 384.0,
+    "old PCB loading / sink supports at -60": 0.0,
+    "old PCB loading / sink supports at -30": 0.0,
+    "old PCB loading / sink supports at 0": 1240.5,
+    "old PCB loading / sink supports at 30": 0.0,
+    "old PCB loading / sink supports at 60": 0.0
+  },
+  "source_sha256": {
+    "cad/parameters.scad": "9712f2aa63f4c07fc3e73a1f9ca101122080db6eddbb0b1780ac3204895ccb3e",
+    "cad/internals.scad": "b5861615a8e37ce02fb5c0e593f0d04910399ca3f86a87ada8a81c0754f758e6",
+    "cad/feeder.scad": "a0d14d1590f5d33aa78bef360301c58a35f254688b2b42c2aa151c981588c390",
+    "cad/pcb_mount.scad": "4178f4d87d1afcc3a2d115360fef9f320eb5ee24dbeb564c56eea6a06a1673ae",
+    "analysis/pcb-fit/study.scad": "feb636fd9377cdaf9d26aa40dd25b4f9f0d0e57748695efed2579897dc74e9f5",
+    "analysis/pcb-fit/shell-fixture.scad": "342851da58946a5a909ca4690a901a9fda6d9d0ea2bb04e35ef4c7fefa1ef9c6",
+    "analysis/pcb-fit/build.py": "90a1cd06cf27ab9c9162b3288787702a0517d52bf656d4a7336048e5b6f9d9d5",
+    "electronics/pcb/views/board-envelope.stl": "0956a52b1b234a0b00e18f6eb4d4b16b38610f560e5d14be5d41072ba340af23",
+    "electronics/pcb/outline-study.json": "38dd2b6669e50aa7bc09b39852a3d7b1949bfbeb6bcb1804fd9899f99a7fc176",
+    "electronics/pcb/design-bom.csv": "711217e947667fc845909c055dc6b204cc5f0d8ba77d895a690f0b5b7d08ba48"
+  },
+  "output_sha256": {
+    "adapted-shell.stl": "47aacbc0510f807e787f058523ed6e1507a81176b67ed1314e31e2f53100739d",
+    "checks.echo": "a0bf852f18906d3d0659ee9e3183939db15a84f07acda2357cec532c88a7f7a1",
+    "coupon.stl": "242649f9b7a19f8b7e3c76898be438f275bf200fee3ce04b6e18f34684450c95",
+    "cradle.stl": "76c74d8ee2f2458e547175040d3a448d6dbae338c6d43cfe073160401d10f734",
+    "ledge.png": "4778603c79ee27180293159d8ba00943f9462b7906947241358e3f179b729047",
+    "local.png": "fe365a9894dacb81364f73f308d35320734a62df8b9f3217d75eee0237216ea2",
+    "oblique.png": "27cd0447725174e125a494e96759474773d7b84ffd7fcf1d2f26f15fb11480b8",
+    "section.png": "94147d9f3a96924da749eda4cccb8c2adbd7ee094ca83810b137b47dce94473f",
+    "top.png": "1fce4bf31a0e308a485c6a76462fec2fea8a660cc9034b19d5ab0fe20e6f9a92"
+  }
+}

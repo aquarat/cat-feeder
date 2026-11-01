@@ -1,0 +1,15 @@
+[
+  {
+    "file": "AP63203-EVM.pdf",
+    "url": "https://pdf.htelec.com/pdf/36/AP63203WU-EVM%20User%20Guide%20Manual%20R1.pdf",
+    "sha256": "59bc3f0bd7273ae027f76585b982531c3d5b4e1eaf439924c9ad4bda8925a174",
+    "retrieved_utc": "2026-10-24T16:24:21.415711+00:00"
+  },
+  {
+    "file": "AP63200-family.pdf",
+    "url": "https://media.ic-find.com/datasheets/3112fdf570131ce2a201102922d42917.pdf",
+    "manufacturer_url": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+    "sha256": "845476533a994d612f8f6e2885eac759ecb3045b83a738c004bcb4173952dd53",
+    "note": "Manufacturer-authored DS41326 Rev 2-2 Jan 2019, retrieved from mirror after direct HTTP403"
+  }
+]

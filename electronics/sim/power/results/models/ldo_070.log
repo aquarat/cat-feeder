@@ -1,0 +1,29 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: ldo_070: generated sensitivity study; see readme
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+src                                          5
+vin                                    4.98999
+cin                                    4.98999
+command                                    0.1
+out                                       3.29
+lag                                        0.1
+cout                                      3.29
+demand                                     0.1
+bcommand#branch                              0
+vdemand#branch                               0
+vsrc#branch                           -0.10008
+
+
+No. of Data Rows : 7521
+ngspice-39 done

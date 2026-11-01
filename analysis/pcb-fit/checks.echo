@@ -1,0 +1,39 @@
+ECHO: metric = "old board laminate / pockets", mm3 = 317.859
+ECHO: metric = "old board laminate / sink supports", mm3 = 69.6
+ECHO: metric = "old underside pins / raceways", mm3 = 22.464
+ECHO: metric = "old populated board / fixed internals", mm3 = 780.401
+ECHO: metric = "old populated loading path / fixed internals", mm3 = 1665.28
+ECHO: metric = "old PCB shadow / low raceways", mm3 = 429.728
+ECHO: metric = "connected terminal harness loading / adapted shell", mm3 = 5.26979
+ECHO: metric = "cradle loading / original ledge", mm3 = 170.357
+ECHO: metric = "ledge material removed for four notches", mm3 = 241.988
+ECHO: metric = "assembled harness / original minus30 supports", mm3 = 217.005
+ECHO: metric = "PCB raised to Z65 / full 40mm sinks", mm3 = 13974.1
+ECHO: metric = "15deg PCB rotation / same cradle geometry", mm3 = 70.3988
+ECHO: metric = "one cradle bearing shadow mm2 using 1mm prism", mm3 = 384
+ECHO: metric = "old PCB loading / sink supports at -60", mm3 = 0
+ECHO: metric = "old PCB loading / sink supports at -30", mm3 = 0
+ECHO: metric = "old PCB loading / sink supports at 0", mm3 = 1240.5
+ECHO: metric = "old PCB loading / sink supports at 30", mm3 = 0
+ECHO: metric = "old PCB loading / sink supports at 60", mm3 = 0
+ECHO: check = "adapted fixed internals / populated PCB", intersection_mm3 = 1.12417e-10
+ECHO: check = "fan seats skirt and motor posts preserved", intersection_mm3 = 0
+ECHO: check = "ten unrelated cartridge support sets preserved", intersection_mm3 = 4.96433e-12
+ECHO: check = "adapted fixed internals / PCB loading", intersection_mm3 = 2.17343e-11
+ECHO: check = "removable cradles / populated PCB", intersection_mm3 = 0
+ECHO: check = "removable cradles / fixed internals", intersection_mm3 = 2.58495e-11
+ECHO: check = "adapted fixed internals / fan loading", intersection_mm3 = 4.85064e-12
+ECHO: check = "cradles / fan loading", intersection_mm3 = 0
+ECHO: check = "adapted supports / full sink loading", intersection_mm3 = 3.18702e-11
+ECHO: check = "new fixed supports / existing motor bridge", intersection_mm3 = 5.6275e-12
+ECHO: check = "PCB and cradles / remaining three board allowances", intersection_mm3 = 0
+ECHO: check = "adapted complete shell / populated PCB", intersection_mm3 = 9.39764e-11
+ECHO: check = "adapted complete shell / PCB loading", intersection_mm3 = 1.99544e-12
+ECHO: check = "adapted complete shell / cradles", intersection_mm3 = 7.06398e-12
+ECHO: check = "PCB + cradles / full 40mm sinks", intersection_mm3 = 4.88853e-12
+ECHO: check = "PCB + cradles / deck", intersection_mm3 = 0
+ECHO: check = "cradle vertical removal / PCB", intersection_mm3 = 0
+ECHO: check = "cradle vertical removal / motor bridge", intersection_mm3 = 0
+ECHO: check = "continuous cradle loading / complete adapted shell", intersection_mm3 = 1.69926e-11
+ECHO: check = "continuous cradle loading / populated PCB", intersection_mm3 = 0
+ECHO: check = "terminal vertical driver access after cradle removal", intersection_mm3 = 0

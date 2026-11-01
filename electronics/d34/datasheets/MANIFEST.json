@@ -1,0 +1,464 @@
+{
+ "note": "Primary-source datasheets used to verify D34 parts. Hashes recomputed by datasheets_manifest.py.",
+ "files": [
+  {
+   "file": "17hs08-1004s.pdf",
+   "sha256": "dcda644b87e8641f21faa54d8f3c7cbee55c6fed08a5682e4cdfe839da88f518",
+   "bytes": 171873,
+   "source_url": "https://www.omc-stepperonline.com/download/17HS08-1004S.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "StepperOnline 17HS08-1004S",
+   "checked": "1.0 A/phase, 3.7 ohm, 4.5 mH, 0.16 N m holding; leads A BLK, A- GRN, B RED, B- BLU"
+  },
+  {
+   "file": "1n4148.pdf",
+   "sha256": "aefe85400a427ed886a4e1c88205ceabb9f9b38044b29c6acee4bb00146a44b7",
+   "bytes": 93384,
+   "source_url": "https://www.vishay.com/docs/81857/1n4148.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Vishay 1N4148-TAP",
+   "checked": "DO-35 dimensions p3"
+  },
+  {
+   "file": "1n5817-19.pdf",
+   "sha256": "ac67aa23beb66d3e48ca1ffb6275cbe3beff1c801c65448ad2dd7863977d8307",
+   "bytes": 386468,
+   "source_url": "https://www.onsemi.cn/download/data-sheet/pdf/1n5817-d.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "1N5817RLG",
+   "checked": "VF max 0.32 V @ 0.1 A, 0.45 V @ 1 A (1N5817); 20 V; DO-41 axial (onsemi.com blocks scripts, onsemi.cn mirror is onsemi)"
+  },
+  {
+   "file": "2n3904.pdf",
+   "sha256": "5e36f5a5c3e5c2b42be84b234ec256386cedc27240859b4744d88e9d42ccafa4",
+   "bytes": 232662,
+   "source_url": "https://www.onsemi.cn/download/data-sheet/pdf/2n3903-d.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "onsemi 2N3904BU",
+   "checked": "E-B-C, bulk straight leads 1.27 mm, formed 2.54 (p1, p7)"
+  },
+  {
+   "file": "ams1117.pdf",
+   "sha256": "189a2651878a87d590b768eaa9b44217a3fdf460352ce6ecaff127221282a3f0",
+   "bytes": 95151,
+   "source_url": "http://www.advanced-monolithic.com/pdf/ds1117.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "AMS1117-3.3 (on the DevKit)",
+   "checked": "dropout 1.1 V typ / 1.3 V max at 0.8 A"
+  },
+  {
+   "file": "bat42.pdf",
+   "sha256": "50b0eefd0a7b63a096fca2f07ccd9ce5cf3dd19fd788cbe63baad22252505c3b",
+   "bytes": 101264,
+   "source_url": "https://www.vishay.com/docs/85660/bat42.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "BAT42 (RS stocks the ST part)",
+   "checked": "30 V small-signal Schottky, DO-35"
+  },
+  {
+   "file": "bc327.pdf",
+   "sha256": "c2633c6d559538539f2cba9171ff8f2db794fdb4567b6243d025f6ed10e8c77b",
+   "bytes": 250649,
+   "source_url": "https://www.onsemi.cn/download/data-sheet/pdf/bc327-d.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "onsemi BC327-25 (BC32725BU)",
+   "checked": "PNP -45 V -800 mA, TO-92 (case 29)"
+  },
+  {
+   "file": "btt_tmc2209_v13_manual.pdf",
+   "sha256": "9fc99fb405e2289eeaa464161939e06e22968f7513ec1289ef17e4965037e4d3",
+   "bytes": 1162679,
+   "source_url": "https://raw.githubusercontent.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/master/TMC2209/V1.3/manual/BIGTREETECH%20TMC2209%20V1.3%20User%20Manual.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "BTT TMC2209 V1.3",
+   "checked": "UART default mode; motor supply stated 12-28 V (VMOT here is 12 V, at that minimum; the IC is 4.75-29 V)"
+  },
+  {
+   "file": "btt_tmc2209_v13_sch.pdf",
+   "sha256": "e17eac5f81e40fc0d626007d2d02d44cdbfa632e9bf54d9fc70f820c872023b1",
+   "bytes": 35602,
+   "source_url": "https://raw.githubusercontent.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/master/TMC2209/V1.3/Schematic/TMC2209%20V1.3-SCH.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "BTT TMC2209 V1.3",
+   "checked": "header pin functions: 4 PDN_UART (no series R), 5 NC (R10 not fitted), 6 CLK 20 k to GND, EN 20 k pull-up"
+  },
+  {
+   "file": "btt_tmc2209_v13_size.pdf",
+   "sha256": "ee5bd6a6b8f2166958107e2e7d504377c1aabb61e616f99fba7d85ccfc15370c",
+   "bytes": 111870,
+   "source_url": "https://raw.githubusercontent.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/master/TMC2209/V1.3/Schematic/TMC2209%20V1.3-SIZE.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "BTT TMC2209 V1.3",
+   "checked": "board 15.24 x 20.32, heatsink pad 8.40 x 12.88"
+  },
+  {
+   "file": "bzx79.pdf",
+   "sha256": "94b6321c24fccf1428b87063f764e6dbc15253fa0d881e9207974feaa84035d8",
+   "bytes": 210209,
+   "source_url": "https://static.chipdip.ru/lib/051/DOC032051641.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Nexperia BZX79-C15",
+   "checked": "NXP/Nexperia sheet via mirror: Vz, SOD27"
+  },
+  {
+   "file": "esp32_devkitc_v4_dimensions.pdf",
+   "sha256": "93769872f5640475a25e6c367230b407606771e4bbee0aba56903263b17d8d30",
+   "bytes": 901070,
+   "source_url": "https://dl.espressif.com/dl/schematics/esp32_devkitc_v4_dimensions.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "ESP32-DevKitC-32E (V4)",
+   "checked": "PCB 48.26 x 27.94, rows 25.40, pitch 2.54, antenna +6.04, pin 19 1.29 from USB end"
+  },
+  {
+   "file": "esp32_devkitc_v4_sch.pdf",
+   "sha256": "ea500de5a3bfa97633f32ddb88fabd2d680637225190ea9c3f81e91b7d8bb7f6",
+   "bytes": 513135,
+   "source_url": "https://dl.espressif.com/dl/schematics/esp32_devkitc_v4_sch.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "ESP32-DevKitC V4",
+   "checked": "USB VBUS -> BAT760 -> EXT_5V (header 5V pin) -> AMS1117-3.3; pin names/order"
+  },
+  {
+   "file": "hlmp-1503.pdf",
+   "sha256": "e9404f2fbaafac78c247185724efcf9a572bc1a5d7f20b57db723ece9bc3e1bf",
+   "bytes": 1388732,
+   "source_url": "https://datasheet.lcsc.com/lcsc/43ffa2668b24824b0ec00197749e9bdb.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Broadcom HLMP-1503",
+   "checked": "Broadcom AV02-1555EN via LCSC mirror: 3.17 dia, 6.35 high, cathode short lead"
+  },
+  {
+   "file": "irf4905.pdf",
+   "sha256": "f6866a3f0ba1487bb51c85087d31ad27674212d9ebb1f3a6616a83ae17b0bad2",
+   "bytes": 998501,
+   "source_url": "https://www.infineon.com/dgdl/irf4905pbf.pdf?fileId=5546d462533600a4015355e32165197c",
+   "retrieved": "2026-10-26",
+   "parts": "IRF4905PbF",
+   "checked": "G-D-S, VGS +-20 V, TO-220 dimensions p8"
+  },
+  {
+   "file": "irlz44n.pdf",
+   "sha256": "b4f1361a4486b8ec84206012a3e4a985111203d140fa6da8d4190b867c9ba077",
+   "bytes": 235219,
+   "source_url": "https://www.infineon.com/dgdl/irlz44npbf.pdf?fileId=5546d462533600a40153567217c32725",
+   "retrieved": "2026-10-26",
+   "parts": "Infineon IRLZ44NPBF",
+   "checked": "logic-level N-FET 55 V 47 A, VGS(th) 1-2 V, RDS(on) 35 mOhm at VGS 4 V, TO-220 G-D-S (PDF text is font-encoded: read manually)"
+  },
+  {
+   "file": "jst_vh.pdf",
+   "sha256": "d51e669c597988b20c0963daf5bef7356cbd2104c1f867e9107c6fa6cd2b899c",
+   "bytes": 122881,
+   "source_url": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "B2P/B3P/B4P-VH, VHR-nN, SVH-21T-P1.1",
+   "checked": "pitch 3.96; length 3.96(n-1)+3.9, depth 8.5, height 10.9; hole 1.65-1.75; mated 16.5; 10 A (p1-p4)"
+  },
+  {
+   "file": "jst_xh.pdf",
+   "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+   "bytes": 175724,
+   "source_url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "B2B..B12B-XH-A, XHP-n, SXH-001T-P0.6",
+   "checked": "pitch 2.5; header length 2.5(n-1)+4.9, depth 5.75, height 7.0; hole 0.9-1.0; mated height 9.8 (p1-p5)"
+  },
+  {
+   "file": "keystone_3568.pdf",
+   "sha256": "caa141ea51ac68cf80ab6e14ad2075fcfc76206451f4bfe45330005c0deaf395",
+   "bytes": 263884,
+   "source_url": "https://www.keyelco.com/userAssets/file/M65p42.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Keystone 3568",
+   "checked": "catalogue p42: 16.0 x 6.73 x 7.37, four 1.60 holes on 9.9 x 3.40"
+  },
+  {
+   "file": "littelfuse_297.pdf",
+   "sha256": "555113147626816e1370737868b0f13c3b7da7f8fa694b30464bbfb53e3e8228",
+   "bytes": 361638,
+   "source_url": "https://static.chipdip.ru/lib/458/DOC012458305.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Littelfuse 029707.5WXNV",
+   "checked": "MINI 297 series via mirror: 7.5 A part exists, 32 VDC, blade dims"
+  },
+  {
+   "file": "littelfuse_rxef.pdf",
+   "sha256": "ac4f96627a34877763b69e8d54c8c203335907200b39e0a5b452e582574314ae",
+   "bytes": 674621,
+   "source_url": "https://store.comet.bg/download-file.php?id=28452",
+   "retrieved": "2026-10-26",
+   "parts": "Littelfuse RXEF110",
+   "checked": "Littelfuse sheet via mirror (littelfuse.com 403): hold/trip, 72 V, 12.8 x 3.0 x 17.5 max"
+  },
+  {
+   "file": "molex_39000039.pdf",
+   "sha256": "bafef7591016c5f86821d5c9565b6a926ec5df761da1ccf090ea8481b9b7f7eb",
+   "bytes": 180481,
+   "source_url": "https://www.molex.com/pdm_docs/sd/039000039_sd.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "39-00-0039",
+   "checked": "AWG 18-24, insulation 1.3-3.1 mm"
+  },
+  {
+   "file": "molex_47053.pdf",
+   "sha256": "f4a7517e64a26386e591da55230674c8b43b3628e904d2de76c0fc235a0a9eda",
+   "bytes": 146564,
+   "source_url": "https://www.molex.com/pdm_docs/sd/470531000_sd.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "47053-1000",
+   "checked": "pitch 2.54, holes 1.02, peg hole 1.25 (KiCad stock 1.1: corrected in catalog.FP_DRILL_FIX), pins 10.0 high"
+  },
+  {
+   "file": "molex_5557_housing.pdf",
+   "sha256": "006bb06a775c0100f3184a02d0aa9e6cc09caf77630144b19a7b5f15ae5b2386",
+   "bytes": 201853,
+   "source_url": "https://www.molex.com/pdm_docs/sd/039012020_sd.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "39-01-2020/2040/2060",
+   "checked": "receptacle length 5.4/9.6/13.8, depth 9.6 (+latch), height 19.6"
+  },
+  {
+   "file": "molex_5566_header.pdf",
+   "sha256": "7418c96e365f3209e5b29b071f74b6e9c342b50fa0e4a3f1b5024a875135dbec",
+   "bytes": 1595925,
+   "source_url": "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "39-28-1023/1043/1063",
+   "checked": "pitch 4.20 x row 5.50; hole 1.40; height 12.8; mated 23.5 REF; latch on the pin n/2+1..n row"
+  },
+  {
+   "file": "mrs25.pdf",
+   "sha256": "f95943b72d37f45da8b89017006c6bc3e2c05946c1925542352785ddbf09844c",
+   "bytes": 94646,
+   "source_url": "https://store.comet.bg/download-file.php?id=18978",
+   "retrieved": "2026-10-26",
+   "parts": "Vishay MRS25 (REJECTED)",
+   "checked": "kept as the reason MRS25 was dropped: minimum formed pitch 10.0 mm vs the 7.62 mm footprints"
+  },
+  {
+   "file": "murata_rde.pdf",
+   "sha256": "0107c6e123fe09273107d1a204da42c0837bd00f83ac779f0a5a52d399023a21",
+   "bytes": 834269,
+   "source_url": "https://docs.rs-online.com/264c/0900766b8156ed4f.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Murata RDER71H104K0P1H03B, RDER71H105K2P1H03B",
+   "checked": "Murata RDE brochure: P1 = 2.5 mm spacing (K1 = 5.0), size 0 4.0 x 2.5 x 6.0, size 2 5.5 x 3.15 x 6.0"
+  },
+  {
+   "file": "oc_adaptive_adv-127-135200-s.pdf",
+   "sha256": "64097763a542a483cf3e0d741d6dec8ff8295e9c5b63d1ea33717e14f2b81ba9",
+   "bytes": 516400,
+   "source_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3607/ADV-127-135200-S.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Adaptive/European Thermodynamics ADV-127-135200-S TEC",
+   "checked": "4 A, 34.2 W, 40 x 40 x 4.2 mm, 350 mm 20 AWG leads"
+  },
+  {
+   "file": "oc_kycon_kpjx-cm_series.pdf",
+   "sha256": "1763810806a4cba513f1166343641442301b71bd92d275cb14b6d1d389c3689b",
+   "bytes": 458775,
+   "source_url": "https://static.chipdip.ru/lib/535/DOC011535691.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Kycon KPJX-CM (cable-mount alternative)",
+   "checked": "Kycon sheet via mirror"
+  },
+  {
+   "file": "oc_kycon_kpjx-pm-4s.pdf",
+   "sha256": "a4161afc815a77015759e47626db129bfdc942713fd5099757f33e15a6519b33",
+   "bytes": 129907,
+   "source_url": "https://www.kycon.com/Pub_Eng_Draw/KPJX-PM-4S.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Kycon KPJX-PM-4S panel socket",
+   "checked": "4-pin power DIN socket, 7.5 A per pin; 2 x M2.5 mounting holes (conflicts with the no-screws rule: CAD to clip it)"
+  },
+  {
+   "file": "oc_kycon_kppx-4p.pdf",
+   "sha256": "78c981d942b1b8f4f184fa46933361be71bc03df31dadcadeaa92efb7ba46a14",
+   "bytes": 118419,
+   "source_url": "https://www.kycon.com/Pub_Eng_Draw/KPPX-4P.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Kycon KPPX-4P plug (brick side reference)",
+   "checked": "mating plug"
+  },
+  {
+   "file": "oc_meanwell_gst120a.pdf",
+   "sha256": "6da42020acbaedbbf2ea5933d421c1b56775888e8082f11a873362dd5b6829da",
+   "bytes": 1224122,
+   "source_url": "https://www.meanwell.com/Upload/PDF/GST120A/GST120A-SPEC.PDF",
+   "retrieved": "2026-10-26",
+   "parts": "MEAN WELL GST120A24 (rejected)",
+   "checked": "120 W fails D32 (>= 150 W)"
+  },
+  {
+   "file": "oc_meanwell_gst160a.pdf",
+   "sha256": "de16ce6f9910201db3c7f8da53af2644dba367b64949291d90376e3cfd7ab709",
+   "bytes": 1022793,
+   "source_url": "https://www.meanwell.com/Upload/PDF/GST160A/GST160A-SPEC.PDF",
+   "retrieved": "2026-10-26",
+   "parts": "MEAN WELL GST160A24-R7B",
+   "checked": "24 V 6.67 A 160 W, 175 x 72 x 35 mm, R7B = 4-pin power DIN (1,4 +V; 2,3 -V)"
+  },
+  {
+   "file": "oc_multicomp_t23_thermal_switch.pdf",
+   "sha256": "b74600707d53f2e44b922aec79d3bc81b75d4be51d234cca92b51db5a99e960e",
+   "bytes": 7980410,
+   "source_url": "https://www.farnell.com/datasheets/4810951.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Multicomp T23 (sibling family of the RS PRO T24 thermostat)",
+   "checked": "reference only: code pattern, +-3 C tolerance; not the purchased part"
+  },
+  {
+   "file": "oc_rspro_neodymium_disc.pdf",
+   "sha256": "79e1cc8b979d4722d5057f6c60b5d3a75c6ba167009ca989e727e6e912e1668d",
+   "bytes": 762076,
+   "source_url": "https://docs.rs-online.com/08d2/A700000007817383.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "RS PRO NdFeB disc magnets",
+   "checked": "dimensions, axial magnetisation, 80 C max"
+  },
+  {
+   "file": "oc_ti_drv5033.pdf",
+   "sha256": "397f1a51908fee1642a3d52e95977d3d05d35fd75fac769554eece78b4d4aabc",
+   "bytes": 854553,
+   "source_url": "https://www.ti.com/lit/ds/symlink/drv5033.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "TI DRV5033AJQLPG hall switch",
+   "checked": "2.5-38 V, open drain, omnipolar, TO-92: 1 VCC 2 GND 3 OUT"
+  },
+  {
+   "file": "omron_g2rl.pdf",
+   "sha256": "89ce57abbc4b089234dd5e0d9dce7d6ea9e23765fbf01a64d1bf1252d96365fd",
+   "bytes": 1592143,
+   "source_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Omron G2RL-2 DC12",
+   "checked": "29 x 12.7 x 15.7, holes 1.3, coil 33.3 mA / 360 ohm, 8 A 30 VDC"
+  },
+  {
+   "file": "p6ke.pdf",
+   "sha256": "4b1d0d35369a3c037d7bd744224eb7459a1ccc102a17fd5e85b226fd639c07fe",
+   "bytes": 138669,
+   "source_url": "https://store.comet.bg/download-file.php?id=18955",
+   "retrieved": "2026-10-26",
+   "parts": "ST P6KE30A",
+   "checked": "ST's P6KE sheet Rev 7 via distributor mirror (st.com timed out): VBR, Vc, DO-15"
+  },
+  {
+   "file": "panasonic_fr.pdf",
+   "sha256": "47cf18461482e03270f72e475f855080e11e2154e3f343f735e5cb0e61e27df7",
+   "bytes": 855742,
+   "source_url": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Panasonic EEU-FR1H101 (and FR1H220 alternative)",
+   "checked": "8 x 11.5, F 3.5, lead 0.6, straight leads without suffix"
+  },
+  {
+   "file": "phoenix_mstb_st.pdf",
+   "sha256": "e6a5574693aa6fe548e5cbb3e94603009033bca2ca96c8d0e19a6f811fba8913",
+   "bytes": 243227,
+   "source_url": "https://www.farnell.com/datasheets/2309822.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "MSTB 2,5/2-ST-5,08 (1757019)",
+   "checked": "Phoenix sheet via Farnell: 0.2-2.5 mm2, 12 A, screw M3; horizontal wire entry"
+  },
+  {
+   "file": "phoenix_mstbva.pdf",
+   "sha256": "ff96f6d81bd79cb0c220d34ebd3f1f0a7eab1f278ad9be02eea7a8cf6180479f",
+   "bytes": 150030,
+   "source_url": "https://static.chipdip.ru/lib/711/DOC011711569.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "MSTBVA 2,5/..-G-5,08 family (1755736)",
+   "checked": "Phoenix-generated sheet via a reseller mirror (phoenixcontact.com blocks scripts): pitch 5.08, hole 1.4, height 12, mated 22 with MSTB-ST plug"
+  },
+  {
+   "file": "rubycon_yxf.pdf",
+   "sha256": "d87e3f06105d01730bf369b695519d5b1025fdd86f39abb4a73bf1c6e8453e03",
+   "bytes": 171010,
+   "source_url": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXF.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Rubycon 50YXF22M5X11",
+   "checked": "5 x 11 mm; series marked obsolete"
+  },
+  {
+   "file": "samtec_ssw.pdf",
+   "sha256": "6d89f5c186a49e0f52f37d7bf7b5095081aff8f98e5ba18a85b0811caaf6f509",
+   "bytes": 471452,
+   "source_url": "https://suddendocs.samtec.com/catalog_english/ssw_th.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "SSW-119-01-T-S, SSW-108-01-T-S",
+   "checked": "body height 8.51, length 2.54n+0.51, width 2.41, tail 2.64 (-01), accepts 0.64 sq pins 3.68-6.35 deep"
+  },
+  {
+   "file": "sn74hc573a.pdf",
+   "sha256": "1481ceb629ec47c3d9cfa64a9a727e85d6879425b1b77ca21411aa12e5521678",
+   "bytes": 2070316,
+   "source_url": "https://www.ti.com/lit/ds/symlink/sn74hc573a.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "SN74HC573AN",
+   "checked": "pinout p3, N20 package p31"
+  },
+  {
+   "file": "tc74hc123ap.pdf",
+   "sha256": "bb38fc03bea6550c06f046eb3584535499e07f637210eeb9c44986647c116d8b",
+   "bytes": 547030,
+   "source_url": "https://akizukidenshi.com/goodsaffix/TC74HC123AP_datasheet_ja_20161202.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Toshiba TC74HC123AP",
+   "checked": "Toshiba's Japanese sheet via Akizuki (toshiba.semicon-storage.com blocks scripts): pinout, 2-6 V, tw ~ 1.0 Cx Rx, Rx 1 k-1 M, DIP-16"
+  },
+  {
+   "file": "tl431.pdf",
+   "sha256": "0c6d1be2876c858691f0b63f8c999af0883d0243c8b9d79d3e9ebcae072c9a57",
+   "bytes": 686238,
+   "source_url": "https://www.onsemi.cn/download/data-sheet/pdf/tl431-d.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "onsemi TL431AILPG",
+   "checked": "TO-92 pin 1 Reference, 2 Anode, 3 Cathode; Vref 2.495 V; cathode current >= 1 mA"
+  },
+  {
+   "file": "tmc2209.pdf",
+   "sha256": "1d9e8eed9ad2edc17b112c1d54e3c468c34102a629bc3dbf729828919a7b0893",
+   "bytes": 1915675,
+   "source_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "TMC2209 (on the BTT V1.3 StepStick)",
+   "checked": "Rev 1.09: VS 4.75-29 V operating, 32 V abs max with inductive load (section 19); MS1/MS2 internal pull-downs. Copy fetched earlier in this session; the ADI URL timed out on re-check, hash not re-verified"
+  },
+  {
+   "file": "tracopower_tsr1.pdf",
+   "sha256": "fd3d3db5644ed0ba18711bf976c183ea6c3123bd60211c657906b3534aab148c",
+   "bytes": 801431,
+   "source_url": "https://www.tracopower.com/products/tsr1.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "TSR 1-2450",
+   "checked": "Vin 6.5-36 V (5 V model), +-2 % set point, 11.7 x 7.5 x 10.1 mm, pins 1 Vin 2 GND 3 Vout at 2.54; 22 uF/50 V external input capacitor required above 32 V (C3)"
+  },
+  {
+   "file": "tracopower_tsr2n.pdf",
+   "sha256": "b8ea4a84eb89204040299323e29feb5a67bb97692b32708ad51fbc908773ae92",
+   "bytes": 814027,
+   "source_url": "https://www.tracopower.com/sites/default/files/products/datasheets/tsr2n_datasheet.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "TSR 2-24120N",
+   "checked": "Vin 15-36 V, 14 x 7.6 x 10.2, pin 1 Vin 2 GND 3 Vout, no traces under the body"
+  },
+  {
+   "file": "uln2003a.pdf",
+   "sha256": "ba83a908675b45c41e84fb06ea390efb10f4b7a358edfee656f87a968dd1d62f",
+   "bytes": 1850862,
+   "source_url": "https://www.ti.com/lit/ds/symlink/uln2003a.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "ULN2003AN",
+   "checked": "pinout p3, VCE(sat) p5, N16 p41"
+  },
+  {
+   "file": "yageo_mf0.pdf",
+   "sha256": "ba2af695064f618f4f3dd91ac2b186efd76f2a5a55ca6864e1a9d236bbf65494",
+   "bytes": 1515107,
+   "source_url": "https://media.onlinecomponents.com/productfiles/mf-yag/yag-mf0204fte5215r.pdf",
+   "retrieved": "2026-10-26",
+   "parts": "Yageo MF0204FTE52-xx",
+   "checked": "Yageo MF0 spec (Mar 2022 V.0) via distributor mirror: body 3.4 x 1.9, lead 0.45, M-forming pitch 6.0"
+  }
+ ]
+}

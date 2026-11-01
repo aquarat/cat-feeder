@@ -1,0 +1,21 @@
+Motor supply passive damping study / original_20V
+Vsrc src 0 PWL(0 0 1n 20)
+Rwire src wire 0.02
+Lwire wire pre 1e-05
+Rdamp pre vmot 1e-09
+Resr vmot cap 0.03
+Cbulk cap 0 8e-05
+.options reltol=1e-6 abstol=1e-10
+.control
+set wr_singlescale
+set wr_vecnames
+tran 50n 2m
+let damping_power = (v(pre)-v(vmot))*i(Lwire)
+meas tran vmot_peak MAX v(vmot)
+meas tran inrush_peak MAX i(Lwire)
+meas tran damping_peak MAX damping_power
+meas tran damping_energy INTEG damping_power
+wrdata original_20V.txt v(vmot) i(Lwire) damping_power
+quit
+.endc
+.end

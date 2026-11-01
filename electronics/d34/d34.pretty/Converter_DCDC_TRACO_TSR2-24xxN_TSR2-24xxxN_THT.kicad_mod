@@ -1,0 +1,214 @@
+(footprint "Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, TRACO, TSR2-24xxN, TSR2-24xxxN, 2A, Rev. December 19. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tsr2n.pdf)")
+	(tags "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2N 2.54MM THT SIP-3 2A TSR3N")
+	(property "Reference" "REF**"
+		(at -4.46 -6 0)
+		(layer "F.SilkS")
+		(uuid "18ba21f0-a8a3-4d51-93f5-8c931a6a6c2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT"
+		(at -2.36 11.29 0)
+		(layer "F.Fab")
+		(uuid "87e8b290-a6a9-4bf0-b8da-80fa73a68356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b14066d-d84f-4228-b719-b655b4400634")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4f297d4-b8de-4f32-b91a-658b8be3ff78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.96 -5.26)
+		(end -4.426667 -5.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57fde85b-e228-4abe-93e5-aff092033964")
+	)
+	(fp_line
+		(start -6.96 -2.726667)
+		(end -6.96 -5.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "414a9fca-21a6-4e76-8e2e-4d6352f28781")
+	)
+	(fp_line
+		(start -6.72 -5.02)
+		(end -6.72 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "735e2dee-981f-479c-bdf5-aa06f68596c7")
+	)
+	(fp_line
+		(start -6.72 -5.02)
+		(end 2 -5.02)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edd21c6b-ba9f-4895-93bb-332ccaad4b43")
+	)
+	(fp_line
+		(start -6.72 10.1)
+		(end 2 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56960e9d-9923-4718-87a7-a31281a6aafb")
+	)
+	(fp_line
+		(start 2 -5.02)
+		(end 2 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b4ab7e4-ac79-4803-a563-3ba16a318e6e")
+	)
+	(fp_line
+		(start -6.92 -5.22)
+		(end -6.92 10.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85b8e864-5f54-40e7-85f4-1441cf1f3d2c")
+	)
+	(fp_line
+		(start -6.92 10.3)
+		(end 2.2 10.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0014396-eaab-4632-abf7-3bf86a60bab0")
+	)
+	(fp_line
+		(start 2.2 -5.22)
+		(end -6.92 -5.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6efa371a-b84c-4346-aa55-378311b0c301")
+	)
+	(fp_line
+		(start 2.2 10.3)
+		(end 2.2 -5.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a460e3c1-aa1e-447e-a7ed-0e7905063588")
+	)
+	(fp_poly
+		(pts
+			(xy -6.16 -3.46) (xy -6.16 9.54) (xy 1.44 9.54) (xy 1.44 -4.46) (xy -5.16 -4.46)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "be338519-6f25-477e-aa04-4052b06e1752")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.36 2.54 0)
+		(layer "F.Fab")
+		(uuid "319bf771-e03a-468c-bdda-a30b66b62de4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3cd8567d-e9a9-4734-b2c5-a184744cbfb8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "648407be-c236-4e8f-837e-4e49bc2d345d")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c870c85f-f42b-41bc-9f6c-5e1e80908ddf")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

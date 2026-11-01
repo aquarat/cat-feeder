@@ -1,0 +1,4 @@
+event,i_pin_pk_est,r_series
+HBM 2 kV,0.8,1000
+IEC 61000-4-2 2 kV contact,1.50376,1000
+IEC 61000-4-2 8 kV contact,6.01504,1000

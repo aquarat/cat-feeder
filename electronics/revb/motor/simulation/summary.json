@@ -1,0 +1,75 @@
+{
+  "status": "PASS: passive model comparison; resistor pulse qualification OPEN",
+  "model": "Original worst-case bulk-only RLC model plus motor-branch series resistor at -1%; source not current limited",
+  "unmodeled": [
+    "local ceramic resonances",
+    "contact bounce",
+    "PD renegotiation",
+    "motor switching",
+    "regeneration",
+    "resistor pulse survival"
+  ],
+  "cases": [
+    {
+      "case": "original_24V",
+      "vin_V": 24,
+      "damping_ohm": 0,
+      "bulk_F": 8e-05,
+      "vmot_peak_V": 43.27807,
+      "inrush_peak_A": 61.03456,
+      "damping_peak_W": 3.725217e-06,
+      "damping_energy_J": 4.60779e-10
+    },
+    {
+      "case": "original_20V",
+      "vin_V": 20,
+      "damping_ohm": 0,
+      "bulk_F": 8e-05,
+      "vmot_peak_V": 36.06506,
+      "inrush_peak_A": 50.86214,
+      "damping_peak_W": 2.586957e-06,
+      "damping_energy_J": 3.19985e-10
+    },
+    {
+      "case": "damped_24V",
+      "vin_V": 24,
+      "damping_ohm": 0.99,
+      "bulk_F": 8e-05,
+      "vmot_peak_V": 24.0,
+      "inrush_peak_A": 18.946,
+      "damping_peak_W": 355.3612,
+      "damping_energy_J": 0.0219323
+    },
+    {
+      "case": "damped_21V",
+      "vin_V": 21,
+      "damping_ohm": 0.99,
+      "bulk_F": 8e-05,
+      "vmot_peak_V": 21.0,
+      "inrush_peak_A": 16.57775,
+      "damping_peak_W": 272.0734,
+      "damping_energy_J": 0.0167919
+    },
+    {
+      "case": "damped_20V",
+      "vin_V": 20,
+      "damping_ohm": 0.99,
+      "bulk_F": 8e-05,
+      "vmot_peak_V": 20.0,
+      "inrush_peak_A": 15.78833,
+      "damping_peak_W": 246.7786,
+      "damping_energy_J": 0.0152308
+    },
+    {
+      "case": "damped_21V_120u",
+      "vin_V": 21,
+      "damping_ohm": 0.99,
+      "bulk_F": 0.00012,
+      "vmot_peak_V": 21.0,
+      "inrush_peak_A": 17.31711,
+      "damping_peak_W": 296.8835,
+      "damping_energy_J": 0.0251879
+    }
+  ],
+  "tool": "******\n** ngspice-39 : Circuit level simulation program\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2022, The ngspice team.\n** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n** Creation Date: Sun Feb  5 13:44:35 UTC 2023\n******\n"
+}

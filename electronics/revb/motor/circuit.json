@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "status": "BLOCK DESIGN / NOT ROUTED OR HARDWARE QUALIFIED",
+  "remove_from_revb": [
+    "J14",
+    "J15"
+  ],
+  "components": [
+    {
+      "ref": "UM1",
+      "value": "A4988SETTR-T",
+      "lcsc": "C38437",
+      "mpn": "A4988SETTR-T",
+      "manufacturer": "Allegro MicroSystems, LLC",
+      "footprint": "motor:Allegro_A4988_ET_QFN28_5x5_P0.5_EP3.15",
+      "pins": {
+        "1": "M2B",
+        "2": "GND",
+        "3": "GND",
+        "4": "M_CP1",
+        "5": "M_CP2",
+        "6": "M_VCP",
+        "7": null,
+        "8": "M_VREG",
+        "9": "+3V3",
+        "10": "+3V3",
+        "11": "+3V3",
+        "12": "MOTOR_RUN",
+        "13": "GND",
+        "14": "MOTOR_RUN",
+        "15": "+3V3",
+        "16": "STEP",
+        "17": "M_VREF",
+        "18": "GND",
+        "19": "DIR",
+        "20": null,
+        "21": "M1B",
+        "22": "VMOT",
+        "23": "M_SENSE1",
+        "24": "M1A",
+        "25": null,
+        "26": "M2A",
+        "27": "M_SENSE2",
+        "28": "VMOT",
+        "29": "GND"
+      },
+      "role": "Direct soldered motor driver replacing J14/J15 and Pololu module",
+      "datasheet": "https://www.allegromicro.com/-/media/files/datasheets/a4988-datasheet.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C38437",
+      "assembly": "smtWeld",
+      "pin_names": {
+        "1": "OUT2B",
+        "2": "~ENABLE",
+        "3": "GND",
+        "4": "CP1",
+        "5": "CP2",
+        "6": "VCP",
+        "7": "NC",
+        "8": "VREG",
+        "9": "MS1",
+        "10": "MS2",
+        "11": "MS3",
+        "12": "~RESET",
+        "13": "ROSC",
+        "14": "~SLEEP",
+        "15": "VDD",
+        "16": "STEP",
+        "17": "REF",
+        "18": "GND",
+        "19": "DIR",
+        "20": "NC",
+        "21": "OUT1B",
+        "22": "VBB1",
+        "23": "SENSE1",
+        "24": "OUT1A",
+        "25": "NC",
+        "26": "OUT2A",
+        "27": "SENSE2",
+        "28": "VBB2",
+        "29": "EP_GND"
+      },
+      "symbol": "motor:A4988SETTR-T"
+    },
+    {
+      "ref": "RM1",
+      "value": "10k",
+      "lcsc": "C25804",
+      "mpn": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "MOTOR_RUN",
+        "2": "GND"
+      },
+      "role": "Hardware pull-down; 10k also bounds the published input leakage",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C25804",
+      "assembly": "smtWeld",
+      "resistance_ohm": 10000,
+      "tolerance": 0.01,
+      "replaces_ref": "R11"
+    },
+    {
+      "ref": "RM2",
+      "value": "10k",
+      "lcsc": "C25804",
+      "mpn": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "STEP",
+        "2": "GND"
+      },
+      "role": "Hardware pull-down; 10k also bounds the published input leakage",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C25804",
+      "assembly": "smtWeld",
+      "resistance_ohm": 10000,
+      "tolerance": 0.01,
+      "replaces_ref": "R12"
+    },
+    {
+      "ref": "RM3",
+      "value": "10k",
+      "lcsc": "C25804",
+      "mpn": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "DIR",
+        "2": "GND"
+      },
+      "role": "Hardware pull-down; 10k also bounds the published input leakage",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C25804",
+      "assembly": "smtWeld",
+      "resistance_ohm": 10000,
+      "tolerance": 0.01,
+      "replaces_ref": "R13"
+    },
+    {
+      "ref": "RM4",
+      "value": "1k",
+      "lcsc": "C21190",
+      "mpn": "0603WAF1001T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "M_VREF"
+      },
+      "role": "Fixed reference upper divider; increase this resistor to reduce current",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C21190",
+      "assembly": "smtWeld",
+      "resistance_ohm": 1000,
+      "tolerance": 0.01
+    },
+    {
+      "ref": "RM5",
+      "value": "1.5k",
+      "lcsc": "C22843",
+      "mpn": "0603WAF1501T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "M_VREF",
+        "2": "GND"
+      },
+      "role": "Fixed reference lower divider; no potentiometer",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C22843",
+      "assembly": "smtWeld",
+      "resistance_ohm": 1500,
+      "tolerance": 0.01
+    },
+    {
+      "ref": "RM6",
+      "value": "0.33R 0.5W 1%",
+      "lcsc": "C912788",
+      "mpn": "RL12FTNR330",
+      "manufacturer": "TA-I Tech",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "pins": {
+        "1": "M_SENSE1",
+        "2": "GND"
+      },
+      "role": "Bridge sense resistor; short power path and Kelvin pickup at pad",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208240930_TA-I-Tech-RL12FTNR330_C912788.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C912788",
+      "assembly": "smtWeld",
+      "resistance_ohm": 0.33,
+      "tolerance": 0.01,
+      "tcr_ppm_per_K": 200,
+      "power_W": 0.5
+    },
+    {
+      "ref": "RM7",
+      "value": "0.33R 0.5W 1%",
+      "lcsc": "C912788",
+      "mpn": "RL12FTNR330",
+      "manufacturer": "TA-I Tech",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "pins": {
+        "1": "M_SENSE2",
+        "2": "GND"
+      },
+      "role": "Bridge sense resistor; short power path and Kelvin pickup at pad",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208240930_TA-I-Tech-RL12FTNR330_C912788.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C912788",
+      "assembly": "smtWeld",
+      "resistance_ohm": 0.33,
+      "tolerance": 0.01,
+      "tcr_ppm_per_K": 200,
+      "power_W": 0.5
+    },
+    {
+      "ref": "RM8",
+      "value": "1R 2W 1%",
+      "lcsc": "C5127856",
+      "mpn": "HoLRT2512-2W-1R-1%",
+      "manufacturer": "Milliohm",
+      "footprint": "motor:Milliohm_HoLRT2512_ManufacturerLand",
+      "pins": {
+        "1": "MOTOR_SUPPLY",
+        "2": "VMOT"
+      },
+      "role": "Motor-only series damping; pulse capability remains to be qualified",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208250030_Milliohm-HoLRT2512-2W-1R-1-_C5127856.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C5127856",
+      "assembly": "smtWeld",
+      "resistance_ohm": 1.0,
+      "tolerance": 0.01,
+      "power_W": 2,
+      "qualification": "Prototype candidate: do not infer inrush pulse rating from 2 W DC rating"
+    },
+    {
+      "ref": "CM1",
+      "value": "220n 50V X7R",
+      "lcsc": "C64705",
+      "mpn": "CL10B224KB8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "M_VREG",
+        "2": "GND"
+      },
+      "role": "VREG bypass, close to pin 8",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B224KB8NNNC_C64705.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C64705",
+      "assembly": "smtWeld",
+      "capacitance_F": 2.2e-07,
+      "voltage_V": 50,
+      "replaces_ref": null
+    },
+    {
+      "ref": "CM2",
+      "value": "100n 50V X7R",
+      "lcsc": "C14663",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "M_CP1",
+        "2": "M_CP2"
+      },
+      "role": "Flying charge-pump capacitor, pin 4 to 5",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C14663",
+      "assembly": "smtWeld",
+      "capacitance_F": 1e-07,
+      "voltage_V": 50,
+      "replaces_ref": null
+    },
+    {
+      "ref": "CM3",
+      "value": "100n 50V X7R",
+      "lcsc": "C14663",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "M_VCP",
+        "2": "VMOT"
+      },
+      "role": "Charge-pump reservoir: NOT to GND",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C14663",
+      "assembly": "smtWeld",
+      "capacitance_F": 1e-07,
+      "voltage_V": 50,
+      "replaces_ref": null
+    },
+    {
+      "ref": "CM4",
+      "value": "220n 50V X7R",
+      "lcsc": "C64705",
+      "mpn": "CL10B224KB8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "role": "Local VDD bypass at pin 15",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B224KB8NNNC_C64705.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C64705",
+      "assembly": "smtWeld",
+      "capacitance_F": 2.2e-07,
+      "voltage_V": 50,
+      "replaces_ref": "C9"
+    },
+    {
+      "ref": "CM5",
+      "value": "1u 50V X5R",
+      "lcsc": "C15849",
+      "mpn": "CL10A105KB8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VMOT",
+        "2": "GND"
+      },
+      "role": "VBB1 bypass close to pin 22",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C15849",
+      "assembly": "smtWeld",
+      "capacitance_F": 1e-06,
+      "voltage_V": 50,
+      "replaces_ref": null
+    },
+    {
+      "ref": "CM6",
+      "value": "1u 50V X5R",
+      "lcsc": "C15849",
+      "mpn": "CL10A105KB8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VMOT",
+        "2": "GND"
+      },
+      "role": "VBB2 bypass close to pin 28",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C15849",
+      "assembly": "smtWeld",
+      "capacitance_F": 1e-06,
+      "voltage_V": 50,
+      "replaces_ref": null
+    },
+    {
+      "ref": "CM7",
+      "value": "100n 50V X7R",
+      "lcsc": "C14663",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "M_VREF",
+        "2": "GND"
+      },
+      "role": "Quiet reference filter, Kelvin ground",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C14663",
+      "assembly": "smtWeld",
+      "capacitance_F": 1e-07,
+      "voltage_V": 50,
+      "replaces_ref": null
+    },
+    {
+      "ref": "CM8",
+      "value": "100u 50V",
+      "lcsc": "C713402",
+      "mpn": "EEUFR1H101B",
+      "manufacturer": "PANASONIC",
+      "footprint": "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm",
+      "pins": {
+        "1": "VMOT",
+        "2": "GND"
+      },
+      "role": "Local bulk storage AFTER damping resistor; positive pin 1",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2011041207_PANASONIC-EEUFR1H101B_C713402.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C713402",
+      "assembly": "manualWeld",
+      "capacitance_F": 0.0001,
+      "voltage_V": 50,
+      "replaces_ref": "C10"
+    },
+    {
+      "ref": "JM1",
+      "value": "MKDS 1,5/2-5,08 (1715721)",
+      "lcsc": "C5183929",
+      "mpn": "MKDS 1,5/ 2-5,08",
+      "manufacturer": "Phoenix Contact",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "M1A",
+        "2": "M1B"
+      },
+      "role": "Retained motor winding screw terminal",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209301830_Phoenix-Contact-MKDS-1-5--2-5-08_C5183929.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C5183929",
+      "assembly": "manualWeld",
+      "replaces_ref": "J16"
+    },
+    {
+      "ref": "JM2",
+      "value": "MKDS 1,5/2-5,08 (1715721)",
+      "lcsc": "C5183929",
+      "mpn": "MKDS 1,5/ 2-5,08",
+      "manufacturer": "Phoenix Contact",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "M2A",
+        "2": "M2B"
+      },
+      "role": "Retained motor winding screw terminal",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209301830_Phoenix-Contact-MKDS-1-5--2-5-08_C5183929.pdf",
+      "stock_evidence": "evidence/stock-evidence.json#C5183929",
+      "assembly": "manualWeld",
+      "replaces_ref": "J17"
+    }
+  ],
+  "interface": {
+    "MOTOR_SUPPLY": "20 V nominal negotiated PD branch, maximum steady input 21 V assumed; motor branch only",
+    "VMOT": "After RM8; existing BUS_SENSE divider may monitor this net",
+    "+3V3": "Regulated logic supply: current calculations require <=3.465 V (3.3 V +5%)",
+    "STEP": "ESP32 GPIO18 / WROOM pin 30",
+    "DIR": "ESP32 GPIO19 / WROOM pin 31",
+    "MOTOR_RUN": "ESP32 GPIO23 / WROOM pin 37; high wakes, low resets and sleeps",
+    "GND": "Common ground; local quiet/power star at exposed pad"
+  },
+  "motor": {
+    "mpn": "17HS08-1004S",
+    "rated_phase_current_A": 1.0,
+    "resistance_ohm": 3.7,
+    "inductance_H": 0.0045,
+    "datasheet": "https://files.omc-stepperonline.com/17HS08-1004S_Full_Datasheet.pdf",
+    "winding_wires": {
+      "JM1.1": "black A+",
+      "JM1.2": "green A-",
+      "JM2.1": "red B+",
+      "JM2.2": "blue B-"
+    }
+  },
+  "firmware": {
+    "microsteps": 16,
+    "steps_per_turn": 3200,
+    "wake_delay_ms_min": 1,
+    "step_high_us_min": 1,
+    "step_low_us_min": 1,
+    "dir_setup_hold_ns_min": 200,
+    "note": "RUN=0 resets translator; re-home/maintain known home-compatible stop state. 30 degrees is 266 2/3 microsteps; use accumulated 266/267 counts plus physical position feedback."
+  },
+  "test_points": [
+    "VMOT",
+    "M_VREF",
+    "MOTOR_RUN",
+    "GND"
+  ],
+  "limitations": [
+    "No all-temperature guaranteed phase-current bound from the published 25 C / VREF=2 V accuracy table alone",
+    "Damping is not a voltage clamp or regeneration protection",
+    "No power, thermal, EMC or assembled-board measurements have been performed"
+  ]
+}

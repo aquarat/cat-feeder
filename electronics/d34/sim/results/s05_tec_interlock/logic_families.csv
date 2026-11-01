@@ -1,0 +1,17 @@
+family,instances,k2_cmd_k1_closed,k2_start_k1_closed,k2_start_k1_closed_dps,k2_moving_while_k1_closed,k1_onto_moving_k2,k1_closures,max_k1_after_en_low_ms,max_k1_after_trigger_s,max_k1_after_wdt_edge_s,k2_under_k1_dps
+contract defrost entry/exit (README D34-3 waits),2000,0,0,0,0,0,4000,6.2,0.1062,0.1062,
+exhaustive orderings (corner A),2904,0,80,44,84,4,4485,6.6,0.573,0.573,
+exhaustive orderings (corner B),2904,0,76,33,86,11,4486,6.2,0.571,0.571,
+exhaustive orderings (random),2904,0,67,30,76,9,4486,6,0.572,0.572,
+random: brownout,993,0,0,0,0,0,1986,5.8,0.1044,0.1044,
+random: pwm_hung,997,0,386,386,424,42,997,0,0.6094,0.6094,
+random: reset,1033,0,73,57,92,19,1416,5.8,0.608,1.2108,
+random: stuck,1047,0,43,43,46,4,113,0,0.6232,0.6232,
+random: telegraph,963,0,67,60,80,15,1475,6.2,0.5922,2.2402,
+random: thermo,967,0,73,57,85,12,1500,6,0.5876,1.6022,
+supply loss during defrost (random): 12V lost,2005,,,,,,,,,,0
+supply loss during defrost (random): 3V3 lost,2014,,,,,,,,,,0
+supply loss during defrost (random): aux lost (12 V and 3V3),1981,,,,,,,,,,0
+"supply loss during defrost (drop-out worst (K1 10 %, K2 40 %, C1 -20 %)): 12V lost",2005,,,,,,,,,,0
+"supply loss during defrost (drop-out worst (K1 10 %, K2 40 %, C1 -20 %)): 3V3 lost",2014,,,,,,,,,,0
+"supply loss during defrost (drop-out worst (K1 10 %, K2 40 %, C1 -20 %)): aux lost (12 V and 3V3)",1981,,,,,,,,,,0

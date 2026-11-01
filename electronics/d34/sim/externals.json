@@ -1,0 +1,52 @@
+{
+ "_note": "Off-board devices the simulation attaches through the harness (D34 final round, coordinator 2026-10-26). Values are from the documents named; graph readings are labelled.",
+ "tec": {
+  "part": "Adaptive ADV-127-135200-S (2S2P)",
+  "R_ohm": 3.29,
+  "R_ohm_50C": 3.29,
+  "alpha_V_K": 0.0517,
+  "Imax_A": 4.0,
+  "Vmax_V": 15.4,
+  "source": "least-squares fit (thermal/plenum.py fit_lsq) to thermal/adv127-operating-points.json, read from the ADV-127-135200-S datasheet charts (Th 25/50 C); Imax 4 A, Vmax 15.4 V from the datasheet table",
+  "K_W_K": 0.331,
+  "op_steady": {
+   "i_array_A": 3.8,
+   "dT_K": 48,
+   "note": "thermal model 2026-10-26: 1.85-1.95 A, 8.6-9.0 V per module"
+  },
+  "op_pulldown": {
+   "i_array_A": 5.0,
+   "dT_K": 30,
+   "note": "2.3-2.5 A per module, ~5 A total at ~20 V (dT chosen to give ~20 V)"
+  }
+ },
+ "blower": {
+  "part": "RS PRO ODB5115-12HB",
+  "i_A": 0.12,
+  "tach": true,
+  "c_in_F": [
+   1e-06,
+   4.7e-06
+  ],
+  "source": "coordinator: 12 V 120 mA with tach; input capacitance ASSUMED"
+ },
+ "fan1": {
+  "part": "Noctua NF-A12x25 PWM",
+  "i_A": 0.14
+ },
+ "brick": {
+  "part": "MEAN WELL GST160A24-R7B via Kycon KPJX-PM-4S",
+  "source": "oc_meanwell_gst160a.pdf; output capacitance not published (470-2200 uF assumed)"
+ },
+ "thermostats": {
+  "part": "RS PRO T24A060ASF2-15 (opens 60 C), 4 in series",
+  "r_contact_ohm": 0.05,
+  "source": "contact resistance ASSUMED (KSD301-class 50 mOhm)"
+ },
+ "inlet_snubber": {
+  "R": 2.2,
+  "C": 1e-06,
+  "L": 1e-07,
+  "source": "README D34 (bef910cab0df): 2.2 ohm + 1 uF soldered across the inlet socket pins at the far end of the ~85 mm W32 lead; +0.1 uH for its own leads"
+ }
+}

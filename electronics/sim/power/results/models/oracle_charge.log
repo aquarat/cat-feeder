@@ -1,0 +1,21 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: oracle_charge: generated sensitivity study; see readme
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ref                                        3.3
+out                                        3.3
+vref#branch                       -1.26457e-25
+
+
+No. of Data Rows : 2018
+ngspice-39 done

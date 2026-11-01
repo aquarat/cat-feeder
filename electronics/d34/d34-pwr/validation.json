@@ -1,0 +1,46 @@
+{
+ "board": "d34-pwr",
+ "tool": "KiCad 9.0.2 (kicad-cli)",
+ "rules": "electronics/dfm/jlcpcb-2layer-recommended.kicad_dru + project net classes",
+ "size_mm": [
+  81.0,
+  47.0
+ ],
+ "parts": 24,
+ "track_segments": 264,
+ "vias": 7,
+ "min_width_by_net": {
+  "+12V": 1.602,
+  "+24V": 1.5,
+  "+24V_DPS": 2.5,
+  "+3V3": 0.6,
+  "+5V": 0.8,
+  "DIR": 0.3,
+  "GND": 0.8,
+  "M1A": 0.8,
+  "M1B": 0.8,
+  "M2A": 0.8,
+  "M2B": 0.8,
+  "MOT_EN": 0.3,
+  "OWA": 0.3,
+  "OWB": 0.3,
+  "Q1_G": 0.3,
+  "SS_RST_SLP": 0.3,
+  "STEP": 0.3,
+  "TMC_UART": 0.3,
+  "VAUX": 0.8,
+  "VIN_RAW": 2.0
+ },
+ "ERC_violations": 0,
+ "DRC_violations": 0,
+ "unconnected": 0,
+ "parity": 0,
+ "ERC_types": {},
+ "DRC_types": {},
+ "DRC_pcbtrain": 0,
+ "silk_text_min": [
+  1.0,
+  0.15
+ ],
+ "physical_testing": "none"
+}

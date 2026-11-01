@@ -1,0 +1,24 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: cat feeder interface study: fan_r10000_c2000p_b100_t25
+
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+fan_pullup                                5.25
+pwm                                       5.25
+gpio                                         0
+base                               2.36003e-08
+vgpio#branch                       5.02135e-12
+vfan#branch                       -1.05157e-11
+
+
+No. of Data Rows : 10539
+ngspice-39 done

@@ -1,0 +1,50 @@
+# Machine-readable licensing (https://reuse.software). Later entries win where
+# paths overlap. Human summary: LICENSE.md.
+version = 1
+
+# Documentation, knowledge base, renders and data not covered below.
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2026 aquarat and cat-feeder contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Hardware design sources: CAD, PCB designs, fabrication outputs, BOMs and
+# their simulation netlists and results.
+[[annotations]]
+path = ["cad/**", "analysis/**", "electronics/**", "BOM.md"]
+SPDX-FileCopyrightText = "2026 aquarat and cat-feeder contributors"
+SPDX-License-Identifier = "CERN-OHL-S-2.0"
+
+# Software: build, export, check and simulation programs.
+[[annotations]]
+path = ["**/*.py", "**/*.sh", "**/Dockerfile", "docker/**", "thermal/**"]
+SPDX-FileCopyrightText = "2026 aquarat and cat-feeder contributors"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# Prose stays CC BY-SA wherever it sits.
+[[annotations]]
+path = "**/*.md"
+SPDX-FileCopyrightText = "2026 aquarat and cat-feeder contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Bambu Studio presets (flattened from upstream) and the plates that embed them.
+[[annotations]]
+path = "slicer/profiles/**"
+SPDX-FileCopyrightText = "Bambu Lab and BambuStudio contributors"
+SPDX-License-Identifier = "AGPL-3.0-only"
+
+[[annotations]]
+path = "slicer/plates/**"
+SPDX-FileCopyrightText = ["2026 aquarat and cat-feeder contributors", "Bambu Lab and BambuStudio contributors"]
+SPDX-License-Identifier = "CERN-OHL-S-2.0 AND AGPL-3.0-only"
+
+# SparkFun STUSB4500 reference design and library, kept for comparison.
+[[annotations]]
+path = "electronics/revb/pd/reference/sparkfun-*"
+SPDX-FileCopyrightText = "SparkFun Electronics"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ["electronics/revb/pd/reference/SparkFun_STUSB4500.cpp", "electronics/revb/pd/reference/SparkFun_STUSB4500.h"]
+SPDX-FileCopyrightText = "2016 SparkFun Electronics"
+SPDX-License-Identifier = "MIT"

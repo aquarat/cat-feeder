@@ -1,0 +1,527 @@
+{
+ "_note": "Pass/fail limits used by the D34 simulation checks. 'source' cites the document line (datasheets/datasheet_values.json holds URL, SHA-256, page and quote). status: datasheet = manufacturer document; derived = computed from datasheet values (formula given); project = engineering margin chosen here, not a vendor rating; assumed = no document found.",
+ "limits": {
+  "tmc2209_vs_abs_max": {
+   "value": 32.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "ADI TMC2209 rev1.09 abs max VS 32 V (33 V incl. ringing)"
+  },
+  "tmc2209_vs_op_max": {
+   "value": 29.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "ADI TMC2209 operating VS 5.5-29 V"
+  },
+  "a4988_vbb_abs_max": {
+   "value": 35.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Allegro A4988 abs max VBB 35 V"
+  },
+  "oki_vin_abs_max": {
+   "value": 36.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR rev C05 abs max input 36 V continuous (no transient rating published)"
+  },
+  "oki12_vin_min": {
+   "value": 15.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR-12 input 15-36 V"
+  },
+  "oki5_vin_min": {
+   "value": 7.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR-5 input 7-36 V"
+  },
+  "oki12_iout_max": {
+   "value": 1.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR-12/1.0 rated 1.0 A (no derating to 85 C at 65 LFM)"
+  },
+  "oki5_iout_max": {
+   "value": 1.5,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR-5/1.5 rated 1.5 A"
+  },
+  "oki_ilim_min": {
+   "value": 2.5,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR current-limit inception 2.5-5.0 A (hiccup)"
+  },
+  "oki_ilim_max": {
+   "value": 5.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR current-limit inception 2.5-5.0 A (hiccup)"
+  },
+  "oki_cload_max": {
+   "value": 0.0003,
+   "unit": "F",
+   "status": "datasheet",
+   "source": "Murata OKI-78SR max capacitive load 300 uF (low ESR)"
+  },
+  "elec_cap_v_rated": {
+   "value": 50.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Panasonic EEU-FR1H rated 50 V"
+  },
+  "elec_cap_reverse_max": {
+   "value": -1.0,
+   "unit": "V",
+   "status": "project",
+   "source": "aluminium electrolytic: treat reverse bias beyond -1 V as overstress (general manufacturer guidance)"
+  },
+  "fr101_ripple_100k": {
+   "value": 0.87,
+   "unit": "A rms",
+   "status": "datasheet",
+   "source": "Panasonic EEU-FR1H101 rated ripple 0.87 A rms (100 kHz, 105 C)"
+  },
+  "fr220_ripple_100k": {
+   "value": 0.25,
+   "unit": "A rms",
+   "status": "datasheet",
+   "source": "Panasonic EEU-FR1H220 rated ripple 0.25 A rms (100 kHz, 105 C)"
+  },
+  "irf4905_vgs_max": {
+   "value": 20.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Infineon IRF4905PbF VGS +-20 V"
+  },
+  "irf4905_vds_max": {
+   "value": 55.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Infineon IRF4905PbF VDSS -55 V"
+  },
+  "irf4905_ism": {
+   "value": 260.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Infineon IRF4905PbF ISM -260 A pulsed"
+  },
+  "irf4905_idss_150": {
+   "value": 0.00025,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Infineon IRF4905PbF IDSS -250 uA max at 150 C"
+  },
+  "irf4905_tj_max": {
+   "value": 175.0,
+   "unit": "C",
+   "status": "datasheet",
+   "source": "Infineon IRF4905PbF Tj max 175 C"
+  },
+  "irf4905_rth_ja": {
+   "value": 62.0,
+   "unit": "K/W",
+   "status": "datasheet",
+   "source": "Infineon IRF4905PbF RthJA 62 C/W"
+  },
+  "p6ke30a_ipp": {
+   "value": 14.0,
+   "unit": "A",
+   "status": "derived",
+   "source": "Littelfuse P6KE30A IPP 14.7 A (10/1000 us) x 95 % pulse derating at Tj 40 C (Figure 3)"
+  },
+  "p6ke30a_energy": {
+   "value": 0.823,
+   "unit": "J",
+   "status": "derived",
+   "source": "600 W PPPM x 1.443 ms (10/1000 us exponential energy) x 95 % derating at 40 C"
+  },
+  "p6ke30a_pd": {
+   "value": 5.0,
+   "unit": "W",
+   "status": "datasheet",
+   "source": "Littelfuse P6KE30A steady-state 5 W (infinite heat sink, TL 75 C)"
+  },
+  "dps5005_vin_max": {
+   "value": 55.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Joy-IT DPS5005 manual input 6-55 V"
+  },
+  "dps5005_iout_max": {
+   "value": 5.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Joy-IT DPS5005 manual output 0-5 A"
+  },
+  "fuse_pulse_i2t_fraction": {
+   "value": 0.38,
+   "unit": "",
+   "status": "assumed",
+   "source": "pulse I2t <= 38 % of nominal melting I2t (typical fuse pulse-cycle derating for ~1000 pulses; not found for 297 series)"
+  },
+  "fuse297_7a5_i2t_melt": {
+   "value": 68.0,
+   "unit": "A2s",
+   "status": "datasheet",
+   "source": "Littelfuse 297 mini 7.5 A nominal melting I2t 68 A2s"
+  },
+  "fuse297_7a5_rerate_40C": {
+   "value": 0.98,
+   "unit": "x",
+   "status": "datasheet",
+   "source": "Littelfuse 297 temperature rerating 98 % at 40 C (curve read)"
+  },
+  "fuse_continuous_fraction": {
+   "value": 0.75,
+   "unit": "x rated",
+   "status": "project",
+   "source": "continuous current <= 75 % of the rerated fuse rating (common fuse application guidance)"
+  },
+  "ptc_hold_40C": {
+   "value": 0.89,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Littelfuse RXEF110 hold current 0.89 A at 40 C"
+  },
+  "ptc_hold_50C": {
+   "value": 0.79,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Littelfuse RXEF110 hold current 0.79 A at 50 C"
+  },
+  "esp32_vdd_min": {
+   "value": 3.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "ESP32-WROOM-32E VDD 3.0-3.6 V"
+  },
+  "esp32_vdd_max": {
+   "value": 3.6,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "ESP32-WROOM-32E VDD 3.0-3.6 V (also abs max)"
+  },
+  "esp32_bod_v": {
+   "value": 2.48,
+   "unit": "V",
+   "status": "derived",
+   "source": "ESP-IDF brown-out level 0: 2.43 V +-0.05 V (Kconfig estimate); upper bound used"
+  },
+  "esp32_vih_frac": {
+   "value": 0.75,
+   "unit": "xVDD",
+   "status": "datasheet",
+   "source": "ESP32 datasheet VIH min 0.75 VDD"
+  },
+  "esp32_vil_frac": {
+   "value": 0.25,
+   "unit": "xVDD",
+   "status": "datasheet",
+   "source": "ESP32 datasheet VIL max 0.25 VDD"
+  },
+  "esp32_pin_over": {
+   "value": 0.3,
+   "unit": "V above VDD",
+   "status": "datasheet",
+   "source": "ESP32 datasheet: pin voltage -0.3 .. VDD+0.3 V (implied by VIL min / VIH max)"
+  },
+  "esp32_tx_peak": {
+   "value": 0.379,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "ESP32-WROOM-32E 802.11b TX peak 379 mA"
+  },
+  "esp32_hbm_pin_current": {
+   "value": 1.33,
+   "unit": "A",
+   "status": "derived",
+   "source": "ESP32 HBM 2 kV rating (assumed, module datasheet class): 2000 V / 1500 ohm peak"
+  },
+  "g2rl_must_operate_frac": {
+   "value": 0.7,
+   "unit": "x rated",
+   "status": "datasheet",
+   "source": "Omron G2RL must-operate 70 % max (coil at 23 C)"
+  },
+  "g2rl_must_release_frac": {
+   "value": 0.1,
+   "unit": "x rated",
+   "status": "datasheet",
+   "source": "Omron G2RL must-release 10 % min"
+  },
+  "g2rl_operate_ms": {
+   "value": 15.0,
+   "unit": "ms",
+   "status": "datasheet",
+   "source": "Omron G2RL operate time 15 ms max"
+  },
+  "g2rl_release_ms": {
+   "value": 5.0,
+   "unit": "ms",
+   "status": "datasheet",
+   "source": "Omron G2RL release time 5 ms max (diode condition not stated)"
+  },
+  "g2rl_contact_a": {
+   "value": 8.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Omron G2RL-2 rated load 8 A 30 VDC resistive"
+  },
+  "g2rl_contact_v": {
+   "value": 30.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Omron G2RL-2 rated load 8 A 30 VDC resistive"
+  },
+  "g2rl_carry_70C": {
+   "value": 8.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Omron G2RL-2 rated carry current 8 A at 70 C (5 A at 85 C)"
+  },
+  "g2rl_contact_r_max": {
+   "value": 0.1,
+   "unit": "ohm",
+   "status": "datasheet",
+   "source": "Omron G2RL contact resistance 100 mOhm max (initial)"
+  },
+  "uln2003_ic_max": {
+   "value": 0.5,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "TI ULN2003A peak collector current 500 mA per channel"
+  },
+  "uln2003_vce_max": {
+   "value": 50.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "TI ULN2003A VCEX 50 V"
+  },
+  "uln2003_clamp_if_max": {
+   "value": 0.5,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "TI ULN2003A clamp diode IF 500 mA"
+  },
+  "uln2003_tj_max": {
+   "value": 125.0,
+   "unit": "C",
+   "status": "datasheet",
+   "source": "TI ULN2003A TJ recommended max 125 C (150 C abs)"
+  },
+  "uln2003_rth_ja": {
+   "value": 66.7,
+   "unit": "K/W",
+   "status": "datasheet",
+   "source": "TI ULN2003A N (PDIP) RthJA 66.7 C/W"
+  },
+  "hc123_iout_abs": {
+   "value": 0.025,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "TI CD74HC123 / Nexperia 74HC123 abs max output current +-25 mA"
+  },
+  "hc573_iout_abs": {
+   "value": 0.035,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "TI SN74HC573A abs max output current +-35 mA"
+  },
+  "hc_input_tt_max_3v3": {
+   "value": 7.4e-07,
+   "unit": "s",
+   "status": "derived",
+   "source": "TI SN74HC573A max input transition 1000 ns at 2 V, 500 ns at 4.5 V; linear interpolation to 3.3 V"
+  },
+  "hc123_rext_max": {
+   "value": 1000000.0,
+   "unit": "ohm",
+   "status": "datasheet",
+   "source": "Nexperia 74HC123 REXT up to 1000 kOhm; Toshiba TC74HC123AP: noise susceptibility may occur for Rx > 1 MOhm"
+  },
+  "hc123_K_3v3": {
+   "value": 0.48,
+   "unit": "",
+   "status": "datasheet",
+   "source": "TI CD74HC123 Fig.5 / Nexperia Fig.6: K ~0.48 at 3.3 V (typical, +-0.02 graph reading)"
+  },
+  "minifit_a_per_pin": {
+   "value": 9.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Molex Mini-Fit Jr 5556 terminal 9 A per contact (wire/circuit derating not obtained)"
+  },
+  "xh_a_per_pin": {
+   "value": 3.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "JST XH 3 A (AWG 22)"
+  },
+  "vh_a_per_pin": {
+   "value": 7.0,
+   "unit": "A",
+   "status": "derived",
+   "source": "JST VH 10 A with AWG 16 standard header, 7 A with AWG 18 shrouded: 7 A used for the 18-20 AWG leads"
+  },
+  "mstb_a_per_pin": {
+   "value": 12.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Phoenix MSTB 2,5/5.08 nominal current 12 A (IEC)"
+  },
+  "tec_imax": {
+   "value": 3.9,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "TARK CP14-127-10 Imax 3.9 A (27-35 C hot side)"
+  },
+  "brick_ocp_min": {
+   "value": 7.0,
+   "unit": "A",
+   "status": "derived",
+   "source": "Mean Well GST160A24 overload 105-150 % of 160 W at 24 V = 7.0-10.0 A, hiccup (brick not yet chosen)"
+  },
+  "brick_ocp_max": {
+   "value": 10.0,
+   "unit": "A",
+   "status": "derived",
+   "source": "Mean Well GST160A24 overload 105-150 % of 160 W at 24 V = 7.0-10.0 A, hiccup"
+  },
+  "brick_ovp_max": {
+   "value": 32.4,
+   "unit": "V",
+   "status": "derived",
+   "source": "Mean Well GST160A24 OVP 105-135 % of 24 V = 25.2-32.4 V"
+  },
+  "brick_power": {
+   "value": 160.0,
+   "unit": "W",
+   "status": "datasheet",
+   "source": "Mean Well GST160A24 rated 160 W (D32 asks >= 150 W)"
+  },
+  "ds18b20_vih": {
+   "value": 2.2,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "DS18B20 VIH 2.2 V min (local power)"
+  },
+  "ds18b20_vil": {
+   "value": 0.8,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "DS18B20 VIL 0.8 V max"
+  },
+  "onewire_sample_us": {
+   "value": 15.0,
+   "unit": "us",
+   "status": "datasheet",
+   "source": "DS18B20: master samples within 15 us of slot start"
+  },
+  "fan_pwm_vol_max": {
+   "value": 0.8,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Intel 4-wire PWM fan spec rev 1.3: host VOL max 0.8 V at 5 mA"
+  },
+  "fan_pwm_sink_req": {
+   "value": 0.005,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Intel 4-wire PWM fan spec: host sink >= 5 mA"
+  },
+  "q2n3904_ic_max": {
+   "value": 0.2,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "onsemi 2N3904 IC 200 mA"
+  },
+  "d1n5819_if_max": {
+   "value": 1.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "onsemi 1N5819 IO 1 A"
+  },
+  "d1n4148_ifsm_1us": {
+   "value": 2.0,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Vishay 1N4148 IFSM 2 A (tp 1 us)"
+  },
+  "d1n4148_if": {
+   "value": 0.3,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Vishay 1N4148 IF 300 mA continuous"
+  },
+  "zener_pd": {
+   "value": 0.5,
+   "unit": "W",
+   "status": "datasheet",
+   "source": "onsemi 1N5245B 500 mW (TA <= 50 C)"
+  },
+  "resistor_p": {
+   "value": 0.4,
+   "unit": "W",
+   "status": "datasheet",
+   "source": "Yageo MF0204 / Vishay MBA0204 0.4 W at 70 C (power mode)"
+  },
+  "ams1117_ilim_min": {
+   "value": 0.9,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "AMS1117 current limit 0.9 A min"
+  },
+  "track_dT_normal": {
+   "value": 20.0,
+   "unit": "K",
+   "status": "project",
+   "source": "project design target: <= 20 K copper rise at the stated operating current (IPC-2152 Brooks/Adam external fit)"
+  },
+  "track_dT_fault": {
+   "value": 80.0,
+   "unit": "K",
+   "status": "project",
+   "source": "project fault limit: copper <= ~120 C at a 40 C bay, below FR-4 Tg 130-140 C"
+  },
+  "tj_margin": {
+   "value": 125.0,
+   "unit": "C",
+   "status": "project",
+   "source": "project: semiconductor junctions <= 125 C at a 40 C bay"
+  },
+  "bay_temp_max": {
+   "value": 40.0,
+   "unit": "C",
+   "status": "project",
+   "source": "task statement: 30-40 C bay"
+  },
+  "buck_vin_abs_max": {
+   "value": 36.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "TRACO TSR 1/TSR 2 input 6.5/15-36 V (no abs max or surge rating published; 36 V operating top used); Murata OKI-78SR 36 V abs"
+  },
+  "ptc_fan_hold_40C": {
+   "value": 0.41,
+   "unit": "A",
+   "status": "datasheet",
+   "source": "Littelfuse RXEF050 hold 0.41 A at 40 C"
+  },
+  "irlz44n_vgs_max": {
+   "value": 16.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Infineon IRLZ44N VGS +-16 V"
+  },
+  "irlz44n_vds_max": {
+   "value": 55.0,
+   "unit": "V",
+   "status": "datasheet",
+   "source": "Infineon IRLZ44N VDSS 55 V"
+  }
+ }
+}

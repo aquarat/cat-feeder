@@ -1,0 +1,1131 @@
+[
+ {
+  "path": "electronics/d34/datasheets/17hs08-1004s.pdf",
+  "kind": "download",
+  "sha256": "dcda644b87e8641f21faa54d8f3c7cbee55c6fed08a5682e4cdfe839da88f518",
+  "url": "https://www.omc-stepperonline.com/download/17HS08-1004S.pdf",
+  "manufacturer": "StepperOnline",
+  "title": "StepperOnline 17HS08-1004S",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/1n4148.pdf",
+  "kind": "download",
+  "sha256": "aefe85400a427ed886a4e1c88205ceabb9f9b38044b29c6acee4bb00146a44b7",
+  "url": "https://www.vishay.com/docs/81857/1n4148.pdf",
+  "manufacturer": "Vishay",
+  "title": "Vishay 1N4148-TAP",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/1n5817-19.pdf",
+  "kind": "download",
+  "sha256": "ac67aa23beb66d3e48ca1ffb6275cbe3beff1c801c65448ad2dd7863977d8307",
+  "url": "https://www.onsemi.cn/download/data-sheet/pdf/1n5817-d.pdf",
+  "manufacturer": "onsemi",
+  "title": "1N5817RLG",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "onsemi China site (onsemi.com blocks scripts)"
+ },
+ {
+  "path": "electronics/d34/datasheets/2n3904.pdf",
+  "kind": "download",
+  "sha256": "5e36f5a5c3e5c2b42be84b234ec256386cedc27240859b4744d88e9d42ccafa4",
+  "url": "https://www.onsemi.cn/download/data-sheet/pdf/2n3903-d.pdf",
+  "manufacturer": "onsemi",
+  "title": "onsemi 2N3904BU",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "onsemi China site (onsemi.com blocks scripts)"
+ },
+ {
+  "path": "electronics/d34/datasheets/ams1117.pdf",
+  "kind": "download",
+  "sha256": "189a2651878a87d590b768eaa9b44217a3fdf460352ce6ecaff127221282a3f0",
+  "url": "http://www.advanced-monolithic.com/pdf/ds1117.pdf",
+  "manufacturer": "Advanced Monolithic Systems",
+  "title": "AMS1117-3.3 (on the DevKit)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/bat42.pdf",
+  "kind": "download",
+  "sha256": "50b0eefd0a7b63a096fca2f07ccd9ce5cf3dd19fd788cbe63baad22252505c3b",
+  "url": "https://www.vishay.com/docs/85660/bat42.pdf",
+  "manufacturer": "Vishay",
+  "title": "BAT42 (RS stocks the ST part)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/bc327.pdf",
+  "kind": "download",
+  "sha256": "c2633c6d559538539f2cba9171ff8f2db794fdb4567b6243d025f6ed10e8c77b",
+  "url": "https://www.onsemi.cn/download/data-sheet/pdf/bc327-d.pdf",
+  "manufacturer": "onsemi",
+  "title": "onsemi BC327-25 (BC32725BU)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "onsemi China site (onsemi.com blocks scripts)"
+ },
+ {
+  "path": "electronics/d34/datasheets/btt_tmc2209_v13_manual.pdf",
+  "kind": "download",
+  "sha256": "9fc99fb405e2289eeaa464161939e06e22968f7513ec1289ef17e4965037e4d3",
+  "url": "https://raw.githubusercontent.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/master/TMC2209/V1.3/manual/BIGTREETECH%20TMC2209%20V1.3%20User%20Manual.pdf",
+  "manufacturer": "BIGTREETECH",
+  "title": "BTT TMC2209 V1.3",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/btt_tmc2209_v13_sch.pdf",
+  "kind": "download",
+  "sha256": "e17eac5f81e40fc0d626007d2d02d44cdbfa632e9bf54d9fc70f820c872023b1",
+  "url": "https://raw.githubusercontent.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/master/TMC2209/V1.3/Schematic/TMC2209%20V1.3-SCH.pdf",
+  "manufacturer": "BIGTREETECH",
+  "title": "BTT TMC2209 V1.3",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/btt_tmc2209_v13_size.pdf",
+  "kind": "download",
+  "sha256": "ee5bd6a6b8f2166958107e2e7d504377c1aabb61e616f99fba7d85ccfc15370c",
+  "url": "https://raw.githubusercontent.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/master/TMC2209/V1.3/Schematic/TMC2209%20V1.3-SIZE.pdf",
+  "manufacturer": "BIGTREETECH",
+  "title": "BTT TMC2209 V1.3",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/bzx79.pdf",
+  "kind": "download",
+  "sha256": "94b6321c24fccf1428b87063f764e6dbc15253fa0d881e9207974feaa84035d8",
+  "url": "https://static.chipdip.ru/lib/051/DOC032051641.pdf",
+  "manufacturer": "Nexperia",
+  "title": "Nexperia BZX79-C15",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (chipdip.ru)"
+ },
+ {
+  "path": "electronics/d34/datasheets/esp32_devkitc_v4_dimensions.pdf",
+  "kind": "download",
+  "sha256": "93769872f5640475a25e6c367230b407606771e4bbee0aba56903263b17d8d30",
+  "url": "https://dl.espressif.com/dl/schematics/esp32_devkitc_v4_dimensions.pdf",
+  "manufacturer": "Espressif",
+  "title": "ESP32-DevKitC-32E (V4)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/esp32_devkitc_v4_sch.pdf",
+  "kind": "download",
+  "sha256": "ea500de5a3bfa97633f32ddb88fabd2d680637225190ea9c3f81e91b7d8bb7f6",
+  "url": "https://dl.espressif.com/dl/schematics/esp32_devkitc_v4_sch.pdf",
+  "manufacturer": "Espressif",
+  "title": "ESP32-DevKitC V4",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/hlmp-1503.pdf",
+  "kind": "download",
+  "sha256": "e9404f2fbaafac78c247185724efcf9a572bc1a5d7f20b57db723ece9bc3e1bf",
+  "url": "https://datasheet.lcsc.com/datasheet/pdf/43ffa2668b24824b0ec00197749e9bdb.pdf",
+  "page_url": "https://www.lcsc.com/product-detail/C6963310.html",
+  "manufacturer": "Broadcom",
+  "title": "Broadcom HLMP-1503",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor copy (LCSC). The recorded URL https://datasheet.lcsc.com/lcsc/43ffa2668b24824b0ec00197749e9bdb.pdf now returns a JavaScript redirect to a product page; the same file id under /datasheet/pdf/ serves the identical PDF."
+ },
+ {
+  "path": "electronics/d34/datasheets/irf4905.pdf",
+  "kind": "download",
+  "sha256": "f6866a3f0ba1487bb51c85087d31ad27674212d9ebb1f3a6616a83ae17b0bad2",
+  "url": "https://www.infineon.com/dgdl/irf4905pbf.pdf?fileId=5546d462533600a4015355e32165197c",
+  "manufacturer": "Infineon",
+  "title": "IRF4905PbF",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/irlz44n.pdf",
+  "kind": "download",
+  "sha256": "b4f1361a4486b8ec84206012a3e4a985111203d140fa6da8d4190b867c9ba077",
+  "url": "https://www.infineon.com/dgdl/irlz44npbf.pdf?fileId=5546d462533600a40153567217c32725",
+  "manufacturer": "Infineon",
+  "title": "Infineon IRLZ44NPBF",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/jst_vh.pdf",
+  "kind": "download",
+  "sha256": "d51e669c597988b20c0963daf5bef7356cbd2104c1f867e9107c6fa6cd2b899c",
+  "url": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+  "manufacturer": "JST",
+  "title": "B2P/B3P/B4P-VH, VHR-nN, SVH-21T-P1.1",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/jst_xh.pdf",
+  "kind": "download",
+  "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+  "url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+  "manufacturer": "JST",
+  "title": "B2B..B12B-XH-A, XHP-n, SXH-001T-P0.6",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/keystone_3568.pdf",
+  "kind": "download",
+  "sha256": "caa141ea51ac68cf80ab6e14ad2075fcfc76206451f4bfe45330005c0deaf395",
+  "url": "https://www.keyelco.com/userAssets/file/M65p42.pdf",
+  "manufacturer": "Keystone Electronics",
+  "title": "Keystone 3568",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/littelfuse_297.pdf",
+  "kind": "download",
+  "sha256": "555113147626816e1370737868b0f13c3b7da7f8fa694b30464bbfb53e3e8228",
+  "url": "https://static.chipdip.ru/lib/458/DOC012458305.pdf",
+  "manufacturer": "Littelfuse",
+  "title": "Littelfuse 029707.5WXNV",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (chipdip.ru)"
+ },
+ {
+  "path": "electronics/d34/datasheets/littelfuse_rxef.pdf",
+  "kind": "download",
+  "sha256": "ac4f96627a34877763b69e8d54c8c203335907200b39e0a5b452e582574314ae",
+  "url": "https://store.comet.bg/download-file.php?id=28452",
+  "manufacturer": "Littelfuse",
+  "title": "Littelfuse RXEF110",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (comet.bg)"
+ },
+ {
+  "path": "electronics/d34/datasheets/molex_39000039.pdf",
+  "kind": "download",
+  "sha256": "bafef7591016c5f86821d5c9565b6a926ec5df761da1ccf090ea8481b9b7f7eb",
+  "url": "https://www.molex.com/pdm_docs/sd/039000039_sd.pdf",
+  "manufacturer": "Molex",
+  "title": "39-00-0039",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/molex_47053.pdf",
+  "kind": "download",
+  "sha256": "f4a7517e64a26386e591da55230674c8b43b3628e904d2de76c0fc235a0a9eda",
+  "url": "https://www.molex.com/pdm_docs/sd/470531000_sd.pdf",
+  "manufacturer": "Molex",
+  "title": "47053-1000",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/molex_5557_housing.pdf",
+  "kind": "download",
+  "sha256": "006bb06a775c0100f3184a02d0aa9e6cc09caf77630144b19a7b5f15ae5b2386",
+  "url": "https://www.molex.com/pdm_docs/sd/039012020_sd.pdf",
+  "manufacturer": "Molex",
+  "title": "39-01-2020/2040/2060",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/molex_5566_header.pdf",
+  "kind": "download",
+  "sha256": "7418c96e365f3209e5b29b071f74b6e9c342b50fa0e4a3f1b5024a875135dbec",
+  "url": "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf",
+  "manufacturer": "Molex",
+  "title": "39-28-1023/1043/1063",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/mrs25.pdf",
+  "kind": "download",
+  "sha256": "f95943b72d37f45da8b89017006c6bc3e2c05946c1925542352785ddbf09844c",
+  "url": "https://store.comet.bg/download-file.php?id=18978",
+  "manufacturer": "Vishay",
+  "title": "Vishay MRS25 (REJECTED)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (comet.bg)"
+ },
+ {
+  "path": "electronics/d34/datasheets/murata_rde.pdf",
+  "kind": "download",
+  "sha256": "0107c6e123fe09273107d1a204da42c0837bd00f83ac779f0a5a52d399023a21",
+  "url": "https://docs.rs-online.com/264c/0900766b8156ed4f.pdf",
+  "manufacturer": "Murata",
+  "title": "Murata RDER71H104K0P1H03B, RDER71H105K2P1H03B",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor copy (RS)"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_adaptive_adv-127-135200-s.pdf",
+  "kind": "download",
+  "sha256": "64097763a542a483cf3e0d741d6dec8ff8295e9c5b63d1ea33717e14f2b81ba9",
+  "url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3607/ADV-127-135200-S.pdf",
+  "manufacturer": "European Thermodynamics (Adaptive)",
+  "title": "Adaptive/European Thermodynamics ADV-127-135200-S TEC",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor copy (Digi-Key)"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_kycon_kpjx-cm_series.pdf",
+  "kind": "download",
+  "sha256": "1763810806a4cba513f1166343641442301b71bd92d275cb14b6d1d389c3689b",
+  "url": "https://static.chipdip.ru/lib/535/DOC011535691.pdf",
+  "manufacturer": "Kycon",
+  "title": "Kycon KPJX-CM (cable-mount alternative)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (chipdip.ru)"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_kycon_kpjx-pm-4s.pdf",
+  "kind": "download",
+  "sha256": "a4161afc815a77015759e47626db129bfdc942713fd5099757f33e15a6519b33",
+  "url": "https://www.kycon.com/Pub_Eng_Draw/KPJX-PM-4S.pdf",
+  "manufacturer": "Kycon",
+  "title": "Kycon KPJX-PM-4S panel socket",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_kycon_kppx-4p.pdf",
+  "kind": "download",
+  "sha256": "78c981d942b1b8f4f184fa46933361be71bc03df31dadcadeaa92efb7ba46a14",
+  "url": "https://www.kycon.com/Pub_Eng_Draw/KPPX-4P.pdf",
+  "manufacturer": "Kycon",
+  "title": "Kycon KPPX-4P plug (brick side reference)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_meanwell_gst120a.pdf",
+  "kind": "download",
+  "sha256": "6da42020acbaedbbf2ea5933d421c1b56775888e8082f11a873362dd5b6829da",
+  "url": "https://www.meanwell.com/Upload/PDF/GST120A/GST120A-SPEC.PDF",
+  "manufacturer": "MEAN WELL",
+  "title": "MEAN WELL GST120A24 (rejected)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_meanwell_gst160a.pdf",
+  "kind": "download",
+  "sha256": "de16ce6f9910201db3c7f8da53af2644dba367b64949291d90376e3cfd7ab709",
+  "url": "https://www.meanwell.com/Upload/PDF/GST160A/GST160A-SPEC.PDF",
+  "manufacturer": "MEAN WELL",
+  "title": "MEAN WELL GST160A24-R7B",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_multicomp_t23_thermal_switch.pdf",
+  "kind": "download",
+  "sha256": "b74600707d53f2e44b922aec79d3bc81b75d4be51d234cca92b51db5a99e960e",
+  "url": "https://www.farnell.com/datasheets/4810951.pdf",
+  "manufacturer": "Multicomp",
+  "title": "Multicomp T23 (sibling family of the RS PRO T24 thermostat)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor copy (Farnell)"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_rspro_neodymium_disc.pdf",
+  "kind": "download",
+  "sha256": "79e1cc8b979d4722d5057f6c60b5d3a75c6ba167009ca989e727e6e912e1668d",
+  "url": "https://docs.rs-online.com/08d2/A700000007817383.pdf",
+  "manufacturer": "RS PRO",
+  "title": "RS PRO NdFeB disc magnets",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor copy (RS)"
+ },
+ {
+  "path": "electronics/d34/datasheets/oc_ti_drv5033.pdf",
+  "kind": "download",
+  "sha256": "397f1a51908fee1642a3d52e95977d3d05d35fd75fac769554eece78b4d4aabc",
+  "url": "https://www.ti.com/lit/ds/symlink/drv5033.pdf",
+  "manufacturer": "Texas Instruments",
+  "title": "TI DRV5033AJQLPG hall switch",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/omron_g2rl.pdf",
+  "kind": "download",
+  "sha256": "89ce57abbc4b089234dd5e0d9dce7d6ea9e23765fbf01a64d1bf1252d96365fd",
+  "url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf",
+  "manufacturer": "Omron",
+  "title": "Omron G2RL-2 DC12",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/p6ke.pdf",
+  "kind": "download",
+  "sha256": "4b1d0d35369a3c037d7bd744224eb7459a1ccc102a17fd5e85b226fd639c07fe",
+  "url": "https://store.comet.bg/download-file.php?id=18955",
+  "manufacturer": "STMicroelectronics",
+  "title": "ST P6KE30A",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (comet.bg)"
+ },
+ {
+  "path": "electronics/d34/datasheets/panasonic_fr.pdf",
+  "kind": "download",
+  "sha256": "47cf18461482e03270f72e475f855080e11e2154e3f343f735e5cb0e61e27df7",
+  "url": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf",
+  "manufacturer": "Panasonic",
+  "title": "Panasonic EEU-FR1H101 (and FR1H220 alternative)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/phoenix_mstb_st.pdf",
+  "kind": "download",
+  "sha256": "e6a5574693aa6fe548e5cbb3e94603009033bca2ca96c8d0e19a6f811fba8913",
+  "url": "https://www.farnell.com/datasheets/2309822.pdf",
+  "manufacturer": "Phoenix Contact",
+  "title": "MSTB 2,5/2-ST-5,08 (1757019)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor copy (Farnell)"
+ },
+ {
+  "path": "electronics/d34/datasheets/phoenix_mstbva.pdf",
+  "kind": "download",
+  "sha256": "ff96f6d81bd79cb0c220d34ebd3f1f0a7eab1f278ad9be02eea7a8cf6180479f",
+  "url": "https://static.chipdip.ru/lib/711/DOC011711569.pdf",
+  "manufacturer": "Phoenix Contact",
+  "title": "MSTBVA 2,5/..-G-5,08 family (1755736)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (chipdip.ru)"
+ },
+ {
+  "path": "electronics/d34/datasheets/rubycon_yxf.pdf",
+  "kind": "download",
+  "sha256": "d87e3f06105d01730bf369b695519d5b1025fdd86f39abb4a73bf1c6e8453e03",
+  "url": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXF.pdf",
+  "manufacturer": "Rubycon",
+  "title": "Rubycon 50YXF22M5X11",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/samtec_ssw.pdf",
+  "kind": "download",
+  "sha256": "6d89f5c186a49e0f52f37d7bf7b5095081aff8f98e5ba18a85b0811caaf6f509",
+  "url": "https://suddendocs.samtec.com/catalog_english/ssw_th.pdf",
+  "manufacturer": "Samtec",
+  "title": "SSW-119-01-T-S, SSW-108-01-T-S",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/sn74hc573a.pdf",
+  "kind": "download",
+  "sha256": "1481ceb629ec47c3d9cfa64a9a727e85d6879425b1b77ca21411aa12e5521678",
+  "url": "https://www.ti.com/lit/ds/symlink/sn74hc573a.pdf",
+  "manufacturer": "Texas Instruments",
+  "title": "SN74HC573AN",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/tc74hc123ap.pdf",
+  "kind": "download",
+  "sha256": "bb38fc03bea6550c06f046eb3584535499e07f637210eeb9c44986647c116d8b",
+  "url": "https://akizukidenshi.com/goodsaffix/TC74HC123AP_datasheet_ja_20161202.pdf",
+  "manufacturer": "Toshiba",
+  "title": "Toshiba TC74HC123AP",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor copy (Akizuki)"
+ },
+ {
+  "path": "electronics/d34/datasheets/tl431.pdf",
+  "kind": "download",
+  "sha256": "0c6d1be2876c858691f0b63f8c999af0883d0243c8b9d79d3e9ebcae072c9a57",
+  "url": "https://www.onsemi.cn/download/data-sheet/pdf/tl431-d.pdf",
+  "manufacturer": "onsemi",
+  "title": "onsemi TL431AILPG",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "onsemi China site (onsemi.com blocks scripts)"
+ },
+ {
+  "path": "electronics/d34/datasheets/tmc2209.pdf",
+  "kind": "download",
+  "sha256": "1d9e8eed9ad2edc17b112c1d54e3c468c34102a629bc3dbf729828919a7b0893",
+  "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+  "manufacturer": "Analog Devices (Trinamic)",
+  "title": "TMC2209 (on the BTT V1.3 StepStick)",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/tracopower_tsr1.pdf",
+  "kind": "download",
+  "sha256": "fd3d3db5644ed0ba18711bf976c183ea6c3123bd60211c657906b3534aab148c",
+  "url": "https://www.tracopower.com/products/tsr1.pdf",
+  "manufacturer": "TRACO Power",
+  "title": "TSR 1-2450",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/tracopower_tsr2n.pdf",
+  "kind": "download",
+  "sha256": "b8ea4a84eb89204040299323e29feb5a67bb97692b32708ad51fbc908773ae92",
+  "url": "https://www.tracopower.com/sites/default/files/products/datasheets/tsr2n_datasheet.pdf",
+  "manufacturer": "TRACO Power",
+  "title": "TSR 2-24120N",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/uln2003a.pdf",
+  "kind": "download",
+  "sha256": "ba83a908675b45c41e84fb06ea390efb10f4b7a358edfee656f87a968dd1d62f",
+  "url": "https://www.ti.com/lit/ds/symlink/uln2003a.pdf",
+  "manufacturer": "Texas Instruments",
+  "title": "ULN2003AN",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/d34/datasheets/yageo_mf0.pdf",
+  "kind": "download",
+  "sha256": "ba2af695064f618f4f3dd91ac2b186efd76f2a5a55ca6864e1a9d236bbf65494",
+  "url": "https://media.onlinecomponents.com/productfiles/mf-yag/yag-mf0204fte5215r.pdf",
+  "manufacturer": "Yageo",
+  "title": "Yageo MF0204FTE52-xx",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "distributor mirror (onlinecomponents)"
+ },
+ {
+  "path": "electronics/pcb/datasheets/AISHI-RF.pdf",
+  "kind": "download",
+  "sha256": "3b04e3d989c967a0a35b7df070b4792ecf875ca17fbc64713519ded6ae5d4f15",
+  "url": "https://www.aishi.com/files/RF.pdf",
+  "manufacturer": "AISHI (Aihua Group)",
+  "title": "RF series aluminium electrolytic capacitors",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "Superseded candidate; kept as evidence for the rejection in electronics/pcb/SOURCING.md. Retrieval date from SOURCING.md (sources checked 2026-10-24)."
+ },
+ {
+  "path": "electronics/revb/dfm/evidence/",
+  "kind": "script",
+  "regenerate": [
+   "python3",
+   "electronics/revb/dfm/retrieve_sources.py"
+  ],
+  "notes": "Scraped JLCPCB capability pages; regenerated from electronics/revb/dfm/sources.json. Not run by fetch_references.py."
+ },
+ {
+  "path": "electronics/revb/motor/evidence/Milliohm-HoLRT-series.pdf",
+  "kind": "download",
+  "sha256": "00c8a67862fd68080bfa3059555b0fc1678386d59c19aa26286ff95f03fd902a",
+  "url": "https://xonstorage.z8.web.core.windows.net/pdf/milliohm_holrt25122w1r1_apr22_xonlink.pdf",
+  "manufacturer": "Milliohm",
+  "title": "HoLRT series current-sense resistors Ho-A0",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (Xon)"
+ },
+ {
+  "path": "electronics/revb/motor/evidence/Milliohm-HoLRT-series.txt",
+  "kind": "derived",
+  "sha256": "dcf0b22582c91d07e7847e35f8613d28c8ff0174a88ecc8966819fef1eb17902",
+  "derived_from": "electronics/revb/motor/evidence/Milliohm-HoLRT-series.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write('\\n'.join(f'PAGE {i}\\n'+p.get_text() for i,p in enumerate(pymupdf.open(sys.argv[1]),1)))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/motor/evidence/TA-I-RL-page-2.png",
+  "kind": "derived",
+  "sha256": "9087a5e46578c66f6aa86c2892cb3e88a0f3204d76d6963d0c4e24efd449e1ab",
+  "derived_from": "electronics/revb/motor/evidence/TA-I-RL-series.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "2",
+   "1.3",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/motor/evidence/TA-I-RL-series.pdf",
+  "kind": "download",
+  "sha256": "5986396649b4a253bf7a28fa25d7c2c5e1e9a06b7ee861d4868d8f82ed78be3e",
+  "url": "https://xonstorage.z8.web.core.windows.net/pdf/4138953_RL12FTNR300_link.pdf",
+  "manufacturer": "TA-I Technology",
+  "title": "RL series alloy film chip resistors TRL-XX0S001O",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (Xon); filename names R300, contents cover the RL series."
+ },
+ {
+  "path": "electronics/revb/motor/evidence/TA-I-RL-series.txt",
+  "kind": "derived",
+  "sha256": "2638ae3f23434aa21401fde96980533619d23337ed2a1fa6ac96f67e7e4f85b2",
+  "derived_from": "electronics/revb/motor/evidence/TA-I-RL-series.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write('\\n'.join(f'PAGE {i}\\n'+p.get_text() for i,p in enumerate(pymupdf.open(sys.argv[1]),1)))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/motor/evidence/a4988-datasheet.pdf",
+  "kind": "download",
+  "sha256": "d1dfba3bb7be2cbf2b689f39424569fc78b1f4fd1f427648bbd8f291ebb933ea",
+  "url": "https://www.allegromicro.com/-/media/files/datasheets/a4988-datasheet.pdf",
+  "manufacturer": "Allegro MicroSystems",
+  "title": "A4988 datasheet 4988-DS Rev 8",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/revb/motor/evidence/a4988-datasheet.txt",
+  "kind": "derived",
+  "sha256": "b440c6d8633793f1d58cced5ddecb805e86056049983ecd56d87a495936ce5b2",
+  "derived_from": "electronics/revb/motor/evidence/a4988-datasheet.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pypdf;open(sys.argv[2],'w',encoding='utf-8').write('\\n'.join(f'\\nPAGE {i}\\n'+p.extract_text(extraction_mode='layout') for i,p in enumerate(pypdf.PdfReader(sys.argv[1]).pages,1)))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pypdf",
+  "regen_check": "differs",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; pypdf layout mode with PAGE headers reproduces it except whitespace in 4 of 1270 lines (likely a different pypdf version). poppler pdftotext -layout gives a quite different layout."
+ },
+ {
+  "path": "electronics/revb/motor/evidence/a4988-page-18.png",
+  "kind": "derived",
+  "sha256": "dd3007026261edcc9a269e0a6784df16530f091e938aae78d0a36785fd54d58e",
+  "derived_from": "electronics/revb/motor/evidence/a4988-datasheet.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "18",
+   "1.5",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/motor/evidence/a4988-page-19.png",
+  "kind": "derived",
+  "sha256": "0974114025cf398bbb91378e60053729ff2a9fb7554c26f12b6537a01f98d932",
+  "derived_from": "electronics/revb/motor/evidence/a4988-datasheet.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "19",
+   "1.5",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/pd/reference/esda25w-page1.png",
+  "kind": "derived",
+  "sha256": "461694e8e353f24e555d2d81233148c9a3d6b5edaa5f8b4bca56e864aaf36702",
+  "derived_from": "electronics/revb/pd/reference/esda25w.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "1",
+   "2",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/pd/reference/esda25w.pdf",
+  "kind": "download",
+  "sha256": "b5140ea6a8bd09a6d14268dce4789317453972b208de8f7ebd17edf72073ce66",
+  "url": "https://catalogue2.pss-electrocomponents.com/catalogue/463/ESDA25W.pdf",
+  "manufacturer": "STMicroelectronics",
+  "title": "ESDAxxxWx datasheet Rev 2",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (pss-electrocomponents.com)"
+ },
+ {
+  "path": "electronics/revb/pd/reference/esda25w.txt",
+  "kind": "derived",
+  "sha256": "efda40f765bd826eadfcc6ee51b2f8961cfb38b5f8c579578096f62997bc4c0c",
+  "derived_from": "electronics/revb/pd/reference/esda25w.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write(''.join(p.get_text(sort=True) for p in pymupdf.open(sys.argv[1])))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/pd/reference/stl9p3llh6-drawing.png",
+  "kind": "derived",
+  "sha256": "d79bccca0eaeb065953bf3fc3fbe3f48aa7a02387df20b906109e458fb963c99",
+  "derived_from": "electronics/revb/pd/reference/stl9p3llh6.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "11",
+   "2",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/pd/reference/stl9p3llh6-land.png",
+  "kind": "derived",
+  "sha256": "b698861c726ce4c1e8c46ecba4325cc2a9e3de48488b4daf96304bd362780321",
+  "derived_from": "electronics/revb/pd/reference/stl9p3llh6.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "12",
+   "2",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/pd/reference/stl9p3llh6.pdf",
+  "kind": "download",
+  "sha256": "b966426afe1bec3c3907af07d91c79678b9828604c2068ec5495a65c06e77d14",
+  "url": "https://agelectronica.lat/pdfs/textos/S/STL9P3LLH6.PDF",
+  "manufacturer": "STMicroelectronics",
+  "title": "STL9P3LLH6 datasheet DocID025823 Rev 2",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (agelectronica.lat)"
+ },
+ {
+  "path": "electronics/revb/pd/reference/stl9p3llh6.txt",
+  "kind": "derived",
+  "sha256": "4317cca7d047d4fa022383c06f4fa62c4dfc8b6841fb6b681f54e99ab7893457",
+  "derived_from": "electronics/revb/pd/reference/stl9p3llh6.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write(''.join(p.get_text(sort=True) for p in pymupdf.open(sys.argv[1])))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/pd/reference/stusb4500-sparkfun-page26.png",
+  "kind": "derived",
+  "sha256": "035a313b802f9c9e868df09fc8fe1088fea7fd10e4cf53ae46f3271e81f6050e",
+  "derived_from": "electronics/revb/pd/reference/stusb4500-sparkfun.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "26",
+   "2",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/pd/reference/stusb4500-sparkfun.pdf",
+  "kind": "download",
+  "sha256": "33292e3868209e8bb6f40377e1738e771f1f7b9ae581ecbdb7fd83cb223de9d0",
+  "url": "https://raw.githubusercontent.com/sparkfun/Power_Delivery_Board-USB-C/42134985243912d4803d1ff985458e44d11f1ee0/Documentation/STUSB4500_Datasheet.pdf",
+  "manufacturer": "STMicroelectronics",
+  "title": "STUSB4500 datasheet DS12499 Rev 3",
+  "retrieved": "2026-10-24",
+  "licence_note": "ST datasheet copied in SparkFun's Power_Delivery_Board-USB-C repository at a pinned commit; SparkFun's repository licence does not cover ST's document.",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/revb/pd/reference/stusb4500-sparkfun.txt",
+  "kind": "derived",
+  "sha256": "3f976a0b25496fcc500ae82adc46de1e64e74c5f4a763b4eed63f86da5abe4a6",
+  "derived_from": "electronics/revb/pd/reference/stusb4500-sparkfun.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write(''.join(p.get_text(sort=True) for p in pymupdf.open(sys.argv[1])))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/pd/reference/tca9517a.pdf",
+  "kind": "download",
+  "sha256": "ad2d7dc5994583006aa21b67ee9f18507a2698ad9366285dff56816f065790c6",
+  "url": "https://www.ti.com/lit/ds/symlink/tca9517a.pdf",
+  "manufacturer": "Texas Instruments",
+  "title": "TCA9517A datasheet SCPS245E",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/revb/pd/reference/tca9517a.txt",
+  "kind": "derived",
+  "sha256": "5d49ff3b304c5ed75cfdb4feca20765a59fde92b17aacf18d23b70c2c4ae25fa",
+  "derived_from": "electronics/revb/pd/reference/tca9517a.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write(''.join(p.get_text(sort=True) for p in pymupdf.open(sys.argv[1])))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/pd/reference/tps709.pdf",
+  "kind": "download",
+  "sha256": "8c14e3efae738a27b857b789aa87369de9037a8ef3616a9f71a423587cdc6949",
+  "url": "https://www.ti.com/lit/ds/symlink/tps709.pdf",
+  "manufacturer": "Texas Instruments",
+  "title": "TPS709 datasheet SBVS186H",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match"
+ },
+ {
+  "path": "electronics/revb/pd/reference/tps709.txt",
+  "kind": "derived",
+  "sha256": "ca5d99ea016bbd20f9ee6c8b052bc8c9203ba67945aa3bcffd74a29166443b19",
+  "derived_from": "electronics/revb/pd/reference/tps709.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write(''.join(p.get_text(sort=True) for p in pymupdf.open(sys.argv[1])))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/pd/reference/usb4105-drawing.png",
+  "kind": "derived",
+  "sha256": "f4aa7c124831232cb9484d52f71ade62bc84834692b8bd2424c784a6a9ef748e",
+  "derived_from": "electronics/revb/pd/reference/usb4105.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "1",
+   "2",
+   "",
+   "0"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render; byte-identical to the tracked file. Original tool unrecorded; PyMuPDF reproduces it exactly."
+ },
+ {
+  "path": "electronics/revb/pd/reference/usb4105-spec.pdf",
+  "kind": "download",
+  "sha256": "268ad33f86f802665e6ae5f5ce3e8c433b00bb83a4558fdf214ad5110c6e3aa9",
+  "url": "https://www.ariat-tech.com/datasheet/62/USB4105-GF-A.pdf",
+  "manufacturer": "GCT",
+  "title": "USB4105 product specification A3",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (ariat-tech.com)"
+ },
+ {
+  "path": "electronics/revb/pd/reference/usb4105-spec.txt",
+  "kind": "derived",
+  "sha256": "2600a164b335d74319eebef6f891c978ca71389f729b006ebc974f6c847ba33a",
+  "derived_from": "electronics/revb/pd/reference/usb4105-spec.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write(''.join(p.get_text(sort=True) for p in pymupdf.open(sys.argv[1])))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/pd/reference/usb4105.pdf",
+  "kind": "download",
+  "sha256": "0ff2526fc28bbfdcb46a61fd394454be865854212c677e5aa55fc305368a01b1",
+  "url": "https://file.huaqiu.com/web2/M00/5A/89/poYBAGLry6iAcsUrAAIyZddzY9w233.pdf",
+  "manufacturer": "GCT",
+  "title": "USB4105 mechanical drawing Rev B",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (huaqiu.com)"
+ },
+ {
+  "path": "electronics/revb/pd/reference/usb4105.txt",
+  "kind": "derived",
+  "sha256": "edc06fc3832118057f6a1e0f618679962113a6e80ee53d74f7074aa643b62553",
+  "derived_from": "electronics/revb/pd/reference/usb4105.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;open(sys.argv[2],'w',encoding='utf-8').write(''.join(p.get_text(sort=True) for p in pymupdf.open(sys.argv[1])))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/power/AP63200-family.pdf",
+  "kind": "download",
+  "sha256": "845476533a994d612f8f6e2885eac759ecb3045b83a738c004bcb4173952dd53",
+  "url": "https://media.ic-find.com/datasheets/3112fdf570131ce2a201102922d42917.pdf",
+  "manufacturer": "Diodes Incorporated",
+  "title": "AP63200/AP63201/AP63203/AP63205 datasheet DS41326 Rev 2-2",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (ic-find.com); the manufacturer copy https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf returned HTTP 403 to scripts. Retrieval date from the commit, not recorded in reference-sources.json."
+ },
+ {
+  "path": "electronics/revb/power/AP63200-family.txt",
+  "kind": "derived",
+  "sha256": "4f86feec84e57ba36cb545289396ab7ffeda5e7efc500df39dfb666701c31935",
+  "derived_from": "electronics/revb/power/AP63200-family.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pypdf;open(sys.argv[2],'w',encoding='utf-8').write('\\n'.join(p.extract_text(extraction_mode='layout') for p in pypdf.PdfReader(sys.argv[1]).pages))",
+   "{src}",
+   "{out}"
+  ],
+  "requires": "pypdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Original tool unrecorded; this command reproduces the tracked file byte for byte. poppler pdftotext -layout gives a different (not equivalent) layout."
+ },
+ {
+  "path": "electronics/revb/power/AP63203-EVM.pdf",
+  "kind": "download",
+  "sha256": "59bc3f0bd7273ae027f76585b982531c3d5b4e1eaf439924c9ad4bda8925a174",
+  "url": "https://pdf.htelec.com/pdf/36/AP63203WU-EVM%20User%20Guide%20Manual%20R1.pdf",
+  "manufacturer": "Diodes Incorporated",
+  "title": "AP63203WU-EVM user guide R1",
+  "retrieved": "2026-10-24",
+  "fetch_check": "match",
+  "notes": "distributor mirror (htelec.com)"
+ },
+ {
+  "path": "thermal/datasheets/alutronic_pr411.pdf",
+  "kind": "download",
+  "sha256": "4e80aba6171d2a318f2c128f091907ebe3c198bee42deb321d777a476783fc50",
+  "url": "https://alutronic.de/de/products/generate_pdf/pr-411/",
+  "manufacturer": "Alutronic",
+  "title": "PR 411 extrusion spec sheet",
+  "retrieved": "2026-10-26",
+  "fetch_check": "mismatch 8b57d65943d07e6e031318ddd92ab892e91689c55dc3d4b2256fe7160061cd03",
+  "notes": "Generated on request (WeasyPrint) with the current date printed in the header, so the hash differs on every fetch day; pdftotext of a 2026-11-01 fetch differs only in that date. Keep the local sha256 as the reference."
+ },
+ {
+  "path": "thermal/datasheets/alutronic_pr614.pdf",
+  "kind": "download",
+  "sha256": "0bf13b696946bc0861d5f73af02b87e9b5595b4ebc48453c3a3d89ed6f216e82",
+  "url": "https://alutronic.de/de/products/generate_pdf/pr-614/",
+  "manufacturer": "Alutronic",
+  "title": "PR 614 extrusion spec sheet",
+  "retrieved": "2026-10-26",
+  "fetch_check": "mismatch a082af69d0a60eb6021808a32182ddb71c60855b19733f03e9486d44b9aad93d",
+  "notes": "Generated on request (WeasyPrint) with the current date printed in the header, so the hash differs on every fetch day; pdftotext of a 2026-11-01 fetch differs only in that date. Keep the local sha256 as the reference."
+ },
+ {
+  "path": "thermal/datasheets/alutronic_pr614_profile.jpg",
+  "kind": "download",
+  "sha256": "e8fb52525bac4701dabebaf052e50de0a54e1fd533776d0a4c7b7058ef6c9adf",
+  "url": "https://alutronic.de/media/uploads/img/_Titel/141279.0_Titel.png",
+  "manufacturer": "Alutronic",
+  "title": "PR 614 profile image",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "Served from a .png URL but the content is JPEG."
+ },
+ {
+  "path": "thermal/datasheets/fischer_sk064_drawing.pdf",
+  "kind": "download",
+  "sha256": "224c149abd8bf0e90ab5082aafd153c59cecc0589ffcfcfc611f916e772414ee",
+  "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk064.pdf",
+  "manufacturer": "Fischer Elektronik",
+  "title": "SK 64 profile drawing",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "thermal/datasheets/fischer_sk100_drawing.pdf",
+  "kind": "download",
+  "sha256": "15e6f84b1dbee5b30411101fe102db93ac8ec8cf01d4d54bc1b38e4c46f9d368",
+  "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk100.pdf",
+  "manufacturer": "Fischer Elektronik",
+  "title": "SK 100 profile drawing",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "thermal/datasheets/fischer_sk444_drawing.pdf",
+  "kind": "download",
+  "sha256": "31a7e4218e190abd01aef51ae7acd79e197c8f7a7b29c45b406cbec192e02c67",
+  "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk444.pdf",
+  "manufacturer": "Fischer Elektronik",
+  "title": "SK 444 profile drawing",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "thermal/datasheets/fischer_sk649_drawing.pdf",
+  "kind": "download",
+  "sha256": "77a388880e11210a9b650bf1f4d67b7b1bb27d98e381a8299d682198006e79e1",
+  "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk649.pdf",
+  "manufacturer": "Fischer Elektronik",
+  "title": "SK 649 profile drawing",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "thermal/datasheets/fischer_sk670_drawing.pdf",
+  "kind": "download",
+  "sha256": "513758b9c223116b0f77ed804987455361a808103b27e271152faa73f9093ab2",
+  "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk670.pdf",
+  "manufacturer": "Fischer Elektronik",
+  "title": "SK 670 profile drawing",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match"
+ },
+ {
+  "path": "thermal/datasheets/ted_tdex6015_side_render.png",
+  "kind": "derived",
+  "sha256": "653df74ee12c0bb97fa440fb2cceba69f6f6d57720b5d696ec1e505078dfb90d",
+  "derived_from": "thermal/datasheets/ted_tdex6015_th12g.pdf",
+  "regenerate": [
+   "python3",
+   "-c",
+   "import sys,pymupdf;s,o,n,z,c,d=sys.argv[1:7];p=pymupdf.open(s)[int(n)-1].get_pixmap(matrix=pymupdf.Matrix(float(z),float(z)),clip=pymupdf.Rect(*map(float,c.split(','))) if c else None,alpha=False);int(d) and p.set_dpi(int(d),int(d));p.save(o)",
+   "{src}",
+   "{out}",
+   "1",
+   "8.333333333333334",
+   "390,240,560,370",
+   "600"
+  ],
+  "requires": "pymupdf",
+  "regen_check": "match",
+  "notes": "Checked 2026-11-01 with PyMuPDF 2.0 (MuPDF 1.28.5) / pypdf 6.21.4. Full-page render clipped to the side view (PDF points x0,y0,x1,y1), PNG dpi tag 600; byte-identical to the tracked file. Original tool per thermal/datasheets/MANIFEST.json: PyMuPDF."
+ },
+ {
+  "path": "thermal/datasheets/ted_tdex6015_th12g.pdf",
+  "kind": "download",
+  "sha256": "79a565ea4ebda215b80dfff9312795439a0172ba13c8beac2f79e4488a913653",
+  "url": "https://www.thierry-lequeu.fr/data/TDEX6015-TH.pdf",
+  "manufacturer": "Thermo Electric Devices",
+  "title": "TDEX6015/TH12G fan heat sink assembly data sheet",
+  "retrieved": "2026-10-26",
+  "fetch_check": "match",
+  "notes": "Third-party re-host of the maker's document (thierry-lequeu.fr)."
+ }
+]

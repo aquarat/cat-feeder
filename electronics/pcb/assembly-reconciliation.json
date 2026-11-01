@@ -1,0 +1,4159 @@
+{
+  "status": "Designer correction for independent recheck; supplier angles pending",
+  "origin_KiCad_mm": [
+    41.88227141164403,
+    130.0
+  ],
+  "axes": "CPL +X right/+Y up; native footprint +Y down",
+  "formula": "rotate offset (dx*cos+dy*sin, -dx*sin+dy*cos); add native placement; subtract origin X and reflect Y",
+  "parts_by_exact_LCSC": {
+    "C701341": {
+      "MPN": "ESP32-WROOM-32E-N4",
+      "footprint": "ESP32-WROOM-32E",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -8.75,
+        -5.26
+      ],
+      "native_landmarks_mm": {
+        "antenna_edge_midpoint": [
+          0,
+          -12.75
+        ]
+      },
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "U1",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            75.0,
+            63.0
+          ],
+          "body_centroid_KiCad_mm": [
+            75.0,
+            63.0
+          ],
+          "centroid_fabrication_mm": [
+            33.11772858835597,
+            67.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            24.367728588355973,
+            72.25999999999999
+          ],
+          "landmarks": {
+            "antenna_edge_midpoint": {
+              "KiCad_mm": [
+                75.0,
+                50.25
+              ],
+              "fabrication_mm": [
+                33.11772858835597,
+                79.75
+              ]
+            }
+          },
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                66.25,
+                57.74
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                72.25999999999999
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                66.25,
+                59.01
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                70.99000000000001
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/EN",
+              "KiCad_mm": [
+                66.25,
+                60.28
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                69.72
+              ]
+            },
+            {
+              "number": "4",
+              "net": "unconnected-(U1-SENSOR_VP-Pad4)",
+              "KiCad_mm": [
+                66.25,
+                61.55
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                68.45
+              ]
+            },
+            {
+              "number": "5",
+              "net": "unconnected-(U1-SENSOR_VN-Pad5)",
+              "KiCad_mm": [
+                66.25,
+                62.82
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                67.18
+              ]
+            },
+            {
+              "number": "6",
+              "net": "/FAN_TACH",
+              "KiCad_mm": [
+                66.25,
+                64.09
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                65.91
+              ]
+            },
+            {
+              "number": "7",
+              "net": "/BUS_SENSE",
+              "KiCad_mm": [
+                66.25,
+                65.36
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                64.64
+              ]
+            },
+            {
+              "number": "8",
+              "net": "/INDEX",
+              "KiCad_mm": [
+                66.25,
+                66.63
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                63.370000000000005
+              ]
+            },
+            {
+              "number": "9",
+              "net": "/HOME",
+              "KiCad_mm": [
+                66.25,
+                67.9
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                62.099999999999994
+              ]
+            },
+            {
+              "number": "10",
+              "net": "/TEC_EN",
+              "KiCad_mm": [
+                66.25,
+                69.17
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                60.83
+              ]
+            },
+            {
+              "number": "11",
+              "net": "/FAN_PWM_GPIO",
+              "KiCad_mm": [
+                66.25,
+                70.44
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                59.56
+              ]
+            },
+            {
+              "number": "12",
+              "net": "/ONEWIRE",
+              "KiCad_mm": [
+                66.25,
+                71.71
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                58.290000000000006
+              ]
+            },
+            {
+              "number": "13",
+              "net": "unconnected-(U1-IO14-Pad13)",
+              "KiCad_mm": [
+                66.25,
+                72.98
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                57.019999999999996
+              ]
+            },
+            {
+              "number": "14",
+              "net": "unconnected-(U1-IO12-Pad14)",
+              "KiCad_mm": [
+                66.25,
+                74.25
+              ],
+              "fabrication_mm": [
+                24.367728588355973,
+                55.75
+              ]
+            },
+            {
+              "number": "15",
+              "net": "/GND",
+              "KiCad_mm": [
+                69.285,
+                75.5
+              ],
+              "fabrication_mm": [
+                27.40272858835597,
+                54.5
+              ]
+            },
+            {
+              "number": "16",
+              "net": "/UART_OEn",
+              "KiCad_mm": [
+                70.555,
+                75.5
+              ],
+              "fabrication_mm": [
+                28.67272858835598,
+                54.5
+              ]
+            },
+            {
+              "number": "17",
+              "net": "unconnected-(U1-NC-Pad17)",
+              "KiCad_mm": [
+                71.825,
+                75.5
+              ],
+              "fabrication_mm": [
+                29.942728588355976,
+                54.5
+              ]
+            },
+            {
+              "number": "18",
+              "net": "unconnected-(U1-NC-Pad18)",
+              "KiCad_mm": [
+                73.095,
+                75.5
+              ],
+              "fabrication_mm": [
+                31.212728588355972,
+                54.5
+              ]
+            },
+            {
+              "number": "19",
+              "net": "unconnected-(U1-NC-Pad19)",
+              "KiCad_mm": [
+                74.365,
+                75.5
+              ],
+              "fabrication_mm": [
+                32.48272858835597,
+                54.5
+              ]
+            },
+            {
+              "number": "20",
+              "net": "unconnected-(U1-NC-Pad20)",
+              "KiCad_mm": [
+                75.635,
+                75.5
+              ],
+              "fabrication_mm": [
+                33.75272858835598,
+                54.5
+              ]
+            },
+            {
+              "number": "21",
+              "net": "unconnected-(U1-NC-Pad21)",
+              "KiCad_mm": [
+                76.905,
+                75.5
+              ],
+              "fabrication_mm": [
+                35.022728588355974,
+                54.5
+              ]
+            },
+            {
+              "number": "22",
+              "net": "unconnected-(U1-NC-Pad22)",
+              "KiCad_mm": [
+                78.175,
+                75.5
+              ],
+              "fabrication_mm": [
+                36.29272858835597,
+                54.5
+              ]
+            },
+            {
+              "number": "23",
+              "net": "unconnected-(U1-IO15-Pad23)",
+              "KiCad_mm": [
+                79.445,
+                75.5
+              ],
+              "fabrication_mm": [
+                37.56272858835597,
+                54.5
+              ]
+            },
+            {
+              "number": "24",
+              "net": "unconnected-(U1-IO2-Pad24)",
+              "KiCad_mm": [
+                80.715,
+                75.5
+              ],
+              "fabrication_mm": [
+                38.83272858835598,
+                54.5
+              ]
+            },
+            {
+              "number": "25",
+              "net": "/BOOT",
+              "KiCad_mm": [
+                83.75,
+                74.25
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                55.75
+              ]
+            },
+            {
+              "number": "26",
+              "net": "unconnected-(U1-IO4-Pad26)",
+              "KiCad_mm": [
+                83.75,
+                72.98
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                57.019999999999996
+              ]
+            },
+            {
+              "number": "27",
+              "net": "/DPS_RX",
+              "KiCad_mm": [
+                83.75,
+                71.71
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                58.290000000000006
+              ]
+            },
+            {
+              "number": "28",
+              "net": "/DPS_TX",
+              "KiCad_mm": [
+                83.75,
+                70.44
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                59.56
+              ]
+            },
+            {
+              "number": "29",
+              "net": "unconnected-(U1-IO5-Pad29)",
+              "KiCad_mm": [
+                83.75,
+                69.17
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                60.83
+              ]
+            },
+            {
+              "number": "30",
+              "net": "/STEP",
+              "KiCad_mm": [
+                83.75,
+                67.9
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                62.099999999999994
+              ]
+            },
+            {
+              "number": "31",
+              "net": "/DIR",
+              "KiCad_mm": [
+                83.75,
+                66.63
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                63.370000000000005
+              ]
+            },
+            {
+              "number": "32",
+              "net": "unconnected-(U1-NC-Pad32)",
+              "KiCad_mm": [
+                83.75,
+                65.36
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                64.64
+              ]
+            },
+            {
+              "number": "33",
+              "net": "/I2C_SDA",
+              "KiCad_mm": [
+                83.75,
+                64.09
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                65.91
+              ]
+            },
+            {
+              "number": "34",
+              "net": "/U0RX",
+              "KiCad_mm": [
+                83.75,
+                62.82
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                67.18
+              ]
+            },
+            {
+              "number": "35",
+              "net": "/U0TX",
+              "KiCad_mm": [
+                83.75,
+                61.55
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                68.45
+              ]
+            },
+            {
+              "number": "36",
+              "net": "/I2C_SCL",
+              "KiCad_mm": [
+                83.75,
+                60.28
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                69.72
+              ]
+            },
+            {
+              "number": "37",
+              "net": "/MOTOR_RUN",
+              "KiCad_mm": [
+                83.75,
+                59.01
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                70.99000000000001
+              ]
+            },
+            {
+              "number": "38",
+              "net": "/GND",
+              "KiCad_mm": [
+                83.75,
+                57.74
+              ],
+              "fabrication_mm": [
+                41.86772858835597,
+                72.25999999999999
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.1,
+                64.06
+              ],
+              "fabrication_mm": [
+                30.217728588355968,
+                65.94
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.1,
+                64.76
+              ],
+              "fabrication_mm": [
+                30.217728588355968,
+                65.24
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.1,
+                65.46
+              ],
+              "fabrication_mm": [
+                30.217728588355968,
+                64.54
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.1,
+                66.16
+              ],
+              "fabrication_mm": [
+                30.217728588355968,
+                63.84
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.1,
+                66.86
+              ],
+              "fabrication_mm": [
+                30.217728588355968,
+                63.14
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.8,
+                64.06
+              ],
+              "fabrication_mm": [
+                30.91772858835597,
+                65.94
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.8,
+                65.46
+              ],
+              "fabrication_mm": [
+                30.91772858835597,
+                64.54
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                72.8,
+                66.86
+              ],
+              "fabrication_mm": [
+                30.91772858835597,
+                63.14
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                73.5,
+                64.06
+              ],
+              "fabrication_mm": [
+                31.617728588355973,
+                65.94
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                73.5,
+                64.76
+              ],
+              "fabrication_mm": [
+                31.617728588355973,
+                65.24
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                73.5,
+                65.46
+              ],
+              "fabrication_mm": [
+                31.617728588355973,
+                64.54
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                73.5,
+                66.16
+              ],
+              "fabrication_mm": [
+                31.617728588355973,
+                63.84
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                73.5,
+                66.86
+              ],
+              "fabrication_mm": [
+                31.617728588355973,
+                63.14
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.2,
+                64.06
+              ],
+              "fabrication_mm": [
+                32.317728588355976,
+                65.94
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.2,
+                65.46
+              ],
+              "fabrication_mm": [
+                32.317728588355976,
+                64.54
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.2,
+                66.86
+              ],
+              "fabrication_mm": [
+                32.317728588355976,
+                63.14
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.9,
+                64.06
+              ],
+              "fabrication_mm": [
+                33.01772858835598,
+                65.94
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.9,
+                64.76
+              ],
+              "fabrication_mm": [
+                33.01772858835598,
+                65.24
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.9,
+                65.46
+              ],
+              "fabrication_mm": [
+                33.01772858835598,
+                64.54
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.9,
+                66.16
+              ],
+              "fabrication_mm": [
+                33.01772858835598,
+                63.84
+              ]
+            },
+            {
+              "number": "39",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.9,
+                66.86
+              ],
+              "fabrication_mm": [
+                33.01772858835598,
+                63.14
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C51118": {
+      "MPN": "AP2112K-3.3TRG1",
+      "footprint": "SOT-23-5",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -1.1375,
+        -0.95
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "U2",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            59.0,
+            65.0
+          ],
+          "body_centroid_KiCad_mm": [
+            59.0,
+            65.0
+          ],
+          "centroid_fabrication_mm": [
+            17.117728588355973,
+            65.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            15.98022858835597,
+            65.95
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+5V",
+              "KiCad_mm": [
+                57.8625,
+                64.05
+              ],
+              "fabrication_mm": [
+                15.98022858835597,
+                65.95
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                57.8625,
+                65.0
+              ],
+              "fabrication_mm": [
+                15.98022858835597,
+                65.0
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/+5V",
+              "KiCad_mm": [
+                57.8625,
+                65.95
+              ],
+              "fabrication_mm": [
+                15.98022858835597,
+                64.05
+              ]
+            },
+            {
+              "number": "4",
+              "net": "unconnected-(U2-NC-Pad4)",
+              "KiCad_mm": [
+                60.1375,
+                65.95
+              ],
+              "fabrication_mm": [
+                18.255228588355976,
+                64.05
+              ]
+            },
+            {
+              "number": "5",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                60.1375,
+                64.05
+              ],
+              "fabrication_mm": [
+                18.255228588355976,
+                65.95
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C23654": {
+      "MPN": "SN74LVC1G125DBVR",
+      "footprint": "SOT-23-5",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -1.1375,
+        -0.95
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "U3",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            82.0,
+            104.0
+          ],
+          "body_centroid_KiCad_mm": [
+            82.0,
+            104.0
+          ],
+          "centroid_fabrication_mm": [
+            40.11772858835597,
+            26.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            38.98022858835597,
+            26.950000000000003
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/UART_OEn",
+              "KiCad_mm": [
+                80.8625,
+                103.05
+              ],
+              "fabrication_mm": [
+                38.98022858835597,
+                26.950000000000003
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/DPS_TX",
+              "KiCad_mm": [
+                80.8625,
+                104.0
+              ],
+              "fabrication_mm": [
+                38.98022858835597,
+                26.0
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/GND",
+              "KiCad_mm": [
+                80.8625,
+                104.95
+              ],
+              "fabrication_mm": [
+                38.98022858835597,
+                25.049999999999997
+              ]
+            },
+            {
+              "number": "4",
+              "net": "/DPS_TX_BUF",
+              "KiCad_mm": [
+                83.1375,
+                104.95
+              ],
+              "fabrication_mm": [
+                41.255228588355976,
+                25.049999999999997
+              ]
+            },
+            {
+              "number": "5",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                83.1375,
+                103.05
+              ],
+              "fabrication_mm": [
+                41.255228588355976,
+                26.950000000000003
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "U4",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            87.0,
+            104.0
+          ],
+          "body_centroid_KiCad_mm": [
+            87.0,
+            104.0
+          ],
+          "centroid_fabrication_mm": [
+            45.11772858835597,
+            26.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            43.98022858835597,
+            26.950000000000003
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/UART_OEn",
+              "KiCad_mm": [
+                85.8625,
+                103.05
+              ],
+              "fabrication_mm": [
+                43.98022858835597,
+                26.950000000000003
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/DPS_TX_EXT",
+              "KiCad_mm": [
+                85.8625,
+                104.0
+              ],
+              "fabrication_mm": [
+                43.98022858835597,
+                26.0
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/GND",
+              "KiCad_mm": [
+                85.8625,
+                104.95
+              ],
+              "fabrication_mm": [
+                43.98022858835597,
+                25.049999999999997
+              ]
+            },
+            {
+              "number": "4",
+              "net": "/DPS_RX",
+              "KiCad_mm": [
+                88.1375,
+                104.95
+              ],
+              "fabrication_mm": [
+                46.255228588355976,
+                25.049999999999997
+              ]
+            },
+            {
+              "number": "5",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                88.1375,
+                103.05
+              ],
+              "fabrication_mm": [
+                46.255228588355976,
+                26.950000000000003
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C20526": {
+      "MPN": "MMBT3904(RANGE:100-300)",
+      "footprint": "SOT-23",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.9375,
+        -0.95
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "Q1",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            87.0,
+            79.0
+          ],
+          "body_centroid_KiCad_mm": [
+            87.0,
+            79.0
+          ],
+          "centroid_fabrication_mm": [
+            45.11772858835597,
+            51.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            44.18022858835597,
+            51.95
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/FAN_BASE",
+              "KiCad_mm": [
+                86.0625,
+                78.05
+              ],
+              "fabrication_mm": [
+                44.18022858835597,
+                51.95
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                86.0625,
+                79.95
+              ],
+              "fabrication_mm": [
+                44.18022858835597,
+                50.05
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/FAN_PWM_OD",
+              "KiCad_mm": [
+                87.9375,
+                79.0
+              ],
+              "fabrication_mm": [
+                46.05522858835597,
+                51.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C25804": {
+      "MPN": "0603WAF1002T5E",
+      "footprint": "R_0603_1608Metric",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.825,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "R1",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            60.0,
+            73.0
+          ],
+          "body_centroid_KiCad_mm": [
+            60.0,
+            73.0
+          ],
+          "centroid_fabrication_mm": [
+            18.117728588355973,
+            57.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            17.29272858835597,
+            57.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                59.175,
+                73.0
+              ],
+              "fabrication_mm": [
+                17.29272858835597,
+                57.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/EN",
+              "KiCad_mm": [
+                60.825,
+                73.0
+              ],
+              "fabrication_mm": [
+                18.942728588355976,
+                57.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R2",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            81.0,
+            86.0
+          ],
+          "body_centroid_KiCad_mm": [
+            81.0,
+            86.0
+          ],
+          "centroid_fabrication_mm": [
+            39.11772858835597,
+            44.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            38.29272858835597,
+            44.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                80.175,
+                86.0
+              ],
+              "fabrication_mm": [
+                38.29272858835597,
+                44.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/BOOT",
+              "KiCad_mm": [
+                81.825,
+                86.0
+              ],
+              "fabrication_mm": [
+                39.942728588355976,
+                44.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R4",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            59.0,
+            83.0
+          ],
+          "body_centroid_KiCad_mm": [
+            59.0,
+            83.0
+          ],
+          "centroid_fabrication_mm": [
+            17.117728588355973,
+            47.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            16.29272858835597,
+            47.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                58.175,
+                83.0
+              ],
+              "fabrication_mm": [
+                16.29272858835597,
+                47.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/INDEX",
+              "KiCad_mm": [
+                59.825,
+                83.0
+              ],
+              "fabrication_mm": [
+                17.942728588355976,
+                47.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R5",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            63.0,
+            83.0
+          ],
+          "body_centroid_KiCad_mm": [
+            63.0,
+            83.0
+          ],
+          "centroid_fabrication_mm": [
+            21.117728588355973,
+            47.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            20.29272858835597,
+            47.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                62.175,
+                83.0
+              ],
+              "fabrication_mm": [
+                20.29272858835597,
+                47.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/HOME",
+              "KiCad_mm": [
+                63.825,
+                83.0
+              ],
+              "fabrication_mm": [
+                21.942728588355976,
+                47.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R6",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            88.0,
+            73.0
+          ],
+          "body_centroid_KiCad_mm": [
+            88.0,
+            73.0
+          ],
+          "centroid_fabrication_mm": [
+            46.11772858835597,
+            57.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            45.29272858835597,
+            57.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                87.175,
+                73.0
+              ],
+              "fabrication_mm": [
+                45.29272858835597,
+                57.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/TACH_EXT",
+              "KiCad_mm": [
+                88.825,
+                73.0
+              ],
+              "fabrication_mm": [
+                46.942728588355976,
+                57.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R10",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            88.0,
+            110.0
+          ],
+          "body_centroid_KiCad_mm": [
+            88.0,
+            110.0
+          ],
+          "centroid_fabrication_mm": [
+            46.11772858835597,
+            20.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            45.29272858835597,
+            20.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/TEC_EN",
+              "KiCad_mm": [
+                87.175,
+                110.0
+              ],
+              "fabrication_mm": [
+                45.29272858835597,
+                20.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                88.825,
+                110.0
+              ],
+              "fabrication_mm": [
+                46.942728588355976,
+                20.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R11",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            69.0,
+            83.0
+          ],
+          "body_centroid_KiCad_mm": [
+            69.0,
+            83.0
+          ],
+          "centroid_fabrication_mm": [
+            27.117728588355973,
+            47.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            26.29272858835597,
+            47.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/MOTOR_RUN",
+              "KiCad_mm": [
+                68.175,
+                83.0
+              ],
+              "fabrication_mm": [
+                26.29272858835597,
+                47.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                69.825,
+                83.0
+              ],
+              "fabrication_mm": [
+                27.942728588355976,
+                47.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R14",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            82.0,
+            110.0
+          ],
+          "body_centroid_KiCad_mm": [
+            82.0,
+            110.0
+          ],
+          "centroid_fabrication_mm": [
+            40.11772858835597,
+            20.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            39.29272858835597,
+            20.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                81.175,
+                110.0
+              ],
+              "fabrication_mm": [
+                39.29272858835597,
+                20.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/UART_OEn",
+              "KiCad_mm": [
+                82.825,
+                110.0
+              ],
+              "fabrication_mm": [
+                40.942728588355976,
+                20.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R19",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            77.0,
+            101.0
+          ],
+          "body_centroid_KiCad_mm": [
+            77.0,
+            101.0
+          ],
+          "centroid_fabrication_mm": [
+            35.11772858835597,
+            29.0
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            35.11772858835597,
+            28.174999999999997
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/BUS_SENSE",
+              "KiCad_mm": [
+                77.0,
+                101.825
+              ],
+              "fabrication_mm": [
+                35.11772858835597,
+                28.174999999999997
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                77.0,
+                100.175
+              ],
+              "fabrication_mm": [
+                35.11772858835597,
+                29.825000000000003
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R20",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            79.0,
+            113.0
+          ],
+          "body_centroid_KiCad_mm": [
+            79.0,
+            113.0
+          ],
+          "centroid_fabrication_mm": [
+            37.11772858835597,
+            17.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            36.29272858835597,
+            17.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                78.175,
+                113.0
+              ],
+              "fabrication_mm": [
+                36.29272858835597,
+                17.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/DPS_TX",
+              "KiCad_mm": [
+                79.825,
+                113.0
+              ],
+              "fabrication_mm": [
+                37.942728588355976,
+                17.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R21",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            91.0,
+            109.0
+          ],
+          "body_centroid_KiCad_mm": [
+            91.0,
+            109.0
+          ],
+          "centroid_fabrication_mm": [
+            49.11772858835597,
+            21.0
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            49.11772858835597,
+            20.174999999999997
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/DPS_TX_EXT",
+              "KiCad_mm": [
+                91.0,
+                109.825
+              ],
+              "fabrication_mm": [
+                49.11772858835597,
+                20.174999999999997
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                91.0,
+                108.175
+              ],
+              "fabrication_mm": [
+                49.11772858835597,
+                21.825000000000003
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C25803": {
+      "MPN": "0603WAF1003T5E",
+      "footprint": "R_0603_1608Metric",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.825,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "R9",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            82.0,
+            83.0
+          ],
+          "body_centroid_KiCad_mm": [
+            82.0,
+            83.0
+          ],
+          "centroid_fabrication_mm": [
+            40.11772858835597,
+            47.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            39.29272858835597,
+            47.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/FAN_BASE",
+              "KiCad_mm": [
+                81.175,
+                83.0
+              ],
+              "fabrication_mm": [
+                39.29272858835597,
+                47.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                82.825,
+                83.0
+              ],
+              "fabrication_mm": [
+                40.942728588355976,
+                47.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R12",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            73.0,
+            83.0
+          ],
+          "body_centroid_KiCad_mm": [
+            73.0,
+            83.0
+          ],
+          "centroid_fabrication_mm": [
+            31.117728588355973,
+            47.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            30.29272858835597,
+            47.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/STEP",
+              "KiCad_mm": [
+                72.175,
+                83.0
+              ],
+              "fabrication_mm": [
+                30.29272858835597,
+                47.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                73.825,
+                83.0
+              ],
+              "fabrication_mm": [
+                31.942728588355976,
+                47.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R13",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            77.0,
+            83.0
+          ],
+          "body_centroid_KiCad_mm": [
+            77.0,
+            83.0
+          ],
+          "centroid_fabrication_mm": [
+            35.11772858835597,
+            47.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            34.29272858835597,
+            47.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/DIR",
+              "KiCad_mm": [
+                76.175,
+                83.0
+              ],
+              "fabrication_mm": [
+                34.29272858835597,
+                47.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                77.825,
+                83.0
+              ],
+              "fabrication_mm": [
+                35.942728588355976,
+                47.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R18",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            77.0,
+            97.0
+          ],
+          "body_centroid_KiCad_mm": [
+            77.0,
+            97.0
+          ],
+          "centroid_fabrication_mm": [
+            35.11772858835597,
+            33.0
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            35.11772858835597,
+            32.175
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/VMOT",
+              "KiCad_mm": [
+                77.0,
+                97.825
+              ],
+              "fabrication_mm": [
+                35.11772858835597,
+                32.175
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/BUS_SENSE",
+              "KiCad_mm": [
+                77.0,
+                96.175
+              ],
+              "fabrication_mm": [
+                35.11772858835597,
+                33.825
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C23162": {
+      "MPN": "0603WAF4701T5E",
+      "footprint": "R_0603_1608Metric",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.825,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "R3",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            58.0,
+            79.0
+          ],
+          "body_centroid_KiCad_mm": [
+            58.0,
+            79.0
+          ],
+          "centroid_fabrication_mm": [
+            16.117728588355973,
+            51.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            15.29272858835597,
+            51.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                57.175,
+                79.0
+              ],
+              "fabrication_mm": [
+                15.29272858835597,
+                51.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/ONEWIRE",
+              "KiCad_mm": [
+                58.825,
+                79.0
+              ],
+              "fabrication_mm": [
+                16.942728588355976,
+                51.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R8",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            87.0,
+            83.0
+          ],
+          "body_centroid_KiCad_mm": [
+            87.0,
+            83.0
+          ],
+          "centroid_fabrication_mm": [
+            45.11772858835597,
+            47.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            44.29272858835597,
+            47.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/FAN_PWM_GPIO",
+              "KiCad_mm": [
+                86.175,
+                83.0
+              ],
+              "fabrication_mm": [
+                44.29272858835597,
+                47.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/FAN_BASE",
+              "KiCad_mm": [
+                87.825,
+                83.0
+              ],
+              "fabrication_mm": [
+                45.942728588355976,
+                47.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R16",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            88.0,
+            63.0
+          ],
+          "body_centroid_KiCad_mm": [
+            88.0,
+            63.0
+          ],
+          "centroid_fabrication_mm": [
+            46.11772858835597,
+            67.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            45.29272858835597,
+            67.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                87.175,
+                63.0
+              ],
+              "fabrication_mm": [
+                45.29272858835597,
+                67.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/I2C_SDA",
+              "KiCad_mm": [
+                88.825,
+                63.0
+              ],
+              "fabrication_mm": [
+                46.942728588355976,
+                67.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R17",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            88.0,
+            59.0
+          ],
+          "body_centroid_KiCad_mm": [
+            88.0,
+            59.0
+          ],
+          "centroid_fabrication_mm": [
+            46.11772858835597,
+            71.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            45.29272858835597,
+            71.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                87.175,
+                59.0
+              ],
+              "fabrication_mm": [
+                45.29272858835597,
+                71.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/I2C_SCL",
+              "KiCad_mm": [
+                88.825,
+                59.0
+              ],
+              "fabrication_mm": [
+                46.942728588355976,
+                71.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C21190": {
+      "MPN": "0603WAF1001T5E",
+      "footprint": "R_0603_1608Metric",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.825,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "R7",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            88.0,
+            69.0
+          ],
+          "body_centroid_KiCad_mm": [
+            88.0,
+            69.0
+          ],
+          "centroid_fabrication_mm": [
+            46.11772858835597,
+            61.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            45.29272858835597,
+            61.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/TACH_EXT",
+              "KiCad_mm": [
+                87.175,
+                69.0
+              ],
+              "fabrication_mm": [
+                45.29272858835597,
+                61.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/FAN_TACH",
+              "KiCad_mm": [
+                88.825,
+                69.0
+              ],
+              "fabrication_mm": [
+                46.942728588355976,
+                61.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "R15",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            86.0,
+            115.0
+          ],
+          "body_centroid_KiCad_mm": [
+            86.0,
+            115.0
+          ],
+          "centroid_fabrication_mm": [
+            44.11772858835597,
+            15.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            43.29272858835597,
+            15.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/DPS_TX_BUF",
+              "KiCad_mm": [
+                85.175,
+                115.0
+              ],
+              "fabrication_mm": [
+                43.29272858835597,
+                15.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/DPS_RX_EXT",
+              "KiCad_mm": [
+                86.825,
+                115.0
+              ],
+              "fabrication_mm": [
+                44.942728588355976,
+                15.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C15850": {
+      "MPN": "CL21A106KAYNNNE",
+      "footprint": "C_0805_2012Metric",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.95,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "C1",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            59.0,
+            60.0
+          ],
+          "body_centroid_KiCad_mm": [
+            59.0,
+            60.0
+          ],
+          "centroid_fabrication_mm": [
+            17.117728588355973,
+            70.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            16.16772858835597,
+            70.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+5V",
+              "KiCad_mm": [
+                58.05,
+                60.0
+              ],
+              "fabrication_mm": [
+                16.16772858835597,
+                70.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                59.95,
+                60.0
+              ],
+              "fabrication_mm": [
+                18.067728588355976,
+                70.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "C2",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            59.0,
+            69.0
+          ],
+          "body_centroid_KiCad_mm": [
+            59.0,
+            69.0
+          ],
+          "centroid_fabrication_mm": [
+            17.117728588355973,
+            61.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            16.16772858835597,
+            61.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                58.05,
+                69.0
+              ],
+              "fabrication_mm": [
+                16.16772858835597,
+                61.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                59.95,
+                69.0
+              ],
+              "fabrication_mm": [
+                18.067728588355976,
+                61.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "C4",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            63.0,
+            61.0
+          ],
+          "body_centroid_KiCad_mm": [
+            63.0,
+            61.0
+          ],
+          "centroid_fabrication_mm": [
+            21.117728588355973,
+            69.0
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            21.117728588355973,
+            68.05
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                63.0,
+                61.95
+              ],
+              "fabrication_mm": [
+                21.117728588355973,
+                68.05
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                63.0,
+                60.05
+              ],
+              "fabrication_mm": [
+                21.117728588355973,
+                69.95
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "C11",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            93.0,
+            84.0
+          ],
+          "body_centroid_KiCad_mm": [
+            93.0,
+            84.0
+          ],
+          "centroid_fabrication_mm": [
+            51.11772858835597,
+            46.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            50.16772858835597,
+            46.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+12V",
+              "KiCad_mm": [
+                92.05,
+                84.0
+              ],
+              "fabrication_mm": [
+                50.16772858835597,
+                46.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                93.95,
+                84.0
+              ],
+              "fabrication_mm": [
+                52.067728588355976,
+                46.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C14663": {
+      "MPN": "CC0603KRX7R9BB104",
+      "footprint": "C_0603_1608Metric",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.775,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "C3",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            63.0,
+            66.0
+          ],
+          "body_centroid_KiCad_mm": [
+            63.0,
+            66.0
+          ],
+          "centroid_fabrication_mm": [
+            21.117728588355973,
+            64.0
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            21.117728588355973,
+            63.224999999999994
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                63.0,
+                66.775
+              ],
+              "fabrication_mm": [
+                21.117728588355973,
+                63.224999999999994
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                63.0,
+                65.225
+              ],
+              "fabrication_mm": [
+                21.117728588355973,
+                64.775
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "C6",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            82.0,
+            100.0
+          ],
+          "body_centroid_KiCad_mm": [
+            82.0,
+            100.0
+          ],
+          "centroid_fabrication_mm": [
+            40.11772858835597,
+            30.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            39.34272858835597,
+            30.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                81.225,
+                100.0
+              ],
+              "fabrication_mm": [
+                39.34272858835597,
+                30.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                82.775,
+                100.0
+              ],
+              "fabrication_mm": [
+                40.89272858835598,
+                30.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "C7",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            87.0,
+            100.0
+          ],
+          "body_centroid_KiCad_mm": [
+            87.0,
+            100.0
+          ],
+          "centroid_fabrication_mm": [
+            45.11772858835597,
+            30.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            44.34272858835597,
+            30.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                86.225,
+                100.0
+              ],
+              "fabrication_mm": [
+                44.34272858835597,
+                30.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                87.775,
+                100.0
+              ],
+              "fabrication_mm": [
+                45.89272858835598,
+                30.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "C8",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            77.0,
+            105.0
+          ],
+          "body_centroid_KiCad_mm": [
+            77.0,
+            105.0
+          ],
+          "centroid_fabrication_mm": [
+            35.11772858835597,
+            25.0
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            35.11772858835597,
+            24.224999999999994
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/BUS_SENSE",
+              "KiCad_mm": [
+                77.0,
+                105.775
+              ],
+              "fabrication_mm": [
+                35.11772858835597,
+                24.224999999999994
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                77.0,
+                104.225
+              ],
+              "fabrication_mm": [
+                35.11772858835597,
+                25.775000000000006
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "C9",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            78.0,
+            89.0
+          ],
+          "body_centroid_KiCad_mm": [
+            78.0,
+            89.0
+          ],
+          "centroid_fabrication_mm": [
+            36.11772858835597,
+            41.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            35.34272858835597,
+            41.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                77.225,
+                89.0
+              ],
+              "fabrication_mm": [
+                35.34272858835597,
+                41.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                78.775,
+                89.0
+              ],
+              "fabrication_mm": [
+                36.89272858835598,
+                41.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C15849": {
+      "MPN": "CL10A105KB8NNNC",
+      "footprint": "C_0603_1608Metric",
+      "native_body_offset_mm": [
+        0,
+        0
+      ],
+      "native_pin1_mm": [
+        -0.775,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "C5",
+          "process": "SMT",
+          "native_origin_KiCad_mm": [
+            63.0,
+            73.0
+          ],
+          "body_centroid_KiCad_mm": [
+            63.0,
+            73.0
+          ],
+          "centroid_fabrication_mm": [
+            21.117728588355973,
+            57.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            20.342728588355975,
+            57.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/EN",
+              "KiCad_mm": [
+                62.225,
+                73.0
+              ],
+              "fabrication_mm": [
+                20.342728588355975,
+                57.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                63.775,
+                73.0
+              ],
+              "fabrication_mm": [
+                21.892728588355972,
+                57.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C713402": {
+      "MPN": "EEUFR1H101B",
+      "footprint": "CP_Radial_D8.0mm_P5.00mm",
+      "native_body_offset_mm": [
+        2.5,
+        0
+      ],
+      "native_pin1_mm": [
+        0,
+        0
+      ],
+      "native_landmarks_mm": {
+        "positive_lead": [
+          0,
+          0
+        ],
+        "negative_lead": [
+          5,
+          0
+        ]
+      },
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "C10",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            82.0,
+            94.0
+          ],
+          "body_centroid_KiCad_mm": [
+            84.5,
+            94.0
+          ],
+          "centroid_fabrication_mm": [
+            42.61772858835597,
+            36.0
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            40.11772858835597,
+            36.0
+          ],
+          "landmarks": {
+            "positive_lead": {
+              "KiCad_mm": [
+                82.0,
+                94.0
+              ],
+              "fabrication_mm": [
+                40.11772858835597,
+                36.0
+              ]
+            },
+            "negative_lead": {
+              "KiCad_mm": [
+                87.0,
+                94.0
+              ],
+              "fabrication_mm": [
+                45.11772858835597,
+                36.0
+              ]
+            }
+          },
+          "pads": [
+            {
+              "number": "1",
+              "net": "/VMOT",
+              "KiCad_mm": [
+                82.0,
+                94.0
+              ],
+              "fabrication_mm": [
+                40.11772858835597,
+                36.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                87.0,
+                94.0
+              ],
+              "fabrication_mm": [
+                45.11772858835597,
+                36.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C5183929": {
+      "MPN": "MKDS 1,5/ 2-5,08",
+      "footprint": "TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "native_body_offset_mm": [
+        2.54,
+        -0.3
+      ],
+      "native_pin1_mm": [
+        0,
+        0
+      ],
+      "native_landmarks_mm": {
+        "wire_entry_face_midpoint": [
+          2.54,
+          4.6
+        ]
+      },
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab; independent review matched package/body",
+      "placements": [
+        {
+          "ref": "J1",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            85.5,
+            123.0
+          ],
+          "body_centroid_KiCad_mm": [
+            88.04,
+            122.7
+          ],
+          "centroid_fabrication_mm": [
+            46.15772858835598,
+            7.299999999999997
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            43.61772858835597,
+            7.0
+          ],
+          "landmarks": {
+            "wire_entry_face_midpoint": {
+              "KiCad_mm": [
+                88.04,
+                127.6
+              ],
+              "fabrication_mm": [
+                46.15772858835598,
+                2.4000000000000057
+              ]
+            }
+          },
+          "pads": [
+            {
+              "number": "1",
+              "net": "/VMOT",
+              "KiCad_mm": [
+                85.5,
+                123.0
+              ],
+              "fabrication_mm": [
+                43.61772858835597,
+                7.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                90.58,
+                123.0
+              ],
+              "fabrication_mm": [
+                48.69772858835597,
+                7.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J16",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            58.0,
+            123.0
+          ],
+          "body_centroid_KiCad_mm": [
+            60.54,
+            122.7
+          ],
+          "centroid_fabrication_mm": [
+            18.657728588355972,
+            7.299999999999997
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            16.117728588355973,
+            7.0
+          ],
+          "landmarks": {
+            "wire_entry_face_midpoint": {
+              "KiCad_mm": [
+                60.54,
+                127.6
+              ],
+              "fabrication_mm": [
+                18.657728588355972,
+                2.4000000000000057
+              ]
+            }
+          },
+          "pads": [
+            {
+              "number": "1",
+              "net": "/M1A",
+              "KiCad_mm": [
+                58.0,
+                123.0
+              ],
+              "fabrication_mm": [
+                16.117728588355973,
+                7.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/M1B",
+              "KiCad_mm": [
+                63.08,
+                123.0
+              ],
+              "fabrication_mm": [
+                21.19772858835597,
+                7.0
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J17",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            70.0,
+            123.0
+          ],
+          "body_centroid_KiCad_mm": [
+            72.54,
+            122.7
+          ],
+          "centroid_fabrication_mm": [
+            30.65772858835598,
+            7.299999999999997
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            28.117728588355973,
+            7.0
+          ],
+          "landmarks": {
+            "wire_entry_face_midpoint": {
+              "KiCad_mm": [
+                72.54,
+                127.6
+              ],
+              "fabrication_mm": [
+                30.65772858835598,
+                2.4000000000000057
+              ]
+            }
+          },
+          "pads": [
+            {
+              "number": "1",
+              "net": "/M2A",
+              "KiCad_mm": [
+                70.0,
+                123.0
+              ],
+              "fabrication_mm": [
+                28.117728588355973,
+                7.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/M2B",
+              "KiCad_mm": [
+                75.08,
+                123.0
+              ],
+              "fabrication_mm": [
+                33.19772858835597,
+                7.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C27438": {
+      "MPN": "2.54-1*8PFemale Environmentally Friendly",
+      "footprint": "PinSocket_1x08_P2.54mm_Vertical",
+      "native_body_offset_mm": [
+        0,
+        8.89
+      ],
+      "native_pin1_mm": [
+        0,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab datum; exact header/socket body drawing still pending",
+      "placements": [
+        {
+          "ref": "J14",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            59.0,
+            91.0
+          ],
+          "body_centroid_KiCad_mm": [
+            59.0,
+            99.89
+          ],
+          "centroid_fabrication_mm": [
+            17.117728588355973,
+            30.11
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            17.117728588355973,
+            39.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                59.0,
+                91.0
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                39.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                59.0,
+                93.54
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                36.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                59.0,
+                96.08
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                33.92
+              ]
+            },
+            {
+              "number": "4",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                59.0,
+                98.62
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                31.379999999999995
+              ]
+            },
+            {
+              "number": "5",
+              "net": "/MOTOR_RUN",
+              "KiCad_mm": [
+                59.0,
+                101.16
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                28.840000000000003
+              ]
+            },
+            {
+              "number": "6",
+              "net": "/MOTOR_RUN",
+              "KiCad_mm": [
+                59.0,
+                103.7
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                26.299999999999997
+              ]
+            },
+            {
+              "number": "7",
+              "net": "/STEP",
+              "KiCad_mm": [
+                59.0,
+                106.24
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                23.760000000000005
+              ]
+            },
+            {
+              "number": "8",
+              "net": "/DIR",
+              "KiCad_mm": [
+                59.0,
+                108.78
+              ],
+              "fabrication_mm": [
+                17.117728588355973,
+                21.22
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J15",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            74.24,
+            91.0
+          ],
+          "body_centroid_KiCad_mm": [
+            74.24,
+            99.89
+          ],
+          "centroid_fabrication_mm": [
+            32.35772858835597,
+            30.11
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            32.35772858835597,
+            39.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/VMOT",
+              "KiCad_mm": [
+                74.24,
+                91.0
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                39.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.24,
+                93.54
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                36.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/M2B",
+              "KiCad_mm": [
+                74.24,
+                96.08
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                33.92
+              ]
+            },
+            {
+              "number": "4",
+              "net": "/M2A",
+              "KiCad_mm": [
+                74.24,
+                98.62
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                31.379999999999995
+              ]
+            },
+            {
+              "number": "5",
+              "net": "/M1A",
+              "KiCad_mm": [
+                74.24,
+                101.16
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                28.840000000000003
+              ]
+            },
+            {
+              "number": "6",
+              "net": "/M1B",
+              "KiCad_mm": [
+                74.24,
+                103.7
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                26.299999999999997
+              ]
+            },
+            {
+              "number": "7",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                74.24,
+                106.24
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                23.760000000000005
+              ]
+            },
+            {
+              "number": "8",
+              "net": "/GND",
+              "KiCad_mm": [
+                74.24,
+                108.78
+              ],
+              "fabrication_mm": [
+                32.35772858835597,
+                21.22
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C49257": {
+      "MPN": "2.54-1*3PPin",
+      "footprint": "PinHeader_1x03_P2.54mm_Vertical",
+      "native_body_offset_mm": [
+        0,
+        2.54
+      ],
+      "native_pin1_mm": [
+        0,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab datum; exact header/socket body drawing still pending",
+      "placements": [
+        {
+          "ref": "J2",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            94.0,
+            88.0
+          ],
+          "body_centroid_KiCad_mm": [
+            94.0,
+            90.54
+          ],
+          "centroid_fabrication_mm": [
+            52.11772858835597,
+            39.459999999999994
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            52.11772858835597,
+            42.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                94.0,
+                88.0
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                42.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/+5V",
+              "KiCad_mm": [
+                94.0,
+                90.54
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                39.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/+12V",
+              "KiCad_mm": [
+                94.0,
+                93.08
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                36.92
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J4",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            54.0,
+            76.0
+          ],
+          "body_centroid_KiCad_mm": [
+            54.0,
+            78.54
+          ],
+          "centroid_fabrication_mm": [
+            12.117728588355973,
+            51.459999999999994
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            12.117728588355973,
+            54.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                54.0,
+                76.0
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                54.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/ONEWIRE",
+              "KiCad_mm": [
+                54.0,
+                78.54
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                51.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                54.0,
+                81.08
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                48.92
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J5",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            54.0,
+            85.0
+          ],
+          "body_centroid_KiCad_mm": [
+            54.0,
+            87.54
+          ],
+          "centroid_fabrication_mm": [
+            12.117728588355973,
+            42.459999999999994
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            12.117728588355973,
+            45.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                54.0,
+                85.0
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                45.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/ONEWIRE",
+              "KiCad_mm": [
+                54.0,
+                87.54
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                42.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                54.0,
+                90.08
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                39.92
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J6",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            54.0,
+            96.0
+          ],
+          "body_centroid_KiCad_mm": [
+            54.0,
+            98.54
+          ],
+          "centroid_fabrication_mm": [
+            12.117728588355973,
+            31.459999999999994
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            12.117728588355973,
+            34.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                54.0,
+                96.0
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                34.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/INDEX",
+              "KiCad_mm": [
+                54.0,
+                98.54
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                31.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                54.0,
+                101.08
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                28.92
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J7",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            54.0,
+            105.0
+          ],
+          "body_centroid_KiCad_mm": [
+            54.0,
+            107.54
+          ],
+          "centroid_fabrication_mm": [
+            12.117728588355973,
+            22.459999999999994
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            12.117728588355973,
+            25.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                54.0,
+                105.0
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                25.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/HOME",
+              "KiCad_mm": [
+                54.0,
+                107.54
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                22.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                54.0,
+                110.08
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                19.92
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J9",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            94.0,
+            101.0
+          ],
+          "body_centroid_KiCad_mm": [
+            94.0,
+            103.54
+          ],
+          "centroid_fabrication_mm": [
+            52.11772858835597,
+            26.459999999999994
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            52.11772858835597,
+            29.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                94.0,
+                101.0
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                29.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/DPS_RX_EXT",
+              "KiCad_mm": [
+                94.0,
+                103.54
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                26.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/DPS_TX_EXT",
+              "KiCad_mm": [
+                94.0,
+                106.08
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                23.92
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C5116483": {
+      "MPN": "2.54-1*4",
+      "footprint": "PinHeader_1x04_P2.54mm_Vertical",
+      "native_body_offset_mm": [
+        0,
+        3.81
+      ],
+      "native_pin1_mm": [
+        0,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab datum; exact header/socket body drawing still pending",
+      "placements": [
+        {
+          "ref": "J3",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            94.0,
+            73.0
+          ],
+          "body_centroid_KiCad_mm": [
+            94.0,
+            76.81
+          ],
+          "centroid_fabrication_mm": [
+            52.11772858835597,
+            53.19
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            52.11772858835597,
+            57.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                94.0,
+                73.0
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                57.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/+12V",
+              "KiCad_mm": [
+                94.0,
+                75.54
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                54.459999999999994
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/TACH_EXT",
+              "KiCad_mm": [
+                94.0,
+                78.08
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                51.92
+              ]
+            },
+            {
+              "number": "4",
+              "net": "/FAN_PWM_OD",
+              "KiCad_mm": [
+                94.0,
+                80.62
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                49.379999999999995
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J8",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            94.0,
+            59.0
+          ],
+          "body_centroid_KiCad_mm": [
+            94.0,
+            62.81
+          ],
+          "centroid_fabrication_mm": [
+            52.11772858835597,
+            67.19
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            52.11772858835597,
+            71.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                94.0,
+                59.0
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                71.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                94.0,
+                61.54
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                68.46000000000001
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/I2C_SDA",
+              "KiCad_mm": [
+                94.0,
+                64.08
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                65.92
+              ]
+            },
+            {
+              "number": "4",
+              "net": "/I2C_SCL",
+              "KiCad_mm": [
+                94.0,
+                66.62
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                63.379999999999995
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J11",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            54.0,
+            60.0
+          ],
+          "body_centroid_KiCad_mm": [
+            54.0,
+            63.81
+          ],
+          "centroid_fabrication_mm": [
+            12.117728588355973,
+            66.19
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            12.117728588355973,
+            70.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                54.0,
+                60.0
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                70.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/U0TX",
+              "KiCad_mm": [
+                54.0,
+                62.54
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                67.46000000000001
+              ]
+            },
+            {
+              "number": "3",
+              "net": "/U0RX",
+              "KiCad_mm": [
+                54.0,
+                65.08
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                64.92
+              ]
+            },
+            {
+              "number": "4",
+              "net": "/+3V3",
+              "KiCad_mm": [
+                54.0,
+                67.62
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                62.379999999999995
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "C27985187": {
+      "MPN": "HC-PZ254-11.5L-1x2PZ",
+      "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+      "native_body_offset_mm": [
+        0,
+        1.27
+      ],
+      "native_pin1_mm": [
+        0,
+        0
+      ],
+      "native_landmarks_mm": {},
+      "supplier_zero_angle_correction_deg": null,
+      "supplier_origin_correction_mm": null,
+      "supplier_status": "PENDING placement-library pad overlay; no correction invented",
+      "body_evidence": "local F.Fab datum; exact header/socket body drawing still pending",
+      "placements": [
+        {
+          "ref": "J10",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            94.0,
+            112.0
+          ],
+          "body_centroid_KiCad_mm": [
+            94.0,
+            113.27
+          ],
+          "centroid_fabrication_mm": [
+            52.11772858835597,
+            16.730000000000004
+          ],
+          "KiCad_rotation_deg": 0.0,
+          "CPL_rotation_deg": 0.0,
+          "pin1_fabrication_mm": [
+            52.11772858835597,
+            18.0
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/GND",
+              "KiCad_mm": [
+                94.0,
+                112.0
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                18.0
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/TEC_EN",
+              "KiCad_mm": [
+                94.0,
+                114.54
+              ],
+              "fabrication_mm": [
+                52.11772858835597,
+                15.459999999999994
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J12",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            78.0,
+            78.5
+          ],
+          "body_centroid_KiCad_mm": [
+            79.27,
+            78.5
+          ],
+          "centroid_fabrication_mm": [
+            37.38772858835597,
+            51.5
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            36.11772858835597,
+            51.5
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/BOOT",
+              "KiCad_mm": [
+                78.0,
+                78.5
+              ],
+              "fabrication_mm": [
+                36.11772858835597,
+                51.5
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                80.54,
+                78.5
+              ],
+              "fabrication_mm": [
+                38.65772858835598,
+                51.5
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "J13",
+          "process": "THT",
+          "native_origin_KiCad_mm": [
+            54.0,
+            72.2
+          ],
+          "body_centroid_KiCad_mm": [
+            55.27,
+            72.2
+          ],
+          "centroid_fabrication_mm": [
+            13.387728588355976,
+            57.8
+          ],
+          "KiCad_rotation_deg": 90.0,
+          "CPL_rotation_deg": 90.0,
+          "pin1_fabrication_mm": [
+            12.117728588355973,
+            57.8
+          ],
+          "landmarks": {},
+          "pads": [
+            {
+              "number": "1",
+              "net": "/EN",
+              "KiCad_mm": [
+                54.0,
+                72.2
+              ],
+              "fabrication_mm": [
+                12.117728588355973,
+                57.8
+              ]
+            },
+            {
+              "number": "2",
+              "net": "/GND",
+              "KiCad_mm": [
+                56.54,
+                72.2
+              ],
+              "fabrication_mm": [
+                14.657728588355972,
+                57.8
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "verified_refs": 54,
+  "THT_centroids_corrected": 18,
+  "SMT_origins_preserved": 36
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "record_type": "UNEXECUTED_BENCH_TEMPLATE",
+  "overall_status": "NOT_RUN",
+  "board_serial": null,
+  "operator": null,
+  "started_utc": null,
+  "completed_utc": null,
+  "reviewed_manifest_sha256": "9fa46fefed298d092bc83b532faa0848905522ade1cb9342ddb9abefd91d803f",
+  "reviewed_schematic_sha256": "e654d14f7e0a30f93cc36065ead615d0bef2af4178c14e23c3849ab7990fcace",
+  "reviewed_pcb_sha256": "d51e589d13a7a96097fe12be33ff051cb9bbc9b4033ba4c07ba581e1121458c9",
+  "actual_artifact_hashes": null,
+  "firmware": {
+    "status": "NOT_IMPLEMENTED",
+    "repository": null,
+    "commit": null,
+    "binary_sha256": null,
+    "build_command": null,
+    "test_command_interface": null
+  },
+  "instruments_and_calibration": [],
+  "purchased_module_identities": {},
+  "ambient_c": null,
+  "enclosure_and_ventilation": null,
+  "supply_settings_and_current_limits": [],
+  "harness_and_grounding_description": null,
+  "allowed_case_statuses": ["NOT_RUN", "BLOCKED", "PASS", "FAIL"],
+  "measurement_fields_to_record_per_case": [
+    "name", "value", "unit", "uncertainty", "instrument", "probe_location",
+    "stimulus", "limit_source", "raw_evidence_path"
+  ],
+  "cases": [
+    {"id": "B01", "name": "Unpowered assembly and harness", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": null},
+    {"id": "B02", "name": "Rails and bare-controller reset", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": null},
+    {"id": "B03", "name": "ROM identification", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": null},
+    {"id": "B04", "name": "ESP transients and installed LDO thermal budget", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": "Radio workload requires identified test firmware; none supplied."},
+    {"id": "B05", "name": "Fan PWM reset and tach", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": null},
+    {"id": "B06", "name": "Actual DPS grounding", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": null},
+    {"id": "B07", "name": "UART bias levels and power order", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": "Actual DPS pin thresholds and clamp-current limits unresolved."},
+    {"id": "B08", "name": "Probe electrical behaviour and firmware CRC freshness faults", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": "Firmware fault injection is planned, not executed."},
+    {"id": "B09", "name": "Position sensors and I2C", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": "Firmware debounce and recovery tests are planned."},
+    {"id": "B10", "name": "Motor reset stepping thermal and transients", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": "External carrier 100 kohm SLEEP pull-up is an assumption to verify."},
+    {"id": "B11", "name": "ADC transfer filter and off-state injection", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": null},
+    {"id": "B12", "name": "Independent external TEC fail-off", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": "External stage and independent interlocks are not supplied by this PCB."},
+    {"id": "B13", "name": "Integrated firmware fault and recovery matrix", "status": "NOT_RUN", "acceptance_criteria": null, "measurements": [], "evidence": [], "notes": "No application firmware exists; all cases planned, none executed."}
+  ],
+  "deviations_and_open_issues": [],
+  "conclusion": "No physical or firmware qualification results have been recorded."
+}

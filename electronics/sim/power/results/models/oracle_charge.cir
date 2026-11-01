@@ -1,0 +1,16 @@
+oracle_charge: generated sensitivity study; see README
+Vref ref 0 3.3
+Rinit ref out 1G
+Cstore out 0 20.4u
+Iload out 0 PULSE(0 .4 10u 1n 1n 100u 1m)
+.options reltol=1e-6 abstol=1e-10 vntol=1e-8
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 1e-08 2e-05 0 1e-08
+wrdata oracle_charge.dat v(out)
+quit
+.endc
+.end

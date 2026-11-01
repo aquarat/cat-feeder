@@ -1,0 +1,53 @@
+{
+  "+3V3": {
+    "nominal_V": 3.3,
+    "load_budget_A": 1.0,
+    "worst_assumed_ripple_A": 0.6180996334704094,
+    "peak_A": 1.3090498167352047,
+    "startup_peak_typical_soft_start_A": 1.3889098167352047,
+    "inductor_rms_A": 1.0157939077759268,
+    "assumed_effective_output_F": 3.366e-05,
+    "assumed_effective_input_F": 1.0709999999999999e-05,
+    "minimum_assumed_on_time_s": 1.3477088948787063e-07,
+    "ccm_ripple_estimate_V": 0.00840089857084986,
+    "typical_25C_MOS_conduction_W": 0.07986936334829622,
+    "hot_inductor_copper_estimate_W": 0.05472864843348146,
+    "total_loss_assuming_80_to_90_percent_efficiency_W": [
+      0.3666666666666668,
+      0.825
+    ],
+    "instantaneous_step_0p7A_10us_droop_V": 0.21496197266785502
+  },
+  "+12V": {
+    "nominal_V": 11.866666666666667,
+    "load_budget_A": 0.5,
+    "worst_assumed_ripple_A": 1.7157773274794552,
+    "peak_A": 1.3578886637397276,
+    "startup_peak_typical_soft_start_A": 1.5732686637397277,
+    "inductor_rms_A": 0.7037928102723451,
+    "assumed_effective_output_F": 2.5245e-05,
+    "assumed_effective_input_F": 1.0709999999999999e-05,
+    "minimum_assumed_on_time_s": 1.0661874812818208e-06,
+    "ccm_ripple_estimate_V": 0.03523358065480508,
+    "typical_25C_MOS_conduction_W": 0.050433922241124224,
+    "hot_inductor_copper_estimate_W": 0.04018070882144958,
+    "total_loss_assuming_80_to_90_percent_efficiency_W": [
+      0.6592592592592595,
+      1.4833333333333334
+    ],
+    "instantaneous_step_0p7A_10us_droop_V": 0.2842826302238067
+  },
+  "fan_tolerance_range_V": [
+    11.531049504950495,
+    12.211138047138048
+  ],
+  "maximum_rail_input_power_at_80_percent_W": 11.541666666666666,
+  "limits": [
+    "Inductor Isat/Irms are typical at 25C; 20% derating is an assumption, not a guarantee",
+    "Capacitor bias retention is assumed 70% input and 50% output, plus tolerance and -15% temperature",
+    "Oscillator absolute tolerance is not specified in cited datasheet; only published +/-6% spread included",
+    "Soft-start, MOS resistances, 80ns minimum on time and thermal resistance are typical",
+    "CCM ripple equations do not predict AP63203 PFM burst ripple at light ESP32 load; AP63201 is forced PWM",
+    "No loop stability, fan startup waveform, PCB thermal, EMI, overshoot or PD transient validation"
+  ]
+}

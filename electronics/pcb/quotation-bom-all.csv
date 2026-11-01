@@ -1,0 +1,55 @@
+Designator,Comment,Footprint,LCSC Part #,Assembly process,Supplier URL
+U1,ESP32-WROOM-32E-N4,ESP32-WROOM-32E,C701341,SMT,https://jlcpcb.com/partdetail/C701341
+U2,AP2112K-3.3TRG1,SOT-23-5,C51118,SMT,https://jlcpcb.com/partdetail/C51118
+U3,SN74LVC1G125DBVR,SOT-23-5,C23654,SMT,https://jlcpcb.com/partdetail/C23654
+U4,SN74LVC1G125DBVR,SOT-23-5,C23654,SMT,https://jlcpcb.com/partdetail/C23654
+Q1,MMBT3904,SOT-23,C20526,SMT,https://jlcpcb.com/partdetail/C20526
+R1,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R2,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R3,4.7k,R_0603_1608Metric,C23162,SMT,https://jlcpcb.com/partdetail/C23162
+R4,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R5,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R6,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R7,1k,R_0603_1608Metric,C21190,SMT,https://jlcpcb.com/partdetail/C21190
+R8,4.7k,R_0603_1608Metric,C23162,SMT,https://jlcpcb.com/partdetail/C23162
+R9,100k,R_0603_1608Metric,C25803,SMT,https://jlcpcb.com/partdetail/C25803
+R10,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R11,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R12,100k,R_0603_1608Metric,C25803,SMT,https://jlcpcb.com/partdetail/C25803
+R13,100k,R_0603_1608Metric,C25803,SMT,https://jlcpcb.com/partdetail/C25803
+R14,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R15,1k,R_0603_1608Metric,C21190,SMT,https://jlcpcb.com/partdetail/C21190
+R16,4.7k,R_0603_1608Metric,C23162,SMT,https://jlcpcb.com/partdetail/C23162
+R17,4.7k,R_0603_1608Metric,C23162,SMT,https://jlcpcb.com/partdetail/C23162
+R18,100k,R_0603_1608Metric,C25803,SMT,https://jlcpcb.com/partdetail/C25803
+R19,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R20,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+R21,10k,R_0603_1608Metric,C25804,SMT,https://jlcpcb.com/partdetail/C25804
+C1,10u 25V,C_0805_2012Metric,C15850,SMT,https://jlcpcb.com/partdetail/C15850
+C2,10u 25V,C_0805_2012Metric,C15850,SMT,https://jlcpcb.com/partdetail/C15850
+C3,100n,C_0603_1608Metric,C14663,SMT,https://jlcpcb.com/partdetail/C14663
+C4,10u 25V,C_0805_2012Metric,C15850,SMT,https://jlcpcb.com/partdetail/C15850
+C5,1u 50V,C_0603_1608Metric,C15849,SMT,https://jlcpcb.com/partdetail/C15849
+C6,100n,C_0603_1608Metric,C14663,SMT,https://jlcpcb.com/partdetail/C14663
+C7,100n,C_0603_1608Metric,C14663,SMT,https://jlcpcb.com/partdetail/C14663
+C8,100n,C_0603_1608Metric,C14663,SMT,https://jlcpcb.com/partdetail/C14663
+C9,100n,C_0603_1608Metric,C14663,SMT,https://jlcpcb.com/partdetail/C14663
+C10,100u 50V EEUFR1H101B,CP_Radial_D8.0mm_P5.00mm,C713402,THT,https://jlcpcb.com/partdetail/C713402
+C11,10u 25V,C_0805_2012Metric,C15850,SMT,https://jlcpcb.com/partdetail/C15850
+J1,VMOT 20-24V INPUT,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",C5183929,THT,https://jlcpcb.com/partdetail/C5183929
+J2,RAILS GND-5V-12V,PinHeader_1x03_P2.54mm_Vertical,C49257,THT,https://jlcpcb.com/partdetail/C49257
+J3,FAN GND-12V-TACH-PWM,PinHeader_1x04_P2.54mm_Vertical,C5116483,THT,https://jlcpcb.com/partdetail/C5116483
+J4,DS18B20 GND-DQ-3V3,PinHeader_1x03_P2.54mm_Vertical,C49257,THT,https://jlcpcb.com/partdetail/C49257
+J5,DS18B20 GND-DQ-3V3,PinHeader_1x03_P2.54mm_Vertical,C49257,THT,https://jlcpcb.com/partdetail/C49257
+J6,INDEX GND-SIG-3V3,PinHeader_1x03_P2.54mm_Vertical,C49257,THT,https://jlcpcb.com/partdetail/C49257
+J7,HOME GND-SIG-3V3,PinHeader_1x03_P2.54mm_Vertical,C49257,THT,https://jlcpcb.com/partdetail/C49257
+J8,I2C GND-3V3-SDA-SCL,PinHeader_1x04_P2.54mm_Vertical,C5116483,THT,https://jlcpcb.com/partdetail/C5116483
+J9,DPS GND-RX-TX (DPS names),PinHeader_1x03_P2.54mm_Vertical,C49257,THT,https://jlcpcb.com/partdetail/C49257
+J10,TEC ENABLE GND-ON,PinHeader_1x02_P2.54mm_Vertical,C27985187,THT,https://jlcpcb.com/partdetail/C27985187
+J11,PROG GND-TX-RX-3V3ref,PinHeader_1x04_P2.54mm_Vertical,C5116483,THT,https://jlcpcb.com/partdetail/C5116483
+J12,BOOT short for download,PinHeader_1x02_P2.54mm_Vertical,C27985187,THT,https://jlcpcb.com/partdetail/C27985187
+J13,RESET short to reset,PinHeader_1x02_P2.54mm_Vertical,C27985187,THT,https://jlcpcb.com/partdetail/C27985187
+J14,A4988 CONTROL socket,PinSocket_1x08_P2.54mm_Vertical,C27438,THT,https://jlcpcb.com/partdetail/C27438
+J15,A4988 POWER socket,PinSocket_1x08_P2.54mm_Vertical,C27438,THT,https://jlcpcb.com/partdetail/C27438
+J16,MOTOR COIL1,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",C5183929,THT,https://jlcpcb.com/partdetail/C5183929
+J17,MOTOR COIL2,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",C5183929,THT,https://jlcpcb.com/partdetail/C5183929

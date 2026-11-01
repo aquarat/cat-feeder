@@ -1,0 +1,161 @@
+{
+  "kicad_version": "9.0.2",
+  "footprints": {
+    "Package_TO_SOT_SMD:TSOT-23-6": {
+      "sha256": "5c90bdd2e6afc3b91f423e7c6c1eb762de927308807f472d78453d2316892285",
+      "pads": {
+        "1": {
+          "x_mm": -1.1375,
+          "y_mm": -0.95,
+          "size_x_mm": 1.325,
+          "size_y_mm": 0.6
+        },
+        "2": {
+          "x_mm": -1.1375,
+          "y_mm": 0.0,
+          "size_x_mm": 1.325,
+          "size_y_mm": 0.6
+        },
+        "3": {
+          "x_mm": -1.1375,
+          "y_mm": 0.95,
+          "size_x_mm": 1.325,
+          "size_y_mm": 0.6
+        },
+        "4": {
+          "x_mm": 1.1375,
+          "y_mm": 0.95,
+          "size_x_mm": 1.325,
+          "size_y_mm": 0.6
+        },
+        "5": {
+          "x_mm": 1.1375,
+          "y_mm": 0.0,
+          "size_x_mm": 1.325,
+          "size_y_mm": 0.6
+        },
+        "6": {
+          "x_mm": 1.1375,
+          "y_mm": -0.95,
+          "size_x_mm": 1.325,
+          "size_y_mm": 0.6
+        }
+      }
+    },
+    "Inductor_SMD:L_Bourns_SRN6045TA": {
+      "sha256": "8b930196fe515a404483cb21461ec27d4b0cc0befceaa81264dba95da9a3f7f0",
+      "pads": {
+        "1": {
+          "x_mm": -2.075,
+          "y_mm": 0.0,
+          "size_x_mm": 2.35,
+          "size_y_mm": 5.1
+        },
+        "2": {
+          "x_mm": 2.075,
+          "y_mm": 0.0,
+          "size_x_mm": 2.35,
+          "size_y_mm": 5.1
+        }
+      }
+    },
+    "Capacitor_SMD:C_1210_3225Metric": {
+      "sha256": "db323531d24d7232678e165190896a423571bcc747680edabb9f12f94355ab88",
+      "pads": {
+        "1": {
+          "x_mm": -1.475,
+          "y_mm": 0.0,
+          "size_x_mm": 1.15,
+          "size_y_mm": 2.7
+        },
+        "2": {
+          "x_mm": 1.475,
+          "y_mm": 0.0,
+          "size_x_mm": 1.15,
+          "size_y_mm": 2.7
+        }
+      }
+    },
+    "Capacitor_SMD:C_0603_1608Metric": {
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419",
+      "pads": {
+        "1": {
+          "x_mm": -0.775,
+          "y_mm": 0.0,
+          "size_x_mm": 0.9,
+          "size_y_mm": 0.95
+        },
+        "2": {
+          "x_mm": 0.775,
+          "y_mm": 0.0,
+          "size_x_mm": 0.9,
+          "size_y_mm": 0.95
+        }
+      }
+    },
+    "Capacitor_SMD:C_1206_3216Metric": {
+      "sha256": "9343c2f817fd00cce4d60eb82049bd305d87ee6a856d04895b6c546aceac317b",
+      "pads": {
+        "1": {
+          "x_mm": -1.475,
+          "y_mm": 0.0,
+          "size_x_mm": 1.15,
+          "size_y_mm": 1.8
+        },
+        "2": {
+          "x_mm": 1.475,
+          "y_mm": 0.0,
+          "size_x_mm": 1.15,
+          "size_y_mm": 1.8
+        }
+      }
+    },
+    "Resistor_SMD:R_0603_1608Metric": {
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4",
+      "pads": {
+        "1": {
+          "x_mm": -0.825,
+          "y_mm": 0.0,
+          "size_x_mm": 0.8,
+          "size_y_mm": 0.95
+        },
+        "2": {
+          "x_mm": 0.825,
+          "y_mm": 0.0,
+          "size_x_mm": 0.8,
+          "size_y_mm": 0.95
+        }
+      }
+    }
+  },
+  "symbols": {
+    "Regulator_Switching:AP63203WU": {
+      "3": "IN",
+      "2": "EN",
+      "4": "GND",
+      "5": "SW",
+      "6": "BST",
+      "1": "FB"
+    },
+    "Device:L": {
+      "1": "1",
+      "2": "2"
+    },
+    "Device:C": {
+      "1": "~",
+      "2": "~"
+    },
+    "Regulator_Switching:AP63201WU": {
+      "3": "IN",
+      "2": "EN",
+      "4": "GND",
+      "5": "SW",
+      "6": "BST",
+      "1": "FB"
+    },
+    "Device:R": {
+      "1": "~",
+      "2": "~"
+    }
+  }
+}

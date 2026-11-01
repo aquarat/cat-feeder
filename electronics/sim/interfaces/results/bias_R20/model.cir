@@ -1,0 +1,15 @@
+Cat feeder interface study: bias_R20
+Vpull pull 0 3.3
+Rbias pull signal 10100.0
+Ileak signal 0 5e-06
+.options reltol=1e-5 abstol=1e-12 vntol=1e-7
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+op
+wrdata wave.dat v(signal)
+quit
+.endc
+.end

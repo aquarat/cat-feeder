@@ -1,0 +1,68 @@
+{
+ "scenario": "s00_integrity",
+ "label": "SIMULATION (models + datasheet limits), not a hardware test",
+ "checks": [
+  {
+   "id": "s00_integrity.mapping",
+   "scenario": "s00_integrity",
+   "description": "Every netlist part maps to a simulation model (part_models.csv)",
+   "value": 0,
+   "limit": 0,
+   "op": "==",
+   "unit": "parts",
+   "status": "PASS",
+   "severity": "integrity",
+   "advisory": false,
+   "corner": "",
+   "limit_source": "suite integrity",
+   "detail": ""
+  },
+  {
+   "id": "s00_integrity.netlist_vs_design_json",
+   "scenario": "s00_integrity",
+   "description": "Exported KiCad netlist matches design.json pin-for-pin",
+   "value": 0,
+   "limit": 0,
+   "op": "==",
+   "unit": "pins",
+   "status": "PASS",
+   "severity": "integrity",
+   "advisory": false,
+   "corner": "",
+   "limit_source": "suite integrity",
+   "detail": ""
+  },
+  {
+   "id": "s00_integrity.harness_coverage",
+   "scenario": "s00_integrity",
+   "description": "harness.json leads match the connectors in the design (missing connectors are skipped)",
+   "value": 0,
+   "limit": 0,
+   "op": "==",
+   "unit": "items",
+   "status": "PASS",
+   "severity": "integrity",
+   "advisory": true,
+   "corner": "",
+   "limit_source": "suite integrity (update harness.json)",
+   "detail": "leads without a connector: []; connectors without a lead model: []"
+  },
+  {
+   "id": "s00_integrity.lead_nets",
+   "scenario": "s00_integrity",
+   "description": "Inter-card leads join identically named nets pin for pin",
+   "value": 0,
+   "limit": 0,
+   "op": "==",
+   "unit": "pins",
+   "status": "PASS",
+   "severity": "integrity",
+   "advisory": false,
+   "corner": "",
+   "limit_source": "suite integrity",
+   "detail": ""
+  }
+ ],
+ "notes": [],
+ "models": {}
+}

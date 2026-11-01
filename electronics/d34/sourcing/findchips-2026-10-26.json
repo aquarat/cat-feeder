@@ -1,0 +1,2194 @@
+{
+"source": "https://www.findchips.com/search/<MPN> (Supplyframe feed of distributor stock/price), fetched 2026-10-26 with curl; RS UK pages themselves block scripted access. Prices GBP ex VAT, per piece at each break; \"minq\" is the RS sales pack (PK) or minimum, \"stock\" is the public stock figure shown on findchips.",
+"date": "2026-10-26",
+"rows": [
+{
+"dist": "Farnell",
+"sku": "2504685",
+"mfr": "Keystone Electronics Corp",
+"mpn": "3568",
+"stock": "52829",
+"price": [
+[
+1,
+"GBP",
+"0.8110"
+],
+[
+10,
+"GBP",
+"0.6400"
+],
+[
+100,
+"GBP",
+"0.5280"
+],
+[
+500,
+"GBP",
+"0.4570"
+],
+[
+1000,
+"GBP",
+"0.4150"
+],
+[
+2000,
+"GBP",
+"0.3720"
+]
+],
+"minq": "1",
+"mult": null,
+"desc": "FUSE HOLDER, 0.8 X 2.8MM, PCB MOUNT",
+"url": "https://uk.farnell.com/keystone/3568/fuse-holder-0-8-x-2-8mm-pcb-mount/dp/2504685",
+"query": "3568"
+},
+{
+"dist": "Farnell",
+"sku": "3559249",
+"mfr": "Molex",
+"mpn": "215341-1113",
+"stock": "2510",
+"price": [
+[
+10,
+"GBP",
+"0.8370"
+],
+[
+100,
+"GBP",
+"0.7140"
+],
+[
+500,
+"GBP",
+"0.6010"
+],
+[
+1000,
+"GBP",
+"0.5200"
+]
+],
+"minq": "10",
+"mult": null,
+"desc": "CABLE ASSY, CRIMP SOCKET-FREE END, 225MM",
+"url": null,
+"query": "215341-1113"
+},
+{
+"dist": "Farnell",
+"sku": "3559251",
+"mfr": "Molex",
+"mpn": "215341-1115",
+"stock": "0",
+"price": [
+[
+1,
+"GBP",
+"1.0800"
+],
+[
+10,
+"GBP",
+"0.8670"
+],
+[
+100,
+"GBP",
+"0.6830"
+],
+[
+250,
+"GBP",
+"0.6430"
+]
+],
+"minq": "1",
+"mult": null,
+"desc": "CABLE ASSY, CRIMP SOCKET-FREE END, 450MM",
+"url": "https://uk.farnell.com/molex/215341-1115/cable-assy-crimp-socket-free-end/dp/3559251",
+"query": "215341-1115"
+},
+{
+"dist": "Farnell",
+"sku": "4177865",
+"mfr": "Vishay Intertechnologies",
+"mpn": "MBA02040C4703FRP00",
+"stock": "1919",
+"price": [
+[
+10,
+"GBP",
+"0.0781"
+],
+[
+100,
+"GBP",
+"0.0653"
+],
+[
+500,
+"GBP",
+"0.0571"
+],
+[
+1000,
+"GBP",
+"0.0541"
+],
+[
+2500,
+"GBP",
+"0.0519"
+],
+[
+5000,
+"GBP",
+"0.0496"
+]
+],
+"minq": "10",
+"mult": null,
+"desc": "RES, 470K, 1%, 0.4W, AXIAL LEADED",
+"url": "https://uk.farnell.com/vishay/mba02040c4703frp00/res-470k-1-0-4w-axial-leaded/dp/4177865",
+"query": "MBA02040C4703FRP00"
+},
+{
+"dist": "Farnell",
+"sku": "8651418",
+"mfr": "Infineon Technologies AG",
+"mpn": "IRLZ44NPBF",
+"stock": "40213",
+"price": [
+[
+1,
+"GBP",
+"1.3700"
+],
+[
+10,
+"GBP",
+"0.6880"
+],
+[
+100,
+"GBP",
+"0.5950"
+],
+[
+500,
+"GBP",
+"0.4830"
+],
+[
+1000,
+"GBP",
+"0.4400"
+],
+[
+5000,
+"GBP",
+"0.3940"
+]
+],
+"minq": "1",
+"mult": null,
+"desc": "MOSFET, N-CH, 55V, 47A, TO-220AB",
+"url": "https://uk.farnell.com/infineon/irlz44npbf/mosfet-n-ch-55v-47a-to-220ab/dp/8651418",
+"query": "IRLZ44NPBF"
+},
+{
+"dist": "Farnell",
+"sku": "9943854",
+"mfr": "Littelfuse Inc",
+"mpn": "029707.5WXNV",
+"stock": "17459",
+"price": [
+[
+5,
+"GBP",
+"0.2450"
+],
+[
+50,
+"GBP",
+"0.2060"
+],
+[
+250,
+"GBP",
+"0.1820"
+],
+[
+500,
+"GBP",
+"0.1670"
+],
+[
+1500,
+"GBP",
+"0.1530"
+],
+[
+3000,
+"GBP",
+"0.1420"
+]
+],
+"minq": "5",
+"mult": null,
+"desc": "FUSE, MINI BLADE, 7.5A",
+"url": null,
+"query": "029707.5WXNV"
+},
+{
+"dist": "RS",
+"sku": "1235947",
+"mfr": "JST Manufacturing",
+"mpn": "SXH-001T-P0.6",
+"stock": "16250",
+"price": [
+[
+2500,
+"GBP",
+"0.0230"
+],
+[
+1250,
+"GBP",
+"0.0240"
+],
+[
+250,
+"GBP",
+"0.0260"
+]
+],
+"minq": "250",
+"mult": "1",
+"desc": "JST SXH-001T-P0.6 Crimp Terminal, TA",
+"url": "https://uk.rs-online.com/web/p/crimp-contacts/1235947/",
+"query": "SXH-001T-P0.6"
+},
+{
+"dist": "RS",
+"sku": "1364852",
+"mfr": "Nexperia",
+"mpn": "BZX79-C15,133",
+"stock": "1900",
+"price": [
+[
+5000,
+"GBP",
+"0.0230"
+],
+[
+2500,
+"GBP",
+"0.0240"
+],
+[
+500,
+"GBP",
+"0.0360"
+],
+[
+100,
+"GBP",
+"0.0490"
+]
+],
+"minq": "100",
+"mult": "1",
+"desc": "Zener Diode 15V 5% 500mW SOD27-2, PK",
+"url": "https://uk.rs-online.com/web/p/zener-diodes/1364852/",
+"query": "BZX79C15"
+},
+{
+"dist": "RS",
+"sku": "1448185",
+"mfr": "Molex",
+"mpn": "470531000",
+"stock": "810",
+"price": [
+[
+500,
+"GBP",
+"0.2610"
+],
+[
+250,
+"GBP",
+"0.2730"
+],
+[
+200,
+"GBP",
+"0.2840"
+],
+[
+100,
+"GBP",
+"0.2960"
+],
+[
+10,
+"GBP",
+"0.3810"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "Molex 470531000 Pin Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/1448185/",
+"query": "47053-1000"
+},
+{
+"dist": "RS",
+"sku": "1800422",
+"mfr": "Samtec Inc",
+"mpn": "SSW-108-01-T-S",
+"stock": "350",
+"price": [
+[
+500,
+"GBP",
+"0.5080"
+],
+[
+200,
+"GBP",
+"0.5560"
+],
+[
+100,
+"GBP",
+"0.6160"
+],
+[
+50,
+"GBP",
+"0.6900"
+],
+[
+10,
+"GBP",
+"0.7840"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "Samtec SSW-108-01-T-S PCB Socket, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-sockets/1800422/",
+"query": "SSW-108-01-T-S"
+},
+{
+"dist": "RS",
+"sku": "1808502",
+"mfr": "Broadcom Limited",
+"mpn": "HLMP-1503",
+"stock": "60",
+"price": [
+[
+800,
+"GBP",
+"0.1880"
+],
+[
+400,
+"GBP",
+"0.2590"
+],
+[
+200,
+"GBP",
+"0.2750"
+],
+[
+100,
+"GBP",
+"0.2930"
+],
+[
+10,
+"GBP",
+"0.3300"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "Broadcom HLMP-1503 LED, PK",
+"url": null,
+"query": "HLMP-1503"
+},
+{
+"dist": "RS",
+"sku": "1896010",
+"mfr": "Phoenix Contact",
+"mpn": "1757019",
+"stock": "5475",
+"price": [
+[
+2000,
+"GBP",
+"0.8020"
+],
+[
+1000,
+"GBP",
+"0.8900"
+],
+[
+375,
+"GBP",
+"1.0100"
+],
+[
+125,
+"GBP",
+"1.0920"
+],
+[
+5,
+"GBP",
+"1.2540"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Phoenix Contact 1757019, PK",
+"url": "https://uk.rs-online.com/web/p/pluggable-terminal-blocks/1896010/",
+"query": "1757019"
+},
+{
+"dist": "RS",
+"sku": "1896199",
+"mfr": "Phoenix Contact",
+"mpn": "1755736",
+"stock": "1395",
+"price": [
+[
+1000,
+"GBP",
+"0.2680"
+],
+[
+500,
+"GBP",
+"0.2900"
+],
+[
+250,
+"GBP",
+"0.3180"
+],
+[
+75,
+"GBP",
+"0.3520"
+],
+[
+5,
+"GBP",
+"0.3860"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Phoenix Contact 1755736, PK",
+"url": "https://uk.rs-online.com/web/p/pluggable-terminal-blocks/1896199/",
+"query": "1755736"
+},
+{
+"dist": "RS",
+"sku": "1902933",
+"mfr": "Murata Manufacturing Co Ltd",
+"mpn": "RDER71H104K0P1H03B",
+"stock": "3160",
+"price": [
+[
+200,
+"GBP",
+"0.0920"
+],
+[
+100,
+"GBP",
+"0.1070"
+],
+[
+50,
+"GBP",
+"0.1260"
+],
+[
+20,
+"GBP",
+"0.1640"
+],
+[
+10,
+"GBP",
+"0.1800"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "Murata RDER71H104K0P1H03B, PK",
+"url": "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/1902933/",
+"query": "RDER71H104K0P1H03B"
+},
+{
+"dist": "RS",
+"sku": "1902943",
+"mfr": "Murata Manufacturing Co Ltd",
+"mpn": "RDER71H105K2P1H03B",
+"stock": "1280",
+"price": [
+[
+200,
+"GBP",
+"0.1510"
+],
+[
+100,
+"GBP",
+"0.1760"
+],
+[
+50,
+"GBP",
+"0.2070"
+],
+[
+20,
+"GBP",
+"0.2440"
+],
+[
+10,
+"GBP",
+"0.2690"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "Murata RDER71H105K2P1H03B, PK",
+"url": "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/1902943/",
+"query": "RDER71H105K2P1H03B"
+},
+{
+"dist": "RS",
+"sku": "1997794",
+"mfr": "YAGEO Corporation",
+"mpn": "MF0204FTE52-10K",
+"stock": "1600",
+"price": [
+[
+2000,
+"GBP",
+"0.0260"
+],
+[
+1000,
+"GBP",
+"0.0300"
+],
+[
+500,
+"GBP",
+"0.0330"
+],
+[
+100,
+"GBP",
+"0.0430"
+]
+],
+"minq": "100",
+"mult": "1",
+"desc": "Yageo MF0204FTE52-10K, TA",
+"url": "https://uk.rs-online.com/web/p/through-hole-resistors/1997794/",
+"query": "MF0204FTE52-10K"
+},
+{
+"dist": "RS",
+"sku": "1997806",
+"mfr": "YAGEO Corporation",
+"mpn": "MF0204FTE52-1K",
+"stock": "1400",
+"price": [
+[
+2000,
+"GBP",
+"0.0260"
+],
+[
+1000,
+"GBP",
+"0.0310"
+],
+[
+500,
+"GBP",
+"0.0330"
+],
+[
+100,
+"GBP",
+"0.0430"
+]
+],
+"minq": "100",
+"mult": "1",
+"desc": "Yageo MF0204FTE52-1K, TA",
+"url": "https://uk.rs-online.com/web/p/through-hole-resistors/1997806/",
+"query": "MF0204FTE52-1K"
+},
+{
+"dist": "RS",
+"sku": "1997821",
+"mfr": "YAGEO Corporation",
+"mpn": "MF0204FTE52-330R",
+"stock": "2400",
+"price": [
+[
+2000,
+"GBP",
+"0.0110"
+],
+[
+1000,
+"GBP",
+"0.0130"
+],
+[
+500,
+"GBP",
+"0.0140"
+],
+[
+100,
+"GBP",
+"0.0180"
+]
+],
+"minq": "100",
+"mult": "1",
+"desc": "Yageo MF0204FTE52-330R, TA",
+"url": "https://uk.rs-online.com/web/p/through-hole-resistors/1997821/",
+"query": "MF0204FTE52-330R"
+},
+{
+"dist": "RS",
+"sku": "1997828",
+"mfr": "YAGEO Corporation",
+"mpn": "MF0204FTE52-47K",
+"stock": "700",
+"price": [
+[
+2000,
+"GBP",
+"0.0100"
+],
+[
+1000,
+"GBP",
+"0.0120"
+],
+[
+500,
+"GBP",
+"0.0130"
+],
+[
+100,
+"GBP",
+"0.0170"
+]
+],
+"minq": "100",
+"mult": "1",
+"desc": "Yageo MF0204FTE52-47K, TA",
+"url": null,
+"query": "MF0204FTE52-47K"
+},
+{
+"dist": "RS",
+"sku": "1997830",
+"mfr": "YAGEO Corporation",
+"mpn": "MF0204FTE52-4K7",
+"stock": "3900",
+"price": [
+[
+2000,
+"GBP",
+"0.0100"
+],
+[
+1000,
+"GBP",
+"0.0120"
+],
+[
+500,
+"GBP",
+"0.0130"
+],
+[
+100,
+"GBP",
+"0.0170"
+]
+],
+"minq": "100",
+"mult": "1",
+"desc": "Yageo MF0204FTE52-4K7, TA",
+"url": null,
+"query": "MF0204FTE52-4K7"
+},
+{
+"dist": "RS",
+"sku": "2079240",
+"mfr": "Samtec Inc",
+"mpn": "SSW-119-01-T-S",
+"stock": "246",
+"price": [
+[
+250,
+"GBP",
+"1.1700"
+],
+[
+100,
+"GBP",
+"1.2600"
+],
+[
+50,
+"GBP",
+"1.3900"
+],
+[
+10,
+"GBP",
+"1.5100"
+],
+[
+1,
+"GBP",
+"2.0000"
+]
+],
+"minq": "1",
+"mult": "1",
+"desc": "Samtec SSW-119-01-T-S PCB Socket, EA",
+"url": "https://uk.rs-online.com/web/p/pcb-sockets/2079240/",
+"query": "SSW-119-01-T-S"
+},
+{
+"dist": "RS",
+"sku": "2175667",
+"mfr": "Texas Instruments",
+"mpn": "SN74HC573AN",
+"stock": "284",
+"price": [
+[
+1,
+"GBP",
+"1.0200"
+]
+],
+"minq": "1",
+"mult": "1",
+"desc": "Texas Instruments SN74HC573AN Latch, EA",
+"url": "https://uk.rs-online.com/web/p/latch-ics/2175667/",
+"query": "SN74HC573AN"
+},
+{
+"dist": "RS",
+"sku": "2244331",
+"mfr": "Rubycon Corporation",
+"mpn": "50YXF22M5X11",
+"stock": "1365",
+"price": [
+[
+1000,
+"GBP",
+"0.0620"
+],
+[
+250,
+"GBP",
+"0.0720"
+],
+[
+100,
+"GBP",
+"0.0820"
+],
+[
+50,
+"GBP",
+"0.0940"
+],
+[
+5,
+"GBP",
+"0.1120"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Rubycon 50YXF22M5X11 Capacitor, PK",
+"url": "https://uk.rs-online.com/web/p/aluminium-capacitors/2244331/",
+"query": "50YXF22M5X11"
+},
+{
+"dist": "RS",
+"sku": "3650585",
+"mfr": "OMRON Corporation",
+"mpn": "G2RL-2 DC12",
+"stock": "125",
+"price": [
+[
+500,
+"GBP",
+"2.8100"
+],
+[
+250,
+"GBP",
+"3.0100"
+],
+[
+100,
+"GBP",
+"3.5100"
+],
+[
+25,
+"GBP",
+"3.5900"
+],
+[
+1,
+"GBP",
+"4.0000"
+]
+],
+"minq": "1",
+"mult": "1",
+"desc": "Aratas G2RL-2 DC12 Power Relay, EA",
+"url": "https://uk.rs-online.com/web/p/power-relays/3650585/",
+"query": "G2RL-2-DC12"
+},
+{
+"dist": "RS",
+"sku": "4841748",
+"mfr": "Molex",
+"mpn": "39-01-2020",
+"stock": "73940",
+"price": [
+[
+5000,
+"GBP",
+"0.2100"
+],
+[
+2500,
+"GBP",
+"0.2200"
+],
+[
+500,
+"GBP",
+"0.2280"
+],
+[
+125,
+"GBP",
+"0.2400"
+],
+[
+5,
+"GBP",
+"0.3880"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Molex 39-01-2020 Crimp Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/4841748/",
+"query": "39-01-2020"
+},
+{
+"dist": "RS",
+"sku": "4841754",
+"mfr": "Molex",
+"mpn": "39-01-2040",
+"stock": "43360",
+"price": [
+[
+5000,
+"GBP",
+"0.1860"
+],
+[
+2500,
+"GBP",
+"0.1960"
+],
+[
+500,
+"GBP",
+"0.2200"
+],
+[
+125,
+"GBP",
+"0.2440"
+],
+[
+5,
+"GBP",
+"0.3880"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Molex 39-01-2040 Crimp Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/4841754/",
+"query": "39-01-2040"
+},
+{
+"dist": "RS",
+"sku": "4841760",
+"mfr": "Molex",
+"mpn": "39-01-2060",
+"stock": "48460",
+"price": [
+[
+3000,
+"GBP",
+"0.2400"
+],
+[
+1500,
+"GBP",
+"0.2480"
+],
+[
+375,
+"GBP",
+"0.3000"
+],
+[
+100,
+"GBP",
+"0.3100"
+],
+[
+5,
+"GBP",
+"0.5320"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Molex 39-01-2060 Crimp Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/4841760/",
+"query": "39-01-2060"
+},
+{
+"dist": "RS",
+"sku": "4841883",
+"mfr": "Molex",
+"mpn": "39-28-1023",
+"stock": "2520",
+"price": [
+[
+3000,
+"GBP",
+"0.3920"
+],
+[
+1500,
+"GBP",
+"0.4100"
+],
+[
+375,
+"GBP",
+"0.4260"
+],
+[
+100,
+"GBP",
+"0.4420"
+],
+[
+5,
+"GBP",
+"0.6720"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Molex 39-28-1023 PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/4841883/",
+"query": "39-28-1023"
+},
+{
+"dist": "RS",
+"sku": "4841899",
+"mfr": "Molex",
+"mpn": "39-28-1043",
+"stock": "1080",
+"price": [
+[
+5,
+"GBP",
+"0.7840"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Molex 39-28-1043 PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/4841899/",
+"query": "39-28-1043"
+},
+{
+"dist": "RS",
+"sku": "4841906",
+"mfr": "Molex",
+"mpn": "39-28-1063",
+"stock": "1170",
+"price": [
+[
+3000,
+"GBP",
+"0.9480"
+],
+[
+1500,
+"GBP",
+"0.9880"
+],
+[
+375,
+"GBP",
+"1.1860"
+],
+[
+100,
+"GBP",
+"1.2360"
+],
+[
+5,
+"GBP",
+"1.7980"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Molex 39-28-1063 PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/4841906/",
+"query": "39-28-1063"
+},
+{
+"dist": "RS",
+"sku": "4859323",
+"mfr": "STMicroelectronics",
+"mpn": "P6KE30A",
+"stock": "270",
+"price": [
+[
+2000,
+"GBP",
+"0.1370"
+],
+[
+1000,
+"GBP",
+"0.1490"
+],
+[
+500,
+"GBP",
+"0.1680"
+],
+[
+100,
+"GBP",
+"0.1990"
+],
+[
+10,
+"GBP",
+"0.2550"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "STMicroelectronics P6KE30A TVS Diode, PK",
+"url": "https://uk.rs-online.com/web/p/tvs-diodes/4859323/",
+"query": "P6KE30A"
+},
+{
+"dist": "RS",
+"sku": "5176635",
+"mfr": "Littelfuse Inc",
+"mpn": "RXEF050",
+"stock": "2510",
+"price": [
+[
+1000,
+"GBP",
+"0.1980"
+],
+[
+500,
+"GBP",
+"0.2250"
+],
+[
+250,
+"GBP",
+"0.2570"
+],
+[
+50,
+"GBP",
+"0.3010"
+],
+[
+10,
+"GBP",
+"0.3580"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "Littelfuse RXEF050 Resettable Fuse, PK",
+"url": "https://uk.rs-online.com/web/p/resettable-fuses/5176635/",
+"query": "RXEF050"
+},
+{
+"dist": "RS",
+"sku": "5176685",
+"mfr": "Littelfuse Inc",
+"mpn": "RXEF110",
+"stock": "3320",
+"price": [
+[
+1000,
+"GBP",
+"0.2290"
+],
+[
+500,
+"GBP",
+"0.2340"
+],
+[
+250,
+"GBP",
+"0.2510"
+],
+[
+50,
+"GBP",
+"0.3340"
+],
+[
+10,
+"GBP",
+"0.4210"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "Littelfuse RXEF110 Resettable Fuse, PK",
+"url": "https://uk.rs-online.com/web/p/resettable-fuses/5176685/",
+"query": "RXEF110"
+},
+{
+"dist": "RS",
+"sku": "5399456",
+"mfr": "Toshiba America Electronic Components",
+"mpn": "TC74HC123AP(F)",
+"stock": "105",
+"price": [
+[
+2500,
+"GBP",
+"0.3980"
+],
+[
+1250,
+"GBP",
+"0.4060"
+],
+[
+500,
+"GBP",
+"0.4200"
+],
+[
+125,
+"GBP",
+"0.4300"
+],
+[
+5,
+"GBP",
+"0.4420"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "Toshiba TC74HC123AP(F), PK",
+"url": "https://uk.rs-online.com/web/p/monostable-multivibrators/5399456/",
+"query": "TC74HC123AP"
+},
+{
+"dist": "RS",
+"sku": "5409799",
+"mfr": "Infineon Technologies AG",
+"mpn": "IRF4905PBF",
+"stock": "918",
+"price": [
+[
+25,
+"GBP",
+"1.9800"
+],
+[
+10,
+"GBP",
+"2.0700"
+],
+[
+1,
+"GBP",
+"2.1700"
+]
+],
+"minq": "1",
+"mult": "1",
+"desc": "Infineon IRF4905PBF MOSFET, EA",
+"url": null,
+"query": "IRF4905PBF"
+},
+{
+"dist": "RS",
+"sku": "5444758",
+"mfr": "STMicroelectronics",
+"mpn": "BAT42",
+"stock": "760",
+"price": [
+[
+5000,
+"GBP",
+"0.0340"
+],
+[
+2500,
+"GBP",
+"0.0400"
+],
+[
+500,
+"GBP",
+"0.0480"
+],
+[
+125,
+"GBP",
+"0.0540"
+],
+[
+5,
+"GBP",
+"0.1360"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "STMicroelectronics BAT42 Diode, PK",
+"url": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/5444758/",
+"query": "BAT42"
+},
+{
+"dist": "RS",
+"sku": "608891",
+"mfr": "Traco Power",
+"mpn": "TSR 2-24120N",
+"stock": "72",
+"price": [
+[
+1,
+"GBP",
+"4.4500"
+]
+],
+"minq": "1",
+"mult": "1",
+"desc": "TRACOPOWER TSR 2-24120N DC/DC Converter, EA",
+"url": "https://uk.rs-online.com/web/p/dc-dc-converters/0608891/",
+"query": "TSR_2-24120"
+},
+{
+"dist": "RS",
+"sku": "6254972",
+"mfr": "onsemi",
+"mpn": "1N5817RLG",
+"stock": "3490",
+"price": [
+[
+100,
+"GBP",
+"0.3720"
+],
+[
+50,
+"GBP",
+"0.4180"
+],
+[
+5,
+"GBP",
+"0.4640"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "onsemi 1N5817RLG Diode, PK",
+"url": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/6254972/",
+"query": "1N5817RLG"
+},
+{
+"dist": "RS",
+"sku": "6664379",
+"mfr": "Traco Power",
+"mpn": "TSR 1-2450",
+"stock": "1478",
+"price": [
+[
+50,
+"GBP",
+"4.3700"
+],
+[
+25,
+"GBP",
+"4.5800"
+],
+[
+10,
+"GBP",
+"4.7900"
+],
+[
+5,
+"GBP",
+"4.9400"
+],
+[
+1,
+"GBP",
+"5.0900"
+]
+],
+"minq": "1",
+"mult": "1",
+"desc": "TRACOPOWER TSR 1-2450, EA",
+"url": "https://uk.rs-online.com/web/p/switching-regulators/6664379/",
+"query": "TSR_1-2450"
+},
+{
+"dist": "RS",
+"sku": "6833487",
+"mfr": "Vishay Intertechnologies",
+"mpn": "MRS25000C2208FCT00",
+"stock": "100",
+"price": [
+[
+1250,
+"GBP",
+"0.0300"
+],
+[
+625,
+"GBP",
+"0.0300"
+],
+[
+250,
+"GBP",
+"0.0310"
+],
+[
+125,
+"GBP",
+"0.0370"
+],
+[
+25,
+"GBP",
+"0.0920"
+]
+],
+"minq": "25",
+"mult": "1",
+"desc": "Vishay MRS25000C2208FCT00 Resistor, PK",
+"url": "https://uk.rs-online.com/web/p/through-hole-resistors/6833487/",
+"query": "MRS25000C2208FCT00"
+},
+{
+"dist": "RS",
+"sku": "7083894",
+"mfr": "Panasonic Electronic Components",
+"mpn": "EEUFR1H101",
+"stock": "1700",
+"price": [
+[
+10,
+"GBP",
+"0.2510"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "FR/50V/100uF/870mA/8x11.5mm, PK",
+"url": "https://uk.rs-online.com/web/p/aluminium-capacitors/7083894/",
+"query": "EEU-FR1H101"
+},
+{
+"dist": "RS",
+"sku": "765315",
+"mfr": "onsemi",
+"mpn": "BC32725BU",
+"stock": "4200",
+"price": [
+[
+10000,
+"GBP",
+"0.0330"
+],
+[
+5000,
+"GBP",
+"0.0350"
+],
+[
+1000,
+"GBP",
+"0.0360"
+],
+[
+100,
+"GBP",
+"0.0370"
+]
+],
+"minq": "100",
+"mult": "1",
+"desc": "onsemi BC32725BU PNP Transistor, BOX",
+"url": null,
+"query": "BC327-25"
+},
+{
+"dist": "RS",
+"sku": "7660078",
+"mfr": "Panasonic Electronic Components",
+"mpn": "EEUFR1V221",
+"stock": "690",
+"price": [
+[
+10,
+"GBP",
+"0.2980"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "FR/35V/220uF/950mA/8x11.5mm, PK",
+"url": "https://uk.rs-online.com/web/p/aluminium-capacitors/7660078/",
+"query": "EEU-FR1V221"
+},
+{
+"dist": "RS",
+"sku": "7743697",
+"mfr": "onsemi",
+"mpn": "TL431AILPG",
+"stock": "5260",
+"price": [
+[
+10,
+"GBP",
+"0.2430"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "onsemi TL431AILPG Voltage Reference, PK",
+"url": null,
+"query": "TL431AILP"
+},
+{
+"dist": "RS",
+"sku": "8201135",
+"mfr": "JST Manufacturing",
+"mpn": "01SVHSVH-20L-300",
+"stock": "300",
+"price": [
+[
+100,
+"GBP",
+"0.8400"
+],
+[
+50,
+"GBP",
+"0.8900"
+],
+[
+5,
+"GBP",
+"1.0520"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST 01SVHSVH-20L-300 Crimp Wire, PK",
+"url": null,
+"query": "01SVHSVH-20L-300"
+},
+{
+"dist": "RS",
+"sku": "8201147",
+"mfr": "JST Manufacturing",
+"mpn": "B2P-VH(LF)(SN)",
+"stock": "225",
+"price": [
+[
+2500,
+"GBP",
+"0.0800"
+],
+[
+1250,
+"GBP",
+"0.0820"
+],
+[
+500,
+"GBP",
+"0.0840"
+],
+[
+125,
+"GBP",
+"0.0860"
+],
+[
+5,
+"GBP",
+"0.1420"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST B2P-VH(LF)(SN) PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/8201147/",
+"query": "B2P-VH"
+},
+{
+"dist": "RS",
+"sku": "8201150",
+"mfr": "JST Manufacturing",
+"mpn": "B3P-VH(LF)(SN)",
+"stock": "10",
+"price": [
+[
+2500,
+"GBP",
+"0.1020"
+],
+[
+1250,
+"GBP",
+"0.1060"
+],
+[
+500,
+"GBP",
+"0.1080"
+],
+[
+125,
+"GBP",
+"0.1120"
+],
+[
+5,
+"GBP",
+"0.1780"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST B3P-VH(LF)(SN) PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/8201150/",
+"query": "B3P-VH"
+},
+{
+"dist": "RS",
+"sku": "8201157",
+"mfr": "JST Manufacturing",
+"mpn": "B4P-VH(LF)(SN)",
+"stock": "545",
+"price": [
+[
+2500,
+"GBP",
+"0.1460"
+],
+[
+1250,
+"GBP",
+"0.1480"
+],
+[
+500,
+"GBP",
+"0.1520"
+],
+[
+125,
+"GBP",
+"0.1580"
+],
+[
+5,
+"GBP",
+"0.2640"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST B4P-VH(LF)(SN) PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/8201157/",
+"query": "B4P-VH"
+},
+{
+"dist": "RS",
+"sku": "8201172",
+"mfr": "JST Manufacturing",
+"mpn": "VHR-2N",
+"stock": "15695",
+"price": [
+[
+2500,
+"GBP",
+"0.0860"
+],
+[
+1250,
+"GBP",
+"0.0900"
+],
+[
+500,
+"GBP",
+"0.0960"
+],
+[
+250,
+"GBP",
+"0.1120"
+],
+[
+5,
+"GBP",
+"0.1160"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST VHR-2N Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/8201172/",
+"query": "VHR-2N"
+},
+{
+"dist": "RS",
+"sku": "8201175",
+"mfr": "JST Manufacturing",
+"mpn": "VHR-3N",
+"stock": "23280",
+"price": [
+[
+5,
+"GBP",
+"0.1260"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST VHR-3N Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/8201175/",
+"query": "VHR-3N"
+},
+{
+"dist": "RS",
+"sku": "8201523",
+"mfr": "JST Manufacturing",
+"mpn": "XHP-11",
+"stock": "390",
+"price": [
+[
+500,
+"GBP",
+"0.0910"
+],
+[
+250,
+"GBP",
+"0.0990"
+],
+[
+100,
+"GBP",
+"0.1070"
+],
+[
+50,
+"GBP",
+"0.1250"
+],
+[
+10,
+"GBP",
+"0.1780"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "JST XHP-11 Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/8201523/",
+"query": "XHP-11"
+},
+{
+"dist": "RS",
+"sku": "8201532",
+"mfr": "JST Manufacturing",
+"mpn": "XHP-12",
+"stock": "710",
+"price": [
+[
+500,
+"GBP",
+"0.0950"
+],
+[
+250,
+"GBP",
+"0.1040"
+],
+[
+100,
+"GBP",
+"0.1110"
+],
+[
+50,
+"GBP",
+"0.1310"
+],
+[
+10,
+"GBP",
+"0.1880"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "JST XHP-12 Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/8201532/",
+"query": "XHP-12"
+},
+{
+"dist": "RS",
+"sku": "8201535",
+"mfr": "JST Manufacturing",
+"mpn": "B11B-XH-A LF SN",
+"stock": "180",
+"price": [
+[
+5000,
+"GBP",
+"0.1500"
+],
+[
+2500,
+"GBP",
+"0.1610"
+],
+[
+1000,
+"GBP",
+"0.1700"
+],
+[
+250,
+"GBP",
+"0.2330"
+],
+[
+10,
+"GBP",
+"0.3380"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "JST B11B-XH-A LF SN PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/8201535/",
+"query": "B11B-XH-A"
+},
+{
+"dist": "RS",
+"sku": "8201539",
+"mfr": "JST Manufacturing",
+"mpn": "B12B-XH-A LF SN",
+"stock": "140",
+"price": [
+[
+5000,
+"GBP",
+"0.1670"
+],
+[
+2500,
+"GBP",
+"0.1790"
+],
+[
+1000,
+"GBP",
+"0.1910"
+],
+[
+250,
+"GBP",
+"0.2030"
+],
+[
+10,
+"GBP",
+"0.2370"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "JST B12B-XH-A LF SN PCB Header, PK",
+"url": null,
+"query": "B12B-XH-A"
+},
+{
+"dist": "RS",
+"sku": "8201541",
+"mfr": "JST Manufacturing",
+"mpn": "01SXHSXH-26L 300",
+"stock": "1700",
+"price": [
+[
+100,
+"GBP",
+"0.3070"
+],
+[
+50,
+"GBP",
+"0.3240"
+],
+[
+10,
+"GBP",
+"0.3830"
+]
+],
+"minq": "10",
+"mult": "1",
+"desc": "JST 01SXHSXH-26L 300 Crimp Wire, PK",
+"url": null,
+"query": "01SXHSXH-26L500"
+},
+{
+"dist": "RS",
+"sku": "8201551",
+"mfr": "JST Manufacturing",
+"mpn": "B4B-XH-A(LF)(SN)",
+"stock": "7080",
+"price": [
+[
+2500,
+"GBP",
+"0.0560"
+],
+[
+1250,
+"GBP",
+"0.0600"
+],
+[
+500,
+"GBP",
+"0.0640"
+],
+[
+125,
+"GBP",
+"0.0680"
+],
+[
+5,
+"GBP",
+"0.1880"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST B4B-XH-A(LF)(SN) PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/8201551/",
+"query": "B4B-XH-A"
+},
+{
+"dist": "RS",
+"sku": "8201557",
+"mfr": "JST Manufacturing",
+"mpn": "B3B-XH-A(LF)(SN)",
+"stock": "3340",
+"price": [
+[
+2500,
+"GBP",
+"0.0420"
+],
+[
+1250,
+"GBP",
+"0.0460"
+],
+[
+500,
+"GBP",
+"0.0480"
+],
+[
+125,
+"GBP",
+"0.0500"
+],
+[
+5,
+"GBP",
+"0.1660"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST B3B-XH-A(LF)(SN) PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/8201557/",
+"query": "B3B-XH-A"
+},
+{
+"dist": "RS",
+"sku": "8201560",
+"mfr": "JST Manufacturing",
+"mpn": "B5B-XH-A(LF)(SN)",
+"stock": "3260",
+"price": [
+[
+2500,
+"GBP",
+"0.0700"
+],
+[
+1250,
+"GBP",
+"0.0760"
+],
+[
+500,
+"GBP",
+"0.0820"
+],
+[
+125,
+"GBP",
+"0.0880"
+],
+[
+5,
+"GBP",
+"0.2380"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST B5B-XH-A(LF)(SN) PCB Header, PK",
+"url": "https://uk.rs-online.com/web/p/pcb-headers/8201560/",
+"query": "B5B-XH-A"
+},
+{
+"dist": "RS",
+"sku": "8201614",
+"mfr": "JST Manufacturing",
+"mpn": "XHP-3",
+"stock": "20525",
+"price": [
+[
+500,
+"GBP",
+"0.0460"
+],
+[
+100,
+"GBP",
+"0.0480"
+],
+[
+50,
+"GBP",
+"0.0560"
+],
+[
+25,
+"GBP",
+"0.0660"
+],
+[
+5,
+"GBP",
+"0.0920"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST XHP-3 Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/8201614/",
+"query": "XHP-3"
+},
+{
+"dist": "RS",
+"sku": "8201618",
+"mfr": "JST Manufacturing",
+"mpn": "XHP-4",
+"stock": "39500",
+"price": [
+[
+500,
+"GBP",
+"0.0460"
+],
+[
+100,
+"GBP",
+"0.0480"
+],
+[
+50,
+"GBP",
+"0.0560"
+],
+[
+25,
+"GBP",
+"0.0660"
+],
+[
+5,
+"GBP",
+"0.0920"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST XHP-4 Connector Housing, PK",
+"url": "https://uk.rs-online.com/web/p/wire-housings-plugs/8201618/",
+"query": "XHP-4"
+},
+{
+"dist": "RS",
+"sku": "8201627",
+"mfr": "JST Manufacturing",
+"mpn": "XHP-5",
+"stock": "1735",
+"price": [
+[
+500,
+"GBP",
+"0.0600"
+],
+[
+100,
+"GBP",
+"0.0640"
+],
+[
+50,
+"GBP",
+"0.0700"
+],
+[
+25,
+"GBP",
+"0.0800"
+],
+[
+5,
+"GBP",
+"0.1160"
+]
+],
+"minq": "5",
+"mult": "1",
+"desc": "JST XHP-5 Connector Housing, PK",
+"url": null,
+"query": "XHP-5"
+},
+{
+"dist": "RS",
+"sku": "8431575",
+"mfr": "onsemi",
+"mpn": "2N3904BU",
+"stock": "8950",
+"price": [
+[
+500,
+"GBP",
+"0.1640"
+],
+[
+50,
+"GBP",
+"0.1820"
+]
+],
+"minq": "50",
+"mult": "1",
+"desc": "onsemi 2N3904BU Transistor, PK",
+"url": null,
+"query": "2N3904"
+}
+]
+}

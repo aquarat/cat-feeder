@@ -1,0 +1,79 @@
+{
+  "run_id": "6361d4561cc946f29886a3debd9fb9d0",
+  "started_utc": "2026-10-24T16:28:28.173945+00:00",
+  "suite_execution": "PASS",
+  "run_state": "COMPLETE",
+  "stage": "complete",
+  "circuit_qualification": "CONDITIONAL",
+  "physical_tests": "NOT PERFORMED",
+  "tested_envelope": "FAIL",
+  "thermal_cases": 36,
+  "thermal_target_failures": 18,
+  "vmot_cases": 162,
+  "vmot_35V_failures": 17,
+  "ldo_behavioral_cases": 144,
+  "ldo_behavioral_rail_failures": 97,
+  "simulated_transients": 308,
+  "worst_thermal": {
+    "vin_V": 5.25,
+    "ambient_C": 50.0,
+    "load_A": 0.5,
+    "dissipation_W": 0.9754200000000001,
+    "estimated_Tj_C": 229.47728,
+    "margin_to_125C": -104.47728000000001,
+    "criterion": "FAIL"
+  },
+  "worst_vmot": {
+    "case": "vmot_099",
+    "vin_V": 24.0,
+    "C10_F": 8e-05,
+    "lead_H": 1e-05,
+    "wire_ohm": 0.02,
+    "esr_ohm": 0.03,
+    "peak_vmot_V": 43.27801282648,
+    "peak_current_A": 61.03452923088,
+    "oracle_max_error_V": 0.0005199190736675519,
+    "margin_to_35V": -8.278012826480001,
+    "criterion": "FAIL"
+  },
+  "worst_behavioral_droop": {
+    "case": "ldo_009",
+    "vin_V": 4.75,
+    "source_ohm": 0.1,
+    "cap_factor": 0.3,
+    "control_lag_s": 0.0001,
+    "current_limit_A": 0.6,
+    "load_low_A": 0.1,
+    "load_high_A": 0.7,
+    "min_3V3_V": 0.2075847083683,
+    "max_3V3_V": 4.689991997186,
+    "min_5V_pin_V": 4.690634488528,
+    "peak_source_A": 0.5936551147246,
+    "criterion": "FAIL",
+    "interpretation": "assumed-model envelope, not AP2112 prediction"
+  },
+  "worst_thermal_current_limit": {
+    "vin_V": 5.25,
+    "ambient_C": 50.0,
+    "target_Tj_C": 125,
+    "theta_JA_C_per_W": 184.0,
+    "nominal_vout_limit_A": 0.20881471571906352,
+    "low_output_sensitivity_limit_A": 0.20364525914087214,
+    "criterion": "CONDITIONAL"
+  },
+  "max_rlc_oracle_error_V": 0.0023665702802606603,
+  "independent_oracles": {
+    "lossless_LC": {
+      "peak_V": 47.99999460554,
+      "expected_peak_V": 48,
+      "peak_time_s": 0.0001093676036978,
+      "expected_peak_time_s": 0.000109346382657961
+    },
+    "charge_conservation": {
+      "final_V": 3.103931274557,
+      "analytic_final_V": 3.1039313725490194
+    }
+  },
+  "note": "FAIL rows are real criterion failures under stated assumptions; suite PASS only certifies execution and numerical checks.",
+  "finished_utc": "2026-10-24T16:28:51.578976+00:00"
+}

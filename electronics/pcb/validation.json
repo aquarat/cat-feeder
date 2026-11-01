@@ -1,0 +1,144 @@
+{
+  "tool": "KiCad 9.0.2",
+  "board_bounding_box_mm": [
+    58.1177,
+    80
+  ],
+  "outline": "shallow crescent; R141 outer/R91 inner; 2mm corner fillets",
+  "layers": 2,
+  "components": 54,
+  "assembly_process_counts": {
+    "SMT": 36,
+    "THT": 18
+  },
+  "routing_vias": 55,
+  "track_segments": 621,
+  "track_widths_mm": {
+    "/+12V": [
+      0.5
+    ],
+    "/+3V3": [
+      0.5
+    ],
+    "/+5V": [
+      0.5
+    ],
+    "/BOOT": [
+      0.25
+    ],
+    "/BUS_SENSE": [
+      0.25
+    ],
+    "/DIR": [
+      0.25
+    ],
+    "/DPS_RX": [
+      0.25
+    ],
+    "/DPS_RX_EXT": [
+      0.25
+    ],
+    "/DPS_TX": [
+      0.25
+    ],
+    "/DPS_TX_BUF": [
+      0.25
+    ],
+    "/DPS_TX_EXT": [
+      0.25
+    ],
+    "/EN": [
+      0.25
+    ],
+    "/FAN_BASE": [
+      0.25
+    ],
+    "/FAN_PWM_GPIO": [
+      0.25
+    ],
+    "/FAN_PWM_OD": [
+      0.25
+    ],
+    "/FAN_TACH": [
+      0.25
+    ],
+    "/GND": [
+      0.5
+    ],
+    "/HOME": [
+      0.25
+    ],
+    "/I2C_SCL": [
+      0.25
+    ],
+    "/I2C_SDA": [
+      0.25
+    ],
+    "/INDEX": [
+      0.25
+    ],
+    "/M1A": [
+      1.0
+    ],
+    "/M1B": [
+      1.0
+    ],
+    "/M2A": [
+      1.0
+    ],
+    "/M2B": [
+      1.0
+    ],
+    "/MOTOR_RUN": [
+      0.25
+    ],
+    "/ONEWIRE": [
+      0.25
+    ],
+    "/STEP": [
+      0.25
+    ],
+    "/TACH_EXT": [
+      0.25
+    ],
+    "/TEC_EN": [
+      0.25
+    ],
+    "/U0RX": [
+      0.25
+    ],
+    "/U0TX": [
+      0.25
+    ],
+    "/UART_OEn": [
+      0.25
+    ],
+    "/VMOT": [
+      0.8014,
+      1.0
+    ]
+  },
+  "ERC_violations": 0,
+  "DRC_violations": 0,
+  "unconnected": 0,
+  "schematic_parity_issues": 0,
+  "assembly_origin": "lower left corner of board bounding rectangle; +X right, +Y up",
+  "project_configuration": {
+    "class_widths_mm": {
+      "Default": 0.25,
+      "Motor": 1.0,
+      "Power": 0.5
+    },
+    "patterns_checked": 18,
+    "project_rules": "passed"
+  },
+  "centroid_validation": {
+    "refs_checked": 54,
+    "THT_body_centroids": 18,
+    "SMT_centred_origins": 36,
+    "supplier_angles": "pending"
+  },
+  "BOM_CPL_and_design_connectivity": "passed",
+  "stock": "all 54 selected components had positive direct JLC stock; snapshot not reservation",
+  "physical_testing": "none; no current, thermal, RF, EMC or enclosure qualification"
+}

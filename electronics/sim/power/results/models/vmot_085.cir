@@ -1,0 +1,19 @@
+vmot_085: generated sensitivity study; see README
+* C10 exact nominal 100u/50V; tolerance and all parasitics swept
+* No load, no carrier ceramic, no clamp, no source current limit: sensitivity only
+Vbus src 0 PULSE(0 24.0 10u 1n 1n 5m 10m)
+Rlead src lead 0.1
+Llead lead vmot 5e-07
+Resr vmot cap 0.061
+C10 cap 0 8e-05
+.options reltol=1e-6 abstol=1e-10 vntol=1e-8
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 2e-07 0.002 0 2e-07
+wrdata vmot_085.dat v(vmot) v(cap) i(Llead)
+quit
+.endc
+.end

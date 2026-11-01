@@ -1,0 +1,95 @@
+{
+  "retrieval_date_utc": "2026-10-24",
+  "manifest_created_utc": "2026-10-24T16:33:36.331493+00:00",
+  "files": [
+    {
+      "file": "reference/sparkfun-SparkFun_STUSB4500_USB-PD.sch",
+      "url": "https://raw.githubusercontent.com/sparkfun/Power_Delivery_Board-USB-C/42134985243912d4803d1ff985458e44d11f1ee0/Hardware/SparkFun_STUSB4500_USB-PD.sch",
+      "sha256": "7259a2bdeb7dce838237755e35495d328c0cde28770295a53bb47a2cd1587861",
+      "notes": "Actual retrieved source; original copyright/license retained."
+    },
+    {
+      "file": "reference/sparkfun-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/sparkfun/Power_Delivery_Board-USB-C/42134985243912d4803d1ff985458e44d11f1ee0/LICENSE.md",
+      "sha256": "eb0ab46fdbb3806278560b35092564c28d0739b51efe52400fe4826500e8fc9b",
+      "notes": "Actual retrieved source; original copyright/license retained."
+    },
+    {
+      "file": "reference/stusb4500-sparkfun.pdf",
+      "url": "https://raw.githubusercontent.com/sparkfun/Power_Delivery_Board-USB-C/42134985243912d4803d1ff985458e44d11f1ee0/Documentation/STUSB4500_Datasheet.pdf",
+      "sha256": "33292e3868209e8bb6f40377e1738e771f1f7b9ae581ecbdb7fd83cb223de9d0",
+      "notes": "ST DS12499 Rev 3 from SparkFun; current ST page text cross-checked, do not label this local PDF latest."
+    },
+    {
+      "file": "reference/sparkfun-schematic.pdf",
+      "url": "https://cdn.sparkfun.com/assets/9/2/6/8/6/SparkFun_PowerDeliveryBoardSchematic.pdf",
+      "sha256": "13d484315ae1dddac7560d32dd6eb52b9db757eda502fc772ae3ae927148d90c",
+      "notes": "Actual retrieved source; original copyright/license retained."
+    },
+    {
+      "file": "reference/stl9p3llh6.pdf",
+      "url": "https://agelectronica.lat/pdfs/textos/S/STL9P3LLH6.PDF",
+      "sha256": "b966426afe1bec3c3907af07d91c79678b9828604c2068ec5495a65c06e77d14",
+      "notes": "ST DocID025823 Rev 2 manufacturer PDF mirror; current ST DS10145 Rev3 indexed specs cross-checked."
+    },
+    {
+      "file": "reference/usb4105.pdf",
+      "url": "https://file.huaqiu.com/web2/M00/5A/89/poYBAGLry6iAcsUrAAIyZddzY9w233.pdf",
+      "sha256": "0ff2526fc28bbfdcb46a61fd394454be865854212c677e5aa55fc305368a01b1",
+      "notes": "GCT mechanical drawing Rev B 2021. Electrical 20V statement superseded by product specification A3 2023."
+    },
+    {
+      "file": "reference/usb4105-spec.pdf",
+      "url": "https://www.ariat-tech.com/datasheet/62/USB4105-GF-A.pdf",
+      "sha256": "268ad33f86f802665e6ae5f5ce3e8c433b00bb83a4558fdf214ad5110c6e3aa9",
+      "notes": "GCT product specification A3 2023-02-27, 48V and 5A collective VBUS."
+    },
+    {
+      "file": "reference/esda25w.pdf",
+      "url": "https://catalogue2.pss-electrocomponents.com/catalogue/463/ESDA25W.pdf",
+      "sha256": "b5140ea6a8bd09a6d14268dce4789317453972b208de8f7ebd17edf72073ce66",
+      "notes": "ST ESDAxxxWx Rev2 August2005, actual functional pin drawing inspected."
+    },
+    {
+      "file": "reference/tca9517a.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tca9517a.pdf",
+      "sha256": "ad2d7dc5994583006aa21b67ee9f18507a2698ad9366285dff56816f065790c6",
+      "notes": "TI SCPS245E October2025; A VOL0.2V vs B VOL0.6V, power-off behavior and pinout read."
+    },
+    {
+      "file": "reference/tps709.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps709.pdf",
+      "sha256": "8c14e3efae738a27b857b789aa87369de9037a8ef3616a9f71a423587cdc6949",
+      "notes": "TI TPS709 30V LDO; DBV pinout distinguished from TPS709A and TPS709B; EN maximum6.5V, float allowed."
+    },
+    {
+      "file": "reference/SparkFun_STUSB4500.cpp",
+      "url": "https://raw.githubusercontent.com/sparkfun/SparkFun_STUSB4500_Arduino_Library/7f76188b7900d930aeb7908319d463b6446257c6/src/SparkFun_STUSB4500.cpp",
+      "sha256": "0d047860c8bed18c071115c4b8a79d9ceecf01e7faeb1d73653f2dcef21db48a",
+      "notes": "Actual retrieved source; original copyright/license retained."
+    },
+    {
+      "file": "reference/SparkFun_STUSB4500.h",
+      "url": "https://raw.githubusercontent.com/sparkfun/SparkFun_STUSB4500_Arduino_Library/7f76188b7900d930aeb7908319d463b6446257c6/src/SparkFun_STUSB4500.h",
+      "sha256": "43c60d303f4e4aedc106795794041d777c5f785eba30d5b322b16c10a7a2e946",
+      "notes": "Actual retrieved source; original copyright/license retained."
+    },
+    {
+      "file": "reference/sparkfun-library-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/sparkfun/SparkFun_STUSB4500_Arduino_Library/7f76188b7900d930aeb7908319d463b6446257c6/LICENSE.md",
+      "sha256": "6532771f09b24eadc3e75b9c2ecb035c38ebea295542833e892fab9018c678da",
+      "notes": "Actual retrieved source; original copyright/license retained."
+    }
+  ],
+  "web_only_sources": [
+    {
+      "url": "https://www.st.com/resource/en/datasheet/esda25p35-1u1m.pdf",
+      "evidence": "Current ST web-indexed datasheet text; direct PDF retrieval timed out. Pin1 cathode, pin2 anode, VRM22V, VCL41V at35A."
+    },
+    {
+      "url": "https://learn.sparkfun.com/tutorials/power-delivery-board---usb-c-qwiic-hookup-guide/all",
+      "evidence": "Direct webfetch of complete guide; identifies DEV15801 and NVM API."
+    }
+  ],
+  "scope": "Public read-only evidence; no supplier account operations"
+}

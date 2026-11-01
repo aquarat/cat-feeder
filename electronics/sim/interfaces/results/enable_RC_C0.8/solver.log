@@ -1,0 +1,21 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: cat feeder interface study: enable_rc_c0.8
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+rail                                         0
+en                                           0
+vdd#branch                                   0
+
+
+No. of Data Rows : 4036
+ngspice-39 done

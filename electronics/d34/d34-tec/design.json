@@ -1,0 +1,697 @@
+{
+ "board": "d34-tec",
+ "source_sha256": "c24e0a5435e3bfcda9bd10e4048480aada2dd97a43c3d68e7983ae2a5197fb54",
+ "size_mm": [
+  81.0,
+  47.0
+ ],
+ "pwr_flags": [],
+ "parts": [
+  {
+   "ref": "K1",
+   "kind": "G2RL2",
+   "value": "G2RL-2 DC12",
+   "nets": {
+    "A1": "THERMO_RET",
+    "A2": "K1_COILN",
+    "21": "DPS_OUT_P",
+    "24": "K1_MID",
+    "11": "K1_MID",
+    "14": "TEC_P"
+   },
+   "x": 3.0,
+   "y": 41.2,
+   "rot": 90
+  },
+  {
+   "ref": "K2",
+   "kind": "G2RL2",
+   "value": "G2RL-2 DC12",
+   "nets": {
+    "A1": "K2_SUP",
+    "A2": "K2_COILN",
+    "11": "TEC_A",
+    "12": "TEC_P",
+    "14": "DPS_OUT_N",
+    "21": "TEC_B",
+    "22": "DPS_OUT_N",
+    "24": "TEC_P"
+   },
+   "x": 60.0,
+   "y": 33.7,
+   "rot": 270
+  },
+  {
+   "ref": "D1",
+   "kind": "D_5817V",
+   "value": "1N5817",
+   "nets": {
+    "1": "K1_CLAMP",
+    "2": "K1_COILN"
+   },
+   "x": 65.2,
+   "y": 32.0,
+   "rot": 270
+  },
+  {
+   "ref": "DZ2",
+   "kind": "DZ15V",
+   "value": "BZX79-C15",
+   "nets": {
+    "1": "K1_CLAMP",
+    "2": "THERMO_RET"
+   },
+   "x": 65.2,
+   "y": 37.2,
+   "rot": 270
+  },
+  {
+   "ref": "J2",
+   "kind": "MF6",
+   "value": "DPS5005 output: 1-3 OUT+, 4-6 OUT-",
+   "nets": {
+    "1": "DPS_OUT_P",
+    "2": "DPS_OUT_P",
+    "3": "DPS_OUT_P",
+    "4": "DPS_OUT_N",
+    "5": "DPS_OUT_N",
+    "6": "DPS_OUT_N"
+   },
+   "x": 23.0,
+   "y": 20.5,
+   "rot": 0
+  },
+  {
+   "ref": "J3",
+   "kind": "MF4",
+   "value": "TEC array 2S2P: 1 A 2 B 3 A 4 B",
+   "nets": {
+    "1": "TEC_A",
+    "2": "TEC_B",
+    "3": "TEC_A",
+    "4": "TEC_B"
+   },
+   "x": 51.8,
+   "y": 20.5,
+   "rot": 0
+  },
+  {
+   "ref": "J4",
+   "kind": "VH2",
+   "value": "Hot-sink thermostats (series NC loop, 12 V / 35 mA)",
+   "nets": {
+    "1": "LOOP12",
+    "2": "THERMO_RET"
+   },
+   "x": 38.0,
+   "y": 21.0,
+   "rot": 0
+  },
+  {
+   "ref": "R1",
+   "kind": "RV",
+   "value": "1k",
+   "nets": {
+    "1": "THERMO_RET",
+    "2": "THERMO_OK"
+   },
+   "x": 54.7,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "R2",
+   "kind": "RV",
+   "value": "330",
+   "nets": {
+    "1": "THERMO_OK",
+    "2": "GND"
+   },
+   "x": 57.1,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "Q2",
+   "kind": "2N3904",
+   "value": "2N3904",
+   "nets": {
+    "1": "GND",
+    "2": "Q2_B",
+    "3": "K1_COILN"
+   },
+   "x": 2.5,
+   "y": 13.3,
+   "rot": 0
+  },
+  {
+   "ref": "R4",
+   "kind": "RV",
+   "value": "1k",
+   "nets": {
+    "1": "K1_ON",
+    "2": "Q2_B"
+   },
+   "x": 11.0,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "R5",
+   "kind": "RV",
+   "value": "47k",
+   "nets": {
+    "1": "Q2_B",
+    "2": "GND"
+   },
+   "x": 13.4,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "Q3",
+   "kind": "2N3904",
+   "value": "2N3904",
+   "nets": {
+    "1": "GND",
+    "2": "Q3_B",
+    "3": "K2_COILN"
+   },
+   "x": 47.4,
+   "y": 13.3,
+   "rot": 0
+  },
+  {
+   "ref": "R6",
+   "kind": "RV",
+   "value": "1k",
+   "nets": {
+    "1": "K2_ON",
+    "2": "Q3_B"
+   },
+   "x": 24.5,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "R7",
+   "kind": "RV",
+   "value": "47k",
+   "nets": {
+    "1": "Q3_B",
+    "2": "GND"
+   },
+   "x": 26.9,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "R9",
+   "kind": "RV",
+   "value": "47k",
+   "nets": {
+    "1": "FAN2_PWM",
+    "2": "GND"
+   },
+   "x": 29.3,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "R10",
+   "kind": "RV",
+   "value": "47k",
+   "nets": {
+    "1": "FAN3_PWM",
+    "2": "GND"
+   },
+   "x": 31.7,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "R3",
+   "kind": "RV",
+   "value": "4.7k",
+   "nets": {
+    "1": "FAN1_PWM",
+    "2": "FAN1_B"
+   },
+   "x": 34.1,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "Q1",
+   "kind": "2N3904",
+   "value": "2N3904",
+   "nets": {
+    "1": "GND",
+    "2": "FAN1_B",
+    "3": "FAN1_OD"
+   },
+   "x": 36.5,
+   "y": 13.3,
+   "rot": 0
+  },
+  {
+   "ref": "D7",
+   "kind": "D_5817V",
+   "value": "1N5817",
+   "nets": {
+    "1": "FAN2_12",
+    "2": "FAN2_N"
+   },
+   "x": 44.6,
+   "y": 12.0,
+   "rot": 270
+  },
+  {
+   "ref": "D5",
+   "kind": "D_5817V",
+   "value": "1N5817",
+   "nets": {
+    "1": "K2_SUP",
+    "2": "+12V"
+   },
+   "x": 72.24,
+   "y": 21.5,
+   "rot": 180
+  },
+  {
+   "ref": "D8",
+   "kind": "D_5817V",
+   "value": "1N5817",
+   "nets": {
+    "1": "FAN3_12",
+    "2": "FAN3_N"
+   },
+   "x": 76.4,
+   "y": 21.5,
+   "rot": 0
+  },
+  {
+   "ref": "C1",
+   "kind": "CP220u",
+   "value": "220u 35V",
+   "nets": {
+    "1": "K2_SUP",
+    "2": "K2_COILN"
+   },
+   "x": 72.5,
+   "y": 15.5,
+   "rot": 0
+  },
+  {
+   "ref": "F1",
+   "kind": "PTC050",
+   "value": "RXEF050",
+   "nets": {
+    "1": "+12V",
+    "2": "FAN1_12"
+   },
+   "x": 61.2,
+   "y": 12.4,
+   "rot": 0
+  },
+  {
+   "ref": "F2",
+   "kind": "PTC050",
+   "value": "RXEF050",
+   "nets": {
+    "1": "+12V",
+    "2": "FAN2_12"
+   },
+   "x": 61.2,
+   "y": 16.2,
+   "rot": 0
+  },
+  {
+   "ref": "F3",
+   "kind": "PTC050",
+   "value": "RXEF050",
+   "nets": {
+    "1": "+12V",
+    "2": "FAN3_12"
+   },
+   "x": 61.2,
+   "y": 20.0,
+   "rot": 0
+  },
+  {
+   "ref": "Q4",
+   "kind": "IRLZ44N",
+   "value": "IRLZ44N",
+   "nets": {
+    "1": "FAN2_PWM",
+    "2": "FAN2_N",
+    "3": "GND"
+   },
+   "x": 62.0,
+   "y": 26.9,
+   "rot": 0
+  },
+  {
+   "ref": "Q5",
+   "kind": "IRLZ44N",
+   "value": "IRLZ44N",
+   "nets": {
+    "1": "FAN3_PWM",
+    "2": "FAN3_N",
+    "3": "GND"
+   },
+   "x": 72.7,
+   "y": 26.9,
+   "rot": 0
+  },
+  {
+   "ref": "J5",
+   "kind": "FAN4",
+   "value": "FAN1 12 V 4-pin PWM (NF-A12x25)",
+   "nets": {
+    "1": "GND",
+    "2": "FAN1_12",
+    "3": "TACH1",
+    "4": "FAN1_OD"
+   },
+   "x": 37.0,
+   "y": 6.4,
+   "rot": 0
+  },
+  {
+   "ref": "J6",
+   "kind": "FAN4",
+   "value": "FAN2 12 V blower (switched DC low side), tach",
+   "nets": {
+    "1": "FAN2_N",
+    "2": "FAN2_12",
+    "3": "TACH2"
+   },
+   "x": 48.5,
+   "y": 6.4,
+   "rot": 0
+  },
+  {
+   "ref": "J7",
+   "kind": "FAN4",
+   "value": "FAN3 spare 12 V (switched low side: fan or external relay <= 0.4 A)",
+   "nets": {
+    "1": "FAN3_N",
+    "2": "FAN3_12"
+   },
+   "x": 60.0,
+   "y": 6.4,
+   "rot": 0
+  },
+  {
+   "ref": "U1",
+   "kind": "TL431",
+   "value": "TL431AILPG",
+   "nets": {
+    "1": "UV_REF",
+    "2": "GND",
+    "3": "UV_K"
+   },
+   "x": 69.6,
+   "y": 38.0,
+   "rot": 90
+  },
+  {
+   "ref": "Q6",
+   "kind": "BC327",
+   "value": "BC327-25",
+   "nets": {
+    "1": "LOOP12",
+    "2": "Q6_B",
+    "3": "+12V"
+   },
+   "x": 74.4,
+   "y": 38.0,
+   "rot": 90
+  },
+  {
+   "ref": "R11",
+   "kind": "RV",
+   "value": "1k",
+   "nets": {
+    "1": "+12V",
+    "2": "UV_REF"
+   },
+   "x": 77.6,
+   "y": 32.0,
+   "rot": 270
+  },
+  {
+   "ref": "R13",
+   "kind": "RV",
+   "value": "330",
+   "nets": {
+    "1": "UV_REF",
+    "2": "GND"
+   },
+   "x": 79.8,
+   "y": 32.0,
+   "rot": 270
+  },
+  {
+   "ref": "R14",
+   "kind": "RV",
+   "value": "10k",
+   "nets": {
+    "1": "LOOP12",
+    "2": "UV_REF"
+   },
+   "x": 71.5,
+   "y": 41.5,
+   "rot": 0
+  },
+  {
+   "ref": "R15",
+   "kind": "RV",
+   "value": "4.7k",
+   "nets": {
+    "1": "Q6_B",
+    "2": "UV_K"
+   },
+   "x": 76.2,
+   "y": 41.5,
+   "rot": 0
+  },
+  {
+   "ref": "J9",
+   "kind": "XH12",
+   "value": "LINK to D34-CTRL",
+   "nets": {
+    "1": "GND",
+    "2": "GND",
+    "3": "K1_ON",
+    "4": "K2_ON",
+    "5": "THERMO_OK",
+    "6": "GND",
+    "7": "FAN1_PWM",
+    "8": "FAN2_PWM",
+    "9": "FAN3_PWM",
+    "10": "TACH1",
+    "11": "TACH2",
+    "12": "GND"
+   },
+   "x": 4.0,
+   "y": 6.3,
+   "rot": 0
+  },
+  {
+   "ref": "J1",
+   "kind": "VH3",
+   "value": "+12 V from pwr card",
+   "nets": {
+    "1": "+12V",
+    "2": "GND",
+    "3": "+12V"
+   },
+   "x": 4.0,
+   "y": 21.0,
+   "rot": 0
+  }
+ ],
+ "connectors": {
+  "J2": {
+   "kind": "MF6",
+   "label": "DPS OUT",
+   "roles": [
+    "TEC",
+    "TEC",
+    "TEC",
+    "TEC",
+    "TEC",
+    "TEC"
+   ],
+   "nets": [
+    "DPS_OUT_P",
+    "DPS_OUT_P",
+    "DPS_OUT_P",
+    "DPS_OUT_N",
+    "DPS_OUT_N",
+    "DPS_OUT_N"
+   ]
+  },
+  "J3": {
+   "kind": "MF4",
+   "label": "TEC",
+   "roles": [
+    "TEC",
+    "TEC",
+    "TEC",
+    "TEC"
+   ],
+   "nets": [
+    "TEC_A",
+    "TEC_B",
+    "TEC_A",
+    "TEC_B"
+   ]
+  },
+  "J4": {
+   "kind": "VH2",
+   "label": "THERMO",
+   "roles": [
+    "12V",
+    "12V"
+   ],
+   "nets": [
+    "LOOP12",
+    "THERMO_RET"
+   ]
+  },
+  "J5": {
+   "kind": "FAN4",
+   "label": "FAN1",
+   "roles": [
+    "GND",
+    "12V",
+    "LOGIC",
+    "LOGIC"
+   ],
+   "nets": [
+    "GND",
+    "FAN1_12",
+    "TACH1",
+    "FAN1_OD"
+   ]
+  },
+  "J6": {
+   "kind": "FAN4",
+   "label": "FAN2",
+   "roles": [
+    "FANGND",
+    "12V",
+    "LOGIC",
+    "NC"
+   ],
+   "nets": [
+    "FAN2_N",
+    "FAN2_12",
+    "TACH2",
+    null
+   ]
+  },
+  "J7": {
+   "kind": "FAN4",
+   "label": "FAN3",
+   "roles": [
+    "FANGND",
+    "12V",
+    "NC",
+    "NC"
+   ],
+   "nets": [
+    "FAN3_N",
+    "FAN3_12",
+    null,
+    null
+   ]
+  },
+  "J9": {
+   "kind": "XH12",
+   "label": "LINK-CTRL",
+   "roles": [
+    "GND",
+    "GND",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "GND",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "GND"
+   ],
+   "nets": [
+    "GND",
+    "GND",
+    "K1_ON",
+    "K2_ON",
+    "THERMO_OK",
+    "GND",
+    "FAN1_PWM",
+    "FAN2_PWM",
+    "FAN3_PWM",
+    "TACH1",
+    "TACH2",
+    "GND"
+   ]
+  },
+  "J1": {
+   "kind": "VH3",
+   "label": "12V IN",
+   "roles": [
+    "12V",
+    "GND",
+    "12V"
+   ],
+   "nets": [
+    "+12V",
+    "GND",
+    "+12V"
+   ]
+  }
+ },
+ "netclasses": {
+  "TEC": {
+   "width": 2.5,
+   "clearance": 0.5,
+   "nets": [
+    "DPS_OUT_P",
+    "DPS_OUT_N",
+    "K1_MID",
+    "TEC_P",
+    "TEC_A",
+    "TEC_B"
+   ]
+  },
+  "Power": {
+   "width": 0.8,
+   "clearance": 0.3,
+   "nets": [
+    "GND",
+    "+3V3",
+    "THERMO_RET",
+    "K2_SUP",
+    "FAN1_12",
+    "FAN2_12",
+    "FAN3_12",
+    "FAN2_N",
+    "FAN3_N"
+   ]
+  },
+  "P12": {
+   "width": 2.0,
+   "clearance": 0.3,
+   "nets": [
+    "+12V"
+   ]
+  }
+ },
+ "band_mm": 3.0
+}

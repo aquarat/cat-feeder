@@ -1,0 +1,204 @@
+{
+  "status": "Analytic sizing scenarios, 2026-10-24; no physical validation",
+  "geometry_basis": "Original vents and proposed revision described in kb/airflow.md; not live CAD",
+  "rounded_slot_area_mm2": {
+    "existing_inlet": 3889.063890406734,
+    "existing_exhaust": 7894.76282401554,
+    "proposed_inlet": 5935.698933608806,
+    "proposed_exhaust": 7869.52564803108
+  },
+  "fan_square_mm2": 14400,
+  "nominal_120mm_disc_mm2": 11309.733552923255,
+  "fan_unsealed_gap_upper_area_mm2": 960,
+  "fan_catalogue": {
+    "model": "Noctua NF-A12x25 PWM",
+    "rpm": 2000,
+    "free_air_m3_h": 102.1,
+    "shutoff_pressure_Pa": 22.947560999999997,
+    "source": "https://www.noctua.at/en/products/nf-a12x25-pwm/specifications",
+    "evidence": "Manufacturer search-index text; direct fetch returned HTTP 429"
+  },
+  "assumptions": {
+    "rho_kg_m3": 1.2,
+    "cp_J_kg_K": 1005.0,
+    "vent_pressure": "sum rho/2 * (Q/(Cd*A))^2; Cd sensitivity only",
+    "omissions": "fan curve, fins, bridge, turning, frame blockage, leakage, dust, thermal bridges"
+  },
+  "vent_pressure_scenarios": [
+    {
+      "variant": "existing",
+      "flow_m3_h": 20,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 3.4010544397759683,
+      "exhaust_Pa": 0.8253260719694301,
+      "vent_total_Pa": 4.226380511745399
+    },
+    {
+      "variant": "existing",
+      "flow_m3_h": 20,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 1.913093122373982,
+      "exhaust_Pa": 0.46424591548280447,
+      "vent_total_Pa": 2.3773390378567862
+    },
+    {
+      "variant": "existing",
+      "flow_m3_h": 30,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 7.652372489495928,
+      "exhaust_Pa": 1.8569836619312174,
+      "vent_total_Pa": 9.509356151427145
+    },
+    {
+      "variant": "existing",
+      "flow_m3_h": 30,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 4.304459525341459,
+      "exhaust_Pa": 1.04455330983631,
+      "vent_total_Pa": 5.349012835177769
+    },
+    {
+      "variant": "existing",
+      "flow_m3_h": 40,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 13.604217759103873,
+      "exhaust_Pa": 3.3013042878777203,
+      "vent_total_Pa": 16.905522046981595
+    },
+    {
+      "variant": "existing",
+      "flow_m3_h": 40,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 7.652372489495928,
+      "exhaust_Pa": 1.8569836619312179,
+      "vent_total_Pa": 9.509356151427145
+    },
+    {
+      "variant": "existing",
+      "flow_m3_h": 60,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 30.609489957983712,
+      "exhaust_Pa": 7.42793464772487,
+      "vent_total_Pa": 38.03742460570858
+    },
+    {
+      "variant": "existing",
+      "flow_m3_h": 60,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 17.217838101365835,
+      "exhaust_Pa": 4.17821323934524,
+      "vent_total_Pa": 21.396051340711075
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 20,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 1.4600240500995583,
+      "exhaust_Pa": 0.8306281191006583,
+      "vent_total_Pa": 2.2906521692002166
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 20,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 0.8212635281810012,
+      "exhaust_Pa": 0.46722831699411993,
+      "vent_total_Pa": 1.288491845175121
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 30,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 3.2850541127240063,
+      "exhaust_Pa": 1.8689132679764808,
+      "vent_total_Pa": 5.153967380700487
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 30,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 1.8478429384072528,
+      "exhaust_Pa": 1.05126371323677,
+      "vent_total_Pa": 2.899106651644023
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 40,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 5.840096200398233,
+      "exhaust_Pa": 3.322512476402633,
+      "vent_total_Pa": 9.162608676800867
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 40,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 3.285054112724005,
+      "exhaust_Pa": 1.8689132679764797,
+      "vent_total_Pa": 5.153967380700484
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 60,
+      "assumed_Cd": 0.6,
+      "inlet_Pa": 13.140216450896025,
+      "exhaust_Pa": 7.475653071905923,
+      "vent_total_Pa": 20.615869522801948
+    },
+    {
+      "variant": "proposed",
+      "flow_m3_h": 60,
+      "assumed_Cd": 0.8,
+      "inlet_Pa": 7.391371753629011,
+      "exhaust_Pa": 4.20505485294708,
+      "vent_total_Pa": 11.596426606576092
+    }
+  ],
+  "bulk_air_temperature_rise_K": [
+    {
+      "flow_m3_h": 20,
+      "heat_W": 60,
+      "rise_K": 8.955223880597014
+    },
+    {
+      "flow_m3_h": 20,
+      "heat_W": 100,
+      "rise_K": 14.925373134328359
+    },
+    {
+      "flow_m3_h": 20,
+      "heat_W": 150,
+      "rise_K": 22.388059701492537
+    },
+    {
+      "flow_m3_h": 30,
+      "heat_W": 60,
+      "rise_K": 5.970149253731343
+    },
+    {
+      "flow_m3_h": 30,
+      "heat_W": 100,
+      "rise_K": 9.950248756218905
+    },
+    {
+      "flow_m3_h": 30,
+      "heat_W": 150,
+      "rise_K": 14.925373134328357
+    },
+    {
+      "flow_m3_h": 40,
+      "heat_W": 60,
+      "rise_K": 4.477611940298507
+    },
+    {
+      "flow_m3_h": 40,
+      "heat_W": 100,
+      "rise_K": 7.462686567164179
+    },
+    {
+      "flow_m3_h": 40,
+      "heat_W": 150,
+      "rise_K": 11.194029850746269
+    }
+  ]
+}

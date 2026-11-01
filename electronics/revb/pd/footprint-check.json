@@ -1,0 +1,399 @@
+{
+  "tool": "pcbnew 9.0.2+dfsg-1",
+  "status": "PASS",
+  "checks": [
+    "All selected footprints load",
+    "Exact numbered-pad coverage including NC and USB paired contacts",
+    "STUSB4500 physical pin names match actual SparkFun Eagle source",
+    "Custom FET copper pad geometry matches actual SparkFun source with Y-coordinate transformation"
+  ],
+  "circuit_sha256": "dd2fdac00e73728c86cdb4c0446b95593b06b67f45e484eeeddc467d8da6d00b",
+  "components": [
+    {
+      "ref": "J201",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "numbered_pads": [
+        "A1",
+        "A12",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B12",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1"
+      ],
+      "sha256": "f350bfcd388f6081aa7570d5929d6d7fb9556adc3bb24b84d6482e0d5c320818"
+    },
+    {
+      "ref": "U201",
+      "footprint": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm",
+      "numbered_pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "2",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "sha256": "680581714589acb17574a3e7765101d3fddb487f7a364fc00ac80ae124ea858b"
+    },
+    {
+      "ref": "Q201",
+      "footprint": "PD:ST_PowerFLAT_3.3x3.3_SparkFun",
+      "numbered_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "sha256": "921f5875e0f1c565027b77017b6380cfff502c7723769aae27b7cc16c927d5c3"
+    },
+    {
+      "ref": "Q202",
+      "footprint": "PD:ST_PowerFLAT_3.3x3.3_SparkFun",
+      "numbered_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "sha256": "921f5875e0f1c565027b77017b6380cfff502c7723769aae27b7cc16c927d5c3"
+    },
+    {
+      "ref": "R201",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "R202",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "R203",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "C204",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "R204",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "e6c8e0ff63a631cbc022921a9d7f63a78c54176ad7aca6dae41ab9f5b4f95138"
+    },
+    {
+      "ref": "R205",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "e6c8e0ff63a631cbc022921a9d7f63a78c54176ad7aca6dae41ab9f5b4f95138"
+    },
+    {
+      "ref": "R206",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "C201",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "C202",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "C203",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "C209",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "D201",
+      "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+      "numbered_pads": [
+        "1",
+        "2",
+        "3"
+      ],
+      "sha256": "df0a48e8c0c43e83a4ddb038aab612a0138e6bed8f0d9c79e7cc60f72f13e6e6"
+    },
+    {
+      "ref": "D202",
+      "footprint": "Diode_SMD:ST_QFN-2L_1.6x1.0mm",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "70d890eb0729c5bfded6051d500787469452e43fffca4f3f5660f031a1145a87"
+    },
+    {
+      "ref": "D203",
+      "footprint": "Diode_SMD:ST_QFN-2L_1.6x1.0mm",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "70d890eb0729c5bfded6051d500787469452e43fffca4f3f5660f031a1145a87"
+    },
+    {
+      "ref": "U202",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "numbered_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "sha256": "e063acf8bcf318f5ebebddb6eeb493da6614b1f2cee19dd7dd8df0d5943f241a"
+    },
+    {
+      "ref": "C205",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "C206",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "4f88d912a06c5e2e3b8151311be72f6ac49eea68d52b4e1beaeaa067916555cc"
+    },
+    {
+      "ref": "U203",
+      "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+      "numbered_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "sha256": "1821cb74f43da74b6eeb056a66f35dcf8210f6911e8311d992cad8ad2235e70f"
+    },
+    {
+      "ref": "R207",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "R208",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "R209",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "R210",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "26fc677c5d1ee32f5f59895b2cd29b884b4a60b08f66427c2fb9759e69c030c4"
+    },
+    {
+      "ref": "C207",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "C208",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419"
+    },
+    {
+      "ref": "TP201",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP202",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP203",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP204",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP205",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP206",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP207",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP208",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP209",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    },
+    {
+      "ref": "TP210",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "numbered_pads": [
+        "1"
+      ],
+      "sha256": "b863253216b04db5519fae21af9390e330c8fc62dee105cab1cf015166eeb2fd"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Cat feeder interface study: adc_step_C1.2
+Vbus bus 0 PULSE(0 24 1m 1n 1n 20m 40m)
+Rtop bus adc 100000.0
+Rbottom adc 0 10000.0
+Cfilter adc 0 1.2000000000000002e-07
+.options reltol=1e-5 abstol=1e-12 vntol=1e-7
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 2e-06 0.008 0 2e-06
+wrdata wave.dat v(adc)
+quit
+.endc
+.end

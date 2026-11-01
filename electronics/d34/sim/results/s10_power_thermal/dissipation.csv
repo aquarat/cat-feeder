@@ -1,0 +1,139 @@
+op,part,what,I_A,P_W,limit,T_C
+steady,BRICK,input,3.90081,93.6196,160,nan
+steady,ctrl:D1,1N5817RLG,0.250789,0.0840558,125,46.7245
+steady,ctrl:D2,1N5817RLG,4.01235e-12,-4.53001e-20,125,40
+steady,ctrl:D3,HLMP-1503,1.44502e-11,-2.14151e-17,125,40
+steady,ctrl:D9,BAT42,-6.22423e-08,1.83477e-07,125,40
+steady,ctrl:U1 AMS1117,DevKit LDO,0.250789,0.337978,125,85.418
+steady,pwr:D1,P6KE30A,-5.90626e-11,1.37791e-09,125,40
+steady,pwr:DZ1,"BZX79-C15,133",-0.000840086,0.0125417,125,42.5083
+steady,pwr:F1,3568,3.28808,0.117305,nan,nan
+steady,pwr:F2,RXEF110,0.611891,0.0842423,nan,nan
+steady,pwr:Q1,IRF4905PBF,3.90081,0.216174,125,53.4028
+steady,pwr:U1,TSR 2-24120N,1.01144,0.637187,2,nan
+steady,pwr:U2,TSR 1-2450,0.250789,0.195406,1,nan
+steady,tec:D1,1N5817RLG,-3.33902e-05,0.000374802,125,40.03
+steady,tec:D5,1N5817RLG,1.37969e-07,1.69729e-11,125,40
+steady,tec:D7,1N5817RLG,-3.33904e-05,0.000396193,125,40.0317
+steady,tec:D8,1N5817RLG,-3.33905e-05,0.000399313,125,40.0319
+steady,tec:DZ2,"BZX79-C15,133",3.34257e-05,1.74349e-05,125,40.0035
+steady,tec:F1,RXEF050,0.14,0.0147,nan,nan
+steady,tec:F2,RXEF050,0.120033,0.010806,nan,nan
+steady,tec:F3,RXEF050,3.34144e-05,8.37366e-10,nan,nan
+steady,tec:K1 coil,G2RL-2 DC12,0.030586,0.359279,nan,nan
+steady,tec:K2 coil,G2RL-2 DC12,1.02036e-07,3.05939e-12,nan,nan
+steady,tec:Q1,2N3904BU,1.62712e-08,8.14262e-08,125,40
+steady,tec:Q2,2N3904BU,0.0306193,0.00450776,125,40.9016
+steady,tec:Q3,2N3904BU,3.02048e-08,3.61212e-07,125,40.0001
+steady,tec:Q4,IRLZ44NPBF,0.120033,0.000414756,125,40.0257
+steady,tec:Q5,IRLZ44NPBF,3.33904e-05,3.20654e-11,125,40
+steady,ctrl:R1,resistor 470k,-9.90199e-09,4.60832e-11,0.4,nan
+steady,ctrl:R2,resistor 10k,-1.1098e-11,1.23165e-18,0.4,nan
+steady,ctrl:R3,resistor 47k,-1.10971e-11,5.78787e-18,0.4,nan
+steady,ctrl:R4,resistor 10k,-1.1098e-11,1.23165e-18,0.4,nan
+steady,ctrl:R5,resistor 1k,1.12351e-11,1.26227e-19,0.4,nan
+steady,ctrl:R6,resistor 1k,1.1304e-12,1.2778e-21,0.4,nan
+steady,ctrl:R7,resistor 10k,4.47838e-09,2.00559e-13,0.4,nan
+steady,ctrl:R8,resistor 1k,1.10986e-11,1.23179e-19,0.4,nan
+steady,ctrl:R9,resistor 4.7k,1.32245e-08,8.21967e-13,0.4,nan
+steady,ctrl:R10,resistor 1k,6.614e-09,4.3745e-14,0.4,nan
+steady,ctrl:R11,resistor 1k,6.6135e-09,4.37384e-14,0.4,nan
+steady,ctrl:R12,resistor 47k,6.81752e-08,2.1845e-10,0.4,nan
+steady,ctrl:R13,resistor 330,2.16789e-11,1.55092e-19,0.4,nan
+steady,ctrl:R14,resistor 1k,-3.305e-09,1.0923e-14,0.4,nan
+steady,ctrl:R15,resistor 10k,9.9191e-09,9.83885e-13,0.4,nan
+steady,ctrl:R16,resistor 1k,6.614e-09,4.3745e-14,0.4,nan
+steady,ctrl:R17,resistor 10k,9.9191e-09,9.83885e-13,0.4,nan
+steady,ctrl:R18,resistor 1k,6.614e-09,4.3745e-14,0.4,nan
+steady,ctrl:R19,resistor 47k,9.91785e-09,4.6231e-12,0.4,nan
+steady,ctrl:R20,resistor 10k,6.613e-09,4.37318e-13,0.4,nan
+steady,ctrl:R21,resistor 1k,1.1303e-12,1.27758e-21,0.4,nan
+steady,ctrl:R22,resistor 1k,6.614e-09,4.3745e-14,0.4,nan
+steady,ctrl:R23,resistor 10k,9.9191e-09,9.83885e-13,0.4,nan
+steady,ctrl:R24,resistor 10k,2.64506e-08,6.99634e-12,0.4,nan
+steady,ctrl:R25,resistor 10k,2.64507e-08,6.99637e-12,0.4,nan
+steady,ctrl:R26,resistor 470k,-9.90199e-09,4.60832e-11,0.4,nan
+steady,pwr:R1,resistor 10k,0.000840052,0.00705687,0.4,nan
+steady,pwr:R3,resistor 4.7k,1.32234e-08,8.21835e-13,0.4,nan
+steady,tec:R1,resistor 1k,0.00894269,0.0799717,0.4,nan
+steady,tec:R2,resistor 330,0.00894261,0.0263902,0.4,nan
+steady,tec:R3,resistor 4.7k,-5.49932e-09,1.4214e-13,0.4,nan
+steady,tec:R4,resistor 1k,0.00236445,0.00559061,0.4,nan
+steady,tec:R5,resistor 47k,1.62722e-05,1.24449e-05,0.4,nan
+steady,tec:R6,resistor 1k,-3.89826e-09,1.51964e-14,0.4,nan
+steady,tec:R7,resistor 47k,1.61104e-09,1.21986e-13,0.4,nan
+steady,tec:R9,resistor 47k,7.00443e-05,0.000230591,0.4,nan
+steady,tec:R10,resistor 47k,7.00443e-05,0.000230591,0.4,nan
+steady,tec:R11,resistor 1k,0.00877583,0.0770152,0.4,nan
+steady,tec:R13,resistor 330,0.00964575,0.0307034,0.4,nan
+steady,tec:R14,resistor 10k,0.000872579,0.00761394,0.4,nan
+steady,tec:R15,resistor 4.7k,0.00216689,0.0220685,0.4,nan
+pull-down,BRICK,input,5.51932,132.464,160,nan
+pull-down,ctrl:D1,1N5817RLG,0.250789,0.0840558,125,46.7245
+pull-down,ctrl:D2,1N5817RLG,4.01236e-12,-4.53014e-20,125,40
+pull-down,ctrl:D3,HLMP-1503,1.44502e-11,-2.14151e-17,125,40
+pull-down,ctrl:D9,BAT42,-6.22423e-08,1.83477e-07,125,40
+pull-down,ctrl:U1 AMS1117,DevKit LDO,0.250789,0.337978,125,85.418
+pull-down,pwr:D1,P6KE30A,-5.86334e-11,1.35154e-09,125,40
+pull-down,pwr:DZ1,"BZX79-C15,133",-0.000812335,0.0121263,125,42.4253
+pull-down,pwr:F1,3568,4.89912,0.260415,nan,nan
+pull-down,pwr:F2,RXEF110,0.619384,0.0863181,nan,nan
+pull-down,pwr:Q1,IRF4905PBF,5.51932,0.432581,125,66.82
+pull-down,pwr:U1,TSR 2-24120N,1.01144,0.637187,2,nan
+pull-down,pwr:U2,TSR 1-2450,0.250789,0.195406,1,nan
+pull-down,tec:D1,1N5817RLG,-3.33902e-05,0.000374802,125,40.03
+pull-down,tec:D5,1N5817RLG,1.37969e-07,1.69724e-11,125,40
+pull-down,tec:D7,1N5817RLG,-3.33904e-05,0.000396193,125,40.0317
+pull-down,tec:D8,1N5817RLG,-3.33905e-05,0.000399313,125,40.0319
+pull-down,tec:DZ2,"BZX79-C15,133",3.34257e-05,1.74349e-05,125,40.0035
+pull-down,tec:F1,RXEF050,0.14,0.0147,nan,nan
+pull-down,tec:F2,RXEF050,0.120033,0.010806,nan,nan
+pull-down,tec:F3,RXEF050,3.34144e-05,8.37031e-10,nan,nan
+pull-down,tec:K1 coil,G2RL-2 DC12,0.030586,0.359279,nan,nan
+pull-down,tec:K2 coil,G2RL-2 DC12,1.02036e-07,3.05944e-12,nan,nan
+pull-down,tec:Q1,2N3904BU,1.62712e-08,8.14262e-08,125,40
+pull-down,tec:Q2,2N3904BU,0.0306193,0.00450776,125,40.9016
+pull-down,tec:Q3,2N3904BU,3.02048e-08,3.61212e-07,125,40.0001
+pull-down,tec:Q4,IRLZ44NPBF,0.120033,0.000414756,125,40.0257
+pull-down,tec:Q5,IRLZ44NPBF,3.33904e-05,3.20654e-11,125,40
+pull-down,ctrl:R1,resistor 470k,-9.90199e-09,4.60832e-11,0.4,nan
+pull-down,ctrl:R2,resistor 10k,-1.10979e-11,1.23164e-18,0.4,nan
+pull-down,ctrl:R3,resistor 47k,-1.10971e-11,5.78786e-18,0.4,nan
+pull-down,ctrl:R4,resistor 10k,-1.10979e-11,1.23164e-18,0.4,nan
+pull-down,ctrl:R5,resistor 1k,1.12354e-11,1.26235e-19,0.4,nan
+pull-down,ctrl:R6,resistor 1k,1.13065e-12,1.27837e-21,0.4,nan
+pull-down,ctrl:R7,resistor 10k,4.47838e-09,2.00559e-13,0.4,nan
+pull-down,ctrl:R8,resistor 1k,1.1099e-11,1.23188e-19,0.4,nan
+pull-down,ctrl:R9,resistor 4.7k,1.32245e-08,8.21967e-13,0.4,nan
+pull-down,ctrl:R10,resistor 1k,6.614e-09,4.3745e-14,0.4,nan
+pull-down,ctrl:R11,resistor 1k,6.614e-09,4.3745e-14,0.4,nan
+pull-down,ctrl:R12,resistor 47k,6.81752e-08,2.1845e-10,0.4,nan
+pull-down,ctrl:R13,resistor 330,2.16788e-11,1.5509e-19,0.4,nan
+pull-down,ctrl:R14,resistor 1k,-3.306e-09,1.09296e-14,0.4,nan
+pull-down,ctrl:R15,resistor 10k,9.9191e-09,9.83885e-13,0.4,nan
+pull-down,ctrl:R16,resistor 1k,6.613e-09,4.37318e-14,0.4,nan
+pull-down,ctrl:R17,resistor 10k,9.9191e-09,9.83885e-13,0.4,nan
+pull-down,ctrl:R18,resistor 1k,6.613e-09,4.37318e-14,0.4,nan
+pull-down,ctrl:R19,resistor 47k,9.91785e-09,4.6231e-12,0.4,nan
+pull-down,ctrl:R20,resistor 10k,6.6129e-09,4.37304e-13,0.4,nan
+pull-down,ctrl:R21,resistor 1k,1.13025e-12,1.27747e-21,0.4,nan
+pull-down,ctrl:R22,resistor 1k,6.613e-09,4.37318e-14,0.4,nan
+pull-down,ctrl:R23,resistor 10k,9.9191e-09,9.83885e-13,0.4,nan
+pull-down,ctrl:R24,resistor 10k,2.64506e-08,6.99634e-12,0.4,nan
+pull-down,ctrl:R25,resistor 10k,2.64506e-08,6.99634e-12,0.4,nan
+pull-down,ctrl:R26,resistor 470k,-9.90199e-09,4.60832e-11,0.4,nan
+pull-down,pwr:R1,resistor 10k,0.000812302,0.00659835,0.4,nan
+pull-down,pwr:R3,resistor 4.7k,1.32234e-08,8.21835e-13,0.4,nan
+pull-down,tec:R1,resistor 1k,0.00894269,0.0799717,0.4,nan
+pull-down,tec:R2,resistor 330,0.00894261,0.0263902,0.4,nan
+pull-down,tec:R3,resistor 4.7k,-5.49932e-09,1.4214e-13,0.4,nan
+pull-down,tec:R4,resistor 1k,0.00236445,0.00559061,0.4,nan
+pull-down,tec:R5,resistor 47k,1.62722e-05,1.24449e-05,0.4,nan
+pull-down,tec:R6,resistor 1k,-3.89826e-09,1.51964e-14,0.4,nan
+pull-down,tec:R7,resistor 47k,1.61104e-09,1.21987e-13,0.4,nan
+pull-down,tec:R9,resistor 47k,7.00443e-05,0.000230591,0.4,nan
+pull-down,tec:R10,resistor 47k,7.00443e-05,0.000230591,0.4,nan
+pull-down,tec:R11,resistor 1k,0.00877583,0.0770152,0.4,nan
+pull-down,tec:R13,resistor 330,0.00964575,0.0307034,0.4,nan
+pull-down,tec:R14,resistor 10k,0.000872579,0.00761394,0.4,nan
+pull-down,tec:R15,resistor 4.7k,0.00216689,0.0220685,0.4,nan

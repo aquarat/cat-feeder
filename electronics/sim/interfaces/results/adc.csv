@@ -1,0 +1,15 @@
+case,VMOT_V,R18_factor,R19_factor,ADC_V,below_3V3_rail,scope,C8_factor,time_constant_ms,assumed_clamp_V,injection_mA,status
+powered divider,20,0.99,0.99,1.818181818182,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+powered divider,20,0.99,1.01,1.851512373969,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+powered divider,20,1.01,0.99,1.785392245266,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+powered divider,20,1.01,1.01,1.818181818182,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+powered divider,24,0.99,0.99,2.181818181818,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+powered divider,24,0.99,1.01,2.221814848763,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+powered divider,24,1.01,0.99,2.142470694319,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+powered divider,24,1.01,1.01,2.181818181818,True,"DC headroom only, not ADC accuracy or overvoltage qualification",,,,,
+filter step,,,,,,,0.8,0.7272734512464654,,,
+filter step,,,,,,,1.2,1.0909096628084125,,,
+unpowered MCU clamp sensitivity,20,,,,,,,,0.3,0.166816501848,UNQUALIFIED: possible injection; no permitted MCU injection current assumed
+unpowered MCU clamp sensitivity,20,,,,,,,,0.6,0.13385276196180002,UNQUALIFIED: possible injection; no permitted MCU injection current assumed
+unpowered MCU clamp sensitivity,24,,,,,,,,0.3,0.20677255019479998,UNQUALIFIED: possible injection; no permitted MCU injection current assumed
+unpowered MCU clamp sensitivity,24,,,,,,,,0.6,0.17380881030870002,UNQUALIFIED: possible injection; no permitted MCU injection current assumed

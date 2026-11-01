@@ -1,0 +1,76 @@
+{
+ "retrieved": "2026-10-26",
+ "note": "Maker drawings/spec sheets used by thermal/plenum_cad.py SINKS_STOCK/COLD_STOCK. Dimensions read by scale are estimates; see plenum_cad.py comments.",
+ "files": [
+  {
+   "file": "alutronic_pr411.pdf",
+   "url": "https://alutronic.de/de/products/generate_pdf/pr-411/",
+   "sha256": "4e80aba6171d2a318f2c128f091907ebe3c198bee42deb321d777a476783fc50",
+   "date": "2026-10-26",
+   "note": "Alutronic PR 411 spec sheet: 74.5 x 22, 3 mm base, 1.71 kg/m; 13 serrated fins at ~6.03 mm pitch counted on the embedded profile (thickness estimate). Recommended cold-side extrusion."
+  },
+  {
+   "file": "alutronic_pr614.pdf",
+   "url": "https://alutronic.de/de/products/generate_pdf/pr-614/",
+   "sha256": "0bf13b696946bc0861d5f73af02b87e9b5595b4ebc48453c3a3d89ed6f216e82",
+   "date": "2026-10-26",
+   "note": "Alutronic PR 614 spec sheet: 75 x 45, 5 mm base, 4.18 kg/m. Recommended hot-side extrusion (cut to length)."
+  },
+  {
+   "file": "alutronic_pr614_profile.jpg",
+   "url": "https://alutronic.de/media/uploads/img/_Titel/141279.0_Titel.png",
+   "sha256": "e8fb52525bac4701dabebaf052e50de0a54e1fd533776d0a4c7b7058ef6c9adf",
+   "date": "2026-10-26",
+   "note": "Alutronic PR 614 profile image: 22 fins counted; pitch/thickness by scale = estimate (consistent with 4.18 kg/m)."
+  },
+  {
+   "file": "fischer_sk064_drawing.pdf",
+   "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk064.pdf",
+   "sha256": "224c149abd8bf0e90ab5082aafd153c59cecc0589ffcfcfc611f916e772414ee",
+   "date": "2026-10-26",
+   "note": "Fischer SK 64: 70 x 25 but 17 mm central groove in the mounting face (rejected for a 40 mm TEC)."
+  },
+  {
+   "file": "fischer_sk100_drawing.pdf",
+   "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk100.pdf",
+   "sha256": "15e6f84b1dbee5b30411101fe102db93ac8ec8cf01d4d54bc1b38e4c46f9d368",
+   "date": "2026-10-26",
+   "note": "Fischer SK 100 profile drawing 001014624: 66 x 40, 10 mm base, 7 fins, 10.2 mm pitch (fin thickness measured by scale = estimate). Stocked hot trial part SK 100 75 SA."
+  },
+  {
+   "file": "fischer_sk444_drawing.pdf",
+   "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk444.pdf",
+   "sha256": "31a7e4218e190abd01aef51ae7acd79e197c8f7a7b29c45b406cbec192e02c67",
+   "date": "2026-10-26",
+   "note": "Fischer SK 444: 62.5 x 20, 3.5 mm base, 12 fins at 5.5 mm pitch. Cold-side alternative (TME, not RS/Farnell UK)."
+  },
+  {
+   "file": "fischer_sk649_drawing.pdf",
+   "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk649.pdf",
+   "sha256": "77a388880e11210a9b650bf1f4d67b7b1bb27d98e381a8299d682198006e79e1",
+   "date": "2026-10-26",
+   "note": "Fischer SK 649: 62 x 21, 6 mm base, 12 fins (screened, not recommended)."
+  },
+  {
+   "file": "fischer_sk670_drawing.pdf",
+   "url": "https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/sk670.pdf",
+   "sha256": "513758b9c223116b0f77ed804987455361a808103b27e271152faa73f9093ab2",
+   "date": "2026-10-26",
+   "note": "Fischer SK 670: 58 x 20, 2.5 mm base, 15 fins at 4.04 mm (screened, not recommended)."
+  },
+  {
+   "file": "ted_tdex6015_side_render.png",
+   "url": "derived",
+   "sha256": "653df74ee12c0bb97fa440fb2cceba69f6f6d57720b5d696ec1e505078dfb90d",
+   "date": "2026-10-26",
+   "note": "PyMuPDF 600 dpi render of the side view in ted_tdex6015_th12g.pdf; fins measured from the vector paths (2.174 pt/mm)."
+  },
+  {
+   "file": "ted_tdex6015_th12g.pdf",
+   "url": "https://www.thierry-lequeu.fr/data/TDEX6015-TH.pdf",
+   "sha256": "79a565ea4ebda215b80dfff9312795439a0172ba13c8beac2f79e4488a913653",
+   "date": "2026-10-26",
+   "note": "Thermo Electric Devices TDEX6015/TH12G (RS 158-556) fan assembly sheet, third-party re-host of the maker's document. End view used to estimate the passive TDEX6015/TH (RS 158-562) fins; same extrusion ASSUMED."
+  }
+ ]
+}

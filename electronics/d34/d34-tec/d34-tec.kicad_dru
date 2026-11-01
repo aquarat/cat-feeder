@@ -1,0 +1,13 @@
+(version 1)
+# JLCPCB 2-layer 1 oz RECOMMENDED values (same source) plus project margins
+(rule "rec clearance" (constraint clearance (min 0.15mm)))
+(rule "rec track" (constraint track_width (min 0.15mm)))
+(rule "rec via hole" (condition "A.Type == 'Via'") (constraint hole_size (min 0.3mm)))
+(rule "rec via annular" (condition "A.Type == 'Via'") (constraint annular_width (min 0.075mm)))
+(rule "rec PTH annular" (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'") (constraint annular_width (min 0.25mm)))
+(rule "rec PTH hole" (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'") (constraint hole_size (min 0.5mm)))
+(rule "rec hole clearance PTH" (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'") (constraint hole_clearance (min 0.35mm)))
+(rule "rec edge V-cut-safe" (constraint edge_clearance (min 0.4mm)))
+(rule "rec silk-pad" (layer "?.Silkscreen") (condition "B.Type == 'Pad'") (constraint silk_clearance (min 0.15mm)))
+(rule "rec text height" (layer "?.Silkscreen") (constraint text_height (min 1.0mm)))
+(rule "rec text thickness" (layer "?.Silkscreen") (constraint text_thickness (min 0.15mm)))

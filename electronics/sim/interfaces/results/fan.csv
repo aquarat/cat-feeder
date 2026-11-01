@@ -1,0 +1,25 @@
+case,model,pullup_ohm,wire_pF,BF,temperature_C,released_midpoint_V,sink_midpoint_V,midpoint_0_8V_low_2_1V_high,criterion_scope
+fan_R1050_C100p_B100_T25,"generic NPN, NOT selected-vendor model",1050,100.0,100,25,5.249999996796351,0.07356324001759108,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R1050_C100p_B100_T85,"generic NPN, NOT selected-vendor model",1050,100.0,100,85,5.2499999509200626,0.08559845905211315,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R1050_C100p_B300_T25,"generic NPN, NOT selected-vendor model",1050,100.0,300,25,5.250000000001497,0.0718237025641225,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R1050_C100p_B300_T85,"generic NPN, NOT selected-vendor model",1050,100.0,300,85,5.249999945758106,0.0836053758307733,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R1050_C2000p_B100_T25,"generic NPN, NOT selected-vendor model",1050,2000.0000000000002,100,25,5.198813766607296,0.0735632400554075,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R1050_C2000p_B100_T85,"generic NPN, NOT selected-vendor model",1050,2000.0000000000002,100,85,5.198315578516611,0.08559845906965136,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R1050_C2000p_B300_T25,"generic NPN, NOT selected-vendor model",1050,2000.0000000000002,300,25,5.197750537452755,0.07182370257181528,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R1050_C2000p_B300_T85,"generic NPN, NOT selected-vendor model",1050,2000.0000000000002,300,85,5.197118322827965,0.08360537582375324,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C100p_B100_T25,"generic NPN, NOT selected-vendor model",10000,100.0,100,25,5.249569794477921,0.02945518081243971,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C100p_B100_T85,"generic NPN, NOT selected-vendor model",10000,100.0,100,85,5.249550221538043,0.03473770527287325,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C100p_B300_T25,"generic NPN, NOT selected-vendor model",10000,100.0,300,25,5.249566324390841,0.029293320378683315,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C100p_B300_T85,"generic NPN, NOT selected-vendor model",10000,100.0,300,85,5.249545982766688,0.03455204757893384,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C2000p_B100_T25,"generic NPN, NOT selected-vendor model",10000,2000.0000000000002,100,25,2.0257640228195766,0.029455180790299153,False,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C2000p_B100_T85,"generic NPN, NOT selected-vendor model",10000,2000.0000000000002,100,85,2.0247664255423743,0.03473770528472534,False,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C2000p_B300_T25,"generic NPN, NOT selected-vendor model",10000,2000.0000000000002,300,25,2.0247500418368416,0.029293320381133796,False,exploratory midpoint margins; not complete fan timing compliance
+fan_R10000_C2000p_B300_T85,"generic NPN, NOT selected-vendor model",10000,2000.0000000000002,300,85,2.0236503681366993,0.03455204729402734,False,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C100p_B100_T25,"generic NPN, NOT selected-vendor model",100000,100.0,100,25,3.142231940376236,0.019614057921988816,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C100p_B100_T85,"generic NPN, NOT selected-vendor model",100000,100.0,100,85,3.14087450070517,0.023431182771639004,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C100p_B300_T25,"generic NPN, NOT selected-vendor model",100000,100.0,300,25,3.1415405572907362,0.019599738312877014,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C100p_B300_T85,"generic NPN, NOT selected-vendor model",100000,100.0,300,85,3.140098870563996,0.023414934544122745,True,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C2000p_B100_T25,"generic NPN, NOT selected-vendor model",100000,2000.0000000000002,100,25,0.23632960417062926,0.01961405725262541,False,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C2000p_B100_T85,"generic NPN, NOT selected-vendor model",100000,2000.0000000000002,100,85,0.23852913923666483,0.023431182779431826,False,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C2000p_B300_T25,"generic NPN, NOT selected-vendor model",100000,2000.0000000000002,300,25,0.23618128410627898,0.019599739617067763,False,exploratory midpoint margins; not complete fan timing compliance
+fan_R100000_C2000p_B300_T85,"generic NPN, NOT selected-vendor model",100000,2000.0000000000002,300,85,0.23837966195460264,0.023414934753485748,False,exploratory midpoint margins; not complete fan timing compliance

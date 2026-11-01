@@ -1,0 +1,36 @@
+fault,board,net,i_segment_A,t_clear_s,dT_steady,dT_at_clear,width_mm,layer,x_mm,y_mm,max_via_A
+F1 branch: DPS input short (brick-limited),pwr,VIN_RAW,5,545.751,25.7706,25.7705,2,F.Cu,7.54,25.4,0
+F1 branch: DPS input short (brick-limited),pwr,+24V,5,545.751,35.876,35.8759,1.5,F.Cu,10.08,27,0
+F1 branch: DPS input short (brick-limited),pwr,+24V_DPS,10,545.751,79.7512,79.7511,2.5,F.Cu,32,20.6,0
+F2 branch: VMOT short at U1 (brick-limited),pwr,VIN_RAW,5,2.4805,25.7706,1.54955,2,F.Cu,7.54,25.4,0
+F2 branch: VMOT short at U1 (brick-limited),pwr,+24V,5.60471,2.4805,45.0786,2.71052,1.5,F.Cu,24.25,35,0
+F2 branch: VMOT short at U1 (brick-limited),pwr,VAUX,10,2.4805,295.675,17.7786,0.8,F.Cu,41.05,30,10
+F2 branch: VMOT short at U2 (brick-limited),pwr,VIN_RAW,5,2.4805,25.7706,1.54955,2,F.Cu,7.54,25.4,0
+F2 branch: VMOT short at U2 (brick-limited),pwr,+24V,5.60471,2.4805,45.0786,2.71052,1.5,F.Cu,24.25,35,0
+F2 branch: VMOT short at U2 (brick-limited),pwr,VAUX,10,2.4805,295.675,17.7786,0.8,F.Cu,41.05,30,1.68181e-12
++12V short at pwr C4.1 (regulator current limit),pwr,+12V,7.2,inf,68.9817,68.9817,1.6018,F.Cu,44.35,38.67,1.4569e-16
++12V short at pwr C8.1 (regulator current limit),pwr,+12V,7.2,inf,53.4378,53.4378,2,F.Cu,60.8,31.38,1.50943e-23
++12V short at pwr J3.1 (regulator current limit),pwr,+12V,7.2,inf,68.9817,68.9817,1.6018,F.Cu,44.35,38.67,7.2
++12V short at pwr J3.3 (regulator current limit),pwr,+12V,7.2,inf,68.9817,68.9817,1.6018,F.Cu,44.35,38.67,7.2
++12V short at pwr U4.9 (regulator current limit),pwr,+12V,7.2,inf,53.4378,53.4378,2,F.Cu,60.8,31.38,1.29677e-23
++12V short at tec D5.2 (regulator current limit),tec,+12V,7.2,inf,74.3924,74.3924,1.5,F.Cu,61.2,20,0
++12V short at tec F1.1 (regulator current limit),tec,+12V,7.2,inf,53.4378,53.4378,2,F.Cu,11.92,17,0
++12V short at tec F2.1 (regulator current limit),tec,+12V,7.2,inf,53.4378,53.4378,2,F.Cu,11.92,17,0
++12V short at tec F3.1 (regulator current limit),tec,+12V,7.2,inf,53.4378,53.4378,2,F.Cu,11.92,17,0
++12V short at tec Q6.3 (regulator current limit),tec,+12V,7.2,inf,74.3924,74.3924,1.5,F.Cu,61.2,20,0
++12V short at tec R11.1 (regulator current limit),tec,+12V,7.2,inf,74.3924,74.3924,1.5,F.Cu,61.2,20,0
+FAN1 short: +12V copper until F1 trips,tec,+12V,7.2,0.482253,53.4378,0.640396,2,F.Cu,11.92,17,0
+FAN2 short: +12V copper until F2 trips,tec,+12V,7.2,0.482253,53.4378,0.640396,2,F.Cu,11.92,17,0
+FAN3 short: +12V copper until F3 trips,tec,+12V,7.2,0.482253,53.4378,0.640396,2,F.Cu,11.92,17,0
+"TEC short (DPS CC), cooling polarity",tec,DPS_OUT_P,5,inf,19.9378,19.9378,2.5,F.Cu,17.5,20.5,0
+"TEC short (DPS CC), cooling polarity",tec,K1_MID,5,inf,19.9378,19.9378,2.5,F.Cu,28,33.7,0
+"TEC short (DPS CC), cooling polarity",tec,TEC_P,5,inf,19.9378,19.9378,2.5,F.Cu,42.5,37.45,0
+"TEC short (DPS CC), cooling polarity",tec,DPS_OUT_N,5,inf,19.9378,19.9378,2.5,B.Cu,42.5,37.45,0
+"TEC short (DPS CC), cooling polarity",tec,TEC_A,5,inf,19.9378,19.9378,2.5,F.Cu,44.5,26,0
+"TEC short (DPS CC), cooling polarity",tec,TEC_B,5,inf,19.9378,19.9378,2.5,B.Cu,40,41.2,0
+"TEC short (DPS CC), defrost polarity",tec,DPS_OUT_P,5,inf,19.9378,19.9378,2.5,F.Cu,17.5,20.5,0
+"TEC short (DPS CC), defrost polarity",tec,K1_MID,5,inf,19.9378,19.9378,2.5,F.Cu,28,33.7,0
+"TEC short (DPS CC), defrost polarity",tec,TEC_P,5,inf,19.9378,19.9378,2.5,F.Cu,28,41.2,0
+"TEC short (DPS CC), defrost polarity",tec,DPS_OUT_N,5,inf,19.9378,19.9378,2.5,F.Cu,31.4,26,0
+"TEC short (DPS CC), defrost polarity",tec,TEC_B,5,inf,19.9378,19.9378,2.5,B.Cu,40,41.2,0
+"TEC short (DPS CC), defrost polarity",tec,TEC_A,5,inf,19.9378,19.9378,2.5,F.Cu,44.5,26,0

@@ -1,0 +1,109 @@
+card,ref,mpn,value,model,provenance
+ctrl,C1,50YXF22M5X11,22u 50V,cap_elec,behavioural: Rubycon YXF 22 uF 50 V: Z(100 kHz) 0.90 ohm at 20 C / 3.6 ohm at -10 C; ripple 150 mA (catalogue)
+ctrl,C2,50YXF22M5X11,22u 50V,cap_elec,behavioural: Rubycon YXF 22 uF 50 V: Z(100 kHz) 0.90 ohm at 20 C / 3.6 ohm at -10 C; ripple 150 mA (catalogue)
+ctrl,C4,RDER71H105K2P1H03B,1u,cap_mlcc,behavioural (Murata RDE X7R radial)
+ctrl,C5,RDER71H105K2P1H03B,1u,cap_mlcc,behavioural (Murata RDE X7R radial)
+ctrl,C6,RDER71H104K0P1H03B,100n,cap_mlcc,behavioural (Murata RDE X7R radial)
+ctrl,C7,RDER71H104K0P1H03B,100n,cap_mlcc,behavioural (Murata RDE X7R radial)
+ctrl,D1,1N5817RLG,1N5817,diode,vendor model if present else behavioural fit to onsemi 1N5817 VF
+ctrl,D2,1N5817RLG,1N5817,diode,vendor model if present else behavioural fit to onsemi 1N5817 VF
+ctrl,D3,HLMP-1503,STATUS,led,behavioural LED (Broadcom HLMP-1503 green)
+ctrl,D9,BAT42,BAT42,diode,behavioural BAT42 Schottky (VF ~0.26 V at 2 mA; 0.4 V max at 10 mA)
+ctrl,J1,B11B-XH-A(LF)(SN),LINK to D34-PWR,connector,port: replaced by harness model
+ctrl,J11,B4B-XH-A(LF)(SN),DPS5005 UART (3.3 V TTL; DPS order GND TX RX 3V3),connector,port: replaced by harness model
+ctrl,J2,B12B-XH-A(LF)(SN),LINK to D34-TEC,connector,port: replaced by harness model
+ctrl,J3,B3B-XH-A(LF)(SN),"HOME sensor (DRV5023 hall, 3.3 V, open drain)",connector,port: replaced by harness model
+ctrl,J4,B4B-XH-A(LF)(SN),LID reed + basin-full probe,connector,port: replaced by harness model
+ctrl,J6,B5B-XH-A(LF)(SN),UI: panel LED + button,connector,port: replaced by harness model
+ctrl,R1,MBA02040C4703FRP00,470k,resistor,Vishay MBA 0204 1 % 50 ppm; 0.4 W (power mode) / 0.25 W standard
+ctrl,R10,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R11,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R12,MF0204FTE52-47K,47k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R13,MF0204FTE52-330R,330,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R14,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R15,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R16,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R17,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R18,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R19,MF0204FTE52-47K,47k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R2,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R20,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R21,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R22,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R23,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R24,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R25,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R26,MBA02040C4703FRP00,470k,resistor,Vishay MBA 0204 1 % 50 ppm; 0.4 W (power mode) / 0.25 W standard
+ctrl,R3,MF0204FTE52-47K,47k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R4,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R5,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R6,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R7,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R8,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,R9,MF0204FTE52-4K7,4.7k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+ctrl,U1,SSW-119-01-T-S,ESP32-DevKitC-32E,devkit,behavioural DevKitC V4 (schematic: AMS1117-3.3; 22 uF in; 22+22+0.1 uF out): LDO dropout fit + ESP32 load + GPIO drivers
+ctrl,U2,TC74HC123AP(F),74HC123,logic_hc123,python event model (d34sim/logic.py); SPICE: supply load + outputs only where a scenario drives them
+ctrl,U3,SN74HC573AN,74HC573,logic_hc573,python event model (d34sim/logic.py)
+pwr,C1,EEU-FR1H101,100u 50V,cap_elec,behavioural: ESR from Panasonic Z(100 kHz)
+pwr,C2,RDER71H104K0P1H03B,100n,cap_mlcc,behavioural (Murata RDE X7R radial)
+pwr,C3,50YXF22M5X11,22u 50V,cap_elec,behavioural: Rubycon YXF 22 uF 50 V: Z(100 kHz) 0.90 ohm at 20 C / 3.6 ohm at -10 C; ripple 150 mA (catalogue)
+pwr,C4,50YXF22M5X11,22u 50V,cap_elec,behavioural: Rubycon YXF 22 uF 50 V: Z(100 kHz) 0.90 ohm at 20 C / 3.6 ohm at -10 C; ripple 150 mA (catalogue)
+pwr,C5,50YXF22M5X11,22u 50V,cap_elec,behavioural: Rubycon YXF 22 uF 50 V: Z(100 kHz) 0.90 ohm at 20 C / 3.6 ohm at -10 C; ripple 150 mA (catalogue)
+pwr,C8,EEU-FR1H101,100u 50V,cap_elec,behavioural: ESR from Panasonic Z(100 kHz)
+pwr,C9,RDER71H104K0P1H03B,100n,cap_mlcc,behavioural (Murata RDE X7R radial)
+pwr,D1,P6KE30A,P6KE30A,diode,behavioural fit to Littelfuse VBR/VC lines unless vendor model
+pwr,DZ1,"BZX79-C15,133",BZX79-C15,diode,behavioural BZX79-C15 zener (also used forward as a diode)
+pwr,F1,3568,7.5A ATM,fuse,behavioural: cold resistance; clearing from Littelfuse 297 table (python)
+pwr,F2,RXEF110,RXEF110,ptc,behavioural: resistance only in SPICE; trip from datasheet table (python)
+pwr,J1,39-28-1023 (5566-02A),24V IN (brick),connector,port: replaced by harness model
+pwr,J2,"MSTBVA 2,5/2-G-5,08 (1755736)",DPS5005 input: 1 IN+ (fused) 2 IN-,connector,port: replaced by harness model
+pwr,J3,B3P-VH(LF)(SN),+12 V to tec card,connector,port: replaced by harness model
+pwr,J4,B3B-XH-A(LF)(SN),1-WIRE A (chamber + food probes),connector,port: replaced by harness model
+pwr,J6,B3B-XH-A(LF)(SN),1-WIRE B (hot-sink + room probes),connector,port: replaced by harness model
+pwr,J8,B4P-VH(LF)(SN),MOTOR 2B 2A 1A 1B,connector,port: replaced by harness model
+pwr,J9,B11B-XH-A(LF)(SN),LINK to D34-CTRL,connector,port: replaced by harness model
+pwr,Q1,IRF4905PBF,IRF4905PBF,pmos,vendor model if present else VDMOS fit to datasheet
+pwr,R1,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+pwr,R3,MF0204FTE52-4K7,4.7k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+pwr,U1,TSR 2-24120N,TSR 2-24120N,buck,"behavioural TRACO TSR 2-24120N (no vendor SPICE): eta 95 % at 24 V full load, start-up 20 ms, +-2 %, current limit 360 % typ (datasheet); UVLO and internal Cin not published - assumed"
+pwr,U2,TSR 1-2450,TSR 1-2450,buck,"behavioural TRACO TSR 1-2450 (no vendor SPICE): eta 86.5 % at 24 V full load, rise ~0.7 ms, +-2 %, current limit 250 % (datasheet); UVLO not published - assumed"
+pwr,U4,SSW-108-01-T-S,TMC2209 StepStick,stepstick,behavioural: BTT V1.3 module VMOT 2 x 10 uF + 1 uF/1.1 ohm snubber + SMF28A TVS (BTT schematic) + chopper current source
+tec,C1,EEU-FR1V221,220u 35V,cap_elec,behavioural Panasonic EEU-FR1V221: Z(100 kHz) 0.056/0.168 ohm (20/-10 C); ripple 0.95 A; no reverse voltage permitted
+tec,D1,1N5817RLG,1N5817,diode,vendor model if present else behavioural fit to onsemi 1N5817 VF
+tec,D5,1N5817RLG,1N5817,diode,vendor model if present else behavioural fit to onsemi 1N5817 VF
+tec,D7,1N5817RLG,1N5817,diode,vendor model if present else behavioural fit to onsemi 1N5817 VF
+tec,D8,1N5817RLG,1N5817,diode,vendor model if present else behavioural fit to onsemi 1N5817 VF
+tec,DZ2,"BZX79-C15,133",BZX79-C15,diode,behavioural BZX79-C15 zener (also used forward as a diode)
+tec,F1,RXEF050,RXEF050,ptc,behavioural: Littelfuse RXEF050 (0.5 A hold / 1 A trip; 4.0 s max at 2.5 A; hold 0.41 A at 40 C)
+tec,F2,RXEF050,RXEF050,ptc,behavioural: Littelfuse RXEF050 (0.5 A hold / 1 A trip; 4.0 s max at 2.5 A; hold 0.41 A at 40 C)
+tec,F3,RXEF050,RXEF050,ptc,behavioural: Littelfuse RXEF050 (0.5 A hold / 1 A trip; 4.0 s max at 2.5 A; hold 0.41 A at 40 C)
+tec,J1,B3P-VH(LF)(SN),+12 V from pwr card,connector,port: replaced by harness model
+tec,J2,39-28-1063 (5566-06A),"DPS5005 output: 1-3 OUT+, 4-6 OUT-",connector,port: replaced by harness model
+tec,J3,39-28-1043 (5566-04A),TEC array 2S2P: 1 A 2 B 3 A 4 B,connector,port: replaced by harness model
+tec,J4,B2P-VH(LF)(SN),"Hot-sink thermostats (series NC loop, 12 V / 35 mA)",connector,port: replaced by harness model
+tec,J5,47053-1000,FAN1 12 V 4-pin PWM (NF-A12x25),connector,port: replaced by harness model
+tec,J6,47053-1000,"FAN2 12 V blower (switched DC low side), tach",connector,port: replaced by harness model
+tec,J7,47053-1000,FAN3 spare 12 V (switched low side: fan or external relay <= 0.4 A),connector,port: replaced by harness model
+tec,J9,B12B-XH-A(LF)(SN),LINK to D34-CTRL,connector,port: replaced by harness model
+tec,K1,G2RL-2 DC12,G2RL-2 DC12,relay,behavioural: coil R-L + current-controlled contacts; inductance ASSUMED
+tec,K2,G2RL-2 DC12,G2RL-2 DC12,relay,behavioural: coil R-L + current-controlled contacts; inductance ASSUMED
+tec,Q1,2N3904BU,2N3904,npn,vendor model if present else Gummel-Poon generic
+tec,Q2,2N3904BU,2N3904,npn,vendor model if present else Gummel-Poon generic
+tec,Q3,2N3904BU,2N3904,npn,vendor model if present else Gummel-Poon generic
+tec,Q4,IRLZ44NPBF,IRLZ44N,nmos,vendor model if present else behavioural VDMOS
+tec,Q5,IRLZ44NPBF,IRLZ44N,nmos,vendor model if present else behavioural VDMOS
+tec,Q6,BC32725BU,BC327-25,pnp,vendor model if present else behavioural PNP
+tec,R1,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R10,MF0204FTE52-47K,47k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R11,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R13,MF0204FTE52-330R,330,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R14,MF0204FTE52-10K,10k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R15,MF0204FTE52-4K7,4.7k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R2,MF0204FTE52-330R,330,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R3,MF0204FTE52-4K7,4.7k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R4,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R5,MF0204FTE52-47K,47k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R6,MF0204FTE52-1K,1k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R7,MF0204FTE52-47K,47k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,R9,MF0204FTE52-47K,47k,resistor,datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C
+tec,U1,TL431AILPG,TL431AILPG,shunt_ref,vendor model if present else behavioural TL431 (Vref 2.495 V)

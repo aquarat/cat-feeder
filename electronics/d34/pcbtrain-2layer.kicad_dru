@@ -1,0 +1,17 @@
+(version 1)
+# PCB Train (Newbury Electronics, UK) standard 2-layer service, published capabilities checked 2026-10-26:
+# https://www.pcbtrain.co.uk/technical-information/pcb-technical-capability/
+# https://www.pcbtrain.co.uk/technical-information/pcb-fabrication-technical-information/
+# 0.15/0.15 mm track/space (1 oz), 0.2 mm minimum hole, 0.125 mm copper pad-to-hole ring,
+# inkjet legend 1.0 mm text / 0.10 mm line. Copper-to-edge is not published: the project uses the JLCPCB
+# value (0.4 mm for pads; router copper is kept 0.7 mm from the edge by keep-out zones).
+# Every value here is looser than the JLCPCB recommended set the cards are checked against; this file
+# is run as a second, independent DRC by export.py (validation.json: DRC_pcbtrain).
+(rule "pt clearance" (constraint clearance (min 0.15mm)))
+(rule "pt track" (constraint track_width (min 0.15mm)))
+(rule "pt hole" (constraint hole_size (min 0.2mm)))
+(rule "pt via ring" (condition "A.Type == 'Via'") (constraint annular_width (min 0.125mm)))
+(rule "pt PTH ring" (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'") (constraint annular_width (min 0.125mm)))
+(rule "pt edge (project margin)" (constraint edge_clearance (min 0.4mm)))
+(rule "pt text height" (layer "?.Silkscreen") (constraint text_height (min 1.0mm)))
+(rule "pt text thickness" (layer "?.Silkscreen") (constraint text_thickness (min 0.10mm)))

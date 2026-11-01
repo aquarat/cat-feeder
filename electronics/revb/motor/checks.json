@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "tests_run": 4,
+  "default": {
+    "vref_max_V": 2.1139235856573704,
+    "sense_min_ohm": 0.3201,
+    "current_max_A": 0.9493174490416963,
+    "current_nominal_A": 0.75
+  },
+  "reduced": {
+    "vref_max_V": 1.7693991,
+    "sense_min_ohm": 0.3201,
+    "current_max_A": 0.7945989397844423,
+    "current_nominal_A": 0.6249999999999999
+  },
+  "default_using_published_5pct": {
+    "vref_max_V": 2.1139235856573704,
+    "sense_min_ohm": 0.3201,
+    "current_max_A": 0.8667681056467663,
+    "current_nominal_A": 0.75
+  },
+  "status_scope": "Topology and assumed tolerance arithmetic; not all-temperature guaranteed accuracy or measured waveforms"
+}

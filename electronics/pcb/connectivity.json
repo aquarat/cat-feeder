@@ -1,0 +1,1083 @@
+[
+  {
+    "ref": "U1",
+    "value": "ESP32-WROOM-32E-N4",
+    "lib": "RF_Module:ESP32-WROOM-32E",
+    "fp": "RF_Module:ESP32-WROOM-32E",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "EN",
+      "6": "FAN_TACH",
+      "7": "BUS_SENSE",
+      "8": "INDEX",
+      "9": "HOME",
+      "10": "TEC_EN",
+      "11": "FAN_PWM_GPIO",
+      "12": "ONEWIRE",
+      "15": "GND",
+      "16": "UART_OEn",
+      "25": "BOOT",
+      "27": "DPS_RX",
+      "28": "DPS_TX",
+      "30": "STEP",
+      "31": "DIR",
+      "33": "I2C_SDA",
+      "34": "U0RX",
+      "35": "U0TX",
+      "36": "I2C_SCL",
+      "37": "MOTOR_RUN",
+      "38": "GND",
+      "39": "GND"
+    },
+    "pos": [
+      75,
+      63,
+      0
+    ],
+    "lcsc": "C701341",
+    "assembly": "SMT",
+    "uuid": "3c9ce005-6607-5d5c-ac1c-db60b8b7224e",
+    "pins": null
+  },
+  {
+    "ref": "U2",
+    "value": "AP2112K-3.3TRG1",
+    "lib": "Regulator_Linear:AP2112K-3.3",
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "nets": {
+      "1": "+5V",
+      "2": "GND",
+      "3": "+5V",
+      "5": "+3V3"
+    },
+    "pos": [
+      59,
+      65,
+      0
+    ],
+    "lcsc": "C51118",
+    "assembly": "SMT",
+    "uuid": "e61ceaf2-2004-55fd-90db-d64a7f3df11d",
+    "pins": null
+  },
+  {
+    "ref": "U3",
+    "value": "SN74LVC1G125DBVR",
+    "lib": "74xGxx:74LVC1G125",
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "nets": {
+      "1": "UART_OEn",
+      "2": "DPS_TX",
+      "3": "GND",
+      "4": "DPS_TX_BUF",
+      "5": "+3V3"
+    },
+    "pos": [
+      82,
+      104,
+      0
+    ],
+    "lcsc": "C23654",
+    "assembly": "SMT",
+    "uuid": "5992faa7-deea-5ac1-a958-6f8a52acc1ba",
+    "pins": null
+  },
+  {
+    "ref": "U4",
+    "value": "SN74LVC1G125DBVR",
+    "lib": "74xGxx:74LVC1G125",
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "nets": {
+      "1": "UART_OEn",
+      "2": "DPS_TX_EXT",
+      "3": "GND",
+      "4": "DPS_RX",
+      "5": "+3V3"
+    },
+    "pos": [
+      87,
+      104,
+      0
+    ],
+    "lcsc": "C23654",
+    "assembly": "SMT",
+    "uuid": "febe5fe2-717b-51df-af39-805bb9ec2533",
+    "pins": null
+  },
+  {
+    "ref": "Q1",
+    "value": "MMBT3904",
+    "lib": "Transistor_BJT:MMBT3904",
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "FAN_BASE",
+      "2": "GND",
+      "3": "FAN_PWM_OD"
+    },
+    "pos": [
+      87,
+      79,
+      0
+    ],
+    "lcsc": "C20526",
+    "assembly": "SMT",
+    "uuid": "22adb7f9-f392-5b03-8b85-cef3558e71f2",
+    "pins": null
+  },
+  {
+    "ref": "R1",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "EN"
+    },
+    "pos": [
+      60,
+      73,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "6c8e3e4b-0e00-5d67-b9d6-2901b1a16db6",
+    "pins": null
+  },
+  {
+    "ref": "R2",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "BOOT"
+    },
+    "pos": [
+      81,
+      86,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "dc4152fe-ad45-566c-bc2b-ebcfdd3e38eb",
+    "pins": null
+  },
+  {
+    "ref": "R3",
+    "value": "4.7k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "ONEWIRE"
+    },
+    "pos": [
+      58,
+      79,
+      0
+    ],
+    "lcsc": "C23162",
+    "assembly": "SMT",
+    "uuid": "0d8f591e-934f-5fa5-9330-d4a5168a49f8",
+    "pins": null
+  },
+  {
+    "ref": "R4",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "INDEX"
+    },
+    "pos": [
+      59,
+      83,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "c29b8cd9-3b8a-5541-9d6d-6d68603b89a2",
+    "pins": null
+  },
+  {
+    "ref": "R5",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "HOME"
+    },
+    "pos": [
+      63,
+      83,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "1b70fbba-5ee5-5afa-8f2a-96d519552e1d",
+    "pins": null
+  },
+  {
+    "ref": "R6",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "TACH_EXT"
+    },
+    "pos": [
+      88,
+      73,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "997eb47e-60dd-5a30-84a6-a192ded9be1c",
+    "pins": null
+  },
+  {
+    "ref": "R7",
+    "value": "1k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TACH_EXT",
+      "2": "FAN_TACH"
+    },
+    "pos": [
+      88,
+      69,
+      0
+    ],
+    "lcsc": "C21190",
+    "assembly": "SMT",
+    "uuid": "762483b3-0c27-50b7-aed3-d77c98c0b386",
+    "pins": null
+  },
+  {
+    "ref": "R8",
+    "value": "4.7k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "FAN_PWM_GPIO",
+      "2": "FAN_BASE"
+    },
+    "pos": [
+      87,
+      83,
+      0
+    ],
+    "lcsc": "C23162",
+    "assembly": "SMT",
+    "uuid": "931f901b-4874-5628-ac43-012846528763",
+    "pins": null
+  },
+  {
+    "ref": "R9",
+    "value": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "FAN_BASE",
+      "2": "GND"
+    },
+    "pos": [
+      82,
+      83,
+      0
+    ],
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "uuid": "5696f30f-13fd-5ce0-bd3e-cc1cbbc18374",
+    "pins": null
+  },
+  {
+    "ref": "R10",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TEC_EN",
+      "2": "GND"
+    },
+    "pos": [
+      88,
+      110,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "567e7dab-4120-5673-aa61-7657c82fd1be",
+    "pins": null
+  },
+  {
+    "ref": "R11",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MOTOR_RUN",
+      "2": "GND"
+    },
+    "pos": [
+      69,
+      83,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "59ee70c8-3858-5b4d-831c-926a00bb9c0f",
+    "pins": null
+  },
+  {
+    "ref": "R12",
+    "value": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "STEP",
+      "2": "GND"
+    },
+    "pos": [
+      73,
+      83,
+      0
+    ],
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "uuid": "1e628471-1120-5531-9ee3-3b9f3ada7f73",
+    "pins": null
+  },
+  {
+    "ref": "R13",
+    "value": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "DIR",
+      "2": "GND"
+    },
+    "pos": [
+      77,
+      83,
+      0
+    ],
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "uuid": "da6df4ce-234c-5098-9c6e-2f15fb574995",
+    "pins": null
+  },
+  {
+    "ref": "R14",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "UART_OEn"
+    },
+    "pos": [
+      82,
+      110,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "cd3163f0-0ff3-510c-b25e-abaeb3040911",
+    "pins": null
+  },
+  {
+    "ref": "R15",
+    "value": "1k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "DPS_TX_BUF",
+      "2": "DPS_RX_EXT"
+    },
+    "pos": [
+      86,
+      115,
+      0
+    ],
+    "lcsc": "C21190",
+    "assembly": "SMT",
+    "uuid": "0bdb5b67-9d15-5c3b-bb9d-49a58ec41734",
+    "pins": null
+  },
+  {
+    "ref": "R16",
+    "value": "4.7k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "I2C_SDA"
+    },
+    "pos": [
+      88,
+      63,
+      0
+    ],
+    "lcsc": "C23162",
+    "assembly": "SMT",
+    "uuid": "7b6c0845-22e5-50db-92a7-96013586280b",
+    "pins": null
+  },
+  {
+    "ref": "R17",
+    "value": "4.7k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "I2C_SCL"
+    },
+    "pos": [
+      88,
+      59,
+      0
+    ],
+    "lcsc": "C23162",
+    "assembly": "SMT",
+    "uuid": "5fc1b8d1-5b98-587b-ade2-24d41262e5d0",
+    "pins": null
+  },
+  {
+    "ref": "R18",
+    "value": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VMOT",
+      "2": "BUS_SENSE"
+    },
+    "pos": [
+      77,
+      97,
+      90
+    ],
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "uuid": "0211f059-fe4f-5862-8f29-b627d34e87ee",
+    "pins": null
+  },
+  {
+    "ref": "R19",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "BUS_SENSE",
+      "2": "GND"
+    },
+    "pos": [
+      77,
+      101,
+      90
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "2f3a0286-a3bf-5c1e-895f-0088cc248ba2",
+    "pins": null
+  },
+  {
+    "ref": "R20",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "DPS_TX"
+    },
+    "pos": [
+      79,
+      113,
+      0
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "dec639cc-07bb-558a-96f7-b98ce3cea09c",
+    "pins": null
+  },
+  {
+    "ref": "R21",
+    "value": "10k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "DPS_TX_EXT",
+      "2": "GND"
+    },
+    "pos": [
+      91,
+      109,
+      90
+    ],
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "uuid": "962f6559-f3ec-5fd4-a5a6-bdbed1a166a2",
+    "pins": null
+  },
+  {
+    "ref": "C1",
+    "value": "10u 25V",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "pos": [
+      59,
+      60,
+      0
+    ],
+    "lcsc": "C15850",
+    "assembly": "SMT",
+    "uuid": "c3b363bc-849a-5f9b-bff1-249f1a82ff77",
+    "pins": null
+  },
+  {
+    "ref": "C2",
+    "value": "10u 25V",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pos": [
+      59,
+      69,
+      0
+    ],
+    "lcsc": "C15850",
+    "assembly": "SMT",
+    "uuid": "4cfe9aa7-6280-55af-aaaf-8cc7f9bd1089",
+    "pins": null
+  },
+  {
+    "ref": "C3",
+    "value": "100n",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pos": [
+      63,
+      66,
+      90
+    ],
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "uuid": "eae9c21d-693f-5d43-9675-e36f973d0079",
+    "pins": null
+  },
+  {
+    "ref": "C4",
+    "value": "10u 25V",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pos": [
+      63,
+      61,
+      90
+    ],
+    "lcsc": "C15850",
+    "assembly": "SMT",
+    "uuid": "b2d03b97-1470-5073-b034-aa317491748a",
+    "pins": null
+  },
+  {
+    "ref": "C5",
+    "value": "1u 50V",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "pos": [
+      63,
+      73,
+      0
+    ],
+    "lcsc": "C15849",
+    "assembly": "SMT",
+    "uuid": "7441ccbb-491d-5584-9273-c6f94eb8a174",
+    "pins": null
+  },
+  {
+    "ref": "C6",
+    "value": "100n",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pos": [
+      82,
+      100,
+      0
+    ],
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "uuid": "04137f06-8342-5403-aa4f-2d424f387014",
+    "pins": null
+  },
+  {
+    "ref": "C7",
+    "value": "100n",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pos": [
+      87,
+      100,
+      0
+    ],
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "uuid": "13d0a2f8-198c-5722-85d7-a5424360c0b4",
+    "pins": null
+  },
+  {
+    "ref": "C8",
+    "value": "100n",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "BUS_SENSE",
+      "2": "GND"
+    },
+    "pos": [
+      77,
+      105,
+      90
+    ],
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "uuid": "a3b9a998-9fb4-54d3-b9df-eb42fd15596c",
+    "pins": null
+  },
+  {
+    "ref": "C9",
+    "value": "100n",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pos": [
+      78,
+      89,
+      0
+    ],
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "uuid": "02abe893-91f0-5c96-b001-bd2b772a5ae8",
+    "pins": null
+  },
+  {
+    "ref": "C10",
+    "value": "100u 50V EEUFR1H101B",
+    "lib": "Device:C_Polarized",
+    "fp": "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "pos": [
+      82,
+      94,
+      0
+    ],
+    "lcsc": "C713402",
+    "assembly": "THT",
+    "uuid": "89d4aab2-c049-54ce-b5e3-5ae7eeb43472",
+    "pins": null
+  },
+  {
+    "ref": "C11",
+    "value": "10u 25V",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "+12V",
+      "2": "GND"
+    },
+    "pos": [
+      93,
+      84,
+      0
+    ],
+    "lcsc": "C15850",
+    "assembly": "SMT",
+    "uuid": "4c70781a-73db-5ea2-a573-bd39c6e809ea",
+    "pins": null
+  },
+  {
+    "ref": "J1",
+    "value": "VMOT 20-24V INPUT",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "pos": [
+      85.5,
+      123,
+      0
+    ],
+    "lcsc": "C5183929",
+    "assembly": "THT",
+    "uuid": "f2f90d18-b6bf-5450-b3af-8fd778e00546",
+    "pins": null
+  },
+  {
+    "ref": "J2",
+    "value": "RAILS GND-5V-12V",
+    "lib": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "+12V"
+    },
+    "pos": [
+      94,
+      88,
+      0
+    ],
+    "lcsc": "C49257",
+    "assembly": "THT",
+    "uuid": "2075fb02-337c-5649-b0e2-3ce670250fb1",
+    "pins": null
+  },
+  {
+    "ref": "J3",
+    "value": "FAN GND-12V-TACH-PWM",
+    "lib": "Connector_Generic:Conn_01x04",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "+12V",
+      "3": "TACH_EXT",
+      "4": "FAN_PWM_OD"
+    },
+    "pos": [
+      94,
+      73,
+      0
+    ],
+    "lcsc": "C5116483",
+    "assembly": "THT",
+    "uuid": "654d37f0-3d7f-5a23-9421-f470cfe63805",
+    "pins": null
+  },
+  {
+    "ref": "J4",
+    "value": "DS18B20 GND-DQ-3V3",
+    "lib": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "ONEWIRE",
+      "3": "+3V3"
+    },
+    "pos": [
+      54,
+      76,
+      0
+    ],
+    "lcsc": "C49257",
+    "assembly": "THT",
+    "uuid": "03e53656-76ef-5a55-9be6-9b71e48dfb26",
+    "pins": null
+  },
+  {
+    "ref": "J5",
+    "value": "DS18B20 GND-DQ-3V3",
+    "lib": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "ONEWIRE",
+      "3": "+3V3"
+    },
+    "pos": [
+      54,
+      85,
+      0
+    ],
+    "lcsc": "C49257",
+    "assembly": "THT",
+    "uuid": "804035a5-e38d-5cbe-b995-85d393e85164",
+    "pins": null
+  },
+  {
+    "ref": "J6",
+    "value": "INDEX GND-SIG-3V3",
+    "lib": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "INDEX",
+      "3": "+3V3"
+    },
+    "pos": [
+      54,
+      96,
+      0
+    ],
+    "lcsc": "C49257",
+    "assembly": "THT",
+    "uuid": "fcdc1412-9532-5352-8b94-d8bb6d34fd21",
+    "pins": null
+  },
+  {
+    "ref": "J7",
+    "value": "HOME GND-SIG-3V3",
+    "lib": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "HOME",
+      "3": "+3V3"
+    },
+    "pos": [
+      54,
+      105,
+      0
+    ],
+    "lcsc": "C49257",
+    "assembly": "THT",
+    "uuid": "0eecb72f-e562-5f0d-9e4d-b39d803c3b06",
+    "pins": null
+  },
+  {
+    "ref": "J8",
+    "value": "I2C GND-3V3-SDA-SCL",
+    "lib": "Connector_Generic:Conn_01x04",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "I2C_SDA",
+      "4": "I2C_SCL"
+    },
+    "pos": [
+      94,
+      59,
+      0
+    ],
+    "lcsc": "C5116483",
+    "assembly": "THT",
+    "uuid": "b309e1a5-b5f5-5c75-9589-c64cc95ebd47",
+    "pins": null
+  },
+  {
+    "ref": "J9",
+    "value": "DPS GND-RX-TX (DPS names)",
+    "lib": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "DPS_RX_EXT",
+      "3": "DPS_TX_EXT"
+    },
+    "pos": [
+      94,
+      101,
+      0
+    ],
+    "lcsc": "C49257",
+    "assembly": "THT",
+    "uuid": "b5340543-4288-55ad-81e7-9d620deb3376",
+    "pins": null
+  },
+  {
+    "ref": "J10",
+    "value": "TEC ENABLE GND-ON",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "TEC_EN"
+    },
+    "pos": [
+      94,
+      112,
+      0
+    ],
+    "lcsc": "C27985187",
+    "assembly": "THT",
+    "uuid": "f822bdc3-59a5-586c-a87c-3b556fb063ce",
+    "pins": null
+  },
+  {
+    "ref": "J11",
+    "value": "PROG GND-TX-RX-3V3ref",
+    "lib": "Connector_Generic:Conn_01x04",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "U0TX",
+      "3": "U0RX",
+      "4": "+3V3"
+    },
+    "pos": [
+      54,
+      60,
+      0
+    ],
+    "lcsc": "C5116483",
+    "assembly": "THT",
+    "uuid": "ac9eb264-c31d-59a2-b079-ef7e8a622b76",
+    "pins": null
+  },
+  {
+    "ref": "J12",
+    "value": "BOOT short for download",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": {
+      "1": "BOOT",
+      "2": "GND"
+    },
+    "pos": [
+      78,
+      78.5,
+      90
+    ],
+    "lcsc": "C27985187",
+    "assembly": "THT",
+    "uuid": "3fd60394-a93b-5e71-b0e1-19c2e6c8b05f",
+    "pins": null
+  },
+  {
+    "ref": "J13",
+    "value": "RESET short to reset",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "pos": [
+      54,
+      72.2,
+      90
+    ],
+    "lcsc": "C27985187",
+    "assembly": "THT",
+    "uuid": "e4aebc0b-403c-564d-bf51-be663347abd6",
+    "pins": null
+  },
+  {
+    "ref": "J14",
+    "value": "A4988 CONTROL socket",
+    "lib": "Connector_Generic:Conn_01x08",
+    "fp": "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "+3V3",
+      "4": "+3V3",
+      "5": "MOTOR_RUN",
+      "6": "MOTOR_RUN",
+      "7": "STEP",
+      "8": "DIR"
+    },
+    "pos": [
+      59,
+      91,
+      0
+    ],
+    "lcsc": "C27438",
+    "assembly": "THT",
+    "uuid": "2424867f-c74f-5e5e-8372-9339feb5b81e",
+    "pins": null
+  },
+  {
+    "ref": "J15",
+    "value": "A4988 POWER socket",
+    "lib": "Connector_Generic:Conn_01x08",
+    "fp": "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND",
+      "3": "M2B",
+      "4": "M2A",
+      "5": "M1A",
+      "6": "M1B",
+      "7": "+3V3",
+      "8": "GND"
+    },
+    "pos": [
+      74.24,
+      91,
+      0
+    ],
+    "lcsc": "C27438",
+    "assembly": "THT",
+    "uuid": "c1c91e66-2190-5149-bfe6-b52e25d16e91",
+    "pins": null
+  },
+  {
+    "ref": "J16",
+    "value": "MOTOR COIL1",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "nets": {
+      "1": "M1A",
+      "2": "M1B"
+    },
+    "pos": [
+      58,
+      123,
+      0
+    ],
+    "lcsc": "C5183929",
+    "assembly": "THT",
+    "uuid": "1f00abcb-c31a-5b18-9b1b-5824ee5a0f75",
+    "pins": null
+  },
+  {
+    "ref": "J17",
+    "value": "MOTOR COIL2",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "nets": {
+      "1": "M2A",
+      "2": "M2B"
+    },
+    "pos": [
+      70,
+      123,
+      0
+    ],
+    "lcsc": "C5183929",
+    "assembly": "THT",
+    "uuid": "1cc260b2-a46f-566c-af95-0cfa9b178a69",
+    "pins": null
+  }
+]

@@ -1,0 +1,707 @@
+{
+ "_status": "ASSUMED harness parameters (estimates), not measured. Lengths are [min, nom, max] metres. Replace with the CAD harness model's lengths via harness_lengths.json (same lead keys, value = metres or [min,nom,max]) when it exists.",
+ "copper": {
+  "ohm_per_m_20C": {
+   "16": 0.01317,
+   "18": 0.02095,
+   "20": 0.03331,
+   "22": 0.05296,
+   "24": 0.08422,
+   "26": 0.1339,
+   "28": 0.2129
+  },
+  "tempco_per_K": 0.00393,
+  "source": "Annealed copper, AWG table (ASTM B258 diameters, 1.7241e-8 ohm m at 20 C)"
+ },
+ "contact_ohm": {
+  "_source": "Per mated contact, end-of-life style upper values from connector families (estimate; JST XH/VH and Molex Mini-Fit specify <=10/<=10/<=10 mOhm class); barrel plug estimate",
+  "XH": 0.01,
+  "VH": 0.01,
+  "MiniFit": 0.01,
+  "MSTB": 0.005,
+  "FAN": 0.02,
+  "BARREL": 0.03,
+  "SCREW": 0.005,
+  "SPADE": 0.005
+ },
+ "inductance_note": "Per-conductor effective inductance = half the loop inductance of a go/return pair: L_loop' = (mu0/pi) acosh(D/d). Close pair 18 AWG (d 1.0 mm, D 2.4 mm): 0.62 uH/m; loose wires 10-20 mm apart: 1.1-1.3 uH/m.",
+ "leads": {
+  "BRICK": {
+   "a": [
+    "pwr",
+    "J1"
+   ],
+   "b": "ext:brick",
+   "family": "MiniFit",
+   "extra_contacts": {
+    "BARREL": 1
+   },
+   "segments": [
+    {
+     "name": "brick DC cord",
+     "awg": 18,
+     "length_m": [
+      1.2,
+      1.5,
+      1.8
+     ]
+    },
+    {
+     "name": "internal brick lead",
+     "awg": 18,
+     "length_m": [
+      0.2,
+      0.3,
+      0.4
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.55,
+    0.7,
+    1.1
+   ],
+   "C_pF_per_m": [
+    40,
+    60,
+    90
+   ]
+  },
+  "DPS_IN": {
+   "a": [
+    "pwr",
+    "J2"
+   ],
+   "b": "ext:dps_in",
+   "family": "MSTB",
+   "extra_contacts": {
+    "SCREW": 1
+   },
+   "segments": [
+    {
+     "name": "DPS input lead",
+     "awg": 18,
+     "length_m": [
+      0.2,
+      0.3,
+      0.4
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.55,
+    0.8,
+    1.2
+   ],
+   "C_pF_per_m": [
+    40,
+    60,
+    90
+   ]
+  },
+  "DPS_OUT": {
+   "a": [
+    "tec",
+    "J2"
+   ],
+   "b": "ext:dps_out",
+   "family": "MiniFit",
+   "extra_contacts": {
+    "SCREW": 1
+   },
+   "segments": [
+    {
+     "name": "DPS output lead (3 pins per pole joined at the DPS terminal)",
+     "awg": 20,
+     "length_m": [
+      0.2,
+      0.3,
+      0.4
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.55,
+    0.8,
+    1.2
+   ],
+   "C_pF_per_m": [
+    40,
+    60,
+    90
+   ]
+  },
+  "TEC": {
+   "a": [
+    "tec",
+    "J3"
+   ],
+   "b": "ext:tec_array",
+   "family": "MiniFit",
+   "extra_contacts": {
+    "SPADE": 0
+   },
+   "segments": [
+    {
+     "name": "TEC array lead (one string per pin pair)",
+     "awg": 20,
+     "length_m": [
+      0.2,
+      0.3,
+      0.4
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.3
+   ],
+   "C_pF_per_m": [
+    40,
+    60,
+    90
+   ]
+  },
+  "THERMO": {
+   "a": [
+    "tec",
+    "J4"
+   ],
+   "b": "ext:thermostats",
+   "family": "VH",
+   "extra_contacts": {
+    "SPADE": 8
+   },
+   "segments": [
+    {
+     "name": "thermostat loop, 4 x KSD301 in series round the hot sinks",
+     "awg": 22,
+     "length_m": [
+      1.2,
+      1.6,
+      2.2
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.8,
+    1.1,
+    1.4
+   ],
+   "C_pF_per_m": [
+    30,
+    50,
+    80
+   ]
+  },
+  "FAN1": {
+   "a": [
+    "tec",
+    "J5"
+   ],
+   "b": "ext:fan1",
+   "family": "FAN",
+   "segments": [
+    {
+     "name": "fan lead + extension",
+     "awg": 24,
+     "length_m": [
+      0.2,
+      0.4,
+      0.6
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    40,
+    70,
+    110
+   ]
+  },
+  "FAN2": {
+   "a": [
+    "tec",
+    "J6"
+   ],
+   "b": "ext:fan2",
+   "family": "FAN",
+   "segments": [
+    {
+     "name": "blower lead",
+     "awg": 26,
+     "length_m": [
+      0.2,
+      0.3,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    40,
+    70,
+    110
+   ]
+  },
+  "FAN3": {
+   "a": [
+    "tec",
+    "J7"
+   ],
+   "b": "ext:fan3",
+   "family": "FAN",
+   "segments": [
+    {
+     "name": "spare channel lead",
+     "awg": 24,
+     "length_m": [
+      0.2,
+      0.3,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    40,
+    70,
+    110
+   ]
+  },
+  "MOTOR": {
+   "a": [
+    "pwr",
+    "J8"
+   ],
+   "b": "ext:motor",
+   "family": "VH",
+   "segments": [
+    {
+     "name": "17HS08 motor leads",
+     "awg": 26,
+     "length_m": [
+      0.3,
+      0.4,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    40,
+    70,
+    110
+   ]
+  },
+  "OW_A1": {
+   "a": [
+    "pwr",
+    "J4"
+   ],
+   "b": "ext:ds18b20",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "1-Wire probe chamber air (2 probes on this header in D34-2+; ignored if the header carries one)",
+     "awg": 28,
+     "length_m": [
+      0.1,
+      0.3,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    60,
+    90,
+    130
+   ],
+   "probes": 2
+  },
+  "OW_B1": {
+   "a": [
+    "pwr",
+    "J6"
+   ],
+   "b": "ext:ds18b20",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "1-Wire probe hot sink (2 probes on this header in D34-2+; ignored if the header carries one)",
+     "awg": 28,
+     "length_m": [
+      0.1,
+      0.3,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    60,
+    90,
+    130
+   ],
+   "probes": 2
+  },
+  "HOME": {
+   "a": [
+    "ctrl",
+    "J3"
+   ],
+   "b": "ext:home",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "home sensor lead",
+     "awg": 26,
+     "length_m": [
+      0.2,
+      0.4,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    50,
+    80,
+    120
+   ]
+  },
+  "LID": {
+   "a": [
+    "ctrl",
+    "J4"
+   ],
+   "b": "ext:lid",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "lid reed + basin-full probe on one XH-4 (D34-2)",
+     "awg": 26,
+     "length_m": [
+      0.2,
+      0.4,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    50,
+    80,
+    120
+   ]
+  },
+  "UI": {
+   "a": [
+    "ctrl",
+    "J6"
+   ],
+   "b": "ext:ui",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "panel lead",
+     "awg": 26,
+     "length_m": [
+      0.2,
+      0.4,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    50,
+    80,
+    120
+   ]
+  },
+  "DPS_UART": {
+   "a": [
+    "ctrl",
+    "J11"
+   ],
+   "b": "ext:dps_uart",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "DPS UART lead",
+     "awg": 26,
+     "length_m": [
+      0.2,
+      0.35,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    50,
+    80,
+    120
+   ]
+  },
+  "LINK_PWR": {
+   "a": [
+    "ctrl",
+    "J1"
+   ],
+   "b": [
+    "pwr",
+    "J9"
+   ],
+   "family": "XH",
+   "segments": [
+    {
+     "name": "XH-11 ctrl-pwr link",
+     "awg": 26,
+     "length_m": [
+      0.25,
+      0.3,
+      0.35
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.5,
+    0.7,
+    1.0
+   ],
+   "C_pF_per_m": [
+    30,
+    50,
+    80
+   ]
+  },
+  "LINK_TEC": {
+   "a": [
+    "ctrl",
+    "J2"
+   ],
+   "b": [
+    "tec",
+    "J9"
+   ],
+   "family": "XH",
+   "segments": [
+    {
+     "name": "XH-12 ctrl-tec link",
+     "awg": 26,
+     "length_m": [
+      0.25,
+      0.3,
+      0.35
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.5,
+    0.7,
+    1.0
+   ],
+   "C_pF_per_m": [
+    30,
+    50,
+    80
+   ]
+  },
+  "LINK_12V": {
+   "a": [
+    "pwr",
+    "J3"
+   ],
+   "b": [
+    "tec",
+    "J1"
+   ],
+   "family": "VH",
+   "segments": [
+    {
+     "name": "VH-3 12 V link",
+     "awg": 20,
+     "length_m": [
+      0.25,
+      0.3,
+      0.35
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.5,
+    0.7,
+    1.0
+   ],
+   "C_pF_per_m": [
+    30,
+    50,
+    80
+   ]
+  }
+ },
+ "_note_probes": "probes: DS18B20s on that header lead (daisy-chained at the far end). Leads whose connector no longer exists are skipped and listed in s00.",
+ "_removed_leads": {
+  "OW_A2": {
+   "a": [
+    "pwr",
+    "J5"
+   ],
+   "b": "ext:ds18b20",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "1-Wire probe food wedge",
+     "awg": 28,
+     "length_m": [
+      0.1,
+      0.3,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    60,
+    90,
+    130
+   ]
+  },
+  "OW_B2": {
+   "a": [
+    "pwr",
+    "J7"
+   ],
+   "b": "ext:ds18b20",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "1-Wire probe room",
+     "awg": 28,
+     "length_m": [
+      0.1,
+      0.3,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    60,
+    90,
+    130
+   ]
+  },
+  "OW_B3": {
+   "a": [
+    "pwr",
+    "J10"
+   ],
+   "b": "ext:ds18b20",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "1-Wire probe spare",
+     "awg": 28,
+     "length_m": [
+      0.1,
+      0.3,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    60,
+    90,
+    130
+   ]
+  },
+  "LEAK": {
+   "a": [
+    "ctrl",
+    "J5"
+   ],
+   "b": "ext:leak",
+   "family": "XH",
+   "segments": [
+    {
+     "name": "leak probe lead",
+     "awg": 26,
+     "length_m": [
+      0.2,
+      0.4,
+      0.5
+     ]
+    }
+   ],
+   "loop_L_uH_per_m": [
+    0.6,
+    0.9,
+    1.2
+   ],
+   "C_pF_per_m": [
+    50,
+    80,
+    120
+   ]
+  }
+ },
+ "_removed_note": "D34-2 (final round): one 1-Wire header per bus (Y-spliced probes) and lid + basin probe on one XH-4; removed leads kept under _removed_leads for the record."
+}

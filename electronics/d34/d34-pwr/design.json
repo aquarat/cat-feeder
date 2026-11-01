@@ -1,0 +1,484 @@
+{
+ "board": "d34-pwr",
+ "source_sha256": "c24e0a5435e3bfcda9bd10e4048480aada2dd97a43c3d68e7983ae2a5197fb54",
+ "size_mm": [
+  81.0,
+  47.0
+ ],
+ "pwr_flags": [
+  "GND",
+  "VAUX"
+ ],
+ "parts": [
+  {
+   "ref": "J1",
+   "kind": "MF2",
+   "value": "24V IN (brick)",
+   "nets": {
+    "1": "VIN_RAW",
+    "2": "GND"
+   },
+   "x": 4.0,
+   "y": 19.5,
+   "rot": 180
+  },
+  {
+   "ref": "Q1",
+   "kind": "IRF4905",
+   "value": "IRF4905PBF",
+   "nets": {
+    "1": "Q1_G",
+    "2": "VIN_RAW",
+    "3": "+24V"
+   },
+   "x": 5.0,
+   "y": 27.0,
+   "rot": 0
+  },
+  {
+   "ref": "DZ1",
+   "kind": "DZ15S",
+   "value": "BZX79-C15",
+   "nets": {
+    "1": "+24V",
+    "2": "Q1_G"
+   },
+   "x": 10.62,
+   "y": 30.0,
+   "rot": 180
+  },
+  {
+   "ref": "C9",
+   "kind": "C100n",
+   "value": "100n",
+   "nets": {
+    "1": "+24V",
+    "2": "Q1_G"
+   },
+   "x": 3.0,
+   "y": 37.0,
+   "rot": 0
+  },
+  {
+   "ref": "R1",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "Q1_G",
+    "2": "GND"
+   },
+   "x": 3.0,
+   "y": 33.5,
+   "rot": 0
+  },
+  {
+   "ref": "C1",
+   "kind": "CP100u",
+   "value": "100u 50V",
+   "nets": {
+    "1": "+24V",
+    "2": "GND"
+   },
+   "x": 15.5,
+   "y": 31.0,
+   "rot": 0
+  },
+  {
+   "ref": "D1",
+   "kind": "TVS30",
+   "value": "P6KE30A",
+   "nets": {
+    "1": "+24V",
+    "2": "GND"
+   },
+   "x": 21.5,
+   "y": 41.8,
+   "rot": 180
+  },
+  {
+   "ref": "F1",
+   "kind": "FUSE_MINI",
+   "value": "7.5A ATM",
+   "nets": {
+    "1": "+24V",
+    "2": "+24V_DPS"
+   },
+   "x": 25.0,
+   "y": 26.0,
+   "rot": 0
+  },
+  {
+   "ref": "F2",
+   "kind": "PTC",
+   "value": "RXEF110",
+   "nets": {
+    "1": "+24V",
+    "2": "VAUX"
+   },
+   "x": 26.0,
+   "y": 35.0,
+   "rot": 0
+  },
+  {
+   "ref": "C2",
+   "kind": "C100n",
+   "value": "100n",
+   "nets": {
+    "1": "+24V",
+    "2": "GND"
+   },
+   "x": 30.0,
+   "y": 41.0,
+   "rot": 0
+  },
+  {
+   "ref": "J2",
+   "kind": "MSTBVA2",
+   "value": "DPS5005 input: 1 IN+ (fused) 2 IN-",
+   "nets": {
+    "1": "+24V_DPS",
+    "2": "GND"
+   },
+   "x": 32.0,
+   "y": 16.2,
+   "rot": 0
+  },
+  {
+   "ref": "U1",
+   "kind": "TSR12",
+   "value": "TSR 2-24120N",
+   "nets": {
+    "1": "VAUX",
+    "2": "GND",
+    "3": "+12V"
+   },
+   "x": 60.8,
+   "y": 26.3,
+   "rot": 0
+  },
+  {
+   "ref": "U2",
+   "kind": "TSR5",
+   "value": "TSR 1-2450",
+   "nets": {
+    "1": "VAUX",
+    "2": "GND",
+    "3": "+5V"
+   },
+   "x": 42.5,
+   "y": 30.0,
+   "rot": 0
+  },
+  {
+   "ref": "C3",
+   "kind": "CP22u",
+   "value": "22u 50V",
+   "nets": {
+    "1": "VAUX",
+    "2": "GND"
+   },
+   "x": 38.9,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "C4",
+   "kind": "CP22u",
+   "value": "22u 50V",
+   "nets": {
+    "1": "+12V",
+    "2": "GND"
+   },
+   "x": 44.45,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "C5",
+   "kind": "CP22u",
+   "value": "22u 50V",
+   "nets": {
+    "1": "+5V",
+    "2": "GND"
+   },
+   "x": 50.0,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "J3",
+   "kind": "VH3",
+   "value": "+12 V to tec card",
+   "nets": {
+    "1": "+12V",
+    "2": "GND",
+    "3": "+12V"
+   },
+   "x": 12.0,
+   "y": 15.6,
+   "rot": 0
+  },
+  {
+   "ref": "U4",
+   "kind": "STEPSTICK",
+   "value": "TMC2209 StepStick",
+   "nets": {
+    "1": "MOT_EN",
+    "4": "TMC_UART",
+    "5": "SS_RST_SLP",
+    "6": "SS_RST_SLP",
+    "7": "STEP",
+    "8": "DIR",
+    "9": "+12V",
+    "10": "GND",
+    "11": "M2B",
+    "12": "M2A",
+    "13": "M1A",
+    "14": "M1B",
+    "15": "+3V3",
+    "16": "GND"
+   },
+   "x": 65.0,
+   "y": 22.5,
+   "rot": 0
+  },
+  {
+   "ref": "C8",
+   "kind": "CP100u",
+   "value": "100u 50V",
+   "nets": {
+    "1": "+12V",
+    "2": "GND"
+   },
+   "x": 73.0,
+   "y": 16.0,
+   "rot": 0
+  },
+  {
+   "ref": "J8",
+   "kind": "VH4",
+   "value": "MOTOR 2B 2A 1A 1B",
+   "nets": {
+    "1": "M2B",
+    "2": "M2A",
+    "3": "M1A",
+    "4": "M1B"
+   },
+   "x": 49.0,
+   "y": 15.6,
+   "rot": 0
+  },
+  {
+   "ref": "J9",
+   "kind": "XH11",
+   "value": "LINK to D34-CTRL",
+   "nets": {
+    "1": "+5V",
+    "2": "+5V",
+    "3": "GND",
+    "4": "GND",
+    "5": "+3V3",
+    "6": "STEP",
+    "7": "DIR",
+    "8": "MOT_EN",
+    "9": "TMC_UART",
+    "10": "OWA",
+    "11": "OWB"
+   },
+   "x": 4.0,
+   "y": 6.3,
+   "rot": 0
+  },
+  {
+   "ref": "J4",
+   "kind": "XH3",
+   "value": "1-WIRE A (chamber + food probes)",
+   "nets": {
+    "1": "GND",
+    "2": "OWA",
+    "3": "+3V3"
+   },
+   "x": 46.0,
+   "y": 6.3,
+   "rot": 0
+  },
+  {
+   "ref": "J6",
+   "kind": "XH3",
+   "value": "1-WIRE B (hot-sink + room probes)",
+   "nets": {
+    "1": "GND",
+    "2": "OWB",
+    "3": "+3V3"
+   },
+   "x": 68.0,
+   "y": 6.3,
+   "rot": 0
+  },
+  {
+   "ref": "R3",
+   "kind": "R",
+   "value": "4.7k",
+   "nets": {
+    "1": "+3V3",
+    "2": "OWB"
+   },
+   "x": 54.6,
+   "y": 42.4,
+   "rot": 0
+  }
+ ],
+ "connectors": {
+  "J1": {
+   "kind": "MF2",
+   "label": "24V IN",
+   "roles": [
+    "24V",
+    "GND"
+   ],
+   "nets": [
+    "VIN_RAW",
+    "GND"
+   ]
+  },
+  "J2": {
+   "kind": "MSTBVA2",
+   "label": "DPS IN",
+   "roles": [
+    "24V",
+    "GND"
+   ],
+   "nets": [
+    "+24V_DPS",
+    "GND"
+   ]
+  },
+  "J3": {
+   "kind": "VH3",
+   "label": "12V OUT",
+   "roles": [
+    "12V",
+    "GND",
+    "12V"
+   ],
+   "nets": [
+    "+12V",
+    "GND",
+    "+12V"
+   ]
+  },
+  "J8": {
+   "kind": "VH4",
+   "label": "MOTOR",
+   "roles": [
+    "MOTOR",
+    "MOTOR",
+    "MOTOR",
+    "MOTOR"
+   ],
+   "nets": [
+    "M2B",
+    "M2A",
+    "M1A",
+    "M1B"
+   ]
+  },
+  "J9": {
+   "kind": "XH11",
+   "label": "LINK-CTRL",
+   "roles": [
+    "5V",
+    "5V",
+    "GND",
+    "GND",
+    "3V3",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC"
+   ],
+   "nets": [
+    "+5V",
+    "+5V",
+    "GND",
+    "GND",
+    "+3V3",
+    "STEP",
+    "DIR",
+    "MOT_EN",
+    "TMC_UART",
+    "OWA",
+    "OWB"
+   ]
+  },
+  "J4": {
+   "kind": "XH3",
+   "label": "1W-A",
+   "roles": [
+    "GND",
+    "LOGIC",
+    "3V3"
+   ],
+   "nets": [
+    "GND",
+    "OWA",
+    "+3V3"
+   ]
+  },
+  "J6": {
+   "kind": "XH3",
+   "label": "1W-B",
+   "roles": [
+    "GND",
+    "LOGIC",
+    "3V3"
+   ],
+   "nets": [
+    "GND",
+    "OWB",
+    "+3V3"
+   ]
+  }
+ },
+ "netclasses": {
+  "TEC": {
+   "width": 2.5,
+   "clearance": 0.5,
+   "nets": [
+    "VIN_RAW",
+    "+24V",
+    "+24V_DPS"
+   ]
+  },
+  "Power": {
+   "width": 0.8,
+   "clearance": 0.3,
+   "nets": [
+    "GND",
+    "VAUX",
+    "+5V",
+    "+3V3"
+   ]
+  },
+  "P12": {
+   "width": 2.0,
+   "clearance": 0.3,
+   "nets": [
+    "+12V"
+   ]
+  },
+  "Motor": {
+   "width": 0.8,
+   "clearance": 0.3,
+   "nets": [
+    "M1A",
+    "M1B",
+    "M2A",
+    "M2B"
+   ]
+  }
+ },
+ "band_mm": 3.0
+}

@@ -1,0 +1,10 @@
+{
+  "_source": "electronics/d34/README.md (D34-3 round, source hash 49de0a823799): TEC firmware contract and claimed timing bands",
+  "kick_hz_min": 10,
+  "wdt_band_s": [0.32, 0.65],
+  "latch_delay_band_s": [0.32, 0.65],
+  "wait_after_tec_en_low_s": 0.8,
+  "wait_before_rearm_s": 0.4,
+  "wait_dps_after_rearm_s": 0.05,
+  "k2_holdup_claim_s": 0.25
+}

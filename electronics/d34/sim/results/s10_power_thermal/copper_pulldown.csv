@@ -1,0 +1,11 @@
+path,board,net,i_seg,width_mm,layer,dT,x,y,max_via_A,R_mohm,missing
+front end,pwr,VIN_RAW,2.75966,2,F.Cu,7.85044,7.54,25.4,0,3.97173,
+front end,pwr,+24V,2.75966,1.5,F.Cu,10.9288,10.08,27,0,32.6984,
+front end,pwr,+24V_DPS,4.89992,2.5,F.Cu,19.1476,32,20.6,0,3.05638,
+front end,pwr,VAUX,0.619397,0.8,F.Cu,1.13437,41.05,30,0.55622,30.8794,
+TEC path,tec,DPS_OUT_P,5,2.5,F.Cu,19.9378,17.5,20.5,0,6.28319,
+TEC path,tec,K1_MID,5,2.5,F.Cu,19.9378,28,33.7,0,2.02928,
+TEC path,tec,TEC_P,5,2.5,F.Cu,19.9378,42.5,37.45,0,4.4554,
+TEC path,tec,DPS_OUT_N,5,2.5,B.Cu,19.9378,42.5,37.45,0,6.70096,
+TEC path,tec,TEC_A,5,2.5,F.Cu,19.9378,44.5,26,0,4.74165,
+TEC path,tec,TEC_B,5,2.5,B.Cu,19.9378,40,41.2,0,8.96853,

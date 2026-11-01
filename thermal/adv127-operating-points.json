@@ -1,0 +1,162 @@
+{
+ "status": "Read by eye from manufacturer datasheet charts, not measured; +/-1 W, +/-0.3 V, +/-2 K",
+ "part": "Adaptive ADV-127-135200-S (RS 606-975)",
+ "source": "electronics/d34/datasheets/oc_adaptive_adv-127-135200-s.pdf pp. 2-3 (Th 25 and 50 C)",
+ "read": "2026-10-26",
+ "units": {
+  "Th": "degC",
+  "Tc": "degC",
+  "Current": "A",
+  "Voltage": "V",
+  "Qc": "W"
+ },
+ "points": [
+  {
+   "Th": 25,
+   "Tc": 25,
+   "Current": 1.0,
+   "Qc": 13.8,
+   "Voltage": 3.2
+  },
+  {
+   "Th": 25,
+   "Tc": -12,
+   "Current": 1.0,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 25,
+   "Tc": 25,
+   "Current": 1.5,
+   "Qc": 19.5,
+   "Voltage": 4.8
+  },
+  {
+   "Th": 25,
+   "Tc": -22,
+   "Current": 1.5,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 25,
+   "Tc": 25,
+   "Current": 2.0,
+   "Qc": 24.5,
+   "Voltage": 6.4
+  },
+  {
+   "Th": 25,
+   "Tc": -30,
+   "Current": 2.0,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 25,
+   "Tc": 25,
+   "Current": 2.5,
+   "Qc": 28.5,
+   "Voltage": 8.0
+  },
+  {
+   "Th": 25,
+   "Tc": -35,
+   "Current": 2.5,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 25,
+   "Tc": 25,
+   "Current": 3.0,
+   "Qc": 32.0,
+   "Voltage": 9.7
+  },
+  {
+   "Th": 25,
+   "Tc": -38,
+   "Current": 3.0,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 25,
+   "Tc": 5,
+   "Current": 1.5,
+   "Qc": 11.2,
+   "Voltage": 5.6
+  },
+  {
+   "Th": 25,
+   "Tc": -5,
+   "Current": 2.0,
+   "Qc": 11.1,
+   "Voltage": 7.6
+  },
+  {
+   "Th": 25,
+   "Tc": -15,
+   "Current": 2.5,
+   "Qc": 9.5,
+   "Voltage": 9.3
+  },
+  {
+   "Th": 50,
+   "Tc": 50,
+   "Current": 1.0,
+   "Qc": 15.2,
+   "Voltage": 3.6
+  },
+  {
+   "Th": 50,
+   "Tc": 8,
+   "Current": 1.0,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 50,
+   "Tc": 50,
+   "Current": 1.5,
+   "Qc": 21.5,
+   "Voltage": 5.3
+  },
+  {
+   "Th": 50,
+   "Tc": -5,
+   "Current": 1.5,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 50,
+   "Tc": 50,
+   "Current": 2.0,
+   "Qc": 26.8,
+   "Voltage": 7.1
+  },
+  {
+   "Th": 50,
+   "Tc": -13,
+   "Current": 2.0,
+   "Qc": 0.0,
+   "Voltage": null
+  },
+  {
+   "Th": 50,
+   "Tc": 50,
+   "Current": 2.5,
+   "Qc": 31.0,
+   "Voltage": 8.7
+  },
+  {
+   "Th": 50,
+   "Tc": -18,
+   "Current": 2.5,
+   "Qc": 0.0,
+   "Voltage": null
+  }
+ ]
+}

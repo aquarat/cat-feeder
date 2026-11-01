@@ -1,0 +1,556 @@
+{
+  "status": "Checked short-route suggestions only; no copper added to placement boards",
+  "layers": "All suggested short routes F.Cu; reserve B.Cu mainly for continuous GND",
+  "blocks": {
+    "logic": {
+      "routes": [
+        {
+          "net": "SYS_20V",
+          "width_mm": 0.4,
+          "points": [
+            [
+              -1.1375,
+              0.95
+            ],
+            [
+              -1.1375,
+              1.6
+            ],
+            [
+              -0.775,
+              1.9625
+            ],
+            [
+              -0.775,
+              2.85
+            ]
+          ],
+          "role": "VIN to closest 100n bypass",
+          "length_mm": 2.0501524163602474
+        },
+        {
+          "net": "GND",
+          "width_mm": 0.4,
+          "points": [
+            [
+              1.1375,
+              0.95
+            ],
+            [
+              1.1375,
+              1.6
+            ],
+            [
+              0.775,
+              1.9625
+            ],
+            [
+              0.775,
+              2.85
+            ]
+          ],
+          "role": "Closest bypass return to IC ground",
+          "length_mm": 2.0501524163602474
+        },
+        {
+          "net": "SYS_20V",
+          "width_mm": 0.25,
+          "points": [
+            [
+              -1.1375,
+              0.0
+            ],
+            [
+              -1.1375,
+              0.95
+            ]
+          ],
+          "role": "EN to qualified VIN",
+          "length_mm": 0.95
+        },
+        {
+          "net": "PWR_SW1",
+          "width_mm": 0.6,
+          "points": [
+            [
+              1.1375,
+              0.0
+            ],
+            [
+              5.425,
+              0.0
+            ]
+          ],
+          "role": "Short SW connection to inductor input",
+          "length_mm": 4.2875
+        },
+        {
+          "net": "PWR_SW1",
+          "width_mm": 0.4,
+          "points": [
+            [
+              3,
+              0
+            ],
+            [
+              3.0,
+              -0.325
+            ]
+          ],
+          "role": "Short bootstrap SW branch",
+          "length_mm": 0.325
+        },
+        {
+          "net": "PWR_BST1",
+          "width_mm": 0.2,
+          "points": [
+            [
+              1.1375,
+              -0.95
+            ],
+            [
+              2.15,
+              -0.95
+            ],
+            [
+              2.15,
+              -1.875
+            ],
+            [
+              3.0,
+              -1.875
+            ]
+          ],
+          "role": "Bootstrap high-side connection",
+          "length_mm": 2.7875
+        },
+        {
+          "net": "SYS_20V",
+          "width_mm": 0.6,
+          "points": [
+            [
+              -0.775,
+              2.85
+            ],
+            [
+              -1.475,
+              3.55
+            ],
+            [
+              -1.475,
+              5.5
+            ],
+            [
+              -1.475,
+              8.95
+            ]
+          ],
+          "role": "Input reservoir positive bus",
+          "length_mm": 6.389949493661166
+        },
+        {
+          "net": "GND",
+          "width_mm": 0.6,
+          "points": [
+            [
+              0.775,
+              2.85
+            ],
+            [
+              1.475,
+              3.55
+            ],
+            [
+              1.475,
+              5.5
+            ],
+            [
+              1.475,
+              8.95
+            ]
+          ],
+          "role": "Input reservoir ground bus, stitch to plane",
+          "length_mm": 6.389949493661166
+        },
+        {
+          "net": "+3V3",
+          "width_mm": 0.8,
+          "points": [
+            [
+              9.575,
+              0.0
+            ],
+            [
+              9.575,
+              3.65
+            ],
+            [
+              8.975,
+              4.25
+            ],
+            [
+              8.975,
+              4.65
+            ],
+            [
+              8.975,
+              7.2
+            ],
+            [
+              8.975,
+              9.75
+            ],
+            [
+              8.975,
+              12.3
+            ]
+          ],
+          "role": "Output inductor to bank positive bus; sense at first capacitor",
+          "length_mm": 12.548528137423858
+        },
+        {
+          "net": "GND",
+          "width_mm": 0.8,
+          "points": [
+            [
+              6.025,
+              4.65
+            ],
+            [
+              6.025,
+              7.2
+            ],
+            [
+              6.025,
+              9.75
+            ],
+            [
+              6.025,
+              12.3
+            ]
+          ],
+          "role": "Output bank ground bus; multiple short plane vias",
+          "length_mm": 7.65
+        }
+      ],
+      "minimum_screened_clearance_mm": 0.3138236339311712,
+      "closest_pair": [
+        "Bootstrap high-side connection",
+        "CP4.2"
+      ],
+      "sense_pickup": {
+        "ref": "CP5",
+        "pin": "1",
+        "center": [
+          8.975,
+          4.65
+        ]
+      },
+      "sense_routing_note": "Complete a separate low-current Kelvin sense route to UP1.1 (logic), or RP1.1/CP18.1 (fan). Prefer B.Cu across y=4.65 below the inductor, then up the input/left side; never beneath SW or the inductor. Add endpoint vias in free copper, not capacitor pads. Final via/trace/plane checks belong to integrator.",
+      "ground_note": "UP GND and closest input bypass form the primary local return. Stitch input/output ground buses to bottom plane. Fan RP2.2 requires a quiet return to local UP2 GND; do not join through motor/fan load return traces."
+    },
+    "fan": {
+      "routes": [
+        {
+          "net": "SYS_20V",
+          "width_mm": 0.4,
+          "points": [
+            [
+              -1.1375,
+              0.95
+            ],
+            [
+              -1.1375,
+              1.6
+            ],
+            [
+              -0.775,
+              1.9625
+            ],
+            [
+              -0.775,
+              2.85
+            ]
+          ],
+          "role": "VIN to closest 100n bypass",
+          "length_mm": 2.0501524163602474
+        },
+        {
+          "net": "GND",
+          "width_mm": 0.4,
+          "points": [
+            [
+              1.1375,
+              0.95
+            ],
+            [
+              1.1375,
+              1.6
+            ],
+            [
+              0.775,
+              1.9625
+            ],
+            [
+              0.775,
+              2.85
+            ]
+          ],
+          "role": "Closest bypass return to IC ground",
+          "length_mm": 2.0501524163602474
+        },
+        {
+          "net": "SYS_20V",
+          "width_mm": 0.25,
+          "points": [
+            [
+              -1.1375,
+              0.0
+            ],
+            [
+              -1.1375,
+              0.95
+            ]
+          ],
+          "role": "EN to qualified VIN",
+          "length_mm": 0.95
+        },
+        {
+          "net": "PWR_SW2",
+          "width_mm": 0.6,
+          "points": [
+            [
+              1.1375,
+              0.0
+            ],
+            [
+              5.425,
+              0.0
+            ]
+          ],
+          "role": "Short SW connection to inductor input",
+          "length_mm": 4.2875
+        },
+        {
+          "net": "PWR_SW2",
+          "width_mm": 0.4,
+          "points": [
+            [
+              3,
+              0
+            ],
+            [
+              3.0,
+              -0.325
+            ]
+          ],
+          "role": "Short bootstrap SW branch",
+          "length_mm": 0.325
+        },
+        {
+          "net": "PWR_BST2",
+          "width_mm": 0.2,
+          "points": [
+            [
+              1.1375,
+              -0.95
+            ],
+            [
+              2.15,
+              -0.95
+            ],
+            [
+              2.15,
+              -1.875
+            ],
+            [
+              3.0,
+              -1.875
+            ]
+          ],
+          "role": "Bootstrap high-side connection",
+          "length_mm": 2.7875
+        },
+        {
+          "net": "SYS_20V",
+          "width_mm": 0.6,
+          "points": [
+            [
+              -0.775,
+              2.85
+            ],
+            [
+              -1.475,
+              3.55
+            ],
+            [
+              -1.475,
+              5.5
+            ],
+            [
+              -1.475,
+              8.95
+            ]
+          ],
+          "role": "Input reservoir positive bus",
+          "length_mm": 6.389949493661166
+        },
+        {
+          "net": "GND",
+          "width_mm": 0.6,
+          "points": [
+            [
+              0.775,
+              2.85
+            ],
+            [
+              1.475,
+              3.55
+            ],
+            [
+              1.475,
+              5.5
+            ],
+            [
+              1.475,
+              8.95
+            ]
+          ],
+          "role": "Input reservoir ground bus, stitch to plane",
+          "length_mm": 6.389949493661166
+        },
+        {
+          "net": "+12V",
+          "width_mm": 0.8,
+          "points": [
+            [
+              9.575,
+              0.0
+            ],
+            [
+              9.575,
+              3.65
+            ],
+            [
+              8.975,
+              4.25
+            ],
+            [
+              8.975,
+              4.65
+            ],
+            [
+              8.975,
+              7.2
+            ],
+            [
+              8.975,
+              9.75
+            ]
+          ],
+          "role": "Output inductor to bank positive bus; sense at first capacitor",
+          "length_mm": 9.998528137423857
+        },
+        {
+          "net": "GND",
+          "width_mm": 0.8,
+          "points": [
+            [
+              6.025,
+              4.65
+            ],
+            [
+              6.025,
+              7.2
+            ],
+            [
+              6.025,
+              9.75
+            ]
+          ],
+          "role": "Output bank ground bus; multiple short plane vias",
+          "length_mm": 5.1
+        },
+        {
+          "net": "PWR_FB12",
+          "width_mm": 0.2,
+          "points": [
+            [
+              -3.2,
+              -2.275
+            ],
+            [
+              -3.2,
+              -0.725
+            ]
+          ],
+          "role": "Local feedback divider midpoint",
+          "length_mm": 1.5499999999999998
+        },
+        {
+          "net": "PWR_FB12",
+          "width_mm": 0.2,
+          "points": [
+            [
+              -3.2,
+              -0.95
+            ],
+            [
+              -1.1375,
+              -0.95
+            ]
+          ],
+          "role": "Quiet midpoint to IC FB, away from SW",
+          "length_mm": 2.0625
+        },
+        {
+          "net": "PWR_FB12",
+          "width_mm": 0.2,
+          "points": [
+            [
+              -4.95,
+              -2.325
+            ],
+            [
+              -3.2,
+              -2.275
+            ]
+          ],
+          "role": "Feedforward capacitor FB end",
+          "length_mm": 1.7507141400011597
+        },
+        {
+          "net": "+12V",
+          "width_mm": 0.2,
+          "points": [
+            [
+              -4.95,
+              -3.875
+            ],
+            [
+              -3.2,
+              -3.925
+            ]
+          ],
+          "role": "Feedforward output end",
+          "length_mm": 1.7507141400011597
+        }
+      ],
+      "minimum_screened_clearance_mm": 0.3138236339311712,
+      "closest_pair": [
+        "Bootstrap high-side connection",
+        "CP14.2"
+      ],
+      "sense_pickup": {
+        "ref": "CP15",
+        "pin": "1",
+        "center": [
+          8.975,
+          4.65
+        ]
+      },
+      "sense_routing_note": "Complete a separate low-current Kelvin sense route to UP1.1 (logic), or RP1.1/CP18.1 (fan). Prefer B.Cu across y=4.65 below the inductor, then up the input/left side; never beneath SW or the inductor. Add endpoint vias in free copper, not capacitor pads. Final via/trace/plane checks belong to integrator.",
+      "ground_note": "UP GND and closest input bypass form the primary local return. Stitch input/output ground buses to bottom plane. Fan RP2.2 requires a quiet return to local UP2 GND; do not join through motor/fan load return traces."
+    }
+  }
+}

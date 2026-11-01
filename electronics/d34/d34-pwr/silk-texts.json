@@ -1,0 +1,170 @@
+[
+{
+"text": "LINK",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "1W-B",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "1W-A",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "D34-PWR D34-2 src c24e0a5435e3",
+"h": 1.0,
+"t": 0.15,
+"layer": "B.Silkscreen"
+},
+{
+"text": "C1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "C9",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "R3",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J3",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J9",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "F1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "F2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "U4",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J8",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "Q1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J6",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C4",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "D1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "U1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C3",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "U2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J4",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C8",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C5",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "DZ1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+}
+]

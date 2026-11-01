@@ -1,0 +1,7334 @@
+{
+ "schema": "d34-parts3d/1",
+ "generated": "2026-10-27",
+ "conventions": {
+  "units": "mm",
+  "frame": "Per card. Origin = top-left corner of the card seen from the component side. +x along the long edge to the right; +y DOWN towards the slot edge (y = 0 is the top/clip edge, y = 47 sits in the floor slot); +z out of the component side. z = 0 is the component-side copper surface, the solder-side surface is z = -1.6. NOTE: (x, y-down, z-out) is LEFT-handed; for a right-handed frame use v = 47 - y (v up) with the same x and z.",
+  "rotation_deg": "KiCad footprint orientation, counter-clockwise as seen from the component side (KiCad convention, y down).",
+  "origin": "KiCad footprint anchor in card coordinates (usually pin 1).",
+  "shapes": "Axis-aligned. box: {\"type\":\"box\",\"min\":[x,y,z],\"max\":[x,y,z]}. cylinder: {\"type\":\"cylinder\",\"axis\":\"z\",\"centre\":[x,y],\"r\":r,\"z\":[z0,z1]}.",
+  "groups": "bodies = the part as fitted (component side, z >= 0); solder = lead/tail protrusion below the board (z <= -1.6) after trimming; mated = mating plug or plug-in module that is not soldered (present in service); cable = keep-clear zone for the wire bundle as it leaves the plug (includes a bend allowance); service = space needed to fit/remove the plug or module (not occupied in service).",
+  "lead_exit": "Unit vector (card frame) in which wires leave the mated plug, plus the face centre they leave from.",
+  "source": "Each shape carries \"src\": datasheet | footprint | estimate. \"datasheet\" dimensions are from the PDF named in \"ref_doc\" (manifest: datasheets/MANIFEST.json); \"footprint\" = KiCad F.Fab outline; \"estimate\" = not yet confirmed - add margin.",
+  "status": "Geometry derived from footprints and datasheets. Not a measured/physical fit."
+ },
+ "cards": {
+  "d34-ctrl": {
+   "bay": "45 deg",
+   "kicad_pcb": "d34-ctrl/d34-ctrl.kicad_pcb",
+   "board": {
+    "outline": [
+     0.0,
+     0.0,
+     81.0,
+     47.0
+    ],
+    "thickness": 1.6,
+    "corner_radius": 1.0,
+    "edge_bands_mm": 3.0,
+    "z_component_surface": 0.0,
+    "z_solder_surface": -1.6
+   },
+   "envelope": {
+    "component_side_max_z": 19.8,
+    "solder_side_min_z": -4.1
+   },
+   "parts": [
+    {
+     "ref": "U1",
+     "kind": "DEVKIT",
+     "value": "ESP32-DevKitC-32E",
+     "mfr": "Samtec",
+     "mpn": "SSW-119-01-T-S",
+     "footprint": "ESP32-DevKitC-32E_Socket",
+     "origin": [
+      8.0,
+      42.0
+     ],
+     "rotation_deg": 90,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        6.73,
+        40.73,
+        0.0
+       ],
+       "max": [
+        54.99,
+        43.27,
+        8.5
+       ],
+       "what": "1x19 female socket strip (row J2)",
+       "src": "estimate"
+      },
+      {
+       "type": "box",
+       "min": [
+        6.73,
+        15.33,
+        0.0
+       ],
+       "max": [
+        54.99,
+        17.87,
+        8.5
+       ],
+       "what": "1x19 female socket strip (row J3)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        7.15,
+        15.75,
+        -3.2
+       ],
+       "max": [
+        54.57,
+        42.85,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 1.6 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        0.71,
+        15.33,
+        8.5
+       ],
+       "max": [
+        55.01,
+        43.27,
+        11.0
+       ],
+       "what": "DevKit header pin spacers",
+       "src": "estimate"
+      },
+      {
+       "type": "box",
+       "min": [
+        0.71,
+        15.33,
+        11.0
+       ],
+       "max": [
+        55.01,
+        43.27,
+        12.6
+       ],
+       "what": "DevKit PCB",
+       "src": "estimate"
+      },
+      {
+       "type": "box",
+       "min": [
+        0.71,
+        15.33,
+        12.6
+       ],
+       "max": [
+        55.01,
+        43.27,
+        16.0
+       ],
+       "what": "DevKit top-side parts (WROOM-32E 3.1 mm, USB, buttons)",
+       "src": "estimate"
+      }
+     ],
+     "cable": [],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        55.01,
+        23.3,
+        10.0
+       ],
+       "max": [
+        80.01,
+        35.3,
+        20.0
+       ],
+       "what": "micro-USB plug for programming (module pulled or bench only)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "face_centre": [
+       55.01,
+       29.3,
+       13.5
+      ],
+      "note": "micro-USB socket faces along the module axis (USB end); programming only"
+     },
+     "notes": "Module plugs into two 1x19 sockets; heights to be confirmed from socket and Espressif drawings.",
+     "max_z": 16.0
+    },
+    {
+     "ref": "D1",
+     "kind": "D_5817",
+     "value": "1N5817",
+     "mfr": "onsemi",
+     "mpn": "1N5817RLG",
+     "footprint": "D_DO-41_SOD81_P10.16mm_Horizontal",
+     "origin": [
+      57.5,
+      16.6
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        56.1,
+        16.55,
+        0.0
+       ],
+       "max": [
+        58.9,
+        26.81,
+        3.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        56.4,
+        15.5,
+        -4.1
+       ],
+       "max": [
+        58.6,
+        27.86,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 3.0
+    },
+    {
+     "ref": "C1",
+     "kind": "CP22u",
+     "value": "22u 50V",
+     "mfr": "Rubycon",
+     "mpn": "50YXF22M5X11",
+     "footprint": "CP_Radial_D5.0mm_P2.00mm",
+     "origin": [
+      61.2,
+      19.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        62.2,
+        19.5
+       ],
+       "r": 2.75,
+       "z": [
+        0.0,
+        12.5
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        60.4,
+        18.7,
+        -4.1
+       ],
+       "max": [
+        64.0,
+        20.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 12.5
+    },
+    {
+     "ref": "C2",
+     "kind": "CP22u",
+     "value": "22u 50V",
+     "mfr": "Rubycon",
+     "mpn": "50YXF22M5X11",
+     "footprint": "CP_Radial_D5.0mm_P2.00mm",
+     "origin": [
+      61.2,
+      25.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        62.2,
+        25.3
+       ],
+       "r": 2.75,
+       "z": [
+        0.0,
+        12.5
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        60.4,
+        24.5,
+        -4.1
+       ],
+       "max": [
+        64.0,
+        26.1,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 12.5
+    },
+    {
+     "ref": "D3",
+     "kind": "LED_G",
+     "value": "STATUS",
+     "mfr": "Broadcom",
+     "mpn": "HLMP-1503",
+     "footprint": "LED_D3.0mm",
+     "origin": [
+      60.0,
+      31.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        61.27,
+        31.4
+       ],
+       "r": 1.95,
+       "z": [
+        0.0,
+        6.4
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        59.1,
+        30.5,
+        -4.1
+       ],
+       "max": [
+        63.44,
+        32.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.4
+    },
+    {
+     "ref": "J1",
+     "kind": "XH11",
+     "value": "LINK to D34-PWR",
+     "mfr": "JST",
+     "mpn": "B11B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B11B-XH-A_1x11_P2.50mm_Vertical",
+     "origin": [
+      70.5,
+      6.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        67.05,
+        3.5,
+        0.0
+       ],
+       "max": [
+        72.9,
+        33.5,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        69.525,
+        5.025,
+        -4.1
+       ],
+       "max": [
+        71.475,
+        31.975,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        66.55,
+        3.0,
+        0.0
+       ],
+       "max": [
+        73.4,
+        34.0,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        66.55,
+        3.0,
+        9.8
+       ],
+       "max": [
+        73.4,
+        34.0,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        66.55,
+        3.0,
+        9.8
+       ],
+       "max": [
+        73.4,
+        34.0,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       69.975,
+       18.5,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "J2",
+     "kind": "XH12",
+     "value": "LINK to D34-TEC",
+     "mfr": "JST",
+     "mpn": "B12B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B12B-XH-A_1x12_P2.50mm_Vertical",
+     "origin": [
+      77.5,
+      6.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        74.05,
+        3.5,
+        0.0
+       ],
+       "max": [
+        79.9,
+        36.0,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        76.525,
+        5.025,
+        -4.1
+       ],
+       "max": [
+        78.475,
+        34.475,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        73.55,
+        3.0,
+        0.0
+       ],
+       "max": [
+        80.4,
+        36.5,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        73.55,
+        3.0,
+        9.8
+       ],
+       "max": [
+        80.4,
+        36.5,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        73.55,
+        3.0,
+        9.8
+       ],
+       "max": [
+        80.4,
+        36.5,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       76.975,
+       19.75,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "J11",
+     "kind": "XH4",
+     "value": "DPS5005 UART (3.3 V TTL; DPS order GND TX RX 3V3)",
+     "mfr": "JST",
+     "mpn": "B4B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+     "origin": [
+      63.5,
+      6.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        60.05,
+        3.5,
+        0.0
+       ],
+       "max": [
+        65.9,
+        16.0,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        62.525,
+        5.025,
+        -4.1
+       ],
+       "max": [
+        64.475,
+        14.475,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        59.55,
+        3.0,
+        0.0
+       ],
+       "max": [
+        66.4,
+        16.5,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        59.55,
+        3.0,
+        9.8
+       ],
+       "max": [
+        66.4,
+        16.5,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        59.55,
+        3.0,
+        9.8
+       ],
+       "max": [
+        66.4,
+        16.5,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       62.975,
+       9.75,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "U2",
+     "kind": "HC123",
+     "value": "74HC123",
+     "mfr": "Toshiba",
+     "mpn": "TC74HC123AP(F)",
+     "footprint": "DIP-16_W7.62mm",
+     "origin": [
+      20.28,
+      19.88
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.18,
+        20.465,
+        0.0
+       ],
+       "max": [
+        21.6,
+        26.915,
+        4.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        1.7,
+        19.08,
+        -4.1
+       ],
+       "max": [
+        21.08,
+        28.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 4.5
+    },
+    {
+     "ref": "U3",
+     "kind": "HC573",
+     "value": "74HC573",
+     "mfr": "Texas Instruments",
+     "mpn": "SN74HC573AN",
+     "footprint": "DIP-20_W7.62mm",
+     "origin": [
+      46.86,
+      19.88
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        22.68,
+        20.465,
+        0.0
+       ],
+       "max": [
+        48.18,
+        26.915,
+        5.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        23.2,
+        19.08,
+        -4.1
+       ],
+       "max": [
+        47.66,
+        28.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 5.1
+    },
+    {
+     "ref": "R1",
+     "kind": "R470",
+     "value": "470k",
+     "mfr": "Vishay",
+     "mpn": "MBA02040C4703FRP00",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      1.2,
+      31.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.15,
+        30.15,
+        0.0
+       ],
+       "max": [
+        8.87,
+        31.85,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        0.5,
+        30.3,
+        -4.1
+       ],
+       "max": [
+        9.52,
+        31.7,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R2",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      11.1,
+      31.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        11.05,
+        30.15,
+        0.0
+       ],
+       "max": [
+        18.77,
+        31.85,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        10.4,
+        30.3,
+        -4.1
+       ],
+       "max": [
+        19.42,
+        31.7,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R3",
+     "kind": "R",
+     "value": "47k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-47K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      53.5,
+      19.6
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        52.65,
+        19.55,
+        0.0
+       ],
+       "max": [
+        54.35,
+        27.27,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        52.8,
+        18.9,
+        -4.1
+       ],
+       "max": [
+        54.2,
+        27.92,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "C6",
+     "kind": "C100n",
+     "value": "100n",
+     "mfr": "Murata",
+     "mpn": "RDER71H104K0P1H03B",
+     "footprint": "C_Rect_L4.0mm_W2.5mm_P2.50mm",
+     "origin": [
+      21.0,
+      31.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        20.2,
+        29.7,
+        0.0
+       ],
+       "max": [
+        24.3,
+        32.3,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        20.2,
+        30.2,
+        -4.1
+       ],
+       "max": [
+        24.3,
+        31.8,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "C7",
+     "kind": "C100n",
+     "value": "100n",
+     "mfr": "Murata",
+     "mpn": "RDER71H104K0P1H03B",
+     "footprint": "C_Rect_L4.0mm_W2.5mm_P2.50mm",
+     "origin": [
+      50.3,
+      27.2
+     ],
+     "rotation_deg": 90,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        49.0,
+        23.9,
+        0.0
+       ],
+       "max": [
+        51.6,
+        28.0,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        49.5,
+        23.9,
+        -4.1
+       ],
+       "max": [
+        51.1,
+        28.0,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R4",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      30.9,
+      31.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        30.85,
+        30.15,
+        0.0
+       ],
+       "max": [
+        38.57,
+        31.85,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        30.2,
+        30.3,
+        -4.1
+       ],
+       "max": [
+        39.22,
+        31.7,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R5",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      40.8,
+      31.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        40.75,
+        30.15,
+        0.0
+       ],
+       "max": [
+        48.47,
+        31.85,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        40.1,
+        30.3,
+        -4.1
+       ],
+       "max": [
+        49.12,
+        31.7,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "D2",
+     "kind": "D_5817V",
+     "value": "1N5817",
+     "mfr": "onsemi",
+     "mpn": "1N5817RLG",
+     "footprint": "D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp",
+     "origin": [
+      3.0,
+      34.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.6,
+        33.0,
+        0.0
+       ],
+       "max": [
+        5.59,
+        35.8,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        1.9,
+        33.3,
+        -4.1
+       ],
+       "max": [
+        6.64,
+        35.5,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "R26",
+     "kind": "R470V",
+     "value": "470k",
+     "mfr": "Vishay",
+     "mpn": "MBA02040C4703FRP00",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      57.3,
+      30.2
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        56.45,
+        29.35,
+        0.0
+       ],
+       "max": [
+        58.15,
+        32.79,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        56.6,
+        29.5,
+        -4.1
+       ],
+       "max": [
+        58.0,
+        33.44,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R6",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      11.1,
+      34.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        11.05,
+        33.55,
+        0.0
+       ],
+       "max": [
+        18.77,
+        35.25,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        10.4,
+        33.7,
+        -4.1
+       ],
+       "max": [
+        19.42,
+        35.1,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R7",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      21.0,
+      34.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        20.95,
+        33.55,
+        0.0
+       ],
+       "max": [
+        28.67,
+        35.25,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        20.3,
+        33.7,
+        -4.1
+       ],
+       "max": [
+        29.32,
+        35.1,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R8",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      30.9,
+      34.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        30.85,
+        33.55,
+        0.0
+       ],
+       "max": [
+        38.57,
+        35.25,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        30.2,
+        33.7,
+        -4.1
+       ],
+       "max": [
+        39.22,
+        35.1,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R9",
+     "kind": "R",
+     "value": "4.7k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-4K7",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      40.8,
+      34.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        40.75,
+        33.55,
+        0.0
+       ],
+       "max": [
+        48.47,
+        35.25,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        40.1,
+        33.7,
+        -4.1
+       ],
+       "max": [
+        49.12,
+        35.1,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R10",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      1.2,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.15,
+        36.95,
+        0.0
+       ],
+       "max": [
+        8.87,
+        38.65,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        0.5,
+        37.1,
+        -4.1
+       ],
+       "max": [
+        9.52,
+        38.5,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R11",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      11.1,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        11.05,
+        36.95,
+        0.0
+       ],
+       "max": [
+        18.77,
+        38.65,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        10.4,
+        37.1,
+        -4.1
+       ],
+       "max": [
+        19.42,
+        38.5,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R12",
+     "kind": "R",
+     "value": "47k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-47K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      21.0,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        20.95,
+        36.95,
+        0.0
+       ],
+       "max": [
+        28.67,
+        38.65,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        20.3,
+        37.1,
+        -4.1
+       ],
+       "max": [
+        29.32,
+        38.5,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "D9",
+     "kind": "BAT42V",
+     "value": "BAT42",
+     "mfr": "STMicroelectronics",
+     "mpn": "BAT42",
+     "footprint": "D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp",
+     "origin": [
+      51.4,
+      34.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        50.35,
+        33.35,
+        0.0
+       ],
+       "max": [
+        53.99,
+        35.45,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        50.6,
+        33.6,
+        -4.1
+       ],
+       "max": [
+        54.74,
+        35.2,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R13",
+     "kind": "R",
+     "value": "330",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-330R",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      30.9,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        30.85,
+        36.95,
+        0.0
+       ],
+       "max": [
+        38.57,
+        38.65,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        30.2,
+        37.1,
+        -4.1
+       ],
+       "max": [
+        39.22,
+        38.5,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R14",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      40.8,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        40.75,
+        36.95,
+        0.0
+       ],
+       "max": [
+        48.47,
+        38.65,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        40.1,
+        37.1,
+        -4.1
+       ],
+       "max": [
+        49.12,
+        38.5,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "C4",
+     "kind": "C1u",
+     "value": "1u",
+     "mfr": "Murata",
+     "mpn": "RDER71H105K2P1H03B",
+     "footprint": "C_Rect_L5.5mm_W3.2mm_P2.50mm",
+     "origin": [
+      51.4,
+      31.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        49.8,
+        29.325,
+        0.0
+       ],
+       "max": [
+        55.5,
+        32.675,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        50.65,
+        30.25,
+        -4.1
+       ],
+       "max": [
+        54.65,
+        31.75,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "C5",
+     "kind": "C1u",
+     "value": "1u",
+     "mfr": "Murata",
+     "mpn": "RDER71H105K2P1H03B",
+     "footprint": "C_Rect_L5.5mm_W3.2mm_P2.50mm",
+     "origin": [
+      51.4,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        49.8,
+        36.125,
+        0.0
+       ],
+       "max": [
+        55.5,
+        39.475,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        50.65,
+        37.05,
+        -4.1
+       ],
+       "max": [
+        54.65,
+        38.55,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R15",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      1.2,
+      12.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.15,
+        11.75,
+        0.0
+       ],
+       "max": [
+        8.87,
+        13.45,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        0.5,
+        11.9,
+        -4.1
+       ],
+       "max": [
+        9.52,
+        13.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R16",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      11.1,
+      12.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        11.05,
+        11.75,
+        0.0
+       ],
+       "max": [
+        18.77,
+        13.45,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        10.4,
+        11.9,
+        -4.1
+       ],
+       "max": [
+        19.42,
+        13.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R17",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      21.0,
+      12.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        20.95,
+        11.75,
+        0.0
+       ],
+       "max": [
+        28.67,
+        13.45,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        20.3,
+        11.9,
+        -4.1
+       ],
+       "max": [
+        29.32,
+        13.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R18",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      30.9,
+      12.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        30.85,
+        11.75,
+        0.0
+       ],
+       "max": [
+        38.57,
+        13.45,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        30.2,
+        11.9,
+        -4.1
+       ],
+       "max": [
+        39.22,
+        13.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R19",
+     "kind": "R",
+     "value": "47k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-47K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      40.8,
+      12.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        40.75,
+        11.75,
+        0.0
+       ],
+       "max": [
+        48.47,
+        13.45,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        40.1,
+        11.9,
+        -4.1
+       ],
+       "max": [
+        49.12,
+        13.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R20",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      50.7,
+      12.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        50.65,
+        11.75,
+        0.0
+       ],
+       "max": [
+        58.37,
+        13.45,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        50.0,
+        11.9,
+        -4.1
+       ],
+       "max": [
+        59.02,
+        13.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R21",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      56.8,
+      35.2
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        55.95,
+        35.15,
+        0.0
+       ],
+       "max": [
+        57.65,
+        42.87,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        56.1,
+        34.5,
+        -4.1
+       ],
+       "max": [
+        57.5,
+        43.52,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R22",
+     "kind": "R",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      60.1,
+      35.2
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        59.25,
+        35.15,
+        0.0
+       ],
+       "max": [
+        60.95,
+        42.87,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        59.4,
+        34.5,
+        -4.1
+       ],
+       "max": [
+        60.8,
+        43.52,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R23",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      63.4,
+      35.2
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        62.55,
+        35.15,
+        0.0
+       ],
+       "max": [
+        64.25,
+        42.87,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        62.7,
+        34.5,
+        -4.1
+       ],
+       "max": [
+        64.1,
+        43.52,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R24",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      66.7,
+      35.2
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        65.85,
+        35.15,
+        0.0
+       ],
+       "max": [
+        67.55,
+        42.87,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        66.0,
+        34.5,
+        -4.1
+       ],
+       "max": [
+        67.4,
+        43.52,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "R25",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      70.0,
+      35.2
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        69.15,
+        35.15,
+        0.0
+       ],
+       "max": [
+        70.85,
+        42.87,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        69.3,
+        34.5,
+        -4.1
+       ],
+       "max": [
+        70.7,
+        43.52,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "J3",
+     "kind": "XH3",
+     "value": "HOME sensor (DRV5023 hall, 3.3 V, open drain)",
+     "mfr": "JST",
+     "mpn": "B3B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+     "origin": [
+      3.5,
+      6.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.0,
+        3.9,
+        0.0
+       ],
+       "max": [
+        11.0,
+        9.75,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        2.525,
+        5.325,
+        -4.1
+       ],
+       "max": [
+        9.475,
+        7.275,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        0.5,
+        3.4,
+        0.0
+       ],
+       "max": [
+        11.5,
+        10.25,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        0.5,
+        3.4,
+        9.8
+       ],
+       "max": [
+        11.5,
+        10.25,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        0.5,
+        3.4,
+        9.8
+       ],
+       "max": [
+        11.5,
+        10.25,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       6.0,
+       6.825,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "J4",
+     "kind": "XH4",
+     "value": "LID reed + basin-full probe",
+     "mfr": "JST",
+     "mpn": "B4B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+     "origin": [
+      20.9,
+      6.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        18.4,
+        3.9,
+        0.0
+       ],
+       "max": [
+        30.9,
+        9.75,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        19.925,
+        5.325,
+        -4.1
+       ],
+       "max": [
+        29.375,
+        7.275,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        17.9,
+        3.4,
+        0.0
+       ],
+       "max": [
+        31.4,
+        10.25,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        17.9,
+        3.4,
+        9.8
+       ],
+       "max": [
+        31.4,
+        10.25,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        17.9,
+        3.4,
+        9.8
+       ],
+       "max": [
+        31.4,
+        10.25,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       24.65,
+       6.825,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "J6",
+     "kind": "XH5",
+     "value": "UI: panel LED + button",
+     "mfr": "JST",
+     "mpn": "B5B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical",
+     "origin": [
+      40.8,
+      6.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        38.3,
+        3.9,
+        0.0
+       ],
+       "max": [
+        53.3,
+        9.75,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        39.825,
+        5.325,
+        -4.1
+       ],
+       "max": [
+        51.775,
+        7.275,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        37.8,
+        3.4,
+        0.0
+       ],
+       "max": [
+        53.8,
+        10.25,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        37.8,
+        3.4,
+        9.8
+       ],
+       "max": [
+        53.8,
+        10.25,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        37.8,
+        3.4,
+        9.8
+       ],
+       "max": [
+        53.8,
+        10.25,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       45.8,
+       6.825,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    }
+   ]
+  },
+  "d34-pwr": {
+   "bay": "225 deg",
+   "kicad_pcb": "d34-pwr/d34-pwr.kicad_pcb",
+   "board": {
+    "outline": [
+     0.0,
+     0.0,
+     81.0,
+     47.0
+    ],
+    "thickness": 1.6,
+    "corner_radius": 1.0,
+    "edge_bands_mm": 3.0,
+    "z_component_surface": 0.0,
+    "z_solder_surface": -1.6
+   },
+   "envelope": {
+    "component_side_max_z": 31.5,
+    "solder_side_min_z": -4.1
+   },
+   "parts": [
+    {
+     "ref": "J1",
+     "kind": "MF2",
+     "value": "24V IN (brick)",
+     "mfr": "Molex",
+     "mpn": "39-28-1023 (5566-02A)",
+     "footprint": "Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical",
+     "origin": [
+      4.0,
+      19.5
+     ],
+     "rotation_deg": 180,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.25,
+        10.7,
+        0.0
+       ],
+       "max": [
+        7.1,
+        22.15,
+        12.8
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        2.35,
+        12.35,
+        -4.1
+       ],
+       "max": [
+        5.65,
+        21.15,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        0.75,
+        10.2,
+        0.0
+       ],
+       "max": [
+        7.6,
+        22.65,
+        23.5
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        0.75,
+        10.2,
+        23.5
+       ],
+       "max": [
+        7.6,
+        22.65,
+        31.5
+       ],
+       "what": "wire bundle leaving plug top (incl. 8 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        0.75,
+        10.2,
+        23.5
+       ],
+       "max": [
+        7.6,
+        22.65,
+        38.5
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       4.175,
+       16.425,
+       23.5
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 31.5
+    },
+    {
+     "ref": "Q1",
+     "kind": "IRF4905",
+     "value": "IRF4905PBF",
+     "mfr": "Infineon",
+     "mpn": "IRF4905PBF",
+     "footprint": "TO-220-3_Vertical",
+     "origin": [
+      5.0,
+      27.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        2.49,
+        23.8,
+        0.0
+       ],
+       "max": [
+        12.59,
+        28.3,
+        20.6
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        4.0,
+        26.0,
+        -4.1
+       ],
+       "max": [
+        11.08,
+        28.0,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 20.6
+    },
+    {
+     "ref": "DZ1",
+     "kind": "DZ15S",
+     "value": "BZX79-C15",
+     "mfr": "Nexperia",
+     "mpn": "BZX79-C15,133",
+     "footprint": "D_DO-35_SOD27_P7.62mm_Horizontal",
+     "origin": [
+      10.62,
+      30.0
+     ],
+     "rotation_deg": 180,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        2.95,
+        28.95,
+        0.0
+       ],
+       "max": [
+        10.67,
+        31.05,
+        2.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        2.2,
+        29.2,
+        -4.1
+       ],
+       "max": [
+        11.42,
+        30.8,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.0
+    },
+    {
+     "ref": "C9",
+     "kind": "C100n",
+     "value": "100n",
+     "mfr": "Murata",
+     "mpn": "RDER71H104K0P1H03B",
+     "footprint": "C_Rect_L4.0mm_W2.5mm_P2.50mm",
+     "origin": [
+      3.0,
+      37.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        2.2,
+        35.7,
+        0.0
+       ],
+       "max": [
+        6.3,
+        38.3,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        2.2,
+        36.2,
+        -4.1
+       ],
+       "max": [
+        6.3,
+        37.8,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R1",
+     "kind": "R",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      3.0,
+      33.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        2.95,
+        32.65,
+        0.0
+       ],
+       "max": [
+        10.67,
+        34.35,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        2.3,
+        32.8,
+        -4.1
+       ],
+       "max": [
+        11.32,
+        34.2,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    },
+    {
+     "ref": "C1",
+     "kind": "CP100u",
+     "value": "100u 50V",
+     "mfr": "Panasonic",
+     "mpn": "EEU-FR1H101",
+     "footprint": "CP_Radial_D8.0mm_P3.50mm",
+     "origin": [
+      15.5,
+      31.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        17.25,
+        31.0
+       ],
+       "r": 4.25,
+       "z": [
+        0.0,
+        13.0
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        14.7,
+        30.2,
+        -4.1
+       ],
+       "max": [
+        19.8,
+        31.8,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 13.0
+    },
+    {
+     "ref": "D1",
+     "kind": "TVS30",
+     "value": "P6KE30A",
+     "mfr": "STMicroelectronics",
+     "mpn": "P6KE30A",
+     "footprint": "D_DO-15_P12.70mm_Horizontal",
+     "origin": [
+      21.5,
+      41.8
+     ],
+     "rotation_deg": 180,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        8.75,
+        39.95,
+        0.0
+       ],
+       "max": [
+        21.55,
+        43.65,
+        3.6
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        7.6,
+        40.6,
+        -4.1
+       ],
+       "max": [
+        22.7,
+        43.0,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 3.6
+    },
+    {
+     "ref": "F1",
+     "kind": "FUSE_MINI",
+     "value": "7.5A ATM",
+     "mfr": "Keystone",
+     "mpn": "3568",
+     "footprint": "Fuseholder_Blade_Mini_Keystone_3568",
+     "origin": [
+      25.0,
+      26.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        21.91,
+        24.28,
+        0.0
+       ],
+       "max": [
+        38.01,
+        31.12,
+        16.3
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        23.61,
+        24.61,
+        -4.1
+       ],
+       "max": [
+        36.31,
+        30.79,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 16.3
+    },
+    {
+     "ref": "F2",
+     "kind": "PTC",
+     "value": "RXEF110",
+     "mfr": "Littelfuse",
+     "mpn": "RXEF110",
+     "footprint": "PTC_Radial_L13.0mm_W3.2mm_P5.08mm",
+     "origin": [
+      26.0,
+      35.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        21.99,
+        33.35,
+        0.0
+       ],
+       "max": [
+        35.09,
+        36.65,
+        17.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        25.05,
+        34.05,
+        -4.1
+       ],
+       "max": [
+        32.03,
+        35.95,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 17.5
+    },
+    {
+     "ref": "C2",
+     "kind": "C100n",
+     "value": "100n",
+     "mfr": "Murata",
+     "mpn": "RDER71H104K0P1H03B",
+     "footprint": "C_Rect_L4.0mm_W2.5mm_P2.50mm",
+     "origin": [
+      30.0,
+      41.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        29.2,
+        39.7,
+        0.0
+       ],
+       "max": [
+        33.3,
+        42.3,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        29.2,
+        40.2,
+        -4.1
+       ],
+       "max": [
+        33.3,
+        41.8,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "J2",
+     "kind": "MSTBVA2",
+     "value": "DPS5005 input: 1 IN+ (fused) 2 IN-",
+     "mfr": "Phoenix Contact",
+     "mpn": "MSTBVA 2,5/2-G-5,08 (1755736)",
+     "footprint": "PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical",
+     "origin": [
+      32.0,
+      16.2
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        28.41,
+        11.35,
+        0.0
+       ],
+       "max": [
+        40.67,
+        20.05,
+        12.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        30.2,
+        14.4,
+        -4.1
+       ],
+       "max": [
+        38.88,
+        18.0,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        27.91,
+        10.85,
+        0.0
+       ],
+       "max": [
+        41.17,
+        20.55,
+        22.0
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        27.91,
+        -4.15,
+        12.0
+       ],
+       "max": [
+        41.17,
+        10.85,
+        20.0
+       ],
+       "what": "wire entry side -y (15 mm straight + bend; only one side is used, orientation unverified)",
+       "src": "estimate"
+      },
+      {
+       "type": "box",
+       "min": [
+        27.91,
+        20.55,
+        12.0
+       ],
+       "max": [
+        41.17,
+        35.55,
+        20.0
+       ],
+       "what": "wire entry side +y (15 mm straight + bend; only one side is used, orientation unverified)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        27.91,
+        10.85,
+        22.0
+       ],
+       "max": [
+        41.17,
+        20.55,
+        47.0
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "alternative_direction": [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      "face_centre": [
+       34.54,
+       20.55,
+       16.0
+      ],
+      "note": "wires leave horizontally from one long face of the plug; screws are reached from +z"
+     },
+     "notes": "MSTB plug: screws on top (+z, screwdriver access), wires enter horizontally (parallel to the card) on one long face; which face depends on plug orientation (not verified) - both sides reserved.",
+     "max_z": 22.0
+    },
+    {
+     "ref": "U1",
+     "kind": "TSR12",
+     "value": "TSR 2-24120N",
+     "mfr": "TRACO Power",
+     "mpn": "TSR 2-24120N",
+     "footprint": "Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT",
+     "origin": [
+      60.8,
+      26.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        54.59,
+        21.79,
+        0.0
+       ],
+       "max": [
+        62.29,
+        35.89,
+        10.7
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        59.8,
+        25.3,
+        -4.1
+       ],
+       "max": [
+        61.8,
+        32.38,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 10.7
+    },
+    {
+     "ref": "U2",
+     "kind": "TSR5",
+     "value": "TSR 1-2450",
+     "mfr": "TRACO Power",
+     "mpn": "TSR 1-2450",
+     "footprint": "Converter_DCDC_TRACO_TSR-1_THT",
+     "origin": [
+      42.5,
+      30.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        39.15,
+        24.35,
+        0.0
+       ],
+       "max": [
+        50.95,
+        32.05,
+        10.6
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        41.25,
+        28.75,
+        -4.1
+       ],
+       "max": [
+        48.83,
+        31.25,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 10.6
+    },
+    {
+     "ref": "C3",
+     "kind": "CP22u",
+     "value": "22u 50V",
+     "mfr": "Rubycon",
+     "mpn": "50YXF22M5X11",
+     "footprint": "CP_Radial_D5.0mm_P2.00mm",
+     "origin": [
+      38.9,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        39.9,
+        37.8
+       ],
+       "r": 2.75,
+       "z": [
+        0.0,
+        12.5
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        38.1,
+        37.0,
+        -4.1
+       ],
+       "max": [
+        41.7,
+        38.6,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 12.5
+    },
+    {
+     "ref": "C4",
+     "kind": "CP22u",
+     "value": "22u 50V",
+     "mfr": "Rubycon",
+     "mpn": "50YXF22M5X11",
+     "footprint": "CP_Radial_D5.0mm_P2.00mm",
+     "origin": [
+      44.45,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        45.45,
+        37.8
+       ],
+       "r": 2.75,
+       "z": [
+        0.0,
+        12.5
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        43.65,
+        37.0,
+        -4.1
+       ],
+       "max": [
+        47.25,
+        38.6,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 12.5
+    },
+    {
+     "ref": "C5",
+     "kind": "CP22u",
+     "value": "22u 50V",
+     "mfr": "Rubycon",
+     "mpn": "50YXF22M5X11",
+     "footprint": "CP_Radial_D5.0mm_P2.00mm",
+     "origin": [
+      50.0,
+      37.8
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        51.0,
+        37.8
+       ],
+       "r": 2.75,
+       "z": [
+        0.0,
+        12.5
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        49.2,
+        37.0,
+        -4.1
+       ],
+       "max": [
+        52.8,
+        38.6,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 12.5
+    },
+    {
+     "ref": "J3",
+     "kind": "VH3",
+     "value": "+12 V to tec card",
+     "mfr": "JST",
+     "mpn": "B3P-VH(LF)(SN)",
+     "footprint": "JST_VH_B3P-VH_1x03_P3.96mm_Vertical",
+     "origin": [
+      12.0,
+      15.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        10.0,
+        11.85,
+        0.0
+       ],
+       "max": [
+        21.92,
+        20.45,
+        10.9
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        10.65,
+        14.25,
+        -4.1
+       ],
+       "max": [
+        21.27,
+        16.95,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        9.5,
+        11.35,
+        0.0
+       ],
+       "max": [
+        22.42,
+        20.95,
+        16.5
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        9.5,
+        11.35,
+        16.5
+       ],
+       "max": [
+        22.42,
+        20.95,
+        26.5
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        9.5,
+        11.35,
+        16.5
+       ],
+       "max": [
+        22.42,
+        20.95,
+        31.5
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       15.96,
+       16.15,
+       16.5
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 26.5
+    },
+    {
+     "ref": "U4",
+     "kind": "STEPSTICK",
+     "value": "TMC2209 StepStick",
+     "mfr": "Samtec",
+     "mpn": "SSW-108-01-T-S",
+     "footprint": "StepStick_Socket_2x8_W12.70mm",
+     "origin": [
+      65.0,
+      22.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        63.73,
+        21.23,
+        0.0
+       ],
+       "max": [
+        66.27,
+        41.55,
+        8.5
+       ],
+       "what": "1x8 female socket strip (left)",
+       "src": "estimate"
+      },
+      {
+       "type": "box",
+       "min": [
+        76.43,
+        21.23,
+        0.0
+       ],
+       "max": [
+        78.97,
+        41.55,
+        8.5
+       ],
+       "what": "1x8 female socket strip (right)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        64.15,
+        21.65,
+        -3.2
+       ],
+       "max": [
+        78.55,
+        41.13,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 1.6 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        63.73,
+        21.23,
+        8.5
+       ],
+       "max": [
+        78.97,
+        41.55,
+        12.6
+       ],
+       "what": "StepStick pins, spacer and PCB (driver IC underneath)",
+       "src": "estimate"
+      },
+      {
+       "type": "box",
+       "min": [
+        63.73,
+        21.23,
+        12.6
+       ],
+       "max": [
+        78.97,
+        41.55,
+        22.0
+       ],
+       "what": "heatsink and trimmer",
+       "src": "estimate"
+      }
+     ],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "Plug-in StepStick; heights pending module drawing.",
+     "max_z": 22.0
+    },
+    {
+     "ref": "C8",
+     "kind": "CP100u",
+     "value": "100u 50V",
+     "mfr": "Panasonic",
+     "mpn": "EEU-FR1H101",
+     "footprint": "CP_Radial_D8.0mm_P3.50mm",
+     "origin": [
+      73.0,
+      16.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "cylinder",
+       "axis": "z",
+       "centre": [
+        74.75,
+        16.0
+       ],
+       "r": 4.25,
+       "z": [
+        0.0,
+        13.0
+       ],
+       "what": "can",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        72.2,
+        15.2,
+        -4.1
+       ],
+       "max": [
+        77.3,
+        16.8,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 13.0
+    },
+    {
+     "ref": "J8",
+     "kind": "VH4",
+     "value": "MOTOR 2B 2A 1A 1B",
+     "mfr": "JST",
+     "mpn": "B4P-VH(LF)(SN)",
+     "footprint": "JST_VH_B4P-VH_1x04_P3.96mm_Vertical",
+     "origin": [
+      49.0,
+      15.6
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        47.0,
+        11.85,
+        0.0
+       ],
+       "max": [
+        62.88,
+        20.45,
+        10.9
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        47.65,
+        14.25,
+        -4.1
+       ],
+       "max": [
+        62.23,
+        16.95,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        46.5,
+        11.35,
+        0.0
+       ],
+       "max": [
+        63.38,
+        20.95,
+        16.5
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        46.5,
+        11.35,
+        16.5
+       ],
+       "max": [
+        63.38,
+        20.95,
+        26.5
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        46.5,
+        11.35,
+        16.5
+       ],
+       "max": [
+        63.38,
+        20.95,
+        31.5
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       54.94,
+       16.15,
+       16.5
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 26.5
+    },
+    {
+     "ref": "J9",
+     "kind": "XH11",
+     "value": "LINK to D34-CTRL",
+     "mfr": "JST",
+     "mpn": "B11B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B11B-XH-A_1x11_P2.50mm_Vertical",
+     "origin": [
+      4.0,
+      6.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.5,
+        3.9,
+        0.0
+       ],
+       "max": [
+        31.5,
+        9.75,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        3.025,
+        5.325,
+        -4.1
+       ],
+       "max": [
+        29.975,
+        7.275,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        1.0,
+        3.4,
+        0.0
+       ],
+       "max": [
+        32.0,
+        10.25,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        1.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        32.0,
+        10.25,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        1.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        32.0,
+        10.25,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       16.5,
+       6.825,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "J4",
+     "kind": "XH3",
+     "value": "1-WIRE A (chamber + food probes)",
+     "mfr": "JST",
+     "mpn": "B3B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+     "origin": [
+      46.0,
+      6.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        43.5,
+        3.9,
+        0.0
+       ],
+       "max": [
+        53.5,
+        9.75,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        45.025,
+        5.325,
+        -4.1
+       ],
+       "max": [
+        51.975,
+        7.275,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        43.0,
+        3.4,
+        0.0
+       ],
+       "max": [
+        54.0,
+        10.25,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        43.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        54.0,
+        10.25,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        43.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        54.0,
+        10.25,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       48.5,
+       6.825,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "J6",
+     "kind": "XH3",
+     "value": "1-WIRE B (hot-sink + room probes)",
+     "mfr": "JST",
+     "mpn": "B3B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+     "origin": [
+      68.0,
+      6.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        65.5,
+        3.9,
+        0.0
+       ],
+       "max": [
+        75.5,
+        9.75,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        67.025,
+        5.325,
+        -4.1
+       ],
+       "max": [
+        73.975,
+        7.275,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        65.0,
+        3.4,
+        0.0
+       ],
+       "max": [
+        76.0,
+        10.25,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        65.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        76.0,
+        10.25,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        65.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        76.0,
+        10.25,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       70.5,
+       6.825,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "R3",
+     "kind": "R",
+     "value": "4.7k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-4K7",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+     "origin": [
+      54.6,
+      42.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        54.55,
+        41.55,
+        0.0
+       ],
+       "max": [
+        62.27,
+        43.25,
+        2.1
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        53.9,
+        41.7,
+        -4.1
+       ],
+       "max": [
+        62.92,
+        43.1,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 2.1
+    }
+   ]
+  },
+  "d34-tec": {
+   "bay": "315 deg",
+   "kicad_pcb": "d34-tec/d34-tec.kicad_pcb",
+   "board": {
+    "outline": [
+     0.0,
+     0.0,
+     81.0,
+     47.0
+    ],
+    "thickness": 1.6,
+    "corner_radius": 1.0,
+    "edge_bands_mm": 3.0,
+    "z_component_surface": 0.0,
+    "z_solder_surface": -1.6
+   },
+   "envelope": {
+    "component_side_max_z": 31.5,
+    "solder_side_min_z": -4.1
+   },
+   "parts": [
+    {
+     "ref": "K1",
+     "kind": "G2RL2",
+     "value": "G2RL-2 DC12",
+     "mfr": "Omron",
+     "mpn": "G2RL-2 DC12",
+     "footprint": "Relay_DPDT_Omron_G2RL-2",
+     "origin": [
+      3.0,
+      41.2
+     ],
+     "rotation_deg": 90,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        0.65,
+        31.15,
+        0.0
+       ],
+       "max": [
+        29.55,
+        43.75,
+        15.7
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        2.0,
+        32.7,
+        -4.1
+       ],
+       "max": [
+        29.0,
+        42.2,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 15.7
+    },
+    {
+     "ref": "K2",
+     "kind": "G2RL2",
+     "value": "G2RL-2 DC12",
+     "mfr": "Omron",
+     "mpn": "G2RL-2 DC12",
+     "footprint": "Relay_DPDT_Omron_G2RL-2",
+     "origin": [
+      60.0,
+      33.7
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        33.45,
+        31.15,
+        0.0
+       ],
+       "max": [
+        62.35,
+        43.75,
+        15.7
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        34.0,
+        32.7,
+        -4.1
+       ],
+       "max": [
+        61.0,
+        42.2,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 15.7
+    },
+    {
+     "ref": "D1",
+     "kind": "D_5817V",
+     "value": "1N5817",
+     "mfr": "onsemi",
+     "mpn": "1N5817RLG",
+     "footprint": "D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp",
+     "origin": [
+      65.2,
+      32.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        63.8,
+        30.6,
+        0.0
+       ],
+       "max": [
+        66.6,
+        34.59,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        64.1,
+        30.9,
+        -4.1
+       ],
+       "max": [
+        66.3,
+        35.64,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "DZ2",
+     "kind": "DZ15V",
+     "value": "BZX79-C15",
+     "mfr": "Nexperia",
+     "mpn": "BZX79-C15,133",
+     "footprint": "D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp",
+     "origin": [
+      65.2,
+      37.2
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        64.15,
+        36.15,
+        0.0
+       ],
+       "max": [
+        66.25,
+        39.79,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        64.4,
+        36.4,
+        -4.1
+       ],
+       "max": [
+        66.0,
+        40.54,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "J2",
+     "kind": "MF6",
+     "value": "DPS5005 output: 1-3 OUT+, 4-6 OUT-",
+     "mfr": "Molex",
+     "mpn": "39-28-1063 (5566-06A)",
+     "footprint": "Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical",
+     "origin": [
+      23.0,
+      20.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        19.9,
+        17.85,
+        0.0
+       ],
+       "max": [
+        34.15,
+        29.3,
+        12.8
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        21.35,
+        18.85,
+        -4.1
+       ],
+       "max": [
+        33.05,
+        27.65,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        19.4,
+        17.35,
+        0.0
+       ],
+       "max": [
+        34.65,
+        29.8,
+        23.5
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        19.4,
+        17.35,
+        23.5
+       ],
+       "max": [
+        34.65,
+        29.8,
+        31.5
+       ],
+       "what": "wire bundle leaving plug top (incl. 8 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        19.4,
+        17.35,
+        23.5
+       ],
+       "max": [
+        34.65,
+        29.8,
+        38.5
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       27.025,
+       23.575,
+       23.5
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 31.5
+    },
+    {
+     "ref": "J3",
+     "kind": "MF4",
+     "value": "TEC array 2S2P: 1 A 2 B 3 A 4 B",
+     "mfr": "Molex",
+     "mpn": "39-28-1043 (5566-04A)",
+     "footprint": "Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical",
+     "origin": [
+      51.8,
+      20.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        48.7,
+        17.85,
+        0.0
+       ],
+       "max": [
+        58.75,
+        29.3,
+        12.8
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        50.15,
+        18.85,
+        -4.1
+       ],
+       "max": [
+        57.65,
+        27.65,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        48.2,
+        17.35,
+        0.0
+       ],
+       "max": [
+        59.25,
+        29.8,
+        23.5
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        48.2,
+        17.35,
+        23.5
+       ],
+       "max": [
+        59.25,
+        29.8,
+        31.5
+       ],
+       "what": "wire bundle leaving plug top (incl. 8 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        48.2,
+        17.35,
+        23.5
+       ],
+       "max": [
+        59.25,
+        29.8,
+        38.5
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       53.725,
+       23.575,
+       23.5
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 31.5
+    },
+    {
+     "ref": "J4",
+     "kind": "VH2",
+     "value": "Hot-sink thermostats (series NC loop, 12 V / 35 mA)",
+     "mfr": "JST",
+     "mpn": "B2P-VH(LF)(SN)",
+     "footprint": "JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+     "origin": [
+      38.0,
+      21.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        36.0,
+        17.25,
+        0.0
+       ],
+       "max": [
+        43.96,
+        25.85,
+        10.9
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        36.65,
+        19.65,
+        -4.1
+       ],
+       "max": [
+        43.31,
+        22.35,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        35.5,
+        16.75,
+        0.0
+       ],
+       "max": [
+        44.46,
+        26.35,
+        16.5
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        35.5,
+        16.75,
+        16.5
+       ],
+       "max": [
+        44.46,
+        26.35,
+        26.5
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        35.5,
+        16.75,
+        16.5
+       ],
+       "max": [
+        44.46,
+        26.35,
+        31.5
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       39.98,
+       21.55,
+       16.5
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 26.5
+    },
+    {
+     "ref": "R1",
+     "kind": "RV",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      54.7,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        53.85,
+        11.15,
+        0.0
+       ],
+       "max": [
+        55.55,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        54.0,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        55.4,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R2",
+     "kind": "RV",
+     "value": "330",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-330R",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      57.1,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        56.25,
+        11.15,
+        0.0
+       ],
+       "max": [
+        57.95,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        56.4,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        57.8,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "Q2",
+     "kind": "2N3904",
+     "value": "2N3904",
+     "mfr": "onsemi",
+     "mpn": "2N3904BU",
+     "footprint": "TO-92_Inline_Wide",
+     "origin": [
+      2.5,
+      13.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        2.51,
+        10.77,
+        0.0
+       ],
+       "max": [
+        7.57,
+        15.104,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        1.75,
+        12.55,
+        -4.1
+       ],
+       "max": [
+        8.33,
+        14.05,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "R4",
+     "kind": "RV",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      11.0,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        10.15,
+        11.15,
+        0.0
+       ],
+       "max": [
+        11.85,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        10.3,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        11.7,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R5",
+     "kind": "RV",
+     "value": "47k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-47K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      13.4,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        12.55,
+        11.15,
+        0.0
+       ],
+       "max": [
+        14.25,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        12.7,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        14.1,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "Q3",
+     "kind": "2N3904",
+     "value": "2N3904",
+     "mfr": "onsemi",
+     "mpn": "2N3904BU",
+     "footprint": "TO-92_Inline_Wide",
+     "origin": [
+      47.4,
+      13.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        47.41,
+        10.77,
+        0.0
+       ],
+       "max": [
+        52.47,
+        15.104,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        46.65,
+        12.55,
+        -4.1
+       ],
+       "max": [
+        53.23,
+        14.05,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "R6",
+     "kind": "RV",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      24.5,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        23.65,
+        11.15,
+        0.0
+       ],
+       "max": [
+        25.35,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        23.8,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        25.2,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R7",
+     "kind": "RV",
+     "value": "47k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-47K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      26.9,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        26.05,
+        11.15,
+        0.0
+       ],
+       "max": [
+        27.75,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        26.2,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        27.6,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R9",
+     "kind": "RV",
+     "value": "47k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-47K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      29.3,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        28.45,
+        11.15,
+        0.0
+       ],
+       "max": [
+        30.15,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        28.6,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        30.0,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R10",
+     "kind": "RV",
+     "value": "47k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-47K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      31.7,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        30.85,
+        11.15,
+        0.0
+       ],
+       "max": [
+        32.55,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        31.0,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        32.4,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R3",
+     "kind": "RV",
+     "value": "4.7k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-4K7",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      34.1,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        33.25,
+        11.15,
+        0.0
+       ],
+       "max": [
+        34.95,
+        14.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        33.4,
+        11.3,
+        -4.1
+       ],
+       "max": [
+        34.8,
+        15.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "Q1",
+     "kind": "2N3904",
+     "value": "2N3904",
+     "mfr": "onsemi",
+     "mpn": "2N3904BU",
+     "footprint": "TO-92_Inline_Wide",
+     "origin": [
+      36.5,
+      13.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        36.51,
+        10.77,
+        0.0
+       ],
+       "max": [
+        41.57,
+        15.104,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        35.75,
+        12.55,
+        -4.1
+       ],
+       "max": [
+        42.33,
+        14.05,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "D7",
+     "kind": "D_5817V",
+     "value": "1N5817",
+     "mfr": "onsemi",
+     "mpn": "1N5817RLG",
+     "footprint": "D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp",
+     "origin": [
+      44.6,
+      12.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        43.2,
+        10.6,
+        0.0
+       ],
+       "max": [
+        46.0,
+        14.59,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        43.5,
+        10.9,
+        -4.1
+       ],
+       "max": [
+        45.7,
+        15.64,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "D5",
+     "kind": "D_5817V",
+     "value": "1N5817",
+     "mfr": "onsemi",
+     "mpn": "1N5817RLG",
+     "footprint": "D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp",
+     "origin": [
+      72.24,
+      21.5
+     ],
+     "rotation_deg": 180,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        69.65,
+        20.1,
+        0.0
+       ],
+       "max": [
+        73.64,
+        22.9,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        68.6,
+        20.4,
+        -4.1
+       ],
+       "max": [
+        73.34,
+        22.6,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "D8",
+     "kind": "D_5817V",
+     "value": "1N5817",
+     "mfr": "onsemi",
+     "mpn": "1N5817RLG",
+     "footprint": "D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp",
+     "origin": [
+      76.4,
+      21.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        75.0,
+        20.1,
+        0.0
+       ],
+       "max": [
+        78.99,
+        22.9,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        75.3,
+        20.4,
+        -4.1
+       ],
+       "max": [
+        80.04,
+        22.6,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "C1",
+     "kind": "CP220u",
+     "value": "220u 35V",
+     "mfr": "Panasonic",
+     "mpn": "EEU-FR1V221",
+     "footprint": "CP_Radial_D8.0mm_P3.50mm",
+     "origin": [
+      72.5,
+      15.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        70.2,
+        11.45,
+        0.0
+       ],
+       "max": [
+        78.3,
+        19.55,
+        13.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        71.7,
+        14.7,
+        -4.1
+       ],
+       "max": [
+        76.8,
+        16.3,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 13.0
+    },
+    {
+     "ref": "F1",
+     "kind": "PTC050",
+     "value": "RXEF050",
+     "mfr": "Littelfuse",
+     "mpn": "RXEF050",
+     "footprint": "PTC_Radial_L8.0mm_W3.2mm_P5.08mm",
+     "origin": [
+      61.2,
+      12.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        59.69,
+        10.75,
+        0.0
+       ],
+       "max": [
+        67.79,
+        14.05,
+        13.7
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        60.45,
+        11.65,
+        -4.1
+       ],
+       "max": [
+        67.03,
+        13.15,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 13.7
+    },
+    {
+     "ref": "F2",
+     "kind": "PTC050",
+     "value": "RXEF050",
+     "mfr": "Littelfuse",
+     "mpn": "RXEF050",
+     "footprint": "PTC_Radial_L8.0mm_W3.2mm_P5.08mm",
+     "origin": [
+      61.2,
+      16.2
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        59.69,
+        14.55,
+        0.0
+       ],
+       "max": [
+        67.79,
+        17.85,
+        13.7
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        60.45,
+        15.45,
+        -4.1
+       ],
+       "max": [
+        67.03,
+        16.95,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 13.7
+    },
+    {
+     "ref": "F3",
+     "kind": "PTC050",
+     "value": "RXEF050",
+     "mfr": "Littelfuse",
+     "mpn": "RXEF050",
+     "footprint": "PTC_Radial_L8.0mm_W3.2mm_P5.08mm",
+     "origin": [
+      61.2,
+      20.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        59.69,
+        18.35,
+        0.0
+       ],
+       "max": [
+        67.79,
+        21.65,
+        13.7
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        60.45,
+        19.25,
+        -4.1
+       ],
+       "max": [
+        67.03,
+        20.75,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 13.7
+    },
+    {
+     "ref": "Q4",
+     "kind": "IRLZ44N",
+     "value": "IRLZ44N",
+     "mfr": "Infineon",
+     "mpn": "IRLZ44NPBF",
+     "footprint": "TO-220-3_Vertical",
+     "origin": [
+      62.0,
+      26.9
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        59.49,
+        23.7,
+        0.0
+       ],
+       "max": [
+        69.59,
+        28.2,
+        20.6
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        61.0,
+        25.9,
+        -4.1
+       ],
+       "max": [
+        68.08,
+        27.9,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 20.6
+    },
+    {
+     "ref": "Q5",
+     "kind": "IRLZ44N",
+     "value": "IRLZ44N",
+     "mfr": "Infineon",
+     "mpn": "IRLZ44NPBF",
+     "footprint": "TO-220-3_Vertical",
+     "origin": [
+      72.7,
+      26.9
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        70.19,
+        23.7,
+        0.0
+       ],
+       "max": [
+        80.29,
+        28.2,
+        20.6
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        71.7,
+        25.9,
+        -4.1
+       ],
+       "max": [
+        78.78,
+        27.9,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 20.6
+    },
+    {
+     "ref": "J5",
+     "kind": "FAN4",
+     "value": "FAN1 12 V 4-pin PWM (NF-A12x25)",
+     "mfr": "Molex",
+     "mpn": "47053-1000",
+     "footprint": "FanPinHeader_1x04_P2.54mm_Vertical",
+     "origin": [
+      37.0,
+      6.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        35.7,
+        3.85,
+        0.0
+       ],
+       "max": [
+        45.9,
+        9.75,
+        10.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        35.985,
+        5.385,
+        -4.1
+       ],
+       "max": [
+        45.635,
+        7.415,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        35.2,
+        3.35,
+        0.0
+       ],
+       "max": [
+        46.4,
+        10.25,
+        15.2
+       ],
+       "what": "mated plug housing",
+       "src": "estimate"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        35.2,
+        3.35,
+        15.2
+       ],
+       "max": [
+        46.4,
+        10.25,
+        25.2
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        35.2,
+        3.35,
+        15.2
+       ],
+       "max": [
+        46.4,
+        10.25,
+        30.2
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       40.8,
+       6.8,
+       15.2
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 25.2
+    },
+    {
+     "ref": "J6",
+     "kind": "FAN4",
+     "value": "FAN2 12 V blower (switched DC low side), tach",
+     "mfr": "Molex",
+     "mpn": "47053-1000",
+     "footprint": "FanPinHeader_1x04_P2.54mm_Vertical",
+     "origin": [
+      48.5,
+      6.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        47.2,
+        3.85,
+        0.0
+       ],
+       "max": [
+        57.4,
+        9.75,
+        10.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        47.485,
+        5.385,
+        -4.1
+       ],
+       "max": [
+        57.135,
+        7.415,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        46.7,
+        3.35,
+        0.0
+       ],
+       "max": [
+        57.9,
+        10.25,
+        15.2
+       ],
+       "what": "mated plug housing",
+       "src": "estimate"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        46.7,
+        3.35,
+        15.2
+       ],
+       "max": [
+        57.9,
+        10.25,
+        25.2
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        46.7,
+        3.35,
+        15.2
+       ],
+       "max": [
+        57.9,
+        10.25,
+        30.2
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       52.3,
+       6.8,
+       15.2
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 25.2
+    },
+    {
+     "ref": "J7",
+     "kind": "FAN4",
+     "value": "FAN3 spare 12 V (switched low side: fan or external relay <= 0.4 A)",
+     "mfr": "Molex",
+     "mpn": "47053-1000",
+     "footprint": "FanPinHeader_1x04_P2.54mm_Vertical",
+     "origin": [
+      60.0,
+      6.4
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        58.7,
+        3.85,
+        0.0
+       ],
+       "max": [
+        68.9,
+        9.75,
+        10.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        58.985,
+        5.385,
+        -4.1
+       ],
+       "max": [
+        68.635,
+        7.415,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        58.2,
+        3.35,
+        0.0
+       ],
+       "max": [
+        69.4,
+        10.25,
+        15.2
+       ],
+       "what": "mated plug housing",
+       "src": "estimate"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        58.2,
+        3.35,
+        15.2
+       ],
+       "max": [
+        69.4,
+        10.25,
+        25.2
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        58.2,
+        3.35,
+        15.2
+       ],
+       "max": [
+        69.4,
+        10.25,
+        30.2
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       63.8,
+       6.8,
+       15.2
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 25.2
+    },
+    {
+     "ref": "U1",
+     "kind": "TL431",
+     "value": "TL431AILPG",
+     "mfr": "onsemi",
+     "mpn": "TL431AILPG",
+     "footprint": "TO-92_Inline_Wide",
+     "origin": [
+      69.6,
+      38.0
+     ],
+     "rotation_deg": 90,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        67.07,
+        32.93,
+        0.0
+       ],
+       "max": [
+        71.404,
+        37.99,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        68.85,
+        32.17,
+        -4.1
+       ],
+       "max": [
+        70.35,
+        38.75,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "Q6",
+     "kind": "BC327",
+     "value": "BC327-25",
+     "mfr": "onsemi",
+     "mpn": "BC32725BU",
+     "footprint": "TO-92_Inline_Wide",
+     "origin": [
+      74.4,
+      38.0
+     ],
+     "rotation_deg": 90,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        71.87,
+        32.93,
+        0.0
+       ],
+       "max": [
+        76.204,
+        37.99,
+        8.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        73.65,
+        32.17,
+        -4.1
+       ],
+       "max": [
+        75.15,
+        38.75,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 8.0
+    },
+    {
+     "ref": "R11",
+     "kind": "RV",
+     "value": "1k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-1K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      77.6,
+      32.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        76.75,
+        31.15,
+        0.0
+       ],
+       "max": [
+        78.45,
+        34.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        76.9,
+        31.3,
+        -4.1
+       ],
+       "max": [
+        78.3,
+        35.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R13",
+     "kind": "RV",
+     "value": "330",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-330R",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      79.8,
+      32.0
+     ],
+     "rotation_deg": 270,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        78.95,
+        31.15,
+        0.0
+       ],
+       "max": [
+        80.65,
+        34.59,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        79.1,
+        31.3,
+        -4.1
+       ],
+       "max": [
+        80.5,
+        35.24,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R14",
+     "kind": "RV",
+     "value": "10k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-10K",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      71.5,
+      41.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        70.65,
+        40.65,
+        0.0
+       ],
+       "max": [
+        74.09,
+        42.35,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        70.8,
+        40.8,
+        -4.1
+       ],
+       "max": [
+        74.74,
+        42.2,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "R15",
+     "kind": "RV",
+     "value": "4.7k",
+     "mfr": "Yageo",
+     "mpn": "MF0204FTE52-4K7",
+     "footprint": "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",
+     "origin": [
+      76.2,
+      41.5
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        75.35,
+        40.65,
+        0.0
+       ],
+       "max": [
+        78.79,
+        42.35,
+        6.5
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "estimate"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        75.5,
+        40.8,
+        -4.1
+       ],
+       "max": [
+        79.44,
+        42.2,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [],
+     "cable": [],
+     "service": [],
+     "lead_exit": null,
+     "notes": "",
+     "max_z": 6.5
+    },
+    {
+     "ref": "J9",
+     "kind": "XH12",
+     "value": "LINK to D34-CTRL",
+     "mfr": "JST",
+     "mpn": "B12B-XH-A(LF)(SN)",
+     "footprint": "JST_XH_B12B-XH-A_1x12_P2.50mm_Vertical",
+     "origin": [
+      4.0,
+      6.3
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        1.5,
+        3.9,
+        0.0
+       ],
+       "max": [
+        34.0,
+        9.75,
+        7.0
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        3.025,
+        5.325,
+        -4.1
+       ],
+       "max": [
+        32.475,
+        7.275,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        1.0,
+        3.4,
+        0.0
+       ],
+       "max": [
+        34.5,
+        10.25,
+        9.8
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        1.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        34.5,
+        10.25,
+        19.8
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        1.0,
+        3.4,
+        9.8
+       ],
+       "max": [
+        34.5,
+        10.25,
+        24.8
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       17.75,
+       6.825,
+       9.8
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 19.8
+    },
+    {
+     "ref": "J1",
+     "kind": "VH3",
+     "value": "+12 V from pwr card",
+     "mfr": "JST",
+     "mpn": "B3P-VH(LF)(SN)",
+     "footprint": "JST_VH_B3P-VH_1x03_P3.96mm_Vertical",
+     "origin": [
+      4.0,
+      21.0
+     ],
+     "rotation_deg": 0,
+     "ref_doc": "",
+     "bodies": [
+      {
+       "type": "box",
+       "min": [
+        2.0,
+        17.25,
+        0.0
+       ],
+       "max": [
+        13.92,
+        25.85,
+        10.9
+       ],
+       "what": "body (F.Fab outline x height)",
+       "src": "datasheet"
+      }
+     ],
+     "solder": [
+      {
+       "type": "box",
+       "min": [
+        2.65,
+        19.65,
+        -4.1
+       ],
+       "max": [
+        13.27,
+        22.35,
+        -1.6
+       ],
+       "what": "solder fillets and lead ends, 2.5 mm below the solder side (trim leads)",
+       "src": "estimate"
+      }
+     ],
+     "mated": [
+      {
+       "type": "box",
+       "min": [
+        1.5,
+        16.75,
+        0.0
+       ],
+       "max": [
+        14.42,
+        26.35,
+        16.5
+       ],
+       "what": "mated plug housing",
+       "src": "datasheet"
+      }
+     ],
+     "cable": [
+      {
+       "type": "box",
+       "min": [
+        1.5,
+        16.75,
+        16.5
+       ],
+       "max": [
+        14.42,
+        26.35,
+        26.5
+       ],
+       "what": "wire bundle leaving plug top (incl. 10 mm bend allowance)",
+       "src": "estimate"
+      }
+     ],
+     "service": [
+      {
+       "type": "box",
+       "min": [
+        1.5,
+        16.75,
+        16.5
+       ],
+       "max": [
+        14.42,
+        26.35,
+        31.5
+       ],
+       "what": "finger/insertion clearance (not occupied in service)",
+       "src": "estimate"
+      }
+     ],
+     "lead_exit": {
+      "direction": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "face_centre": [
+       7.96,
+       21.55,
+       16.5
+      ],
+      "note": "wires leave the top of the plug (+z), then bend along the card"
+     },
+     "notes": "",
+     "max_z": 26.5
+    }
+   ]
+  }
+ },
+ "source_pcb_sha256": "183025d7de31049d90d2cdabb4130c437444559f87f8b019f031cb937fcc7e58"
+}

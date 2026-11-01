@@ -1,0 +1,47 @@
+match,pattern,model,params,provenance,notes
+mpn,^MF0204FTE52-,resistor,"{""tol"": 0.01, ""tc_ppm"": 50, ""p_w"": 0.4}",datasheet: Yageo MF0204 1 % 50 ppm 0.4 W at 70 C,
+mpn,^MFR-25FBF52-,resistor,"{""tol"": 0.01, ""tc_ppm"": 100, ""p_w"": 0.25}",datasheet: Yageo MFR-25 1 % metal film 0.25 W,value from netlist Value field
+mpn,^EEU-FR1H101,cap_elec,"{""C"": 100e-6, ""tol"": 0.2, ""esr"": [0.03, 0.061, 0.183], ""esl"": 1.5e-8, ""ripple_a_rms"": 0.87, ""v_rated"": 50}",behavioural: ESR from Panasonic Z(100 kHz),"esr [min,nom,max] = 0.5 x Z(20 C) (new, warm) / Z(100 kHz, 20 C) max 0.061 / Z(-10 C) max 0.183 (cold or aged); ripple 0.87 A"
+mpn,^EEU-FR1H220,cap_elec,"{""C"": 22e-6, ""tol"": 0.2, ""esr"": [0.17, 0.34, 1.13], ""esl"": 1.2e-8, ""ripple_a_rms"": 0.25, ""v_rated"": 50}",behavioural: ESR from Panasonic Z(100 kHz),"0.5 x Z(20 C) / 0.34 / 1.13 ohm (-10 C); ripple 0.25 A"
+mpn,^C320C104,cap_mlcc,"{""C"": 100e-9, ""tol"": 0.1, ""esr"": 0.02, ""esl"": 4e-9, ""dc_bias"": 0.0, ""v_rated"": 50}",behavioural (KEMET X7R radial),
+mpn,^C320C105,cap_mlcc,"{""C"": 1e-6, ""tol"": 0.1, ""esr"": 0.02, ""esl"": 4e-9, ""dc_bias"": -0.05, ""tc"": 0.05, ""v_rated"": 50}",behavioural (KEMET X7R radial),"X7R: +-10 % tolerance, assumed -5 % DC bias at 3.3 V, +-5 % over 0-60 C"
+mpn,^1N5819,diode,"{""vendor"": ""1N5819"", ""fallback"": ""D1N5819_B""}",vendor model if present else behavioural fit to onsemi VF curve,
+mpn,^1N5817,diode,"{""vendor"": ""1N5817"", ""fallback"": ""D1N5817_B""}",vendor model if present else behavioural fit to onsemi 1N5817 VF,
+mpn,^1N4007,diode,"{""vendor"": ""1N4007"", ""fallback"": ""D1N4007_B""}",vendor model if present else behavioural,
+mpn,^1N4148,diode,"{""vendor"": ""1N4148"", ""fallback"": ""D1N4148_B""}",vendor model if present else behavioural,
+mpn,^1N5245B,diode,"{""vendor"": ""1N5245B"", ""fallback"": ""DZ1N5245B_B""}",vendor model if present else behavioural zener (Vz 15 V +-5 % @ 8.5 mA),
+mpn,^P6KE30A,diode,"{""vendor"": ""P6KE30A"", ""fallback"": ""DP6KE30A_B""}",behavioural fit to Littelfuse VBR/VC lines unless vendor model,"corner BV via ctx tvs_bv (min/nom/max)"
+mpn,^WP710A10GD,led,"{""vf"": 2.1}",behavioural (Kingbright green 3 mm),
+mpn,^IRF4905,pmos,"{""vendor"": ""IRF4905"", ""fallback"": ""IRF4905_B""}",vendor model if present else VDMOS fit to datasheet,
+mpn,^2N3904,npn,"{""vendor"": ""2N3904"", ""fallback"": ""Q2N3904_B""}",vendor model if present else Gummel-Poon generic,
+mpn,^3568$,fuse,"{""rating_a"": 7.5, ""r_cold"": 0.01085}",behavioural: cold resistance; clearing from Littelfuse 297 table (python),"F1 footprint is the Keystone 3568 holder; Value 7.5A ATM is the fuse"
+mpn,^RXEF110,ptc,"{""ihold"": 1.1, ""itrip"": 2.2, ""rmin"": 0.15, ""rmax"": 0.25, ""r1max"": 0.38, ""hold_40C"": 0.89, ""hold_50C"": 0.79, ""t_trip_ref"": [8.2, 5.5]}",behavioural: resistance only in SPICE; trip from datasheet table (python),
+mpn,^OKI-78SR-12,buck,"{""vout"": 12.0, ""vin_on"": 14.5, ""vin_off"": 13.5, ""vdrop"": 2.5, ""tss"": 0.004, ""eta"": 0.95, ""cin"": 1e-5, ""cout"": 1e-5, ""iout_max"": 1.0, ""vin_abs"": 36, ""ilim"": [2.5, 3.5, 5.0], ""tol"": 0.03}",behavioural (no vendor SPICE): eta 95 % at 24 V (datasheet); UVLO/soft-start NOT published - assumed,
+mpn,^OKI-78SR-5,buck,"{""vout"": 5.0, ""vin_on"": 6.5, ""vin_off"": 6.0, ""vdrop"": 1.6, ""tss"": 0.004, ""eta"": 0.87, ""cin"": 1e-5, ""cout"": 1e-5, ""iout_max"": 1.5, ""vin_abs"": 36, ""ilim"": [2.5, 3.5, 5.0], ""tol"": 0.03}",behavioural (no vendor SPICE),
+mpn,^TSR 2-24120,buck,"{""vout"": 12.0, ""vin_on"": 14.5, ""vin_off"": 13.5, ""vdrop"": 2.5, ""tss"": 0.02, ""eta"": 0.95, ""cin"": 1e-5, ""cout"": 1e-5, ""iout_max"": 2.0, ""vin_abs"": 36, ""ilim"": [5.0, 7.2, 7.2], ""tol"": 0.02}","behavioural TRACO TSR 2-24120N (no vendor SPICE): eta 95 % at 24 V full load, start-up 20 ms, +-2 %, current limit 360 % typ (datasheet); UVLO and internal Cin not published - assumed",
+mpn,^TSR 1-2450,buck,"{""vout"": 5.0, ""vin_on"": 6.5, ""vin_off"": 6.0, ""vdrop"": 1.5, ""tss"": 0.002, ""eta"": 0.865, ""cin"": 1e-5, ""cout"": 1e-5, ""iout_max"": 1.0, ""vin_abs"": 36, ""ilim"": [2.0, 2.5, 2.5], ""tol"": 0.02}","behavioural TRACO TSR 1-2450 (no vendor SPICE): eta 86.5 % at 24 V full load, rise ~0.7 ms, +-2 %, current limit 250 % (datasheet); UVLO not published - assumed",
+mpn,^TMC2209,stepstick,"{""c_vmot"": 2e-5, ""i_vdd"": 0.004, ""tvs"": ""SMF28A""}",behavioural: BTT V1.3 module VMOT 2 x 10 uF + 1 uF/1.1 ohm snubber + SMF28A TVS (BTT schematic) + chopper current source,
+mpn,^ESP32-DevKitC,devkit,"{""ldo"": ""AMS1117-3.3"", ""c5v"": 2.2e-5, ""c3v3"": 4.41e-5, ""i_base"": 0.08}",behavioural DevKitC V4 (schematic: AMS1117-3.3, 22 uF in, 22+22+0.1 uF out): LDO dropout fit + ESP32 load + GPIO drivers,
+mpn,^ULN2003,uln2003,"{""vendor"": ""ULN2003A"", ""fallback"": ""ULN2003A_B""}",vendor model if present else transistor-level behavioural,
+mpn,HC123,logic_hc123,{},python event model (d34sim/logic.py); SPICE: supply load + outputs only where a scenario drives them,
+mpn,HC573,logic_hc573,{},python event model (d34sim/logic.py),
+mpn,^G2RL-2,relay,"{""r_coil"": 360.0, ""i_rated"": 0.0333, ""op_frac"": 0.70, ""rel_frac"": 0.10, ""L"": [0.3, 0.8, 2.0], ""r_contact"": [0.01, 0.03, 0.1]}",behavioural: coil R-L + current-controlled contacts; inductance ASSUMED,
+mpn,^B\d+B-XH|^B\d+P-VH|^39-28-10|^MSTBVA|^47053,connector,{},port: replaced by harness model,
+mpn,^50YXF22M,cap_elec,"{""C"": 22e-6, ""tol"": 0.2, ""esr"": [0.45, 0.9, 3.6], ""esl"": 1.2e-8, ""ripple_a_rms"": 0.15, ""v_rated"": 50}",behavioural: Rubycon YXF 22 uF 50 V: Z(100 kHz) 0.90 ohm at 20 C / 3.6 ohm at -10 C; ripple 150 mA (catalogue),
+mpn,^RDER71H105,cap_mlcc,"{""C"": 1e-6, ""tol"": 0.1, ""esr"": 0.02, ""esl"": 4e-9, ""dc_bias"": -0.05, ""v_rated"": 50}",behavioural (Murata RDE X7R radial),"X7R +-10 %, -5 % DC bias at 3.3 V assumed"
+mpn,^RDER71H104,cap_mlcc,"{""C"": 1e-7, ""tol"": 0.1, ""esr"": 0.02, ""esl"": 4e-9, ""dc_bias"": 0.0, ""v_rated"": 50}",behavioural (Murata RDE X7R radial),
+mpn,^BZX79-C15,diode,"{""vendor"": ""BZX79C15"", ""fallback"": ""DZBZX79C15_B""}",behavioural BZX79-C15 zener (also used forward as a diode),
+mpn,^HLMP-1503,led,"{""vf"": 2.1}",behavioural LED (Broadcom HLMP-1503 green),
+libpart,^ESP32_DevKitC,devkit,"{""ldo"": ""AMS1117-3.3"", ""c5v"": 2.2e-5, ""c3v3"": 4.41e-5, ""i_base"": 0.08}",behavioural DevKitC V4 (schematic: AMS1117-3.3; 22 uF in; 22+22+0.1 uF out): LDO dropout fit + ESP32 load + GPIO drivers,
+libpart,^StepStick$,stepstick,"{""c_vmot"": 2e-5, ""i_vdd"": 0.004, ""tvs"": ""SMF28A""}",behavioural: BTT V1.3 module VMOT 2 x 10 uF + 1 uF/1.1 ohm snubber + SMF28A TVS (BTT schematic) + chopper current source,
+mpn,^IRLZ44N,nmos,"{""vendor"": ""IRLZ44N"", ""fallback"": ""IRLZ44N_B""}",vendor model if present else behavioural VDMOS,
+mpn,^RXEF050,ptc,"{""ihold"": 0.5, ""itrip"": 1.0, ""rmin"": 0.5, ""rmax"": 0.77, ""r1max"": 1.17, ""t_trip_ref"": [4.0, 2.5], ""hold_40C"": 0.41, ""hold_50C"": 0.36}",behavioural: Littelfuse RXEF050 (0.5 A hold / 1 A trip; 4.0 s max at 2.5 A; hold 0.41 A at 40 C),
+mpn,^EEU-FR1V221,cap_elec,"{""C"": 220e-6, ""tol"": 0.2, ""esr"": [0.028, 0.056, 0.168], ""esl"": 1.5e-8, ""ripple_a_rms"": 0.95, ""v_rated"": 35}",behavioural Panasonic EEU-FR1V221: Z(100 kHz) 0.056/0.168 ohm (20/-10 C); ripple 0.95 A; no reverse voltage permitted,
+mpn,^MBA0204,resistor,"{""tol"": 0.01, ""tc_ppm"": 50, ""p_w"": 0.4}",Vishay MBA 0204 1 % 50 ppm; 0.4 W (power mode) / 0.25 W standard,
+mpn,^BC327|^BC32725,pnp,"{""vendor"": ""BC327"", ""fallback"": ""QBC327_B""}",vendor model if present else behavioural PNP,
+mpn,^TL431,shunt_ref,"{""vendor"": ""TL431""}",vendor model if present else behavioural TL431 (Vref 2.495 V),
+mpn,^BAT42,diode,"{""vendor"": ""BAT42"", ""fallback"": ""DBAT42_B""}",behavioural BAT42 Schottky (VF ~0.26 V at 2 mA; 0.4 V max at 10 mA),
+libpart,^R$,resistor,"{""tol"": 0.01, ""p_w"": 0.25}",GENERIC fallback by symbol (MPN not in table): 1 % 0.25 W assumed,
+libpart,^C$,cap_mlcc,"{""tol"": 0.1, ""esr"": 0.02, ""esl"": 4e-9}",GENERIC fallback by symbol: MLCC from the Value field,
+libpart,^C_Polarized$,cap_elec,"{""tol"": 0.2, ""esr"": [0.2, 0.5, 1.5], ""esl"": 1.5e-8}",GENERIC fallback by symbol: electrolytic from the Value field (ESR assumed),
+libpart,^LED$,led,"{""vf"": 2.0}",GENERIC fallback LED,

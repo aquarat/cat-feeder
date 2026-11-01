@@ -1,0 +1,510 @@
+{
+  "status": "Reference-based proposed circuit; not physically validated or laid out",
+  "input": {
+    "net": "SYS_20V",
+    "nominal_V": 20,
+    "qualification_range_V": [
+      19,
+      21
+    ],
+    "dependency": "Hardware PD-qualified switched 20V bus, OFF for 5/9/12/15V fallback and contract loss"
+  },
+  "outputs": {
+    "+3V3": {
+      "budget_A": 1.0,
+      "loads": "ESP32, A4988 logic and low-power peripherals"
+    },
+    "+12V": {
+      "budget_A": 0.5,
+      "normal_fan_A": 0.14,
+      "loads": "Noctua fan only"
+    }
+  },
+  "upstream": "DPS5005 20V input and motor power branch upstream of these converters; never through +12V or +3V3",
+  "parts": [
+    {
+      "ref": "UP1",
+      "value": "AP63203WU-7",
+      "lcsc": "C780769",
+      "mpn": "AP63203WU-7",
+      "manufacturer": "Diodes Incorporated",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "pins": {
+        "1": "+3V3",
+        "2": "SYS_20V",
+        "3": "SYS_20V",
+        "4": "GND",
+        "5": "PWR_SW1",
+        "6": "PWR_BST1"
+      },
+      "role": "EN tied to VIN AFTER the hardware-qualified 20V PD load switch",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2201131130_Diodes-Incorporated-AP63203WU-7_C780769.pdf",
+      "stock_evidence": "stock-evidence.json#C780769",
+      "assembly": "smtWeld",
+      "pin_names": {
+        "1": "FB",
+        "2": "EN",
+        "3": "VIN",
+        "4": "GND",
+        "5": "SW",
+        "6": "BST"
+      },
+      "manufacturer_datasheet": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+      "symbol": "Regulator_Switching:AP63203WU",
+      "vin_operating_max_V": 32,
+      "output_budget_A": 1.0,
+      "switching_frequency_Hz": 1100000.0
+    },
+    {
+      "ref": "LP1",
+      "value": "6.8uH",
+      "lcsc": "C2041457",
+      "mpn": "SRN6045TA-6R8M",
+      "manufacturer": "BOURNS",
+      "footprint": "Inductor_SMD:L_Bourns_SRN6045TA",
+      "pins": {
+        "1": "PWR_SW1",
+        "2": "+3V3"
+      },
+      "role": "Semi-shielded inductor; 6x6mm body, 4.5mm maximum height",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201312330_BOURNS-SRN6045TA-6R8M_C2041457.pdf",
+      "stock_evidence": "stock-evidence.json#C2041457",
+      "assembly": "smtWeld",
+      "symbol": "Device:L",
+      "manufacturer_datasheet": "https://www.bourns.com/docs/product-datasheets/srn6045ta.pdf",
+      "inductance_H": 6.8e-06,
+      "tolerance": 0.2,
+      "dcr_ohm": 0.034,
+      "dcr_tolerance": 0.2,
+      "irms_A_typ": 3.6,
+      "isat_A_typ": 5.7,
+      "isat_definition": "30% inductance loss at 25C"
+    },
+    {
+      "ref": "CP1",
+      "value": "10u 50V X7R",
+      "lcsc": "C138687",
+      "mpn": "CL32B106KBJNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "pins": {
+        "1": "SYS_20V",
+        "2": "GND"
+      },
+      "role": "Local input reservoir; two in parallel per converter for DC-bias margin",
+      "datasheet": "https://datasheet.lcsc.com/lcsc/1912112237_Samsung-Electro-Mechanics-CL32B106KBJNNNE_C138687.pdf",
+      "stock_evidence": "stock-evidence.json#C138687",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-05,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP2",
+      "value": "10u 50V X7R",
+      "lcsc": "C138687",
+      "mpn": "CL32B106KBJNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "pins": {
+        "1": "SYS_20V",
+        "2": "GND"
+      },
+      "role": "Local input reservoir; two in parallel per converter for DC-bias margin",
+      "datasheet": "https://datasheet.lcsc.com/lcsc/1912112237_Samsung-Electro-Mechanics-CL32B106KBJNNNE_C138687.pdf",
+      "stock_evidence": "stock-evidence.json#C138687",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-05,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP3",
+      "value": "100n 50V X7R",
+      "lcsc": "C14663",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "SYS_20V",
+        "2": "GND"
+      },
+      "role": "High-frequency VIN bypass",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock_evidence": "stock-evidence.json#C14663",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-07,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP4",
+      "value": "100n 50V X7R",
+      "lcsc": "C14663",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PWR_BST1",
+        "2": "PWR_SW1"
+      },
+      "role": "Bootstrap: BST to SW, never to ground",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock_evidence": "stock-evidence.json#C14663",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-07,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP5",
+      "value": "22u 25V X5R",
+      "lcsc": "C12891",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "role": "Parallel output MLCC bank; DC-bias/loop qualification still required",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf",
+      "stock_evidence": "stock-evidence.json#C12891",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 2.2e-05,
+      "voltage_V": 25,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP6",
+      "value": "22u 25V X5R",
+      "lcsc": "C12891",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "role": "Parallel output MLCC bank; DC-bias/loop qualification still required",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf",
+      "stock_evidence": "stock-evidence.json#C12891",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 2.2e-05,
+      "voltage_V": 25,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP7",
+      "value": "22u 25V X5R",
+      "lcsc": "C12891",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "role": "Parallel output MLCC bank; DC-bias/loop qualification still required",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf",
+      "stock_evidence": "stock-evidence.json#C12891",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 2.2e-05,
+      "voltage_V": 25,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP8",
+      "value": "22u 25V X5R",
+      "lcsc": "C12891",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "role": "Parallel output MLCC bank; DC-bias/loop qualification still required",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf",
+      "stock_evidence": "stock-evidence.json#C12891",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 2.2e-05,
+      "voltage_V": 25,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "UP2",
+      "value": "AP63201WU-7",
+      "lcsc": "C2071044",
+      "mpn": "AP63201WU-7",
+      "manufacturer": "Diodes Incorporated",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "pins": {
+        "1": "PWR_FB12",
+        "2": "SYS_20V",
+        "3": "SYS_20V",
+        "4": "GND",
+        "5": "PWR_SW2",
+        "6": "PWR_BST2"
+      },
+      "role": "EN tied to VIN AFTER the hardware-qualified 20V PD load switch",
+      "datasheet": "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589830170564452352",
+      "stock_evidence": "stock-evidence.json#C2071044",
+      "assembly": "smtWeld",
+      "pin_names": {
+        "1": "FB",
+        "2": "EN",
+        "3": "VIN",
+        "4": "GND",
+        "5": "SW",
+        "6": "BST"
+      },
+      "manufacturer_datasheet": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+      "symbol": "Regulator_Switching:AP63201WU",
+      "vin_operating_max_V": 32,
+      "output_budget_A": 0.5,
+      "switching_frequency_Hz": 500000.0
+    },
+    {
+      "ref": "LP2",
+      "value": "10uH",
+      "lcsc": "C2046332",
+      "mpn": "SRN6045TA-100M",
+      "manufacturer": "BOURNS",
+      "footprint": "Inductor_SMD:L_Bourns_SRN6045TA",
+      "pins": {
+        "1": "PWR_SW2",
+        "2": "+12V"
+      },
+      "role": "Semi-shielded inductor; 6x6mm body, 4.5mm maximum height",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-SRN6045TA-100M_C2046332.pdf",
+      "stock_evidence": "stock-evidence.json#C2046332",
+      "assembly": "smtWeld",
+      "symbol": "Device:L",
+      "manufacturer_datasheet": "https://www.bourns.com/docs/product-datasheets/srn6045ta.pdf",
+      "inductance_H": 1e-05,
+      "tolerance": 0.2,
+      "dcr_ohm": 0.052,
+      "dcr_tolerance": 0.2,
+      "irms_A_typ": 3.2,
+      "isat_A_typ": 4.6,
+      "isat_definition": "30% inductance loss at 25C"
+    },
+    {
+      "ref": "CP11",
+      "value": "10u 50V X7R",
+      "lcsc": "C138687",
+      "mpn": "CL32B106KBJNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "pins": {
+        "1": "SYS_20V",
+        "2": "GND"
+      },
+      "role": "Local input reservoir; two in parallel per converter for DC-bias margin",
+      "datasheet": "https://datasheet.lcsc.com/lcsc/1912112237_Samsung-Electro-Mechanics-CL32B106KBJNNNE_C138687.pdf",
+      "stock_evidence": "stock-evidence.json#C138687",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-05,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP12",
+      "value": "10u 50V X7R",
+      "lcsc": "C138687",
+      "mpn": "CL32B106KBJNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "pins": {
+        "1": "SYS_20V",
+        "2": "GND"
+      },
+      "role": "Local input reservoir; two in parallel per converter for DC-bias margin",
+      "datasheet": "https://datasheet.lcsc.com/lcsc/1912112237_Samsung-Electro-Mechanics-CL32B106KBJNNNE_C138687.pdf",
+      "stock_evidence": "stock-evidence.json#C138687",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-05,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP13",
+      "value": "100n 50V X7R",
+      "lcsc": "C14663",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "SYS_20V",
+        "2": "GND"
+      },
+      "role": "High-frequency VIN bypass",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock_evidence": "stock-evidence.json#C14663",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-07,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP14",
+      "value": "100n 50V X7R",
+      "lcsc": "C14663",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PWR_BST2",
+        "2": "PWR_SW2"
+      },
+      "role": "Bootstrap: BST to SW, never to ground",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock_evidence": "stock-evidence.json#C14663",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 1e-07,
+      "voltage_V": 50,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP15",
+      "value": "22u 25V X5R",
+      "lcsc": "C12891",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "+12V",
+        "2": "GND"
+      },
+      "role": "Parallel output MLCC bank; DC-bias/loop qualification still required",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf",
+      "stock_evidence": "stock-evidence.json#C12891",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 2.2e-05,
+      "voltage_V": 25,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP16",
+      "value": "22u 25V X5R",
+      "lcsc": "C12891",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "+12V",
+        "2": "GND"
+      },
+      "role": "Parallel output MLCC bank; DC-bias/loop qualification still required",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf",
+      "stock_evidence": "stock-evidence.json#C12891",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 2.2e-05,
+      "voltage_V": 25,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "CP17",
+      "value": "22u 25V X5R",
+      "lcsc": "C12891",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "+12V",
+        "2": "GND"
+      },
+      "role": "Parallel output MLCC bank; DC-bias/loop qualification still required",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf",
+      "stock_evidence": "stock-evidence.json#C12891",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 2.2e-05,
+      "voltage_V": 25,
+      "tolerance": 0.1
+    },
+    {
+      "ref": "RP1",
+      "value": "249k 1%",
+      "lcsc": "C22918",
+      "mpn": "0603WAF2493T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+12V",
+        "2": "PWR_FB12"
+      },
+      "role": "12V feedback upper resistor; manufacturer table 1 value",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF2493T5E_C22918.pdf",
+      "stock_evidence": "stock-evidence.json#C22918",
+      "assembly": "smtWeld",
+      "symbol": "Device:R",
+      "resistance_ohm": 249000,
+      "tolerance": 0.01
+    },
+    {
+      "ref": "RP2",
+      "value": "18k 1%",
+      "lcsc": "C25810",
+      "mpn": "0603WAF1802T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "PWR_FB12",
+        "2": "GND"
+      },
+      "role": "12V feedback lower resistor; Kelvin return to UP2 GND",
+      "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1802T5E_C25810.pdf",
+      "stock_evidence": "stock-evidence.json#C25810",
+      "assembly": "smtWeld",
+      "symbol": "Device:R",
+      "resistance_ohm": 18000,
+      "tolerance": 0.01
+    },
+    {
+      "ref": "CP18",
+      "value": "56p 50V C0G",
+      "lcsc": "C282507",
+      "mpn": "TCC0603COG560J500CT",
+      "manufacturer": "CCTC",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+12V",
+        "2": "PWR_FB12"
+      },
+      "role": "Feedforward across upper feedback resistor, table 1",
+      "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0603COG560J500CT_C282507.pdf",
+      "stock_evidence": "stock-evidence.json#C282507",
+      "assembly": "smtWeld",
+      "symbol": "Device:C",
+      "capacitance_F": 5.6e-11,
+      "voltage_V": 50,
+      "tolerance": 0.05
+    }
+  ],
+  "reference_deviations": [
+    "AP63203 uses 6.8uH from manufacturer EVM rather than 3.9uH datasheet table",
+    "Two 10uF input each; four 22uF on 3.3V and three 22uF on 12V for derating/transient margin",
+    "12V nominal target is 11.8667V with manufacturer 249k/18k divider"
+  ],
+  "remove_old": [
+    "External 5V/12V input J2",
+    "AP2112K 3.3V LDO and its obsolete supply path"
+  ],
+  "preserve": "ESP32 local 100nF/10uF decoupling, EN reset delay and signal interface biasing"
+}

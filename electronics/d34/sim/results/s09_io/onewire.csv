@@ -1,0 +1,5 @@
+bus,gpio,corner,rise_to_ds_vih_us,rise_to_esp_vih_us,vol,probes
+OWA,IO4,nom,0.309009,0.387953,0.041741,1
+OWB,IO13,nom,0.275163,0.34356,0.041663,1
+OWA,IO4,max,0.40932,0.514977,0.0417524,1
+OWB,IO13,max,0.354618,0.445916,0.0416674,1

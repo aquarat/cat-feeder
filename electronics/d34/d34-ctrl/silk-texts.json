@@ -1,0 +1,314 @@
+[
+{
+"text": "DPS",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "HOME",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "TEC",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "PWR",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "LID LEAK",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "UI",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "D34-CTRL D34-2 src c24e0a5435e3",
+"h": 1.0,
+"t": 0.15,
+"layer": "B.Silkscreen"
+},
+{
+"text": "R10",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J4",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "D9",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "R1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J3",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R19",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R23",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R15",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "R7",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R25",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "U3",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C5",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "J6",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R22",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R26",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "D3",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R9",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R3",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "C7",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "R12",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R20",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R18",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R14",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R8",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R13",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "D1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "U1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R6",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R5",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "U2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R24",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R11",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "C4",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "R17",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "D2",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Fab"
+},
+{
+"text": "R16",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "C6",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R4",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J1",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "R21",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+},
+{
+"text": "J11",
+"h": 1.0,
+"t": 0.15,
+"layer": "F.Silkscreen"
+}
+]

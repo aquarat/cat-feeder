@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "status": "connectivity proposal, NOT fabrication release",
+  "components": [
+    {
+      "ref": "J201",
+      "value": "USB-C PD input 5A",
+      "mpn": "USB4105-GF-A-060",
+      "lcsc": "C3025063",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "pins": {
+        "A1": "GND",
+        "A12": "GND",
+        "B1": "GND",
+        "B12": "GND",
+        "A4": "PD_VBUS_RAW",
+        "A9": "PD_VBUS_RAW",
+        "B4": "PD_VBUS_RAW",
+        "B9": "PD_VBUS_RAW",
+        "A5": "PD_CC1",
+        "B5": "PD_CC2",
+        "A6": null,
+        "A7": null,
+        "B6": null,
+        "B7": null,
+        "A8": null,
+        "B8": null,
+        "S1": "GND"
+      },
+      "current_A": 5,
+      "note": "All four shell pads share S1. Paired power pads overlap intentionally in KiCad library."
+    },
+    {
+      "ref": "U201",
+      "value": "STUSB4500QTR",
+      "mpn": "STUSB4500QTR",
+      "lcsc": "C2678061",
+      "footprint": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm",
+      "pins": {
+        "1": "PD_CC1",
+        "2": "PD_CC1",
+        "3": null,
+        "4": "PD_CC2",
+        "5": "PD_CC2",
+        "6": "PD_RESET",
+        "7": "PD_SCL",
+        "8": "PD_SDA",
+        "9": "PD_DISCH_OUT",
+        "10": "GND",
+        "11": null,
+        "12": "GND",
+        "13": "GND",
+        "14": null,
+        "15": null,
+        "16": "PD_EN_SNK_N",
+        "17": null,
+        "18": "PD_VBUS_SENSE",
+        "19": null,
+        "20": "PD_PDO2_N",
+        "21": "PD_VREG_1V2",
+        "22": "GND",
+        "23": "PD_VREG_2V7",
+        "24": "PD_VBUS_RAW",
+        "25": "GND"
+      },
+      "symbol": "Interface_USB:STUSB4500QTR",
+      "i2c_address": "0x28",
+      "pin_names": {
+        "1": "CC1DB",
+        "2": "CC1",
+        "3": "NC",
+        "4": "CC2",
+        "5": "CC2DB",
+        "6": "RESET",
+        "7": "SCL",
+        "8": "SDA",
+        "9": "DISCH",
+        "10": "GND",
+        "11": "ATTACH",
+        "12": "ADDR0",
+        "13": "ADDR1",
+        "14": "POWER_OK3",
+        "15": "GPIO",
+        "16": "VBUS_EN_SNK",
+        "17": "A_B_SIDE",
+        "18": "VBUS_VS_DISCH",
+        "19": "ALERT",
+        "20": "POWER_OK2",
+        "21": "VREG_1V2",
+        "22": "VSYS",
+        "23": "VREG_2V7",
+        "24": "VDD",
+        "25": "EP"
+      }
+    },
+    {
+      "ref": "Q201",
+      "value": "STL9P3LLH6",
+      "mpn": "STL9P3LLH6",
+      "lcsc": "C2969828",
+      "footprint": "PD:ST_PowerFLAT_3.3x3.3_SparkFun",
+      "pins": {
+        "1": "PD_FET_SOURCE",
+        "2": "PD_FET_SOURCE",
+        "3": "PD_FET_SOURCE",
+        "4": "PD_GATE",
+        "5": "PD_VBUS_RAW"
+      },
+      "physical_pin_aliases": {
+        "6": "5",
+        "7": "5",
+        "8": "5"
+      },
+      "pin_names": {
+        "1": "S",
+        "2": "S",
+        "3": "S",
+        "4": "G",
+        "5": "D (aggregate 5-8)"
+      },
+      "note": "Custom footprint retains SparkFun/ST continuous drain land, numbered 5 on all three rectangles."
+    },
+    {
+      "ref": "Q202",
+      "value": "STL9P3LLH6",
+      "mpn": "STL9P3LLH6",
+      "lcsc": "C2969828",
+      "footprint": "PD:ST_PowerFLAT_3.3x3.3_SparkFun",
+      "pins": {
+        "1": "PD_FET_SOURCE",
+        "2": "PD_FET_SOURCE",
+        "3": "PD_FET_SOURCE",
+        "4": "PD_GATE",
+        "5": "PD_20V"
+      },
+      "physical_pin_aliases": {
+        "6": "5",
+        "7": "5",
+        "8": "5"
+      },
+      "pin_names": {
+        "1": "S",
+        "2": "S",
+        "3": "S",
+        "4": "G",
+        "5": "D (aggregate 5-8)"
+      },
+      "note": "Custom footprint retains SparkFun/ST continuous drain land, numbered 5 on all three rectangles."
+    },
+    {
+      "ref": "R201",
+      "value": "100k",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "PD_FET_SOURCE",
+        "2": "PD_GATE"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "R202",
+      "value": "22k",
+      "mpn": "0603WAF2202T5E",
+      "lcsc": "C31850",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "PD_GATE",
+        "2": "PD_EN_SNK_N"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "R203",
+      "value": "100",
+      "mpn": "0603WAF1000T5E",
+      "lcsc": "C22775",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "PD_GATE",
+        "2": "PD_GATE_RC"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "C204",
+      "value": "100n 50V",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PD_GATE_RC",
+        "2": "PD_20V"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "R204",
+      "value": "1k 1W",
+      "mpn": "25121WF1001T4E",
+      "lcsc": "C54315",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "PD_VBUS_RAW",
+        "2": "PD_VBUS_SENSE"
+      },
+      "power_W": 1,
+      "voltage_V": 200
+    },
+    {
+      "ref": "R205",
+      "value": "1k 1W",
+      "mpn": "25121WF1001T4E",
+      "lcsc": "C54315",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "PD_20V",
+        "2": "PD_DISCH_OUT"
+      },
+      "power_W": 1,
+      "voltage_V": 200
+    },
+    {
+      "ref": "R206",
+      "value": "100k",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "PD_RESET",
+        "2": "GND"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "C201",
+      "value": "1u 50V",
+      "mpn": "CL10A105KB8NNNC",
+      "lcsc": "C15849",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PD_VBUS_RAW",
+        "2": "GND"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "C202",
+      "value": "1u 50V",
+      "mpn": "CL10A105KB8NNNC",
+      "lcsc": "C15849",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PD_VREG_1V2",
+        "2": "GND"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "C203",
+      "value": "1u 50V",
+      "mpn": "CL10A105KB8NNNC",
+      "lcsc": "C15849",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PD_VREG_2V7",
+        "2": "GND"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "C209",
+      "value": "100n 50V",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PD_20V",
+        "2": "GND"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "D201",
+      "value": "ESDA25W CC protection",
+      "mpn": "ESDA25W",
+      "lcsc": "C2935152",
+      "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+      "pins": {
+        "1": "PD_CC1",
+        "2": "PD_CC2",
+        "3": "GND"
+      },
+      "pin_names": {
+        "1": "K1",
+        "2": "K2",
+        "3": "A_COMMON"
+      }
+    },
+    {
+      "ref": "D202",
+      "value": "ESDA25P35-1U1M",
+      "mpn": "ESDA25P35-1U1M",
+      "lcsc": "C1974707",
+      "footprint": "Diode_SMD:ST_QFN-2L_1.6x1.0mm",
+      "pins": {
+        "1": "PD_VBUS_RAW",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "standoff_V": 22,
+      "note": "ST reference ESD TVS, NOT a clamp guaranteed below 28V for arbitrary surge current."
+    },
+    {
+      "ref": "D203",
+      "value": "ESDA25P35-1U1M",
+      "mpn": "ESDA25P35-1U1M",
+      "lcsc": "C1974707",
+      "footprint": "Diode_SMD:ST_QFN-2L_1.6x1.0mm",
+      "pins": {
+        "1": "PD_20V",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "standoff_V": 22,
+      "note": "ST reference ESD TVS, NOT a clamp guaranteed below 28V for arbitrary surge current."
+    },
+    {
+      "ref": "U202",
+      "value": "TPS70933DBVR",
+      "mpn": "TPS70933DBVR",
+      "lcsc": "C89347",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "PD_VBUS_RAW",
+        "2": "GND",
+        "3": null,
+        "4": null,
+        "5": "PD_3V3"
+      },
+      "pin_names": {
+        "1": "IN",
+        "2": "GND",
+        "3": "EN",
+        "4": "NC",
+        "5": "OUT"
+      },
+      "note": "EN deliberately FLOATING per TI internal pull-up. NEVER tie EN to 20V input; EN max 6.5V operating."
+    },
+    {
+      "ref": "C205",
+      "value": "1u 50V",
+      "mpn": "CL10A105KB8NNNC",
+      "lcsc": "C15849",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PD_VBUS_RAW",
+        "2": "GND"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "C206",
+      "value": "10u 25V",
+      "mpn": "CL21A106KAYNNNE",
+      "lcsc": "C15850",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "PD_3V3",
+        "2": "GND"
+      },
+      "voltage_V": 25
+    },
+    {
+      "ref": "U203",
+      "value": "TCA9517ADGKR",
+      "mpn": "TCA9517ADGKR",
+      "lcsc": "C201698",
+      "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+      "pins": {
+        "1": "PD_3V3",
+        "2": "PD_SCL",
+        "3": "PD_SDA",
+        "4": "GND",
+        "5": "+3V3",
+        "6": "HOST_SDA",
+        "7": "HOST_SCL",
+        "8": "+3V3"
+      },
+      "symbol": "Logic_LevelTranslator:TCA9517ADGK",
+      "pin_names": {
+        "1": "VCCA",
+        "2": "SCLA",
+        "3": "SDAA",
+        "4": "GND",
+        "5": "EN",
+        "6": "SDAB",
+        "7": "SCLB",
+        "8": "VCCB"
+      },
+      "note": "ST MUST be on A side: A VOL max 0.2V meets ST VIL max 0.35V; B VOL max 0.6V does not."
+    },
+    {
+      "ref": "R207",
+      "value": "4k7",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "PD_3V3",
+        "2": "PD_SCL"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "R208",
+      "value": "4k7",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "PD_3V3",
+        "2": "PD_SDA"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "R209",
+      "value": "4k7",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "HOST_SCL"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "R210",
+      "value": "4k7",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "HOST_SDA"
+      },
+      "power_W": 0.1,
+      "voltage_V": 75
+    },
+    {
+      "ref": "C207",
+      "value": "100n 50V",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "PD_3V3",
+        "2": "GND"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "C208",
+      "value": "100n 50V",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "voltage_V": 50
+    },
+    {
+      "ref": "TP201",
+      "value": "PD_VBUS_RAW",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_VBUS_RAW"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP202",
+      "value": "PD_20V",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_20V"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP203",
+      "value": "PD_GATE",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_GATE"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP204",
+      "value": "PD_FET_SOURCE",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_FET_SOURCE"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP205",
+      "value": "PD_RESET",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_RESET"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP206",
+      "value": "PD_PDO2_N",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_PDO2_N"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP207",
+      "value": "PD_SCL",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_SCL"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP208",
+      "value": "PD_SDA",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "PD_SDA"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP209",
+      "value": "GND",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "GND"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    },
+    {
+      "ref": "TP210",
+      "value": "+3V3",
+      "mpn": null,
+      "lcsc": null,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pins": {
+        "1": "+3V3"
+      },
+      "assembly": "bare PCB pad, no purchased component"
+    }
+  ],
+  "ports": {
+    "PD_20V": "20V nominal output, <=5A TOTAL including all loads; off on fallback after correct NVM programming",
+    "PD_VBUS_RAW": "USB input 5V fallback/20V negotiated; INTERNAL low-power loads only; test-power input with cable absent",
+    "+3V3": "host 3.3V supply, 3.0..3.6V; powers TCA B side, not the STUSB4500",
+    "HOST_SCL": "host open-drain SCL; 100kHz initial; host must tolerate TCA B VOL max 0.6V",
+    "HOST_SDA": "host open-drain SDA; 0x28; B-side offset buffer cascade restrictions apply",
+    "GND": "common ground; bus power-off isolation is NOT galvanic isolation"
+  },
+  "nvm": {
+    "SNK_PDO_NUMB": 2,
+    "PDO1_V": 5,
+    "PDO1_A": 0.5,
+    "PDO2_V": 20,
+    "PDO2_A": 5,
+    "PDO3_V": 20,
+    "PDO3_A": 5,
+    "PDO3_enabled": false,
+    "POWER_ONLY_ABOVE_5V": 1,
+    "PWR_OK_CFG": 2,
+    "GPIO_CFG": 1,
+    "REQ_SRC_CURRENT": 0,
+    "USB_COMM_CAPABLE": 0,
+    "SNK_UNCONS_POWER": 0,
+    "PDO2_undervoltage_percent": 10,
+    "PDO2_overvoltage_percent": 5,
+    "VBUS_DISCH_DISABLE": 0,
+    "VBUS_DISCH_TIME_TO_0V": 9,
+    "VBUS_DISCH_TIME_TO_PDO": 12
+  },
+  "integration_limits": {
+    "downstream_capacitance_effective_max_uF": 150,
+    "raw_input_nominal_capacitance_uF": 2,
+    "host_and_pd_pullups_ohm": 4700,
+    "bus_capacitance_each_side_at_100kHz_max_pF": 200,
+    "factory_nvm_programming_required": true,
+    "current_limiting_in_this_block": false,
+    "reverse_current_blocking": "back-to-back FETs block when OFF, not an ideal-diode controller while ON"
+  }
+}

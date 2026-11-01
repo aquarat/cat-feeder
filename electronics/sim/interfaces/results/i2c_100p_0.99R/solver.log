@@ -1,0 +1,23 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: cat feeder interface study: i2c_100p_0.99r
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+rail                                       3.3
+bus                                  0.0141237
+gate                                         1
+vgate#branch                                 0
+vrail#branch                      -0.000706184
+
+
+No. of Data Rows : 4029
+ngspice-39 done

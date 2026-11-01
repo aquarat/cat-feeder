@@ -1,0 +1,772 @@
+{
+ "board": "d34-ctrl",
+ "source_sha256": "c24e0a5435e3bfcda9bd10e4048480aada2dd97a43c3d68e7983ae2a5197fb54",
+ "size_mm": [
+  81.0,
+  47.0
+ ],
+ "pwr_flags": [
+  "+5V_DK",
+  "GND"
+ ],
+ "parts": [
+  {
+   "ref": "U1",
+   "kind": "DEVKIT",
+   "value": "ESP32-DevKitC-32E",
+   "nets": {
+    "1": "+3V3",
+    "3": "THERMO_OK_IN",
+    "4": "LEAK_IN",
+    "5": "TACH1_IN",
+    "6": "TACH2_IN",
+    "7": "TEC_EN",
+    "8": "WDT_KICK",
+    "9": "DEFROST_REQ",
+    "10": "DEFROST_FB",
+    "11": "LID_IN",
+    "12": "FAN2_PWM",
+    "13": "FAN1_PWM",
+    "14": "GND",
+    "15": "OWB",
+    "19": "+5V_DK",
+    "20": "GND",
+    "21": "HOME_IN",
+    "22": "DPS_TX_G",
+    "25": "DPS_RX_G",
+    "26": "GND",
+    "27": "MOT_EN",
+    "28": "STEP",
+    "29": "FAN3_PWM",
+    "30": "TMC_TX_G",
+    "31": "TMC_UART",
+    "32": "OWA",
+    "33": "BTN_IN",
+    "34": "LED_G",
+    "35": "DIR"
+   },
+   "x": 8.0,
+   "y": 42.0,
+   "rot": 90
+  },
+  {
+   "ref": "D1",
+   "kind": "D_5817",
+   "value": "1N5817",
+   "nets": {
+    "1": "+5V_DK",
+    "2": "+5V"
+   },
+   "x": 57.5,
+   "y": 16.6,
+   "rot": 270
+  },
+  {
+   "ref": "C1",
+   "kind": "CP22u",
+   "value": "22u 50V",
+   "nets": {
+    "1": "+5V_DK",
+    "2": "GND"
+   },
+   "x": 61.2,
+   "y": 19.5,
+   "rot": 0
+  },
+  {
+   "ref": "C2",
+   "kind": "CP22u",
+   "value": "22u 50V",
+   "nets": {
+    "1": "+3V3",
+    "2": "GND"
+   },
+   "x": 61.2,
+   "y": 25.3,
+   "rot": 0
+  },
+  {
+   "ref": "D3",
+   "kind": "LED_G",
+   "value": "STATUS",
+   "nets": {
+    "1": "GND",
+    "2": "LED_EXT"
+   },
+   "x": 60.0,
+   "y": 31.4,
+   "rot": 0
+  },
+  {
+   "ref": "J1",
+   "kind": "XH11",
+   "value": "LINK to D34-PWR",
+   "nets": {
+    "1": "+5V",
+    "2": "+5V",
+    "3": "GND",
+    "4": "GND",
+    "5": "+3V3",
+    "6": "STEP",
+    "7": "DIR",
+    "8": "MOT_EN",
+    "9": "TMC_UART",
+    "10": "OWA",
+    "11": "OWB"
+   },
+   "x": 70.5,
+   "y": 6.0,
+   "rot": 270
+  },
+  {
+   "ref": "J2",
+   "kind": "XH12",
+   "value": "LINK to D34-TEC",
+   "nets": {
+    "1": "GND",
+    "2": "GND",
+    "3": "K1_ON",
+    "4": "K2_ON",
+    "5": "THERMO_OK",
+    "6": "GND",
+    "7": "FAN1_PWM",
+    "8": "FAN2_PWM",
+    "9": "FAN3_PWM",
+    "10": "TACH1",
+    "11": "TACH2",
+    "12": "GND"
+   },
+   "x": 77.5,
+   "y": 6.0,
+   "rot": 270
+  },
+  {
+   "ref": "J11",
+   "kind": "XH4",
+   "value": "DPS5005 UART (3.3 V TTL; DPS order GND TX RX 3V3)",
+   "nets": {
+    "1": "GND",
+    "2": "DPS_TXD",
+    "3": "DPS_RXD"
+   },
+   "x": 63.5,
+   "y": 6.0,
+   "rot": 270
+  },
+  {
+   "ref": "U2",
+   "kind": "HC123",
+   "value": "74HC123",
+   "nets": {
+    "1": "GND",
+    "2": "WDT_KICK",
+    "3": "TEC_EN",
+    "4": "LATCH_RAW",
+    "13": "K1_ON",
+    "14": "WD_C",
+    "15": "WD_RC",
+    "16": "+3V3",
+    "8": "GND",
+    "9": "GND",
+    "10": "LATCH_RAW",
+    "11": "LATCH_RAW",
+    "6": "LD_C",
+    "7": "LD_RC",
+    "12": "LATCH_DLY"
+   },
+   "x": 20.28,
+   "y": 19.88,
+   "rot": 270
+  },
+  {
+   "ref": "U3",
+   "kind": "HC573",
+   "value": "74HC573",
+   "nets": {
+    "1": "GND",
+    "2": "DEFROST_REQ",
+    "3": "GND",
+    "4": "GND",
+    "5": "GND",
+    "6": "GND",
+    "7": "GND",
+    "8": "GND",
+    "9": "GND",
+    "10": "GND",
+    "11": "LATCH_EN",
+    "19": "K2_ON",
+    "20": "+3V3"
+   },
+   "x": 46.86,
+   "y": 19.88,
+   "rot": 270
+  },
+  {
+   "ref": "R1",
+   "kind": "R470",
+   "value": "470k",
+   "nets": {
+    "1": "WD_RC",
+    "2": "+3V3"
+   },
+   "x": 1.2,
+   "y": 31.0,
+   "rot": 0
+  },
+  {
+   "ref": "R2",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "TEC_EN",
+    "2": "GND"
+   },
+   "x": 11.1,
+   "y": 31.0,
+   "rot": 0
+  },
+  {
+   "ref": "R3",
+   "kind": "R",
+   "value": "47k",
+   "nets": {
+    "1": "WDT_KICK",
+    "2": "GND"
+   },
+   "x": 53.5,
+   "y": 19.6,
+   "rot": 270
+  },
+  {
+   "ref": "C6",
+   "kind": "C100n",
+   "value": "100n",
+   "nets": {
+    "1": "+3V3",
+    "2": "GND"
+   },
+   "x": 21.0,
+   "y": 31.0,
+   "rot": 0
+  },
+  {
+   "ref": "C7",
+   "kind": "C100n",
+   "value": "100n",
+   "nets": {
+    "1": "+3V3",
+    "2": "GND"
+   },
+   "x": 50.3,
+   "y": 27.2,
+   "rot": 90
+  },
+  {
+   "ref": "R4",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "DEFROST_REQ",
+    "2": "GND"
+   },
+   "x": 30.9,
+   "y": 31.0,
+   "rot": 0
+  },
+  {
+   "ref": "R5",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "LATCH_DLY",
+    "2": "LATCH_EN"
+   },
+   "x": 40.8,
+   "y": 31.0,
+   "rot": 0
+  },
+  {
+   "ref": "D2",
+   "kind": "D_5817V",
+   "value": "1N5817",
+   "nets": {
+    "1": "LATCH_RAW",
+    "2": "LATCH_EN"
+   },
+   "x": 3.0,
+   "y": 34.4,
+   "rot": 0
+  },
+  {
+   "ref": "R26",
+   "kind": "R470V",
+   "value": "470k",
+   "nets": {
+    "1": "LD_RC",
+    "2": "+3V3"
+   },
+   "x": 57.3,
+   "y": 30.2,
+   "rot": 270
+  },
+  {
+   "ref": "R6",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "TMC_TX_G",
+    "2": "TMC_UART"
+   },
+   "x": 11.1,
+   "y": 34.4,
+   "rot": 0
+  },
+  {
+   "ref": "R7",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "FAN1_PWM",
+    "2": "GND"
+   },
+   "x": 21.0,
+   "y": 34.4,
+   "rot": 0
+  },
+  {
+   "ref": "R8",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "K2_ON",
+    "2": "DEFROST_FB"
+   },
+   "x": 30.9,
+   "y": 34.4,
+   "rot": 0
+  },
+  {
+   "ref": "R9",
+   "kind": "R",
+   "value": "4.7k",
+   "nets": {
+    "1": "+3V3",
+    "2": "OWA"
+   },
+   "x": 40.8,
+   "y": 34.4,
+   "rot": 0
+  },
+  {
+   "ref": "R10",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "TACH1",
+    "2": "TACH1_IN"
+   },
+   "x": 1.2,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "R11",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "TACH2",
+    "2": "TACH2_IN"
+   },
+   "x": 11.1,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "R12",
+   "kind": "R",
+   "value": "47k",
+   "nets": {
+    "1": "THERMO_OK",
+    "2": "THERMO_OK_IN"
+   },
+   "x": 21.0,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "D9",
+   "kind": "BAT42V",
+   "value": "BAT42",
+   "nets": {
+    "1": "THERMO_OK_IN",
+    "2": "GND"
+   },
+   "x": 51.4,
+   "y": 34.4,
+   "rot": 0
+  },
+  {
+   "ref": "R13",
+   "kind": "R",
+   "value": "330",
+   "nets": {
+    "1": "LED_G",
+    "2": "LED_EXT"
+   },
+   "x": 30.9,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "R14",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "BTN",
+    "2": "BTN_IN"
+   },
+   "x": 40.8,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "C4",
+   "kind": "C1u",
+   "value": "1u",
+   "nets": {
+    "1": "WD_C",
+    "2": "WD_RC"
+   },
+   "x": 51.4,
+   "y": 31.0,
+   "rot": 0
+  },
+  {
+   "ref": "C5",
+   "kind": "C1u",
+   "value": "1u",
+   "nets": {
+    "1": "LD_C",
+    "2": "LD_RC"
+   },
+   "x": 51.4,
+   "y": 37.8,
+   "rot": 0
+  },
+  {
+   "ref": "R15",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "+3V3",
+    "2": "HOME"
+   },
+   "x": 1.2,
+   "y": 12.6,
+   "rot": 0
+  },
+  {
+   "ref": "R16",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "HOME",
+    "2": "HOME_IN"
+   },
+   "x": 11.1,
+   "y": 12.6,
+   "rot": 0
+  },
+  {
+   "ref": "R17",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "+3V3",
+    "2": "LID"
+   },
+   "x": 21.0,
+   "y": 12.6,
+   "rot": 0
+  },
+  {
+   "ref": "R18",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "LID",
+    "2": "LID_IN"
+   },
+   "x": 30.9,
+   "y": 12.6,
+   "rot": 0
+  },
+  {
+   "ref": "R19",
+   "kind": "R",
+   "value": "47k",
+   "nets": {
+    "1": "+3V3",
+    "2": "LEAK"
+   },
+   "x": 40.8,
+   "y": 12.6,
+   "rot": 0
+  },
+  {
+   "ref": "R20",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "LEAK",
+    "2": "LEAK_IN"
+   },
+   "x": 50.7,
+   "y": 12.6,
+   "rot": 0
+  },
+  {
+   "ref": "R21",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "DPS_TX_G",
+    "2": "DPS_RXD"
+   },
+   "x": 56.8,
+   "y": 35.2,
+   "rot": 270
+  },
+  {
+   "ref": "R22",
+   "kind": "R",
+   "value": "1k",
+   "nets": {
+    "1": "DPS_TXD",
+    "2": "DPS_RX_G"
+   },
+   "x": 60.099999999999994,
+   "y": 35.2,
+   "rot": 270
+  },
+  {
+   "ref": "R23",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "+3V3",
+    "2": "DPS_TXD"
+   },
+   "x": 63.4,
+   "y": 35.2,
+   "rot": 270
+  },
+  {
+   "ref": "R24",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "+3V3",
+    "2": "TACH1"
+   },
+   "x": 66.69999999999999,
+   "y": 35.2,
+   "rot": 270
+  },
+  {
+   "ref": "R25",
+   "kind": "R",
+   "value": "10k",
+   "nets": {
+    "1": "+3V3",
+    "2": "TACH2"
+   },
+   "x": 70.0,
+   "y": 35.2,
+   "rot": 270
+  },
+  {
+   "ref": "J3",
+   "kind": "XH3",
+   "value": "HOME sensor (DRV5023 hall, 3.3 V, open drain)",
+   "nets": {
+    "1": "GND",
+    "2": "HOME",
+    "3": "+3V3"
+   },
+   "x": 3.5,
+   "y": 6.3,
+   "rot": 0
+  },
+  {
+   "ref": "J4",
+   "kind": "XH4",
+   "value": "LID reed + basin-full probe",
+   "nets": {
+    "1": "GND",
+    "2": "LID",
+    "3": "LEAK",
+    "4": "GND"
+   },
+   "x": 20.9,
+   "y": 6.3,
+   "rot": 0
+  },
+  {
+   "ref": "J6",
+   "kind": "XH5",
+   "value": "UI: panel LED + button",
+   "nets": {
+    "1": "GND",
+    "2": "+3V3",
+    "3": "LED_EXT",
+    "4": "BTN",
+    "5": "GND"
+   },
+   "x": 40.8,
+   "y": 6.3,
+   "rot": 0
+  }
+ ],
+ "connectors": {
+  "J1": {
+   "kind": "XH11",
+   "label": "LINK-PWR",
+   "roles": [
+    "5V",
+    "5V",
+    "GND",
+    "GND",
+    "3V3",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC"
+   ],
+   "nets": [
+    "+5V",
+    "+5V",
+    "GND",
+    "GND",
+    "+3V3",
+    "STEP",
+    "DIR",
+    "MOT_EN",
+    "TMC_UART",
+    "OWA",
+    "OWB"
+   ]
+  },
+  "J2": {
+   "kind": "XH12",
+   "label": "LINK-TEC",
+   "roles": [
+    "GND",
+    "GND",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "GND",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "LOGIC",
+    "GND"
+   ],
+   "nets": [
+    "GND",
+    "GND",
+    "K1_ON",
+    "K2_ON",
+    "THERMO_OK",
+    "GND",
+    "FAN1_PWM",
+    "FAN2_PWM",
+    "FAN3_PWM",
+    "TACH1",
+    "TACH2",
+    "GND"
+   ]
+  },
+  "J11": {
+   "kind": "XH4",
+   "label": "DPS",
+   "roles": [
+    "GND",
+    "LOGIC",
+    "LOGIC",
+    "NC"
+   ],
+   "nets": [
+    "GND",
+    "DPS_TXD",
+    "DPS_RXD",
+    null
+   ]
+  },
+  "J3": {
+   "kind": "XH3",
+   "label": "HOME",
+   "roles": [
+    "GND",
+    "LOGIC",
+    "3V3"
+   ],
+   "nets": [
+    "GND",
+    "HOME",
+    "+3V3"
+   ]
+  },
+  "J4": {
+   "kind": "XH4",
+   "label": "SENSE",
+   "roles": [
+    "GND",
+    "LOGIC",
+    "ANALOG",
+    "GND"
+   ],
+   "nets": [
+    "GND",
+    "LID",
+    "LEAK",
+    "GND"
+   ]
+  },
+  "J6": {
+   "kind": "XH5",
+   "label": "UI",
+   "roles": [
+    "GND",
+    "3V3",
+    "LOGIC",
+    "LOGIC",
+    "GND"
+   ],
+   "nets": [
+    "GND",
+    "+3V3",
+    "LED_EXT",
+    "BTN",
+    "GND"
+   ]
+  }
+ },
+ "netclasses": {
+  "Power": {
+   "width": 0.6,
+   "clearance": 0.25,
+   "nets": [
+    "GND",
+    "+3V3",
+    "+5V",
+    "+5V_DK"
+   ]
+  }
+ },
+ "band_mm": 3.0
+}

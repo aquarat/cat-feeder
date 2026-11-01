@@ -1,0 +1,7 @@
+build/
+results/_work/
+__pycache__/
+# Manufacturer SPICE models: licence headers restrict redistribution. Re-fetch with fetch_models.sh;
+# runs without them fall back to the behavioural models and say so in summary.json.
+models/vendor/*
+!models/vendor/manifest.json

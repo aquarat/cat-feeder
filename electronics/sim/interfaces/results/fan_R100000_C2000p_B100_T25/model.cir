@@ -1,0 +1,23 @@
+Cat feeder interface study: fan_R100000_C2000p_B100_T25
+Vfan fan_pullup 0 5.25
+Rfan fan_pullup pwm 100000
+Cwire pwm 0 2e-09
+Vgpio gpio 0 PULSE(0 3.3 20u 10n 10n 20u 40u)
+R8 gpio base 4700.0
+R9 base 0 100000.0
+Q1 pwm base 0 GENERIC_NPN
+.model GENERIC_NPN NPN(IS=1e-14 BF=100 VAF=100 IKF=0.1
++ RB=10 RC=1 RE=0.5 CJE=8p CJC=4p TF=0.35n TR=250n)
+.temp 25
+
+.options reltol=1e-5 abstol=1e-12 vntol=1e-7
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 2e-08 0.0002 0 2e-08
+wrdata wave.dat v(pwm) v(base)
+quit
+.endc
+.end

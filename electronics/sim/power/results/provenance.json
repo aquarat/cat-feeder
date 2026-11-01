@@ -1,0 +1,103 @@
+{
+  "run_id": "6361d4561cc946f29886a3debd9fb9d0",
+  "python": "3.12.14",
+  "ngspice": "******\n** ngspice-39 : Circuit level simulation program\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2022, The ngspice team.\n** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n** Creation Date: Sun Feb  5 13:44:35 UTC 2023\n******\n",
+  "container_image_id": "sha256:48cf511518c3085a51e342c6076d2e8c81d415f469a1da941c59c97baafc9b91",
+  "source_hashes": {
+    "electronics/pcb/schematic-netlist.xml": "cf305706eb6e28aedba3c6c659f416ea0efc3abab9d91c10ce711cedca5d97c0",
+    "electronics/pcb/checksums.json": "9fa46fefed298d092bc83b532faa0848905522ade1cb9342ddb9abefd91d803f",
+    "electronics/pcb/stock-evidence.json": "b145c7cb89a3c4cf25e1f9643e377a2dc346a1a00a506ff0aec031292e3244bc",
+    "electronics/sim/power/run.py": "3dce0ff2210c85e0bc5c3cd6b9b21af83e515e6e036c4b91b74e46ca540b87a9",
+    "electronics/sim/power/test_run.py": "3f48b67991429c9e0c6c44eb2ccb9e6df97852908f4f8ffe90ef548eecc150e8",
+    "electronics/sim/power/README.md": "a17f659773e05a537f3ab9a8416eb454da9bfc7692aa8f1950c19231ec40b63a",
+    "electronics/sim/Dockerfile": "c385f4dcdc010c7bb09aaf8793261e7d4eea0e91b10c0901d2ab1c43ed9c612a"
+  },
+  "asserted_parts": {
+    "U2": {
+      "value": "AP2112K-3.3TRG1",
+      "LCSC": "C51118",
+      "pins": {
+        "1": "+5V",
+        "2": "GND",
+        "3": "+5V",
+        "5": "+3V3"
+      }
+    },
+    "C1": {
+      "value": "10u 25V",
+      "LCSC": "C15850",
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      }
+    },
+    "C2": {
+      "value": "10u 25V",
+      "LCSC": "C15850",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    "C4": {
+      "value": "10u 25V",
+      "LCSC": "C15850",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    "C10": {
+      "value": "100u 50V EEUFR1H101B",
+      "LCSC": "C713402",
+      "pins": {
+        "1": "VMOT",
+        "2": "GND"
+      }
+    },
+    "C11": {
+      "value": "10u 25V",
+      "LCSC": "C15850",
+      "pins": {
+        "1": "+12V",
+        "2": "GND"
+      }
+    },
+    "C3": {
+      "value": "100n",
+      "LCSC": "C14663",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    "C6": {
+      "value": "100n",
+      "LCSC": "C14663",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    "C7": {
+      "value": "100n",
+      "LCSC": "C14663",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    "C9": {
+      "value": "100n",
+      "LCSC": "C14663",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    }
+  },
+  "schema_mutants_rejected": [
+    "value",
+    "net"
+  ]
+}

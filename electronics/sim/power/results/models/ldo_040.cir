@@ -1,0 +1,31 @@
+ldo_040: generated sensitivity study; see README
+* U2 BEHAVIORAL SENSITIVITY ONLY: not manufacturer AP2112 macromodel
+Vsrc src 0 4.75
+Rsource src vin 2.0
+Resrin vin cin .02
+C1 cin 0 1e-05
+Iq vin 0 8e-05
+Bcommand command 0 V=max(0,min(0.6,(3.3-v(out))*10))
+Rlag command lag 1
+Clag lag 0 2e-05
+* 0.5 ohm pass headroom law is an assumption, not a guaranteed dropout model
+Bpass vin out I=max(0,min(v(lag),(v(vin)-v(out))/.5))
+Resrout out cout .02
+* C2+C4+direct 100n C3,C6,C7,C9; ideal common rail, no PCB inductance
+Cout cout 0 2.04e-05
+Vdemand demand 0 PULSE(.1 0.5 200u 1u 1u 400u 2m)
+* Load rolls off below 0.5V to avoid unphysical negative supply in overload.
+Bload out 0 I=v(demand)*max(0,min(1,v(out)/.5))
+Rleak out 0 1G
+.nodeset v(out)=3.29 v(cout)=3.29 v(lag)=.1 v(command)=.1 v(vin)=4.54984
+.options reltol=1e-6 abstol=1e-10 vntol=1e-8
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 2e-07 0.0015 0 2e-07
+wrdata ldo_040.dat v(out) v(vin) i(Vsrc) v(lag)
+quit
+.endc
+.end

@@ -1,0 +1,230 @@
+(footprint "TO-92_Inline_Wide"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
+	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
+	(property "Reference" "REF**"
+		(at 2.54 -3.56 0)
+		(layer "F.SilkS")
+		(uuid "36a69eff-8137-4d94-9a5c-16c3723b1422")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-92_Inline_Wide"
+		(at 2.54 2.79 0)
+		(layer "F.Fab")
+		(uuid "9db209a7-ac06-4006-b759-3c9beef95f8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2dfaa8a-f4cb-425b-81ed-702651568453")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "319dd438-2397-4585-b328-bca8153473b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.74 1.85)
+		(end 4.34 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca4f3c29-ad2b-4551-a138-57dc2a828d11")
+	)
+	(fp_arc
+		(start 0.1836 -1.098807)
+		(mid 1.143021 -2.192817)
+		(end 2.54 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28f7aaca-3607-4b3a-9a1e-70ae20ffe447")
+	)
+	(fp_arc
+		(start 0.74 1.85)
+		(mid 0.446097 1.509328)
+		(end 0.215816 1.122795)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ea4ec95-2b2f-425d-aa96-0afb152d7571")
+	)
+	(fp_arc
+		(start 2.54 -2.6)
+		(mid 3.936979 -2.192818)
+		(end 4.8964 -1.098807)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca4c207f-25c3-4a3c-aa1e-38859dba2fca")
+	)
+	(fp_arc
+		(start 4.864184 1.122795)
+		(mid 4.633903 1.509328)
+		(end 4.34 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebab9593-4187-4997-9114-b565cefc52c0")
+	)
+	(fp_line
+		(start -1.01 -2.73)
+		(end -1.01 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "597f319f-5953-45b7-83a9-39b97033b549")
+	)
+	(fp_line
+		(start -1.01 -2.73)
+		(end 6.09 -2.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2b57132-aa34-4e6d-adc7-cbc23b359e36")
+	)
+	(fp_line
+		(start 6.09 2.01)
+		(end -1.01 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae265e58-bb6d-4d7e-a591-f1e5e3ece006")
+	)
+	(fp_line
+		(start 6.09 2.01)
+		(end 6.09 -2.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e307a099-95b3-40ba-938f-2d64e20d46b5")
+	)
+	(fp_line
+		(start 0.8 1.75)
+		(end 4.3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37abfb33-2e12-4a80-9b90-5ec0c91f9f78")
+	)
+	(fp_arc
+		(start 0.786375 1.753625)
+		(mid 0.248779 -0.949055)
+		(end 2.54 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dca18e98-4034-479f-8a2b-4722f4250901")
+	)
+	(fp_arc
+		(start 2.54 -2.48)
+		(mid 4.831221 -0.949055)
+		(end 4.293625 1.753625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92077222-0c3b-49bb-a348-66e563b54572")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "6c894802-f8c7-42a0-a92a-0ab9b7ac5463")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f582dcb1-a645-472f-a925-fde72e02abcb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ffc0b7c-df09-4e94-8073-8f866c0995cd")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba4bc16b-2823-483f-9e2c-35dca5c913c3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

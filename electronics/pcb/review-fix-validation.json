@@ -1,0 +1,21 @@
+{
+  "baseline_PCB_sha256": "6a69582a57236ffb769218b08e0ee6d3e82f06e7c02e8eaae30bb5485bf9b993",
+  "original_placements_preserved": 52,
+  "outline_unchanged": true,
+  "new_placements_KiCad_mm_deg": {
+    "R20": [
+      79,
+      113,
+      0
+    ],
+    "R21": [
+      91,
+      109,
+      90
+    ]
+  },
+  "B1_value_code_and_pad_netlist_checks": "passed",
+  "schematic_nodes_compared_to_PCB": 163,
+  "BOM_values_codes_footprints_unique_refs_and_CPL_membership": "passed",
+  "independent_recheck": "pending; D25 HOLD remains"
+}

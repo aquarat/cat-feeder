@@ -1,0 +1,31 @@
+{
+  "status": "Manufacturer calculator excerpts, not physical measurements",
+  "retrieved": "2026-10-24",
+  "part": "TARK 56610-510 / CP14-127-10-L1-RT-W4.5",
+  "source": "https://tark-solutions.com/products/thermoelectric-cooler-modules/peltier-cp-series/CP14-127-10-L1-RT-W4.5",
+  "documentation": "../kb/tec-control.md",
+  "retrieval": {
+    "method": "POST",
+    "purpose": "Read-only operating-curve calculator",
+    "form_common": {
+      "tem_id": "54", "ms": "False", "tec_mode": "cool",
+      "ControlT": "0", "AmbientLoT": "0", "DeltaLoT": "0",
+      "tr_hot": "0", "tr_cold": "0", "Iop": "1", "Vop": "5"
+    },
+    "form_per_hot_temperature": "Set AmbientHiT and DeltaHiT both to 30, 35 or 40",
+    "response": "script[data-drupal-selector=drupal-settings-json] -> temdatasheet.temdsInput -> temQcgraph_json",
+    "selection": "Nearest returned Current to 1.0 A and 1.2 A at each Th; no interpolation",
+    "caveat": "Positive-Qc curves are clipped; nearest samples to lower requested currents may be endpoints at substantially higher current."
+  },
+  "units": {"Th": "degC", "Tc": "degC", "Current": "A", "Voltage": "V", "Qc": "W", "Qh": "W"},
+  "points": [
+    {"Th": 30, "Tc": 0, "Current": 0.9990805545027823, "Voltage": 4.550890434917206, "Qc": 3.1037150990434923, "Qh": 7.650421238241982},
+    {"Th": 30, "Tc": 0, "Current": 1.202373131535007, "Voltage": 5.184269253984159, "Qc": 5.068528481140828, "Qh": 11.301954538774416},
+    {"Th": 35, "Tc": 0, "Current": 0.9973324218211908, "Voltage": 4.833004574615041, "Qc": 1.7404557980486137, "Qh": 6.560567955122326},
+    {"Th": 35, "Tc": 0, "Current": 1.1975445006268666, "Voltage": 5.465241337258518, "Qc": 3.677249702796323, "Qh": 10.222119410828883},
+    {"Th": 40, "Tc": 0, "Current": 0.9999450238800522, "Voltage": 5.130558465837264, "Qc": 0.42742736430883543, "Qh": 5.557703771948482},
+    {"Th": 40, "Tc": 0, "Current": 1.202412141818328, "Voltage": 5.778500190591747, "Qc": 2.3830354548522537, "Qh": 9.331174245519293}
+  ],
+  "budget_assumptions": {"sites": 12, "converter_efficiency": 0.9, "auxiliary_source_W": 8},
+  "budget_formula": "Ptec_site = Current * Voltage; Ptec_array = 12 * Ptec_site; source_W = Ptec_array / 0.9 + 8; Qh_array = 12 * Qh"
+}

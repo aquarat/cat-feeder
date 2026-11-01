@@ -1,0 +1,29 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: motor supply passive damping study / original_24v
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+src                                          0
+wire                                         0
+pre                                          0
+vmot                                         0
+cap                                          0
+lwire#branch                                 0
+vsrc#branch                                  0
+
+
+No. of Data Rows : 40081
+vmot_peak           =  4.327807e+01 at=  8.665725e-05
+inrush_peak         =  6.103456e+01 at=  4.255725e-05
+damping_peak        =  3.725217e-06 at=  4.255725e-05
+damping_energy      =  4.60779e-10 from=  0.00000e+00 to=  2.00000e-03
+ngspice-39 done

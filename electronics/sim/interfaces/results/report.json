@@ -1,0 +1,822 @@
+{
+  "execution_status": "PASS: all solver runs, finite-output checks and analytic oracles passed",
+  "circuit_status": "CONDITIONAL: assumed cable/loading/power-order corners include failures; no hardware qualification",
+  "tool": "******\n** ngspice-39 : Circuit level simulation program\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2022, The ngspice team.\n** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n** Creation Date: Sun Feb  5 13:44:35 UTC 2023\n******",
+  "source_sha256": {
+    "electronics/sim/interfaces/run.py": "8f32361b3782bc57edac3a2e1a4da23fe567e07ed263847b48a5260724169d1e",
+    "electronics/pcb/schematic-netlist.xml": "cf305706eb6e28aedba3c6c659f416ea0efc3abab9d91c10ce711cedca5d97c0",
+    "electronics/pcb/feeder.kicad_sch": "e654d14f7e0a30f93cc36065ead615d0bef2af4178c14e23c3849ab7990fcace",
+    "electronics/pcb/feeder.kicad_pcb": "d51e589d13a7a96097fe12be33ff051cb9bbc9b4033ba4c07ba581e1121458c9"
+  },
+  "physical_measurements": false,
+  "firmware_executed": false,
+  "results": {
+    "bus": [
+      {
+        "case": "onewire_200p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 200.0,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 788.4637729843764,
+        "sample_at_15us_V": 3.2999971675396305,
+        "high_crossing_from_slot_start_us": 3.2866002680900506,
+        "sample_margin_us": 11.713399731909949,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": true,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "onewire_200p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 200.0,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 804.3726241167064,
+        "sample_at_15us_V": 3.29999626911777,
+        "high_crossing_from_slot_start_us": 3.3126814577195485,
+        "sample_margin_us": 11.687318542280453,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": true,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "onewire_1000p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 1000.0000000000001,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 3942.47059684296,
+        "sample_at_15us_V": 3.0989417354632214,
+        "high_crossing_from_slot_start_us": 8.430946923330103,
+        "sample_margin_us": 6.569053076669898,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": true,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "onewire_1000p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 1000.0000000000001,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 4022.119732572232,
+        "sample_at_15us_V": 3.087487190968012,
+        "high_crossing_from_slot_start_us": 8.56126815747961,
+        "sample_margin_us": 6.438731842520391,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": true,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "onewire_2000p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 2000.0000000000002,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 7884.950384294294,
+        "sample_at_15us_V": 2.48719404815354,
+        "high_crossing_from_slot_start_us": 14.86142328351495,
+        "sample_margin_us": 0.13857671648504968,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": true,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "onewire_2000p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 2000.0000000000002,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 8044.244576768532,
+        "sample_at_15us_V": 2.4643260866660976,
+        "high_crossing_from_slot_start_us": 15.122044408683331,
+        "sample_margin_us": -0.12204440868333112,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": false,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "onewire_5000p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 5000.0,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 19712.385027847107,
+        "sample_at_15us_V": 1.4207458667207087,
+        "high_crossing_from_slot_start_us": 34.15283879146151,
+        "sample_margin_us": -19.152838791461516,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": false,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "onewire_5000p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "onewire",
+        "capacitance_pF": 5000.0,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 20110.61317980262,
+        "sample_at_15us_V": 1.399676302225454,
+        "high_crossing_from_slot_start_us": 34.804392193876524,
+        "sample_margin_us": -19.804392193876524,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": false,
+        "i2c_100kHz": null,
+        "i2c_400kHz": null
+      },
+      {
+        "case": "i2c_50p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 50.0,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 197.02924388149646,
+        "sample_at_15us_V": 3.299999984645,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": true,
+        "i2c_400kHz": true
+      },
+      {
+        "case": "i2c_50p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 50.0,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 200.9634158135686,
+        "sample_at_15us_V": 3.299999984335,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": true,
+        "i2c_400kHz": true
+      },
+      {
+        "case": "i2c_100p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 100.0,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 394.252954175537,
+        "sample_at_15us_V": 3.299999984643,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": true,
+        "i2c_400kHz": false
+      },
+      {
+        "case": "i2c_100p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 100.0,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 402.18640220481484,
+        "sample_at_15us_V": 3.299999984331,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": true,
+        "i2c_400kHz": false
+      },
+      {
+        "case": "i2c_200p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 200.0,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 788.4637729843764,
+        "sample_at_15us_V": 3.2999971675396305,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": true,
+        "i2c_400kHz": false
+      },
+      {
+        "case": "i2c_200p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 200.0,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 804.3726241167064,
+        "sample_at_15us_V": 3.29999626911777,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": true,
+        "i2c_400kHz": false
+      },
+      {
+        "case": "i2c_400p_0.99R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 400.0,
+        "pullup_ohm": 4653.0,
+        "rise_30_70_ns": 1576.9849203390963,
+        "sample_at_15us_V": 3.2969569784607615,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": false,
+        "i2c_400kHz": false
+      },
+      {
+        "case": "i2c_400p_1.01R",
+        "model": "lumped RC and ideal sink",
+        "bus": "i2c",
+        "capacitance_pF": 400.0,
+        "pullup_ohm": 4747.0,
+        "rise_30_70_ns": 1608.824448794175,
+        "sample_at_15us_V": 3.296505307768853,
+        "high_crossing_from_slot_start_us": null,
+        "sample_margin_us": null,
+        "criterion": "1-Wire: high >=0.75*3.3V at 15us from slot start, release at 2us; I2C: 30-70% <=1000/300ns",
+        "onewire_read_high": null,
+        "i2c_100kHz": false,
+        "i2c_400kHz": false
+      }
+    ],
+    "adc": [
+      {
+        "case": "powered divider",
+        "VMOT_V": 20,
+        "R18_factor": 0.99,
+        "R19_factor": 0.99,
+        "ADC_V": 1.818181818182,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "powered divider",
+        "VMOT_V": 20,
+        "R18_factor": 0.99,
+        "R19_factor": 1.01,
+        "ADC_V": 1.851512373969,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "powered divider",
+        "VMOT_V": 20,
+        "R18_factor": 1.01,
+        "R19_factor": 0.99,
+        "ADC_V": 1.785392245266,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "powered divider",
+        "VMOT_V": 20,
+        "R18_factor": 1.01,
+        "R19_factor": 1.01,
+        "ADC_V": 1.818181818182,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "powered divider",
+        "VMOT_V": 24,
+        "R18_factor": 0.99,
+        "R19_factor": 0.99,
+        "ADC_V": 2.181818181818,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "powered divider",
+        "VMOT_V": 24,
+        "R18_factor": 0.99,
+        "R19_factor": 1.01,
+        "ADC_V": 2.221814848763,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "powered divider",
+        "VMOT_V": 24,
+        "R18_factor": 1.01,
+        "R19_factor": 0.99,
+        "ADC_V": 2.142470694319,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "powered divider",
+        "VMOT_V": 24,
+        "R18_factor": 1.01,
+        "R19_factor": 1.01,
+        "ADC_V": 2.181818181818,
+        "below_3V3_rail": true,
+        "scope": "DC headroom only, not ADC accuracy or overvoltage qualification"
+      },
+      {
+        "case": "filter step",
+        "C8_factor": 0.8,
+        "time_constant_ms": 0.7272734512464654
+      },
+      {
+        "case": "filter step",
+        "C8_factor": 1.2,
+        "time_constant_ms": 1.0909096628084125
+      },
+      {
+        "case": "unpowered MCU clamp sensitivity",
+        "VMOT_V": 20,
+        "assumed_clamp_V": 0.3,
+        "injection_mA": 0.166816501848,
+        "status": "UNQUALIFIED: possible injection; no permitted MCU injection current assumed"
+      },
+      {
+        "case": "unpowered MCU clamp sensitivity",
+        "VMOT_V": 20,
+        "assumed_clamp_V": 0.6,
+        "injection_mA": 0.13385276196180002,
+        "status": "UNQUALIFIED: possible injection; no permitted MCU injection current assumed"
+      },
+      {
+        "case": "unpowered MCU clamp sensitivity",
+        "VMOT_V": 24,
+        "assumed_clamp_V": 0.3,
+        "injection_mA": 0.20677255019479998,
+        "status": "UNQUALIFIED: possible injection; no permitted MCU injection current assumed"
+      },
+      {
+        "case": "unpowered MCU clamp sensitivity",
+        "VMOT_V": 24,
+        "assumed_clamp_V": 0.6,
+        "injection_mA": 0.17380881030870002,
+        "status": "UNQUALIFIED: possible injection; no permitted MCU injection current assumed"
+      }
+    ],
+    "bias_uart": [
+      {
+        "case": "reset bias leakage sensitivity",
+        "ref": "R20",
+        "net": "DPS_TX",
+        "assumed_leakage_uA": 5.0,
+        "voltage_V": 3.2495,
+        "defined_at_assumed_2V_high_0_8V_low": true
+      },
+      {
+        "case": "reset bias leakage sensitivity",
+        "ref": "R21",
+        "net": "DPS_TX_EXT",
+        "assumed_leakage_uA": -5.0,
+        "voltage_V": 0.0505,
+        "defined_at_assumed_2V_high_0_8V_low": true
+      },
+      {
+        "case": "reset bias leakage sensitivity",
+        "ref": "R14",
+        "net": "UART_OEn",
+        "assumed_leakage_uA": 11.0,
+        "voltage_V": 3.1889,
+        "defined_at_assumed_2V_high_0_8V_low": true
+      },
+      {
+        "case": "reset bias leakage sensitivity",
+        "ref": "R10",
+        "net": "TEC_EN",
+        "assumed_leakage_uA": -1.0,
+        "voltage_V": 0.0101,
+        "defined_at_assumed_2V_high_0_8V_low": true
+      },
+      {
+        "case": "reset bias leakage sensitivity",
+        "ref": "R12",
+        "net": "STEP",
+        "assumed_leakage_uA": -1.0,
+        "voltage_V": 0.101,
+        "defined_at_assumed_2V_high_0_8V_low": true
+      },
+      {
+        "case": "reset bias leakage sensitivity",
+        "ref": "R13",
+        "net": "DIR",
+        "assumed_leakage_uA": -1.0,
+        "voltage_V": 0.101,
+        "defined_at_assumed_2V_high_0_8V_low": true
+      },
+      {
+        "case": "reset with Pololu 100k SLEEP pullup",
+        "voltage_V": 0.3,
+        "low_below_0_3VDD": true
+      },
+      {
+        "case": "DPS off, board on",
+        "buffer_enabled": true,
+        "assumed_DPS_input_clamp_V": 0.3,
+        "injection_mA": 2.912621033292,
+        "status": "UNQUALIFIED external clamp/output model; enable sequencing required"
+      },
+      {
+        "case": "DPS off, board on",
+        "buffer_enabled": false,
+        "assumed_DPS_input_clamp_V": 0.3,
+        "injection_mA": 0.0,
+        "status": "UNQUALIFIED external clamp/output model; enable sequencing required"
+      },
+      {
+        "case": "DPS off, board on",
+        "buffer_enabled": true,
+        "assumed_DPS_input_clamp_V": 0.7,
+        "injection_mA": 2.5242711264590003,
+        "status": "UNQUALIFIED external clamp/output model; enable sequencing required"
+      },
+      {
+        "case": "DPS off, board on",
+        "buffer_enabled": false,
+        "assumed_DPS_input_clamp_V": 0.7,
+        "injection_mA": 0.0,
+        "status": "UNQUALIFIED external clamp/output model; enable sequencing required"
+      },
+      {
+        "case": "EN RC ideal rail step",
+        "C5_factor": 0.8,
+        "time_to_75percent_ms": 11.09035487160945,
+        "scope": "RC response, not ESP32 boot/brownout emulation"
+      },
+      {
+        "case": "EN RC ideal rail step",
+        "C5_factor": 1.2,
+        "time_to_75percent_ms": 16.63553274161107,
+        "scope": "RC response, not ESP32 boot/brownout emulation"
+      }
+    ],
+    "fan": [
+      {
+        "case": "fan_R1050_C100p_B100_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 100.0,
+        "BF": 100,
+        "temperature_C": 25,
+        "released_midpoint_V": 5.249999996796351,
+        "sink_midpoint_V": 0.07356324001759108,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R1050_C100p_B100_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 100.0,
+        "BF": 100,
+        "temperature_C": 85,
+        "released_midpoint_V": 5.2499999509200626,
+        "sink_midpoint_V": 0.08559845905211315,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R1050_C100p_B300_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 100.0,
+        "BF": 300,
+        "temperature_C": 25,
+        "released_midpoint_V": 5.250000000001497,
+        "sink_midpoint_V": 0.0718237025641225,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R1050_C100p_B300_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 100.0,
+        "BF": 300,
+        "temperature_C": 85,
+        "released_midpoint_V": 5.249999945758106,
+        "sink_midpoint_V": 0.0836053758307733,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R1050_C2000p_B100_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 2000.0000000000002,
+        "BF": 100,
+        "temperature_C": 25,
+        "released_midpoint_V": 5.198813766607296,
+        "sink_midpoint_V": 0.0735632400554075,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R1050_C2000p_B100_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 2000.0000000000002,
+        "BF": 100,
+        "temperature_C": 85,
+        "released_midpoint_V": 5.198315578516611,
+        "sink_midpoint_V": 0.08559845906965136,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R1050_C2000p_B300_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 2000.0000000000002,
+        "BF": 300,
+        "temperature_C": 25,
+        "released_midpoint_V": 5.197750537452755,
+        "sink_midpoint_V": 0.07182370257181528,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R1050_C2000p_B300_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 1050,
+        "wire_pF": 2000.0000000000002,
+        "BF": 300,
+        "temperature_C": 85,
+        "released_midpoint_V": 5.197118322827965,
+        "sink_midpoint_V": 0.08360537582375324,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C100p_B100_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 100.0,
+        "BF": 100,
+        "temperature_C": 25,
+        "released_midpoint_V": 5.249569794477921,
+        "sink_midpoint_V": 0.02945518081243971,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C100p_B100_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 100.0,
+        "BF": 100,
+        "temperature_C": 85,
+        "released_midpoint_V": 5.249550221538043,
+        "sink_midpoint_V": 0.03473770527287325,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C100p_B300_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 100.0,
+        "BF": 300,
+        "temperature_C": 25,
+        "released_midpoint_V": 5.249566324390841,
+        "sink_midpoint_V": 0.029293320378683315,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C100p_B300_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 100.0,
+        "BF": 300,
+        "temperature_C": 85,
+        "released_midpoint_V": 5.249545982766688,
+        "sink_midpoint_V": 0.03455204757893384,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C2000p_B100_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 100,
+        "temperature_C": 25,
+        "released_midpoint_V": 2.0257640228195766,
+        "sink_midpoint_V": 0.029455180790299153,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C2000p_B100_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 100,
+        "temperature_C": 85,
+        "released_midpoint_V": 2.0247664255423743,
+        "sink_midpoint_V": 0.03473770528472534,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C2000p_B300_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 300,
+        "temperature_C": 25,
+        "released_midpoint_V": 2.0247500418368416,
+        "sink_midpoint_V": 0.029293320381133796,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R10000_C2000p_B300_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 10000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 300,
+        "temperature_C": 85,
+        "released_midpoint_V": 2.0236503681366993,
+        "sink_midpoint_V": 0.03455204729402734,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C100p_B100_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 100.0,
+        "BF": 100,
+        "temperature_C": 25,
+        "released_midpoint_V": 3.142231940376236,
+        "sink_midpoint_V": 0.019614057921988816,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C100p_B100_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 100.0,
+        "BF": 100,
+        "temperature_C": 85,
+        "released_midpoint_V": 3.14087450070517,
+        "sink_midpoint_V": 0.023431182771639004,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C100p_B300_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 100.0,
+        "BF": 300,
+        "temperature_C": 25,
+        "released_midpoint_V": 3.1415405572907362,
+        "sink_midpoint_V": 0.019599738312877014,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C100p_B300_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 100.0,
+        "BF": 300,
+        "temperature_C": 85,
+        "released_midpoint_V": 3.140098870563996,
+        "sink_midpoint_V": 0.023414934544122745,
+        "midpoint_0_8V_low_2_1V_high": true,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C2000p_B100_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 100,
+        "temperature_C": 25,
+        "released_midpoint_V": 0.23632960417062926,
+        "sink_midpoint_V": 0.01961405725262541,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C2000p_B100_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 100,
+        "temperature_C": 85,
+        "released_midpoint_V": 0.23852913923666483,
+        "sink_midpoint_V": 0.023431182779431826,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C2000p_B300_T25",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 300,
+        "temperature_C": 25,
+        "released_midpoint_V": 0.23618128410627898,
+        "sink_midpoint_V": 0.019599739617067763,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      },
+      {
+        "case": "fan_R100000_C2000p_B300_T85",
+        "model": "generic NPN, NOT selected-vendor model",
+        "pullup_ohm": 100000,
+        "wire_pF": 2000.0000000000002,
+        "BF": 300,
+        "temperature_C": 85,
+        "released_midpoint_V": 0.23837966195460264,
+        "sink_midpoint_V": 0.023414934753485748,
+        "midpoint_0_8V_low_2_1V_high": false,
+        "criterion_scope": "exploratory midpoint margins; not complete fan timing compliance"
+      }
+    ]
+  },
+  "criteria": {
+    "by_criterion": {
+      "onewire_read_high": {
+        "evaluated": 8,
+        "failed": 3,
+        "failed_cases": [
+          "onewire_2000p_1.01R",
+          "onewire_5000p_0.99R",
+          "onewire_5000p_1.01R"
+        ]
+      },
+      "i2c_100kHz": {
+        "evaluated": 8,
+        "failed": 2,
+        "failed_cases": [
+          "i2c_400p_0.99R",
+          "i2c_400p_1.01R"
+        ]
+      },
+      "i2c_400kHz": {
+        "evaluated": 8,
+        "failed": 6,
+        "failed_cases": [
+          "i2c_100p_0.99R",
+          "i2c_100p_1.01R",
+          "i2c_200p_0.99R",
+          "i2c_200p_1.01R",
+          "i2c_400p_0.99R",
+          "i2c_400p_1.01R"
+        ]
+      },
+      "midpoint_0_8V_low_2_1V_high": {
+        "evaluated": 24,
+        "failed": 8,
+        "failed_cases": [
+          "fan_R10000_C2000p_B100_T25",
+          "fan_R10000_C2000p_B100_T85",
+          "fan_R10000_C2000p_B300_T25",
+          "fan_R10000_C2000p_B300_T85",
+          "fan_R100000_C2000p_B100_T25",
+          "fan_R100000_C2000p_B100_T85",
+          "fan_R100000_C2000p_B300_T25",
+          "fan_R100000_C2000p_B300_T85"
+        ]
+      },
+      "below_3V3_rail": {
+        "evaluated": 8,
+        "failed": 0,
+        "failed_cases": []
+      },
+      "defined_at_assumed_2V_high_0_8V_low": {
+        "evaluated": 6,
+        "failed": 0,
+        "failed_cases": []
+      },
+      "low_below_0_3VDD": {
+        "evaluated": 1,
+        "failed": 0,
+        "failed_cases": []
+      }
+    },
+    "failed_evaluations": 19,
+    "note": "Overlapping criterion evaluations, not distinct failed circuits; clamps remain unqualified."
+  },
+  "run_id": "8f976207-36a9-4690-876e-e22f5be0b274",
+  "started_utc": "2026-10-24T16:28:24.141298+00:00",
+  "finished_utc": "2026-10-24T16:28:26.263374+00:00",
+  "run_status": "COMPLETE"
+}

@@ -1,0 +1,2330 @@
+{
+  "fabrication": {
+    "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "final_url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "retrieved_at_utc": "2026-10-24T16:22:50.684943+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "fa77eddff8ae59c65248128b1e1208678b3c8e9ff3ee88a1bb171330bf7f2e02",
+    "text_sha256": "3cdbeeb9f05e820cf376ee9ff6af62e8d421cc423288914d7c9d87441c9c3bdb",
+    "text_file": "evidence/fabrication.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "alt": "PCB Capability - Green",
+        "src": "/ssr/img/components.169eb26.png",
+        "class": "svg-top-img max-w-full align-middle",
+        "data-v-72de7114": null
+      },
+      {
+        "alt": "PCB Capability - bottom view",
+        "src": "/ssr/img/pcb_bottom.f1451b8.png",
+        "class": "svg-bottom-img max-w-full align-middle",
+        "data-v-72de7114": null
+      },
+      {
+        "src": "/ssr/img/deco-left.e3fbd8c.png",
+        "alt": null,
+        "class": "absolute left-[14%] md:left-[2%] sm:h-60 md:h-80 lg:h-100 xlg:h-110 sm:hidden md:block",
+        "style": "pointer-events: none"
+      },
+      {
+        "src": "/ssr/img/deco-right.6077a00.png",
+        "alt": null,
+        "class": "absolute right-[15%] md:right-[2%] sm:right-[-20%] top-0 h-full md:block",
+        "style": "pointer-events: none"
+      }
+    ]
+  },
+  "assembly": {
+    "url": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities",
+    "final_url": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities",
+    "retrieved_at_utc": "2026-10-24T16:22:50.580563+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "93fa67848387ba2707e5f46c45ad9dfbca3681bffed632489ffe454af0ef446c",
+    "text_sha256": "ecf91e33f8e90ea44d8d4384dc336f8a9b7abd9011e08430d78ecd7d8301ed5a",
+    "text_file": "evidence/assembly.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "src": "/ssr/img/deco-left.e3fbd8c.png",
+        "alt": null,
+        "class": "absolute left-[14%] md:left-[2%] sm:h-60 md:h-80 lg:h-100 xlg:h-110 sm:hidden md:block",
+        "style": "pointer-events: none"
+      },
+      {
+        "src": "/ssr/img/deco-right.6077a00.png",
+        "alt": null,
+        "class": "absolute right-[15%] md:right-[2%] sm:right-[-20%] top-0 h-full md:block",
+        "style": "pointer-events: none"
+      }
+    ]
+  },
+  "spacing": {
+    "url": "https://jlcpcb.com/help/article/minimum-spacing-for-smd-components",
+    "final_url": "https://jlcpcb.com/help/article/minimum-spacing-for-smd-components",
+    "retrieved_at_utc": "2026-10-24T16:22:51.056572+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "b4cad930eb13f74287f40bfcdef0c47a56df713c3ea30e5a32099ab8911e4415",
+    "text_sha256": "2505a020e6c4ff64dc92ac2156a3c815b9723702d1829477ff995726bdd11be7",
+    "text_file": "evidence/spacing.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "width": "693",
+        "height": "363",
+        "alt": "pcb prototype assembly banner 2"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/smd-component-spacing-measurement-method.png",
+        "width": "644",
+        "height": "495",
+        "alt": "smd component spacing measurement method"
+      }
+    ]
+  },
+  "terms": {
+    "url": "https://jlcpcb.com/help/article/terms-and-conditions-of-jlcpcb-assembly-service",
+    "final_url": "https://jlcpcb.com/help/article/terms-and-conditions-of-jlcpcb-assembly-service",
+    "retrieved_at_utc": "2026-10-24T16:22:51.017118+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "f9f4fb47cc2fbb1fbcbcb6738e1477666648de1cdb72466a672ac0bed59f21b1",
+    "text_sha256": "51c8b9c65c7fdae0b005ff2fb54547e4e9a2d853e36f861cd227930a7ede13d2",
+    "text_file": "evidence/terms.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF",
+        "style": "width:720.97px; height:377.47px;"
+      }
+    ]
+  },
+  "rails": {
+    "url": "https://jlcpcb.com/help/article/specifications-for-adding-process-edges-and-positioning-holes",
+    "final_url": "https://jlcpcb.com/help/article/specifications-for-adding-process-edges-and-positioning-holes",
+    "retrieved_at_utc": "2026-10-24T16:22:51.308326+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "5cdeb3ab12431e7d3dfbac5c44e274b9a6c7d4304b01f0a2784f24fa8e61d62b",
+    "text_sha256": "c6f972c5d813a1b72e159bd2897a6bfbf90fd18d91d733032bb9148f83ebed1d",
+    "text_file": "evidence/rails.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF",
+        "style": "width:708.97px; height:371.19px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=93bddf3ba322402ebefcf4d33f1548dc",
+        "alt": null,
+        "data-href": null,
+        "style": "width:751.00px; height:922.48px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=91cc099f240749ffbd6dc894bce6d1d5",
+        "alt": null,
+        "data-href": null,
+        "style": "width:722.00px; height:346.73px;"
+      }
+    ]
+  },
+  "tooling": {
+    "url": "https://jlcpcb.com/help/article/common-pcba-after-sales-issues-and-faq",
+    "final_url": "https://jlcpcb.com/help/article/common-pcba-after-sales-issues-and-faq",
+    "retrieved_at_utc": "2026-10-24T16:22:51.403158+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "31ad7d1bf1527998d5c6ec9bf4c5031227747cac9bf5f2bab61c689b303f5f27",
+    "text_sha256": "c78e274634927498d4982fa24f74ec5cff85b17000e86b1f696c144c5108268a",
+    "text_file": "evidence/tooling.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "width": "693",
+        "height": "363",
+        "alt": "pcb prototype assembly banner 2"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703968652920868864-51a4078e3c0347dd8d4dd3b8e433e727.webp",
+        "alt": "Flux residue on the PCB"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703968903899090944-9dceda4b118947bb9f7b3efc600228fb.png",
+        "alt": "Minor scratches on the PCB surface"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703969150445015040-2394cadb33a540c2b2189af7613eb822.png",
+        "alt": "PCB solder mask"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703969424974659584-5d3d09fb4ae4452ab5744b88c32f01f5.png",
+        "alt": "PCB edge rails"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703969673340370944-b45e455a720c47ffaf6f65e07100778a.png",
+        "alt": "Extra holes on the PCB"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703969879532490752-6ccd480652a14c37b7e7a3a668dd6390.png",
+        "alt": "Verify all components listed in the BOM"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703970434631712768-0622fbfcda7049f6a96528fa1581bd72.png",
+        "alt": "Place a silkscreen dot near Pin 1 of IC components"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703970616584544256-85fe5a71408a4844a61a69e9ffad7516.png",
+        "alt": "Diode footprint"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703970763914072064-924dd9bf9e864dda9dd65428f6c12130.png",
+        "alt": "Tantalum capacitor footprint"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703971848317816832-c99395d3c894423789ff6a1cf66e6282.webp",
+        "alt": "RGB LEDs Moisture Sensitivity Level 5"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8703971939917086720-1c0619147dfb46759df3af3e4df45bce.webp",
+        "alt": "LED Moisture Sensitivity"
+      }
+    ]
+  },
+  "stackup": {
+    "url": "https://jlcpcb.com/impedance",
+    "final_url": "https://jlcpcb.com/impedance",
+    "retrieved_at_utc": "2026-10-24T16:22:51.698848+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "e588366d32d7241c3842678fdfb408c997e035ecb65bf3e8e2802676872881eb",
+    "text_sha256": "64b97b12d95aefb76cddff73bb7c10e70e4915bbd8256b153f959f422448e287",
+    "text_file": "evidence/stackup.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      }
+    ]
+  },
+  "copper": {
+    "url": "https://jlcpcb.com/help/article/jlcpcb-copper-weight",
+    "final_url": "https://jlcpcb.com/help/article/jlcpcb-copper-weight",
+    "retrieved_at_utc": "2026-10-24T16:22:51.803866+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "6aa9171acee57cd38b3e9624dd34deff5e2e0ba23977035cf77f5e4b27fb9b79",
+    "text_sha256": "98eeb0786e0d8c179a5ce178449f0fce04ddc9d78189e2bb09ae56f9d0bf387f",
+    "text_file": "evidence/copper.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF",
+        "style": "width:691.97px; height:362.28px;"
+      }
+    ]
+  },
+  "calculator": {
+    "url": "https://jlcpcb.com/help/article/user-guide-to-the-jlcpcb-impedance-calculator",
+    "final_url": "https://jlcpcb.com/help/article/user-guide-to-the-jlcpcb-impedance-calculator",
+    "retrieved_at_utc": "2026-10-24T16:22:51.970050+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "77c53af154b04d0f82f0e0942a076df6f648126feedce8636b900dc443f7c253",
+    "text_sha256": "db03149ef65728dc49aed07611cde22a50f9a6e93515cafba75ce405bba5fc9a",
+    "text_file": "evidence/calculator.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=5382787029624c80ab306a3fc53f288b",
+        "alt": null,
+        "data-href": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/nan-ya-plastics-np-155f.png",
+        "alt": "nan ya plastics np 155f"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/shengyi-s1000-2m.png",
+        "alt": "shengyi s1000 2m"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=de4a8490848c4340954bd1d531c6fbcf",
+        "alt": null,
+        "data-href": null
+      }
+    ]
+  },
+  "pofv": {
+    "url": "https://jlcpcb.com/news/free-via-in-pad-6-20-layer-pcbs-pofv",
+    "final_url": "https://jlcpcb.com/news/free-via-in-pad-6-20-layer-pcbs-pofv",
+    "retrieved_at_utc": "2026-10-24T16:22:52.098404+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "61a6dd2f14f1e6de6594658604c4d6c3e8fb1ac94b26b1d251f73fffe0bdd4ff",
+    "text_sha256": "83f592dd9287c7b9e7d1006be097c0ed06aee2121d51113d8af0d21cedb05a75",
+    "text_file": "evidence/pofv.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "class": "help-image",
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=9059f6e7e28f4659b037eb7a38d6c3fe",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "class": "help-image",
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=da506b761e4a4cc98899146d84ccdd3a",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "class": "help-image help-image-clickable",
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=b7eaa0e00f6847fbaf28ca172c9370fc",
+        "alt": null,
+        "data-href": "https://jlcpcb.com/?from=blog",
+        "style": null
+      },
+      {
+        "class": "help-image",
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=9daa6a04647f4eb9bdfd13d5d0e96b9d",
+        "alt": "POFV technology allows vias to be placed directly within pads",
+        "data-href": null,
+        "style": null
+      },
+      {
+        "class": "help-image",
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=8c700d80207f4c49a728376d668386aa",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "class": "help-image",
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "class": "help-image",
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=96b13f57d54049148dd286d57e91549c",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "class": "help-image help-image-clickable",
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=b7eaa0e00f6847fbaf28ca172c9370fc",
+        "alt": null,
+        "data-href": "https://jlcpcb.com/?from=blog",
+        "style": null
+      }
+    ]
+  },
+  "cpl": {
+    "url": "https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly",
+    "final_url": "https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly",
+    "retrieved_at_utc": "2026-10-24T16:22:52.233403+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "090bc03fffe10c6898a4440cb3172db3b01de0ef975f0444a5d50e1dbc5b7df1",
+    "text_sha256": "17218054991d87b5096dbef3183521da02511ed45fee43808f234372c31a26ca",
+    "text_file": "evidence/cpl.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF",
+        "style": "width:717.97px; height:375.91px;"
+      },
+      {
+        "src": "https://d33v4339jhl8k0.cloudfront.net/docs/assets/59f1de7804286313cffbb22c/images/5d8324c504286364bc8f4c5c/file-KUVLEEGm95.png",
+        "alt": null,
+        "data-href": null,
+        "style": "height:auto;"
+      }
+    ]
+  },
+  "kicad": {
+    "url": "https://jlcpcb.com/help/article/how-to-generate-the-bom-and-centroid-file-from-kicad",
+    "final_url": "https://jlcpcb.com/help/article/how-to-generate-the-bom-and-centroid-file-from-kicad",
+    "retrieved_at_utc": "2026-10-24T16:22:52.464912+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "399d61ba51a5d09b1b9d931494bdfd792bf970d1f4c7f6f1ba6886d46fb35e67",
+    "text_sha256": "0ece9c86d2bf346cbac9f3a1dd4b12b8fe45709f69407e58c193e8595a9d4e53",
+    "text_file": "evidence/kicad.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "width": "693",
+        "height": "363",
+        "alt": "pcb prototype assembly banner 2"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/jlcpcb-official-sample-bom.png",
+        "alt": "jlcpcb official sample bom"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/example-schematic-breadboard-power-supply.png",
+        "alt": "example schematic breadboard power supply"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/example-pcb-layout-for-the-same-design.png",
+        "width": "413",
+        "height": "440",
+        "alt": "example pcb layout for the same design"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/the-quick-%E2%80%9C.bom%E2%80%9D-export-button-in-the-schematic-editor-toolbar.png",
+        "alt": "the \u201c.bom\u201d export button in the schematic editor toolbar"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/the-symbol-fields-table-button-on-the-top-toolbar.png",
+        "alt": "the symbol fields table button on the top toolbar"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/adding-a-new-field-in-the-symbol-fields-table.png",
+        "alt": "adding a new field in the symbol fields table"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/export-tab-choose-the-csv-preset-and-export.png",
+        "alt": "export tab choose the csv preset and export"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/the-bom-is-exported-by-kicad%27s-built-in-tool.png",
+        "alt": "the bom is exported by kicad's built in tool"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/the-cpl-is-exported-by-kicad%27s-built-in-tool.png",
+        "alt": "the cpl is exported by kicad's built in tool"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/kicad-10-project-manager.png",
+        "alt": "kicad 10 project manager"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/fabrication-toolkit.png",
+        "alt": "fabrication toolkit"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/the-fabrication-toolkit-button-in-the-pcb-editor-toolbar.png",
+        "alt": "the fabrication toolkit button in the pcb editor toolbar"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/symbol-properties-add-the-lcsc-part-field-value.png",
+        "alt": "symbol properties add the lcsc part field value"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/double-click-a-footprint-in-the-pcb-editor.png",
+        "width": "639",
+        "height": "629",
+        "alt": "double click a footprint in the pcb editor"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/fabrication-toolkit-options--click-generate.png",
+        "alt": "fabrication toolkit options  click generate"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/the-production-folder-generated-by-the-toolkit.png",
+        "alt": "the production folder generated by the toolkit"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/bom.csv-from-the-fabrication-toolkit.png",
+        "alt": "bom.csv from the fabrication toolkit"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/pick-and-place-file-from-the-fabrication-toolkit.png",
+        "alt": "pick and place file from the fabrication toolkit"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/uploading-bom.csv-and-positions.csv-on-jlcpcb.png",
+        "alt": "uploading bom.csv and positions.csv on jlcpcb"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/jlcpcb-bom-review.png",
+        "alt": "jlcpcb bom review"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/jlcpcb-search-parts-dialog.png",
+        "alt": "jlcpcb search parts dialog"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/pcb-assembly/jlcpcb-bom-tool-for-easy-bom-preparation.webp",
+        "alt": "jlcpcb bom tool for easy bom preparation"
+      }
+    ]
+  },
+  "dfma": {
+    "url": "https://jlcpcb.com/blog/design-for-manufacturing-and-assembly",
+    "final_url": "https://jlcpcb.com/blog/design-for-manufacturing-and-assembly",
+    "retrieved_at_utc": "2026-10-24T16:22:52.674043+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "15199ea1a0dac3ada60d818dcfb3252192ff1ae9f6a025fe272733a8183cd2ac",
+    "text_sha256": "bd9964e2c6345247c11de6c63bb6abf2c19f0b4ee0de8f17a5e1bccdc6454c3b",
+    "text_file": "evidence/dfma.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "width": "693",
+        "height": "363",
+        "alt": "pcb prototype assembly banner 2"
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/the-pcb-production-chain-from-cad-to-test.webp",
+        "alt": "the pcb production chain from cad to test"
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/pcb-design-timeline.webp",
+        "alt": "pcb design timeline"
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/assembly-friendly-component-spacing.webp",
+        "width": "724",
+        "height": "408",
+        "alt": "assembly friendly component spacing"
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/a-qfn-footprint-overlaid-on-its-datasheet-land-pattern.webp",
+        "width": "558",
+        "height": "558",
+        "alt": "a qfn footprint overlaid on its datasheet land pattern"
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/jlcpcb-pcb-assembly-service-banner-1.png",
+        "alt": "jlcpcb pcb assembly service banner 1"
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/a-board-becoming-a-production-panel.webp",
+        "alt": "a board becoming a production panel"
+      },
+      {
+        "class": "help-image",
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb/bom-and-pick-and-place-files.webp",
+        "alt": "bom and pick and place files"
+      }
+    ]
+  },
+  "assembly_faq": {
+    "url": "https://jlcpcb.com/help/article/pcb-assembly-faqs",
+    "final_url": "https://jlcpcb.com/help/article/pcb-assembly-faqs",
+    "retrieved_at_utc": "2026-10-24T16:22:52.790109+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "dba7fe7d66bfb7590e9a162046d70576baf5615a7d295eeefdfaf0119759ed38",
+    "text_sha256": "099ac8326bc40612bef8ce1417ed50ca0e4e69874fa0609d66ae2fff95b8a126",
+    "text_file": "evidence/assembly_faq.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF",
+        "style": "width:763.97px; height:399.97px;"
+      },
+      {
+        "src": "https://d33v4339jhl8k0.cloudfront.net/docs/assets/59f1de7804286313cffbb22c/images/5d64d30a04286350aeeb0d7c/file-ATzoi02MCB.png",
+        "alt": null,
+        "data-href": null,
+        "style": "width:752.99px; height:325.31px;"
+      }
+    ]
+  },
+  "via_covering": {
+    "url": "https://jlcpcb.com/help/article/pcb-via-covering",
+    "final_url": "https://jlcpcb.com/help/article/pcb-via-covering",
+    "retrieved_at_utc": "2026-10-24T16:23:32.581225+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "98879b7de891e1e69b355390ad7eb72352fa8465e18b7331cb6293024e4d9ed2",
+    "text_sha256": "f033ad84052fe835296ef1f158e3a8b68773c130904aa608d7a2e8448075d5b6",
+    "text_file": "evidence/via_covering.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF",
+        "style": "width:710.97px; height:372.23px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=caad98cbdaa04b689b09ab1f67ec870f",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=24dca23dc79847789107f1aa81a723ea",
+        "alt": null,
+        "data-href": null,
+        "style": "width:255.24px; height:192.99px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=24c56f8f1aa64aafad5e766997d33aec",
+        "alt": null,
+        "data-href": null,
+        "style": "width:255.47px; height:194.74px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=afb2b7f2cd53487fb9d84a1eb4d49a53",
+        "alt": null,
+        "data-href": null,
+        "style": "width:250.31px; height:197.10px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=f780d4f721864b878325586e1b1c611f",
+        "alt": null,
+        "data-href": null,
+        "style": "width:188.98px; height:143.80px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=a95f8b789eaf443184c648383b9ec63a",
+        "alt": null,
+        "data-href": null,
+        "style": "width:188.80px; height:148.44px;"
+      }
+    ]
+  },
+  "fiducials": {
+    "url": "https://jlcpcb.com/help/article/how-to-add-edge-rails-fiducials-for-pcb-assembly-order",
+    "final_url": "https://jlcpcb.com/help/article/how-to-add-edge-rails-fiducials-for-pcb-assembly-order",
+    "retrieved_at_utc": "2026-10-24T16:23:32.861044+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "4238416f7f922fd0b77bb30d81434abf3739ff158fb68ecfde8054c1311543c3",
+    "text_sha256": "c3790afbdefbe46b9f16909d6bd5ea715b8727657fa27ef837779a536c73391d",
+    "text_file": "evidence/fiducials.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "width": "693",
+        "height": "363",
+        "alt": "pcb prototype assembly banner 2"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8708357626615009280-6daa073f3db54bb1832244bbdcd92961.png",
+        "width": "562",
+        "height": "562",
+        "alt": "pcb edge rails"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8708359994425716736-5487cf13c20c4f08a3fe48d0158e4bb6.png",
+        "alt": "2 mm Solder Mask Opening"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/8708360189976481792-d5c2c44b2c224fa09ee3baebc73726b3.png",
+        "width": "454",
+        "height": "454",
+        "alt": "3.35mm Distance From Fiducial Marker To The Board"
+      }
+    ]
+  },
+  "kicad9": {
+    "url": "https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-9",
+    "final_url": "https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-9",
+    "retrieved_at_utc": "2026-10-24T16:23:33.175183+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "f76c5fbd3610553f015367671c6ff44f0a932c09d4ec720ce84ec8d99bef3976",
+    "text_sha256": "03a55a5e89e90b2f31a91bb336ce8210691ea6a77cf574aa9576b49cba6f7f42",
+    "text_file": "evidence/kicad9.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "width": "693",
+        "height": "363",
+        "alt": "pcb prototype assembly banner 2"
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/help/running-drc-in-kicad-9.png",
+        "alt": "running drc in kicad 9"
+      },
+      {
+        "alt": "opening the gerber plot dialog in kicad 9",
+        "src": "https://rs.jlcpcb.com/static/image/help/opening-the-gerber-plot-dialog-in-kicad-9.png"
+      },
+      {
+        "alt": "setting the gerber output folder in the kicad 9 plot dialog",
+        "src": "https://rs.jlcpcb.com/static/image/help/setting-the-gerber-output-folder-in-the-kicad-9-plot-dialog.png"
+      },
+      {
+        "alt": "select layers to plot for a jlcpcb gerber export in kicad 9",
+        "src": "https://rs.jlcpcb.com/static/image/help/selecting-the-layers-to-plot-for-a-jlcpcb-gerber-export-in-kicad-9.png"
+      },
+      {
+        "alt": "general and gerber options in the kicad 9 plot dialog",
+        "src": "https://rs.jlcpcb.com/static/image/help/general-and-gerber-options-in-the-kicad-9-plot-dialog.png"
+      },
+      {
+        "alt": "excellon drill file settings for jlcpcb in kicad 9",
+        "src": "https://rs.jlcpcb.com/static/image/help/excellon-drill-file-settings-for-jlcpcb-in-kicad-9.png"
+      },
+      {
+        "alt": "jlcpcb online gerber viewer",
+        "src": "https://rs.jlcpcb.com/static/image/help/jlcpcb-online-gerber-viewer.png"
+      }
+    ]
+  },
+  "ordering": {
+    "url": "https://jlcpcb.com/help/article/instructions-for-ordering",
+    "final_url": "https://jlcpcb.com/help/article/instructions-for-ordering",
+    "retrieved_at_utc": "2026-10-24T16:23:33.553054+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "9f9a423334a71cdabd35c9ffe92835acb79516741c8269ba5f22b8002a238084",
+    "text_sha256": "1bac8be425783b033f2e1d4a4fb3fba94ccbb3bc645ab6babe0f1bb17bf18886",
+    "text_file": "evidence/ordering.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "alt": "pcb prototype assembly banner 2",
+        "data-href": "https://jlcpcb.com/solutions/pcb-prototype-assembly?from=STQJZF",
+        "style": "width:690.97px; height:361.77px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=21bc6084b1554c6597a6d7ea9337cb9d",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://d33v4339jhl8k0.cloudfront.net/docs/assets/59f1de7804286313cffbb22c/images/5f1c05792c7d3a10cbab4b04/file-l60sGhVE7p.png",
+        "alt": null,
+        "data-href": null,
+        "style": "width:470.989px; height:auto;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=9899a60a50e9449196cd2a89426e55fd",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=eeb72f06fb8a43c4973629679610a43a",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=37357574736849ed9b77728b1c462fb5",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=68ddb8d098b14e4aad87665d074c9302",
+        "alt": null,
+        "data-href": null,
+        "style": "width:50%;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=1a468a2394b6422c9a33503e5afe21ec",
+        "alt": null,
+        "data-href": null,
+        "style": "width:171.89px; height:223.34px;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=44414f2128dc4b7e82ddbcc44c865770",
+        "alt": null,
+        "data-href": null,
+        "style": "width:163.88px; height:222.09px;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=8eb845c04f6b45c0ae289ea7e8065110",
+        "alt": null,
+        "data-href": null,
+        "style": "width:169.00px; height:221.36px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=ebaaefe7cefd4dd291afd23a401ce018",
+        "alt": null,
+        "data-href": null,
+        "style": "width:374.00px; height:220.33px;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=8cae0ff9c7b2486e9c761af9cb58c92f",
+        "alt": null,
+        "data-href": null,
+        "style": "width:230.00px; height:146.17px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=8edcfb63811943d3b3262361f20bcb67",
+        "alt": null,
+        "data-href": null,
+        "style": "width:280.00px; height:146.08px;"
+      }
+    ]
+  },
+  "assembly_price": {
+    "url": "https://jlcpcb.com/help/article/pcb-assembly-price",
+    "final_url": "https://jlcpcb.com/help/article/pcb-assembly-price",
+    "retrieved_at_utc": "2026-10-24T16:23:33.890941+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "dec90661cbe0d537968ea8df19da4654a0a566c9e16bd903c9d4bcb0963774f7",
+    "text_sha256": "00172665415347722d0512cc2ebe057bed9b8db02ff9dc13e445cf8a870d2937",
+    "text_file": "evidence/assembly_price.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/blog/pcb-assembly/pcb-prototype-assembly-banner-2.webp",
+        "width": "693",
+        "height": "363",
+        "alt": "pcb prototype assembly banner 2"
+      }
+    ]
+  },
+  "stencil": {
+    "url": "https://jlcpcb.com/help/article/instructions-for-stencil-order",
+    "final_url": "https://jlcpcb.com/help/article/instructions-for-stencil-order",
+    "retrieved_at_utc": "2026-10-24T16:23:34.224051+00:00",
+    "retrieval": "direct_public_html_including_collapsed_tables",
+    "raw_html_sha256": "f2f99764124f01a86f160188c511241226f3fda1f8a7c072181f1806b3cb3ec4",
+    "text_sha256": "252c284c42dc5c08c0a3b2e7a857b50077b3359cfcdb5bf008da05a18e8aaf25",
+    "text_file": "evidence/stencil.txt",
+    "images": [
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/fr4-pcbs.webp",
+        "alt": "fr 4 pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/flexible-pcbs.webp",
+        "alt": "flexible pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/metal-core-pcbs.webp",
+        "alt": "metal core pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/high-frequency-pcbs.webp",
+        "alt": "high frequency pcbs",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/pcb-assembly.webp",
+        "alt": "pcb assembly",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/parts-library.webp",
+        "alt": "parts library",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/smt-stencils.webp",
+        "alt": "smt stencils",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/jlcpcb-pcb-layout.webp",
+        "alt": "pcb layout",
+        "loading": "lazy",
+        "class": "w-full h-full object-cover",
+        "data-v-5f3c0ac2": null
+      },
+      {
+        "src": "https://rs.jlcpcb.com/static/image/homepage/in-house-factory.webp",
+        "alt": "in house factory",
+        "loading": "lazy",
+        "class": "w-[440px] h-[228px] flex-shrink-0",
+        "data-v-ceba2d4a": null
+      },
+      {
+        "width": "34px",
+        "height": "30px",
+        "src": "/ssr/img/help_search.18c576a.svg",
+        "class": "bg-[#ffffff] mt-2",
+        "data-v-34c96340": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=097238b9d082481491f36869a9b7c7ed",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=eeb72f06fb8a43c4973629679610a43a",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=37357574736849ed9b77728b1c462fb5",
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=68ddb8d098b14e4aad87665d074c9302",
+        "alt": null,
+        "data-href": null,
+        "style": "width:50%;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=1a468a2394b6422c9a33503e5afe21ec",
+        "alt": null,
+        "data-href": null,
+        "style": "width:171.89px; height:223.34px;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=44414f2128dc4b7e82ddbcc44c865770",
+        "alt": null,
+        "data-href": null,
+        "style": "width:163.88px; height:222.09px;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=8eb845c04f6b45c0ae289ea7e8065110",
+        "alt": null,
+        "data-href": null,
+        "style": "width:169.00px; height:221.36px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=ebaaefe7cefd4dd291afd23a401ce018",
+        "alt": null,
+        "data-href": null,
+        "style": "width:374.00px; height:220.33px;"
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": null,
+        "alt": null,
+        "data-href": null,
+        "style": null
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=8cae0ff9c7b2486e9c761af9cb58c92f",
+        "alt": null,
+        "data-href": null,
+        "style": "width:230.00px; height:146.17px;"
+      },
+      {
+        "src": "https://jlcpcb.com//msgCustomerMessage/downloadMessageFile?fileUploadAccessId=8edcfb63811943d3b3262361f20bcb67",
+        "alt": null,
+        "data-href": null,
+        "style": "width:280.00px; height:146.08px;"
+      }
+    ]
+  }
+}

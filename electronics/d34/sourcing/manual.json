@@ -1,0 +1,46 @@
+{
+ "222-8227": {
+  "unit_gbp": 8.5,
+  "stock": "not visible to scripts",
+  "breaks": "export site EUR 9.77/ea (UK price not visible; GBP = EUR x 0.87, approximate)",
+  "date": "2026-10-26",
+  "source": "export.rsdelivers.com search 'Thermostat bimetal'",
+  "url": "https://uk.rs-online.com/web/p/2228227"
+ },
+ "820-1179": {
+  "unit_gbp": 0.16,
+  "stock": "bag 820-1179P: 15379 (findchips)",
+  "breaks": "export site EUR 0.182/pc in PK 5 (GBP = EUR x 0.87, approximate)",
+  "date": "2026-10-26",
+  "source": "export.rsdelivers.com search 'VHR-4N'",
+  "url": "https://uk.rs-online.com/web/p/8201179"
+ },
+ "9943854": {
+  "unit_gbp": 0.245,
+  "url": "https://uk.farnell.com/search?st=9943854",
+  "date": "2026-10-26",
+  "source": "findchips"
+ },
+ "3559249": {
+  "unit_gbp": 0.837,
+  "url": "https://uk.farnell.com/search?st=3559249",
+  "date": "2026-10-26",
+  "source": "findchips"
+ },
+ "09-1099": {
+  "unit_gbp": 10.32,
+  "stock": "37, despatched same day (retailer page)",
+  "breaks": "ex VAT; free UK delivery offered",
+  "date": "2026-10-26",
+  "source": "rapidonline.com product page (via research agent)",
+  "url": "https://www.rapidonline.com/search?query=09-1099"
+ },
+ "TMC2209 V1.3": {
+  "unit_gbp": 5.25,
+  "stock": "In stock, 14 left (retailer page)",
+  "breaks": "GBP 6.30 inc VAT (5.25 ex); GBP 8.90 delivery under GBP 69.90",
+  "date": "2026-10-26",
+  "source": "3djake.uk product page",
+  "url": "https://www.3djake.uk/bigtreetech/stepper-motor-driver"
+ }
+}

@@ -1,0 +1,14 @@
+case,ref,net,assumed_leakage_uA,voltage_V,defined_at_assumed_2V_high_0_8V_low,low_below_0_3VDD,buffer_enabled,assumed_DPS_input_clamp_V,injection_mA,status,C5_factor,time_to_75percent_ms,scope
+reset bias leakage sensitivity,R20,DPS_TX,5.0,3.2495,True,,,,,,,,
+reset bias leakage sensitivity,R21,DPS_TX_EXT,-5.0,0.0505,True,,,,,,,,
+reset bias leakage sensitivity,R14,UART_OEn,11.0,3.1889,True,,,,,,,,
+reset bias leakage sensitivity,R10,TEC_EN,-1.0,0.0101,True,,,,,,,,
+reset bias leakage sensitivity,R12,STEP,-1.0,0.101,True,,,,,,,,
+reset bias leakage sensitivity,R13,DIR,-1.0,0.101,True,,,,,,,,
+reset with Pololu 100k SLEEP pullup,,,,0.3,,True,,,,,,,
+"DPS off, board on",,,,,,,True,0.3,2.912621033292,UNQUALIFIED external clamp/output model; enable sequencing required,,,
+"DPS off, board on",,,,,,,False,0.3,0.0,UNQUALIFIED external clamp/output model; enable sequencing required,,,
+"DPS off, board on",,,,,,,True,0.7,2.5242711264590003,UNQUALIFIED external clamp/output model; enable sequencing required,,,
+"DPS off, board on",,,,,,,False,0.7,0.0,UNQUALIFIED external clamp/output model; enable sequencing required,,,
+EN RC ideal rail step,,,,,,,,,,,0.8,11.09035487160945,"RC response, not ESP32 boot/brownout emulation"
+EN RC ideal rail step,,,,,,,,,,,1.2,16.63553274161107,"RC response, not ESP32 boot/brownout emulation"

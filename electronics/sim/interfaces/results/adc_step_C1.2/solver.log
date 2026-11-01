@@ -1,0 +1,21 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: cat feeder interface study: adc_step_c1.2
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+bus                                          0
+adc                                          0
+vbus#branch                                  0
+
+
+No. of Data Rows : 4033
+ngspice-39 done

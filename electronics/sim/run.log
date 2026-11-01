@@ -1,0 +1,173 @@
+test_adc_divider_resistors_swapped (test_electrical.ElectricalMutationTests.test_adc_divider_resistors_swapped) ... ok
+test_adc_filter_disconnected (test_electrical.ElectricalMutationTests.test_adc_filter_disconnected) ... ok
+test_boot_reset_capacitor_wrong_value (test_electrical.ElectricalMutationTests.test_boot_reset_capacitor_wrong_value) ... ok
+test_carrier_default_bias_too_weak_against_external_pullup (test_electrical.ElectricalMutationTests.test_carrier_default_bias_too_weak_against_external_pullup) ... ok
+test_carrier_power_row_reversed (test_electrical.ElectricalMutationTests.test_carrier_power_row_reversed) ... ok
+test_carrier_sleep_disconnected (test_electrical.ElectricalMutationTests.test_carrier_sleep_disconnected) ... ok
+test_critical_gpio_moved_to_flash_voltage_boot_strap (test_electrical.ElectricalMutationTests.test_critical_gpio_moved_to_flash_voltage_boot_strap) ... ok
+test_disconnected_esp_supply (test_electrical.ElectricalMutationTests.test_disconnected_esp_supply) ... ok
+test_dps_external_tx_bias_changed_to_backfeeding_pullup (test_electrical.ElectricalMutationTests.test_dps_external_tx_bias_changed_to_backfeeding_pullup) ... ok
+test_duplicate_onewire_pullup (test_electrical.ElectricalMutationTests.test_duplicate_onewire_pullup) ... ok
+test_index_home_swapped_at_mcu (test_electrical.ElectricalMutationTests.test_index_home_swapped_at_mcu) ... ok
+test_j9_rx_tx_crossed (test_electrical.ElectricalMutationTests.test_j9_rx_tx_crossed) ... ok
+test_ldo_output_pin_miswired_to_five_volts (test_electrical.ElectricalMutationTests.test_ldo_output_pin_miswired_to_five_volts) ... ok
+test_missing_fan_base_pulldown (test_electrical.ElectricalMutationTests.test_missing_fan_base_pulldown) ... ok
+test_missing_tec_default_low_bias (test_electrical.ElectricalMutationTests.test_missing_tec_default_low_bias) ... ok
+test_motor_bulk_capacitor_reversed (test_electrical.ElectricalMutationTests.test_motor_bulk_capacitor_reversed) ... ok
+test_motor_coils_mixed (test_electrical.ElectricalMutationTests.test_motor_coils_mixed) ... ok
+test_onewire_pullup_to_five_volts (test_electrical.ElectricalMutationTests.test_onewire_pullup_to_five_volts) ... ok
+test_second_temperature_probe_on_wrong_bus (test_electrical.ElectricalMutationTests.test_second_temperature_probe_on_wrong_bus) ... ok
+test_swapped_bjt_collector_emitter (test_electrical.ElectricalMutationTests.test_swapped_bjt_collector_emitter) ... ok
+test_swapped_five_and_twelve_volt_rail_header (test_electrical.ElectricalMutationTests.test_swapped_five_and_twelve_volt_rail_header) ... ok
+test_tach_pullup_to_twelve_volts (test_electrical.ElectricalMutationTests.test_tach_pullup_to_twelve_volts) ... ok
+test_tec_request_connected_to_motor_power (test_electrical.ElectricalMutationTests.test_tec_request_connected_to_motor_power) ... ok
+test_uart_bias_removal_regresses_original_review_defect (test_electrical.ElectricalMutationTests.test_uart_bias_removal_regresses_original_review_defect) ... ok
+test_uart_fault_current_resistor_wrong_decade (test_electrical.ElectricalMutationTests.test_uart_fault_current_resistor_wrong_decade) ... ok
+test_uart_oe_grounded_instead_of_reset_disabled (test_electrical.ElectricalMutationTests.test_uart_oe_grounded_instead_of_reset_disabled) ... ok
+test_wrong_fan_base_resistor (test_electrical.ElectricalMutationTests.test_wrong_fan_base_resistor) ... ok
+test_adc1_divider_voltage_and_rc_from_real_component_values (test_electrical.ElectricalRequirements.test_adc1_divider_voltage_and_rc_from_real_component_values) ... ok
+test_boot_reset_nc_straps_and_programming (test_electrical.ElectricalRequirements.test_boot_reset_nc_straps_and_programming) ... ok
+test_carrier_pin_rows_coils_reset_sleep_and_bulk_polarity (test_electrical.ElectricalRequirements.test_carrier_pin_rows_coils_reset_sleep_and_bulk_polarity) ... ok
+test_dps_uart_direction_oe_and_both_data_input_biases (test_electrical.ElectricalRequirements.test_dps_uart_direction_oe_and_both_data_input_biases) ... ok
+test_fan_bec_pinmap_base_bias_tach_and_reset_release_topology (test_electrical.ElectricalRequirements.test_fan_bec_pinmap_base_bias_tach_and_reset_release_topology) ... ok
+test_separate_power_domains_and_ldo_pinout (test_electrical.ElectricalRequirements.test_separate_power_domains_and_ldo_pinout) ... ok
+test_shared_powered_onewire_independent_position_and_i2c_inputs (test_electrical.ElectricalRequirements.test_shared_powered_onewire_independent_position_and_i2c_inputs) ... ok
+test_signal_net_renaming_does_not_change_requirements (test_electrical.ElectricalRequirements.test_signal_net_renaming_does_not_change_requirements) ... ok
+test_tec_connector_is_default_low_logic_only (test_electrical.ElectricalRequirements.test_tec_connector_is_default_low_logic_only) ... ok
+test_actual_carrier_rows_not_mirrored_and_have_correct_pitch (test_electrical.ReviewedArtifacts.test_actual_carrier_rows_not_mirrored_and_have_correct_pitch) ... ok
+test_actual_pcb_pads_match_all_xml_nodes_including_nc (test_electrical.ReviewedArtifacts.test_actual_pcb_pads_match_all_xml_nodes_including_nc) ... ok
+test_complete_reviewed_hash_manifest_and_source_files (test_electrical.ReviewedArtifacts.test_complete_reviewed_hash_manifest_and_source_files) ... ok
+test_connectivity_and_bom_agree_with_export_not_used_as_electrical_oracle (test_electrical.ReviewedArtifacts.test_connectivity_and_bom_agree_with_export_not_used_as_electrical_oracle) ... ok
+test_provenance_rejects_altered_schematic_pcb_xml_and_manifest (test_electrical.ReviewedArtifacts.test_provenance_rejects_altered_schematic_pcb_xml_and_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.204s
+
+OK
+PASS: all solver runs, finite-output checks and analytic oracles passed
+CONDITIONAL: assumed cable/loading/power-order corners include failures; no hardware qualification
+Cases: {'bus': 16, 'adc': 14, 'bias_uart': 13, 'fan': 24}
+test_changed_divider_120k_uses_real_ngspice (__main__.InterfaceIntegrityTests.test_changed_divider_120k_uses_real_ngspice) ... ok
+test_complete_run_returns_and_prints_report_case_counts (__main__.InterfaceIntegrityTests.test_complete_run_returns_and_prints_report_case_counts) ... ok
+test_completed_baseline_criteria_and_margins (__main__.InterfaceIntegrityTests.test_completed_baseline_criteria_and_margins) ... ok
+test_criterion_counts_preserve_overlapping_failures (__main__.InterfaceIntegrityTests.test_criterion_counts_preserve_overlapping_failures) ... ok
+test_keyboard_interrupt_invalidates_previous_pass (__main__.InterfaceIntegrityTests.test_keyboard_interrupt_invalidates_previous_pass) ... ok
+test_malformed_and_nonfinite_solver_data_rejected (__main__.InterfaceIntegrityTests.test_malformed_and_nonfinite_solver_data_rejected) ... ok
+test_nonmonotonic_transients_rejected (__main__.InterfaceIntegrityTests.test_nonmonotonic_transients_rejected) ... ok
+test_plotter_rejects_incomplete_reports (__main__.InterfaceIntegrityTests.test_plotter_rejects_incomplete_reports) ... ok
+test_report_replacement_is_atomic (__main__.InterfaceIntegrityTests.test_report_replacement_is_atomic) ... ok
+test_running_is_published_before_input_validation (__main__.InterfaceIntegrityTests.test_running_is_published_before_input_validation) ... ok
+test_sigkill_leaves_running_not_old_pass (__main__.InterfaceIntegrityTests.test_sigkill_leaves_running_not_old_pass) ... ok
+test_solver_diagnostics_and_nonzero_exit_rejected (__main__.InterfaceIntegrityTests.test_solver_diagnostics_and_nonzero_exit_rejected) ... ok
+test_stale_solver_waveform_cannot_be_reused (__main__.InterfaceIntegrityTests.test_stale_solver_waveform_cannot_be_reused) ... ok
+test_timeout_invalidates_previous_pass (__main__.InterfaceIntegrityTests.test_timeout_invalidates_previous_pass) ... ok
+test_truncated_transient_rejected (__main__.InterfaceIntegrityTests.test_truncated_transient_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.624s
+
+OK
+/results/waveforms.svg
+{
+  "run_id": "6361d4561cc946f29886a3debd9fb9d0",
+  "started_utc": "2026-10-24T16:28:28.173945+00:00",
+  "suite_execution": "PASS",
+  "run_state": "COMPLETE",
+  "stage": "complete",
+  "circuit_qualification": "CONDITIONAL",
+  "physical_tests": "NOT PERFORMED",
+  "tested_envelope": "FAIL",
+  "thermal_cases": 36,
+  "thermal_target_failures": 18,
+  "vmot_cases": 162,
+  "vmot_35V_failures": 17,
+  "ldo_behavioral_cases": 144,
+  "ldo_behavioral_rail_failures": 97,
+  "simulated_transients": 308,
+  "worst_thermal": {
+    "vin_V": 5.25,
+    "ambient_C": 50.0,
+    "load_A": 0.5,
+    "dissipation_W": 0.9754200000000001,
+    "estimated_Tj_C": 229.47728,
+    "margin_to_125C": -104.47728000000001,
+    "criterion": "FAIL"
+  },
+  "worst_vmot": {
+    "case": "vmot_099",
+    "vin_V": 24.0,
+    "C10_F": 8e-05,
+    "lead_H": 1e-05,
+    "wire_ohm": 0.02,
+    "esr_ohm": 0.03,
+    "peak_vmot_V": 43.27801282648,
+    "peak_current_A": 61.03452923088,
+    "oracle_max_error_V": 0.0005199190736675519,
+    "margin_to_35V": -8.278012826480001,
+    "criterion": "FAIL"
+  },
+  "worst_behavioral_droop": {
+    "case": "ldo_009",
+    "vin_V": 4.75,
+    "source_ohm": 0.1,
+    "cap_factor": 0.3,
+    "control_lag_s": 0.0001,
+    "current_limit_A": 0.6,
+    "load_low_A": 0.1,
+    "load_high_A": 0.7,
+    "min_3V3_V": 0.2075847083683,
+    "max_3V3_V": 4.689991997186,
+    "min_5V_pin_V": 4.690634488528,
+    "peak_source_A": 0.5936551147246,
+    "criterion": "FAIL",
+    "interpretation": "assumed-model envelope, not AP2112 prediction"
+  },
+  "worst_thermal_current_limit": {
+    "vin_V": 5.25,
+    "ambient_C": 50.0,
+    "target_Tj_C": 125,
+    "theta_JA_C_per_W": 184.0,
+    "nominal_vout_limit_A": 0.20881471571906352,
+    "low_output_sensitivity_limit_A": 0.20364525914087214,
+    "criterion": "CONDITIONAL"
+  },
+  "max_rlc_oracle_error_V": 0.0023665702802606603,
+  "independent_oracles": {
+    "lossless_LC": {
+      "peak_V": 47.99999460554,
+      "expected_peak_V": 48,
+      "peak_time_s": 0.0001093676036978,
+      "expected_peak_time_s": 0.000109346382657961
+    },
+    "charge_conservation": {
+      "final_V": 3.103931274557,
+      "analytic_final_V": 3.1039313725490194
+    }
+  },
+  "note": "FAIL rows are real criterion failures under stated assumptions; suite PASS only certifies execution and numerical checks.",
+  "finished_utc": "2026-10-24T16:28:51.578976+00:00"
+}
+Power suite FAIL: 
+Power suite FAIL: intentional late publication failure
+Power suite FAIL: intentional late publication failure
+Power suite FAIL: intentional schema failure
+test_atomic_publication_error_preserves_running_json (__main__.PowerIntegrityTests.test_atomic_publication_error_preserves_running_json) ... ok
+test_hard_interrupt_before_final_publication_leaves_new_running (__main__.PowerIntegrityTests.test_hard_interrupt_before_final_publication_leaves_new_running) ... ok
+test_invalid_spice_is_not_suite_pass (__main__.PowerIntegrityTests.test_invalid_spice_is_not_suite_pass) ... ok
+test_keyboard_interrupt_invalidates_previous_pass (__main__.PowerIntegrityTests.test_keyboard_interrupt_invalidates_previous_pass) ... ok
+test_late_publication_failure_after_real_results (__main__.PowerIntegrityTests.test_late_publication_failure_after_real_results) ... ok
+test_lossless_closed_form_at_quarter_and_half_period (__main__.PowerIntegrityTests.test_lossless_closed_form_at_quarter_and_half_period) ... ok
+test_overdamped_and_critical_oracle (__main__.PowerIntegrityTests.test_overdamped_and_critical_oracle) ... ok
+test_retained_solver_rejects_zero_exit_bad_or_stale_waveforms (__main__.PowerIntegrityTests.test_retained_solver_rejects_zero_exit_bad_or_stale_waveforms) ... ok
+test_retained_waveform_must_match_first_solve_extrema (__main__.PowerIntegrityTests.test_retained_waveform_must_match_first_solve_extrema) ... ok
+test_reviewed_netlist_and_negative_mutants (__main__.PowerIntegrityTests.test_reviewed_netlist_and_negative_mutants) ... ok
+test_top_level_failure_returns_nonzero_and_fail_json (__main__.PowerIntegrityTests.test_top_level_failure_returns_nonzero_and_fail_json) ... ok
+test_unwritable_failure_report_still_returns_nonzero (__main__.PowerIntegrityTests.test_unwritable_failure_report_still_returns_nonzero) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 73.645s
+
+OK
+
+Cannot publish failure status: intentional unwritable output
+Power suite FAIL: intentional unwritable output

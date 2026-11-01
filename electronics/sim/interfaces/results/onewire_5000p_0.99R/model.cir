@@ -1,0 +1,19 @@
+Cat feeder interface study: onewire_5000p_0.99R
+Vrail rail 0 3.3
+Rpull rail bus 4653.0
+Cwire bus 0 5e-09
+Vgate gate 0 PULSE(1 0 2u 1n 1n 100u 200u)
+Ssink bus 0 gate 0 SINK
+.model SINK SW(Ron=20 Roff=1e12 Vt=0.5 Vh=0)
+
+.options reltol=1e-5 abstol=1e-12 vntol=1e-7
+.control
+set noaskquit
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 2e-08 8e-05 0 2e-08
+wrdata wave.dat v(bus)
+quit
+.endc
+.end

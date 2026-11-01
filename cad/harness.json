@@ -1,0 +1,1645 @@
+{
+ "about": "Plenum harness routes (D34 cards, D35 plenum). Points are [frame angle, x, y, z]: x radial and y tangential (CCW) in a frame rotated by the angle; bay frames are 45/135/225/315, site frames 0/90/180/270. Ports come from OpenSCAD (part=harness_ports). scripts/harness.py fillets every corner at the cable's minimum bend radius and checks it; OpenSCAD checks the swept tubes against all solids. Model lengths, not a measured loom.",
+ "device_straight": {
+  "tec0": 2,
+  "tec90": 2,
+  "tec180": 2,
+  "tec270": 2,
+  "T0": 1,
+  "T90": 1,
+  "T180": 1,
+  "T270": 1,
+  "P_sink": 3,
+  "P_room": 3,
+  "P_food": 2,
+  "P_chamber": 2,
+  "blower": 1,
+  "hall": 1,
+  "reed": 1,
+  "panel": 1,
+  "leak": 2,
+  "motor": 3,
+  "fan": 1,
+  "brick": 5,
+  "dps:IN": 4,
+  "dps:OUT": 4,
+  "dps:COM": 4
+ },
+ "junctions": {
+  "JT1": [
+   315,
+   49.5,
+   -7.5,
+   64
+  ],
+  "JT2": [
+   135,
+   49.5,
+   7.5,
+   64
+  ],
+  "YA": [
+   225,
+   26,
+   -2,
+   63
+  ],
+  "YB": [
+   225,
+   113,
+   -14,
+   73
+  ]
+ },
+ "inline": [
+  {
+   "name": "BLOWER_IL",
+   "a": [
+    225,
+    108.2,
+    39.8,
+    76
+   ],
+   "b": [
+    225,
+    99.9,
+    23.4,
+    76
+   ],
+   "d": 7.5,
+   "desc": "Blower inline connector under the deck (JST SM 3-way class)"
+  },
+  {
+   "name": "CHAMBER_IL",
+   "a": [
+    45,
+    50.7,
+    15.7,
+    63
+   ],
+   "b": [
+    45,
+    32.7,
+    15.7,
+    63
+   ],
+   "d": 7.5,
+   "desc": "Chamber-air probe inline connector under the deck (JST SM 3-way class)"
+  },
+  {
+   "name": "FOOD_IL",
+   "a": [
+    315,
+    53,
+    -12.5,
+    63
+   ],
+   "b": [
+    315,
+    35,
+    -12.5,
+    63
+   ],
+   "d": 7.5,
+   "desc": "Near-serving probe inline connector under the deck (JST SM 3-way class)"
+  },
+  {
+   "name": "JT1",
+   "a": [
+    315,
+    52,
+    -7.5,
+    64
+   ],
+   "b": [
+    315,
+    47,
+    -7.5,
+    64
+   ],
+   "d": 11,
+   "desc": "TEC string 1: two Molex Mini-Fit Jr 2-way wire-to-wire pairs (39-01-2020 receptacle + 39-01-3023 plug) and the series link"
+  },
+  {
+   "name": "JT2",
+   "a": [
+    135,
+    52,
+    7.5,
+    64
+   ],
+   "b": [
+    135,
+    47,
+    7.5,
+    64
+   ],
+   "d": 11,
+   "desc": "TEC string 2: two Molex Mini-Fit Jr 2-way wire-to-wire pairs and the series link"
+  }
+ ],
+ "cables": [
+  {
+   "id": "W01",
+   "name": "ctrl-pwr link",
+   "from": "port:d34-ctrl:J1",
+   "to": "port:d34-pwr:J9",
+   "from_desc": "ctrl J1 JST XHP-11",
+   "to_desc": "pwr J9 JST XHP-11",
+   "conductors": 11,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "red",
+    "red",
+    "black",
+    "black",
+    "orange",
+    "white",
+    "grey",
+    "violet",
+    "yellow",
+    "blue",
+    "green"
+   ],
+   "colour": "Orange",
+   "service": "unplug both ends in place",
+   "via": [
+    {
+     "slot": 45,
+     "y": -6.5,
+     "z": 64.5,
+     "dir": "in"
+    },
+    {
+     "slot": 225,
+     "y": 6.5,
+     "z": 64.5,
+     "dir": "out"
+    }
+   ],
+   "precrimp": {
+    "part": "loose JST SXH-001T-P0.6 contacts, hand-crimped (Engineer PA-09)",
+    "len": 0,
+    "mode": "none",
+    "source": "hand-crimped"
+   },
+   "loose": true,
+   "note": "built from individual pre-crimped leads: tie only on straight runs"
+  },
+  {
+   "id": "W02",
+   "name": "ctrl-tec link",
+   "from": "port:d34-ctrl:J2",
+   "to": "port:d34-tec:J9",
+   "from_desc": "ctrl J2 JST XHP-12",
+   "to_desc": "tec J9 JST XHP-12",
+   "conductors": 12,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black x4",
+    "white",
+    "grey",
+    "violet",
+    "blue",
+    "green",
+    "yellow",
+    "brown",
+    "orange"
+   ],
+   "colour": "Gold",
+   "service": "unplug both ends in place",
+   "via": [
+    {
+     "p": [
+      45,
+      111,
+      -33,
+      80
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      45,
+      104,
+      -14,
+      79
+     ],
+     "fix": true
+    },
+    {
+     "slot": 45,
+     "y": -6.5,
+     "z": 68.5,
+     "dir": "in"
+    },
+    [
+     0,
+     48,
+     0,
+     68.5
+    ],
+    {
+     "slot": 315,
+     "y": 6.5,
+     "z": 68.5,
+     "dir": "out"
+    }
+   ],
+   "precrimp": {
+    "part": "loose JST SXH-001T-P0.6 contacts, hand-crimped (Engineer PA-09): the 300 mm pre-crimped lead is 10 mm short after the PR 614 change",
+    "len": 0,
+    "mode": "none",
+    "source": "hand-crimped"
+   },
+   "loose": true,
+   "note": "built from individual pre-crimped leads: tie only on straight runs",
+   "tol": 8
+  },
+  {
+   "id": "W03",
+   "name": "12 V pwr to tec",
+   "from": "port:d34-pwr:J3",
+   "to": "port:d34-tec:J1",
+   "from_desc": "pwr J3 JST VHR-3N",
+   "to_desc": "tec J1 JST VHR-3N",
+   "conductors": 3,
+   "awg": 20,
+   "insulation": "silicone",
+   "colours": [
+    "red",
+    "black",
+    "red"
+   ],
+   "colour": "Red",
+   "service": "unplug both ends in place",
+   "via": [
+    {
+     "slot": 225,
+     "y": 6.85,
+     "z": 62,
+     "dir": "in"
+    },
+    [
+     270,
+     48,
+     0,
+     62
+    ],
+    {
+     "slot": 315,
+     "y": 6.85,
+     "z": 62,
+     "dir": "out"
+    }
+   ],
+   "loose": true,
+   "precrimp": {
+    "part": "JST 01SVHSVH-20L-300 (300 mm, contact both ends)",
+    "len": 300,
+    "mode": "both",
+    "source": "pre-crimped"
+   }
+  },
+  {
+   "id": "W04",
+   "name": "DPS input",
+   "from": "port:d34-pwr:J2",
+   "to": "port:dps:IN",
+   "from_desc": "pwr J2 Phoenix MSTB 2,5/2-ST-5,08",
+   "to_desc": "DPS5005 IN+/IN- screw terminals (ferrules)",
+   "conductors": 2,
+   "awg": 18,
+   "insulation": "silicone",
+   "loose": true,
+   "colours": [
+    "red",
+    "black"
+   ],
+   "colour": "DarkRed",
+   "service": "unplug at pwr; unscrew at DPS (electrical terminals, D22)",
+   "service_slack": 30,
+   "via": [
+    {
+     "p": [
+      225,
+      115.4,
+      6,
+      79
+     ],
+     "fix": true
+    },
+    {
+     "slot": 225,
+     "y": -6.5,
+     "z": 80,
+     "dir": "in"
+    },
+    [
+     180,
+     50,
+     0,
+     80
+    ],
+    {
+     "slot": 135,
+     "y": 6.5,
+     "z": 80,
+     "dir": "out",
+     "bay": 84
+    }
+   ],
+   "precrimp": {
+    "part": "Phoenix MSTB 2,5/2-ST-5,08 screw plug + 18 AWG silicone (no crimp)",
+    "len": 0,
+    "mode": "none",
+    "source": "made to length (soldered/screw)"
+   }
+  },
+  {
+   "id": "W05",
+   "name": "DPS output to relays",
+   "from": "port:dps:OUT",
+   "to": "port:d34-tec:J2",
+   "from_desc": "DPS5005 OUT+/OUT- screw terminals",
+   "to_desc": "tec J2 Mini-Fit 6 (pins 1 and 4 only)",
+   "conductors": 2,
+   "awg": 18,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "red",
+    "black"
+   ],
+   "colour": "Firebrick",
+   "service": "unplug at tec; unscrew at DPS",
+   "service_slack": 30,
+   "via": [
+    {
+     "slot": 135,
+     "y": 8.5,
+     "z": 64,
+     "dir": "in",
+     "bay": 86
+    },
+    {
+     "slot": 315,
+     "y": 8.5,
+     "z": 64,
+     "dir": "out",
+     "bay": 84
+    }
+   ],
+   "precrimp": {
+    "part": "Molex 215341-1115 (450 mm, 18 AWG, one end crimped); fallback 225 mm + soldered extension",
+    "len": 450,
+    "mode": "one-end",
+    "source": "pre-crimped"
+   }
+  },
+  {
+   "id": "W06",
+   "name": "TEC feed to JT1",
+   "from": "port:d34-tec:J3",
+   "to": "junction:JT1",
+   "from_desc": "tec J3 Molex 39-01-2040 Mini-Fit 4",
+   "to_desc": "JT1: Mini-Fit 2-way receptacles (39-01-2020); pins 3-4 continue as W07",
+   "conductors": 4,
+   "awg": 18,
+   "insulation": "pvc",
+   "colours": [
+    "red",
+    "black",
+    "orange",
+    "blue"
+   ],
+   "colour": "Crimson",
+   "service": "unplug at tec and JT1",
+   "via": [
+    {
+     "slot": 315,
+     "y": -7.75,
+     "z": 63,
+     "dir": "in",
+     "bay": 84
+    }
+   ],
+   "loose": true,
+   "precrimp": {
+    "part": "Molex 215341-1113 (225 mm, 18 AWG, one end crimped)",
+    "len": 225,
+    "mode": "one-end",
+    "source": "pre-crimped"
+   }
+  },
+  {
+   "id": "W07",
+   "name": "TEC string 2 JT1-JT2",
+   "from": "junction:JT1",
+   "to": "junction:JT2",
+   "from_desc": "JT1 (pass-through of tec J3 pins 3-4)",
+   "to_desc": "JT2: Mini-Fit 2-way receptacles (continuation of tec J3 pins 3-4)",
+   "conductors": 2,
+   "awg": 18,
+   "insulation": "pvc",
+   "colours": [
+    "orange",
+    "blue"
+   ],
+   "colour": "Crimson",
+   "service": "unplug at JT2",
+   "via": [],
+   "loose": true,
+   "precrimp": {
+    "part": "Molex 215341-1113 (225 mm, 18 AWG, one end crimped)",
+    "len": 225,
+    "mode": "one-end",
+    "with_": [
+     "W06"
+    ],
+    "source": "pre-crimped"
+   }
+  },
+  {
+   "id": "W08",
+   "name": "TEC270 pigtail",
+   "from": "port:tec270",
+   "to": "junction:JT1",
+   "from_desc": "TEC270 ADV-127 leads (350 mm)",
+   "to_desc": "Mini-Fit 2-way plug (39-01-3023), pin contacts from 226197-3114",
+   "conductors": 2,
+   "awg": 20,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "red",
+    "black"
+   ],
+   "deck_groove": true,
+   "hot_margin": 0.0,
+   "colour": "IndianRed",
+   "service": "unplug at JT1; leads lie in the deck groove",
+   "note": "ADV-127-135200-S factory leads 350 mm AWG20 PVC 105 C: trim to length",
+   "max_route": 340,
+   "via": [
+    {
+     "p": [
+      270,
+      36,
+      12,
+      85.7
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      270,
+      36,
+      12,
+      70
+     ],
+     "fix": true
+    }
+   ],
+   "tol": 0,
+   "precrimp": {
+    "part": "device leads 350 mm + pin contact from Molex 226197-3114 (cut in half)",
+    "len": 340,
+    "mode": "device",
+    "source": "device lead + crimp"
+   }
+  },
+  {
+   "id": "W09",
+   "name": "TEC0 pigtail",
+   "from": "port:tec0",
+   "to": "junction:JT1",
+   "from_desc": "TEC0 ADV-127 leads (350 mm)",
+   "to_desc": "Mini-Fit 2-way plug (39-01-3023), pin contacts from 226197-3114",
+   "conductors": 2,
+   "awg": 20,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "red",
+    "black"
+   ],
+   "deck_groove": true,
+   "hot_margin": 0.0,
+   "colour": "IndianRed",
+   "service": "unplug at JT1",
+   "max_route": 340,
+   "via": [
+    {
+     "p": [
+      0,
+      36,
+      -12,
+      85.7
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      0,
+      36,
+      -12,
+      70
+     ],
+     "fix": true
+    }
+   ],
+   "tol": 0,
+   "note": "ADV-127-135200-S factory leads 350 mm AWG20 PVC 105 C: trim to length",
+   "precrimp": {
+    "part": "device leads 350 mm + pin contact from Molex 226197-3114 (cut in half)",
+    "len": 340,
+    "mode": "device",
+    "source": "device lead + crimp"
+   }
+  },
+  {
+   "id": "W10",
+   "name": "TEC90 pigtail",
+   "from": "port:tec90",
+   "to": "junction:JT2",
+   "from_desc": "TEC90 ADV-127 leads (350 mm)",
+   "to_desc": "Mini-Fit 2-way plug (39-01-3023), pin contacts from 226197-3114",
+   "conductors": 2,
+   "awg": 20,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "red",
+    "black"
+   ],
+   "deck_groove": true,
+   "hot_margin": 0.0,
+   "colour": "IndianRed",
+   "service": "unplug at JT2",
+   "max_route": 340,
+   "via": [
+    {
+     "p": [
+      90,
+      36,
+      12,
+      85.7
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      90,
+      36,
+      12,
+      70
+     ],
+     "fix": true
+    }
+   ],
+   "tol": 0,
+   "note": "ADV-127-135200-S factory leads 350 mm AWG20 PVC 105 C: trim to length",
+   "precrimp": {
+    "part": "device leads 350 mm + pin contact from Molex 226197-3114 (cut in half)",
+    "len": 340,
+    "mode": "device",
+    "source": "device lead + crimp"
+   }
+  },
+  {
+   "id": "W11",
+   "name": "TEC180 pigtail",
+   "from": "port:tec180",
+   "to": "junction:JT2",
+   "from_desc": "TEC180 ADV-127 leads (350 mm)",
+   "to_desc": "Mini-Fit 2-way plug (39-01-3023), pin contacts from 226197-3114",
+   "conductors": 2,
+   "awg": 20,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "red",
+    "black"
+   ],
+   "deck_groove": true,
+   "hot_margin": 0.0,
+   "colour": "IndianRed",
+   "service": "unplug at JT2",
+   "max_route": 340,
+   "via": [
+    {
+     "p": [
+      180,
+      36,
+      -12,
+      85.7
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      180,
+      36,
+      -12,
+      70
+     ],
+     "fix": true
+    }
+   ],
+   "tol": 0,
+   "note": "ADV-127-135200-S factory leads 350 mm AWG20 PVC 105 C: trim to length",
+   "precrimp": {
+    "part": "device leads 350 mm + pin contact from Molex 226197-3114 (cut in half)",
+    "len": 340,
+    "mode": "device",
+    "source": "device lead + crimp"
+   }
+  },
+  {
+   "id": "W12",
+   "name": "DPS UART",
+   "from": "port:dps:COM",
+   "to": "port:d34-ctrl:J11",
+   "from_desc": "DPS5005 comm header (type UNVERIFIED)",
+   "to_desc": "ctrl J11 JST XHP-4",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black",
+    "yellow",
+    "green"
+   ],
+   "colour": "Purple",
+   "service": "unplug both ends",
+   "service_slack": 30,
+   "via": [
+    {
+     "slot": 135,
+     "y": -6,
+     "z": 79.5,
+     "dir": "in",
+     "bay": 84
+    },
+    [
+     90,
+     50,
+     0,
+     79.5
+    ],
+    {
+     "slot": 45,
+     "y": 6,
+     "z": 79.5,
+     "dir": "out"
+    }
+   ],
+   "precrimp": {
+    "part": "JST 01SXHSXH-26L300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   }
+  },
+  {
+   "id": "W13",
+   "name": "stepper",
+   "from": "port:motor",
+   "to": "port:d34-pwr:J8",
+   "from_desc": "17HS08 motor connector (JST PH-6 class, cable assembly)",
+   "to_desc": "pwr J8 JST VHR-4N",
+   "conductors": 4,
+   "awg": 26,
+   "insulation": "pvc",
+   "colours": [
+    "black",
+    "green",
+    "red",
+    "blue"
+   ],
+   "colour": "SteelBlue",
+   "service": "unplug at the motor to lift it out; unplug at pwr",
+   "service_slack": 20,
+   "via": [
+    [
+     225,
+     40,
+     30,
+     80
+    ],
+    {
+     "slot": 225,
+     "y": 6.5,
+     "z": 79.5,
+     "dir": "out"
+    }
+   ],
+   "loose": true,
+   "precrimp": {
+    "part": "JST 01SVHSVH-20L-300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   }
+  },
+  {
+   "id": "W14",
+   "name": "hot-side fan",
+   "from": "port:fan",
+   "to": "port:d34-tec:J5",
+   "from_desc": "NF-A12x25 lead (+ NA-EC1 extension if short)",
+   "to_desc": "tec J5 4-pin fan header (switched DC, no PWM)",
+   "conductors": 4,
+   "awg": 24,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "black",
+    "yellow",
+    "green",
+    "blue"
+   ],
+   "colour": "DimGray",
+   "service": "unplug at tec; fan lifts out with its lead",
+   "via": [
+    {
+     "p": [
+      315,
+      74,
+      0,
+      62
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      315,
+      80,
+      -6.5,
+      64
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      315,
+      97,
+      -6.5,
+      64
+     ],
+     "fix": true
+    }
+   ],
+   "precrimp": {
+    "part": "NF-A12x25 own lead (~200 mm; NA-SEC extension in the box)",
+    "len": 200,
+    "mode": "device",
+    "source": "device lead"
+   }
+  },
+  {
+   "id": "W15",
+   "name": "blower deck pigtail",
+   "from": "port:blower",
+   "to": "inline:BLOWER_IL:a",
+   "zone": "cold",
+   "from_desc": "RS PRO ODB5115-12HB blower wire leads",
+   "to_desc": "JST SM 3-way plug (SMP-03V-BC)",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "red",
+    "black",
+    "yellow"
+   ],
+   "colour": "Black",
+   "service": "stays with the deck quarter; bore sealed with silicone",
+   "via": [
+    [
+     225,
+     114.5,
+     52.3,
+     105
+    ],
+    [
+     225,
+     114.5,
+     52.3,
+     76
+    ]
+   ],
+   "tol": 0,
+   "precrimp": {
+    "part": "blower wire leads (length UNVERIFIED) + Adafruit 1663 SM pigtail",
+    "len": 0,
+    "mode": "none",
+    "source": "made to length (soldered/screw)"
+   }
+  },
+  {
+   "id": "W16",
+   "name": "blower harness",
+   "from": "inline:BLOWER_IL:b",
+   "to": "port:d34-tec:J6",
+   "from_desc": "Adafruit 1663 JST SM 3-way receptacle lead (163 mm, 22 AWG)",
+   "to_desc": "tec J6 fan header (switched DC, no PWM)",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "red",
+    "black",
+    "yellow"
+   ],
+   "colour": "DarkSlateGray",
+   "service": "unplug at tec; loop lets the deck quarter lift",
+   "service_slack": 80,
+   "via": [
+    {
+     "p": [
+      225,
+      88,
+      6,
+      80
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      225,
+      66,
+      6,
+      80
+     ],
+     "fix": true
+    },
+    [
+     270,
+     50,
+     0,
+     80
+    ],
+    {
+     "slot": 315,
+     "y": -6,
+     "z": 80,
+     "dir": "out"
+    }
+   ],
+   "precrimp": {
+    "part": "Noctua NA-EC1 300 mm extension (female into tec J6) + one solder junction to the Adafruit 1663 SM pigtail (163 mm)",
+    "len": 463,
+    "mode": "one-end",
+    "source": "spliced"
+   }
+  },
+  {
+   "id": "W17",
+   "name": "chamber probe tail",
+   "from": "port:P_chamber",
+   "to": "inline:CHAMBER_IL:a",
+   "zone": "cold",
+   "from_desc": "DFRobot SEN0511 SMD probe cable (1 m, cut)",
+   "to_desc": "JST SM 3-way plug",
+   "sheath_od": 3.5,
+   "conductors": 3,
+   "cores": 3,
+   "awg": 28,
+   "insulation": "pvc",
+   "colours": [
+    "red",
+    "black",
+    "yellow"
+   ],
+   "colour": "Cyan",
+   "service": "stays with the deck quarter; bore sealed with silicone",
+   "via": [
+    {
+     "p": [
+      45,
+      68.2,
+      15.7,
+      63
+     ],
+     "fix": true
+    }
+   ],
+   "tol": 0,
+   "precrimp": {
+    "part": "probe cable 1000 mm + Adafruit 1663 SM pigtail",
+    "len": 1000,
+    "mode": "device",
+    "source": "device lead"
+   }
+  },
+  {
+   "id": "W18",
+   "name": "chamber probe harness",
+   "from": "inline:CHAMBER_IL:b",
+   "to": "junction:YA",
+   "from_desc": "JST SM 3-way receptacle",
+   "to_desc": "Y-splice YA (bus A), soldered + heat-shrink",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "colour": "DarkCyan",
+   "service": "unplug at pwr; loop lets the deck quarter lift",
+   "service_slack": 80,
+   "via": [],
+   "precrimp": {
+    "part": "Adafruit 1663 JST SM receptacle lead (163 mm) to the Y-splice",
+    "len": 163,
+    "mode": "half",
+    "source": "pre-crimped"
+   }
+  },
+  {
+   "id": "W19",
+   "name": "near-serving probe tail",
+   "from": "port:P_food",
+   "to": "inline:FOOD_IL:a",
+   "zone": "cold",
+   "from_desc": "DFRobot SEN0511 SMD probe cable (1 m, cut)",
+   "to_desc": "JST SM 3-way plug",
+   "sheath_od": 3.5,
+   "conductors": 3,
+   "cores": 3,
+   "awg": 28,
+   "insulation": "pvc",
+   "colours": [
+    "red",
+    "black",
+    "yellow"
+   ],
+   "colour": "Cyan",
+   "service": "stays with the deck quarter; bore sealed with silicone",
+   "via": [
+    [
+     315,
+     70.9,
+     -12.5,
+     63
+    ]
+   ],
+   "tol": 0,
+   "precrimp": {
+    "part": "probe cable 1000 mm + Adafruit 1663 SM pigtail",
+    "len": 1000,
+    "mode": "device",
+    "source": "device lead"
+   }
+  },
+  {
+   "id": "W20",
+   "name": "near-serving probe harness",
+   "from": "inline:FOOD_IL:b",
+   "to": "junction:YA",
+   "from_desc": "JST SM 3-way receptacle",
+   "to_desc": "Y-splice YA (bus A), soldered + heat-shrink",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "colour": "DarkCyan",
+   "service": "unplug at pwr; loop lets the deck quarter lift",
+   "service_slack": 80,
+   "via": [],
+   "precrimp": {
+    "part": "Adafruit 1663 JST SM receptacle lead (163 mm) to the Y-splice",
+    "len": 163,
+    "mode": "half",
+    "source": "pre-crimped"
+   }
+  },
+  {
+   "id": "W21",
+   "name": "hot-sink probe",
+   "from": "port:P_sink",
+   "to": "junction:YB",
+   "from_desc": "DS18B20 TO-92 on the T90 clip (soldered to the leads, heat-shrunk)",
+   "to_desc": "Y-splice YB (bus B), soldered + heat-shrink",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "silicone",
+   "colours": [
+    "red",
+    "black",
+    "yellow"
+   ],
+   "colour": "Teal",
+   "service": "unplug at pwr; probe lifts out with the sink",
+   "via": [
+    {
+     "slot": 45,
+     "y": 6.5,
+     "z": 66,
+     "dir": "in",
+     "bay": 86
+    },
+    {
+     "slot": 225,
+     "y": -6.5,
+     "z": 66,
+     "dir": "out"
+    }
+   ],
+   "hot_margin": 0.0,
+   "tol": 6,
+   "loose": true,
+   "precrimp": {
+    "part": "26 AWG silicone to the TO-92, soldered both ends",
+    "len": 0,
+    "mode": "none",
+    "source": "made to length (soldered/screw)"
+   }
+  },
+  {
+   "id": "W22",
+   "name": "room-air probe",
+   "from": "port:P_room",
+   "to": "junction:YB",
+   "from_desc": "DFRobot SEN0511 SMD probe through the floor boss",
+   "to_desc": "Y-splice YB (bus B), soldered + heat-shrink",
+   "sheath_od": 3.0,
+   "conductors": 3,
+   "cores": 3,
+   "awg": 28,
+   "insulation": "pvc",
+   "colours": [
+    "red",
+    "black",
+    "yellow"
+   ],
+   "colour": "Teal",
+   "service": "unplug at pwr; probe lifts out of the boss",
+   "via": [
+    {
+     "p": [
+      225,
+      115,
+      -55.1,
+      76
+     ],
+     "fix": true
+    },
+    [
+     225,
+     114,
+     -30,
+     76
+    ]
+   ],
+   "tol": 5,
+   "precrimp": {
+    "part": "probe cable 1000 mm",
+    "len": 1000,
+    "mode": "device",
+    "source": "device lead"
+   }
+  },
+  {
+   "id": "W23",
+   "name": "thermostat loop: tec J4.1 to T270",
+   "from": "port:d34-tec:J4",
+   "to": "port:T270",
+   "from_desc": "tec J4 JST VHR-2N pin 1 (+12 V)",
+   "to_desc": "RS PRO T24A060ASF2-15 T270 6.3 mm flag receptacle",
+   "conductors": 1,
+   "awg": 22,
+   "insulation": "silicone",
+   "colours": [
+    "white"
+   ],
+   "hot_margin": 1.0,
+   "colour": "White",
+   "service": "pull flag receptacles off; unplug J4",
+   "via": [
+    [
+     315,
+     104,
+     -14,
+     66
+    ]
+   ],
+   "precrimp": {
+    "part": "JST 01SVHSVH-20L-300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   },
+   "tol": 8
+  },
+  {
+   "id": "W24",
+   "name": "thermostat loop: T270 to T0",
+   "from": "port:T270",
+   "to": "port:T0",
+   "from_desc": "RS PRO T24A060ASF2-15 T270 flag receptacle",
+   "to_desc": "RS PRO T24A060ASF2-15 T0 flag receptacle",
+   "conductors": 1,
+   "awg": 22,
+   "insulation": "silicone",
+   "colours": [
+    "white"
+   ],
+   "hot_margin": 1.0,
+   "colour": "White",
+   "service": "pull flag receptacles off",
+   "via": [
+    {
+     "slot": 315,
+     "y": -6.5,
+     "z": 61,
+     "dir": "in"
+    },
+    [
+     0,
+     48,
+     0,
+     61
+    ],
+    {
+     "slot": 45,
+     "y": -6.5,
+     "z": 61,
+     "dir": "out",
+     "bay": 83
+    }
+   ],
+   "precrimp": {
+    "part": "20 AWG silicone, TE 2-520129-2 flags crimped (ratchet crimper) or soldered both ends",
+    "len": 0,
+    "mode": "none",
+    "source": "made to length (soldered/screw)"
+   }
+  },
+  {
+   "id": "W25",
+   "name": "thermostat loop: T0 to T90",
+   "from": "port:T0",
+   "to": "port:T90",
+   "from_desc": "RS PRO T24A060ASF2-15 T0 flag receptacle",
+   "to_desc": "RS PRO T24A060ASF2-15 T90 flag receptacle",
+   "conductors": 1,
+   "awg": 22,
+   "insulation": "silicone",
+   "colours": [
+    "white"
+   ],
+   "hot_margin": 1.0,
+   "colour": "White",
+   "service": "pull flag receptacles off",
+   "via": [
+    [
+     45,
+     95,
+     0,
+     72
+    ]
+   ],
+   "precrimp": {
+    "part": "20 AWG silicone, TE 2-520129-2 flags crimped (ratchet crimper) or soldered both ends",
+    "len": 0,
+    "mode": "none",
+    "source": "made to length (soldered/screw)"
+   }
+  },
+  {
+   "id": "W26",
+   "name": "thermostat loop: T90 to T180",
+   "from": "port:T90",
+   "to": "port:T180",
+   "from_desc": "RS PRO T24A060ASF2-15 T90 flag receptacle",
+   "to_desc": "RS PRO T24A060ASF2-15 T180 flag receptacle",
+   "conductors": 1,
+   "awg": 22,
+   "insulation": "silicone",
+   "colours": [
+    "white"
+   ],
+   "hot_margin": 1.0,
+   "colour": "White",
+   "service": "pull flag receptacles off",
+   "via": [
+    {
+     "slot": 45,
+     "y": 6.5,
+     "z": 61,
+     "dir": "in",
+     "bay": 83
+    },
+    {
+     "slot": 225,
+     "y": -6.5,
+     "z": 61,
+     "dir": "out",
+     "bay": 83
+    }
+   ],
+   "precrimp": {
+    "part": "20 AWG silicone, TE 2-520129-2 flags crimped (ratchet crimper) or soldered both ends",
+    "len": 0,
+    "mode": "none",
+    "source": "made to length (soldered/screw)"
+   }
+  },
+  {
+   "id": "W27",
+   "name": "thermostat loop: T180 to tec J4.2",
+   "from": "port:T180",
+   "to": "port:d34-tec:J4",
+   "from_desc": "RS PRO T24A060ASF2-15 T180 flag receptacle",
+   "to_desc": "tec J4 JST VHR-2N pin 2 (return to K1)",
+   "conductors": 1,
+   "awg": 22,
+   "insulation": "silicone",
+   "colours": [
+    "white"
+   ],
+   "hot_margin": 1.0,
+   "colour": "White",
+   "service": "pull flag receptacle off; unplug J4",
+   "via": [
+    {
+     "p": [
+      225,
+      83,
+      -6.5,
+      61
+     ],
+     "fix": true
+    },
+    {
+     "slot": 225,
+     "y": 6.5,
+     "z": 61,
+     "dir": "in",
+     "bay": 83
+    },
+    [
+     270,
+     48,
+     0,
+     61
+    ],
+    {
+     "slot": 315,
+     "y": 6.5,
+     "z": 61,
+     "dir": "out"
+    }
+   ],
+   "precrimp": {
+    "part": "JST 01SVHSVH-20L-300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   }
+  },
+  {
+   "id": "W28",
+   "name": "lid reed switch",
+   "from": "port:reed",
+   "to": "port:d34-ctrl:J4",
+   "from_desc": "reed switch leads (sealed in the rim slot)",
+   "to_desc": "ctrl J4 JST XHP-4 SENSE (LID pins, shared with W30)",
+   "conductors": 2,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "white",
+    "black"
+   ],
+   "colour": "Pink",
+   "service": "unplug at ctrl; reed stays in the wall",
+   "extra_length": 0,
+   "via": [
+    {
+     "p": [
+      315,
+      129.5,
+      -61.8,
+      70
+     ],
+     "fix": true
+    },
+    [
+     315,
+     118,
+     -50,
+     82
+    ],
+    [
+     315,
+     112,
+     -22,
+     82
+    ],
+    {
+     "slot": 315,
+     "y": -3,
+     "z": 79.5,
+     "dir": "in"
+    },
+    [
+     0,
+     50,
+     0,
+     79.5
+    ],
+    {
+     "slot": 45,
+     "y": -3,
+     "z": 79.5,
+     "dir": "out"
+    },
+    [
+     45,
+     102,
+     22,
+     73
+    ]
+   ],
+   "loose": true,
+   "precrimp": {
+    "part": "loose JST SXH-001T-P0.6 contacts, hand-crimped (Engineer PA-09)",
+    "len": 0,
+    "mode": "none",
+    "source": "hand-crimped"
+   },
+   "tol": 0
+  },
+  {
+   "id": "W29",
+   "name": "panel LED + button",
+   "from": "port:panel",
+   "to": "port:d34-ctrl:J6",
+   "from_desc": "panel pod (5 mm LED, 6x6 tact switch)",
+   "to_desc": "ctrl J6 JST XHP-5",
+   "conductors": 5,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black",
+    "red",
+    "green",
+    "yellow",
+    "black"
+   ],
+   "colour": "HotPink",
+   "service": "unplug at ctrl; pod snaps out of the wall pocket",
+   "extra_length": 0,
+   "via": [
+    {
+     "p": [
+      315,
+      132.6,
+      -54.9,
+      72
+     ],
+     "fix": true
+    },
+    [
+     315,
+     102,
+     -36,
+     78
+    ],
+    {
+     "slot": 315,
+     "y": -6,
+     "z": 80.5,
+     "dir": "in"
+    },
+    [
+     0,
+     50,
+     0,
+     80.5
+    ],
+    {
+     "slot": 45,
+     "y": -6,
+     "z": 80.5,
+     "dir": "out"
+    }
+   ],
+   "loose": true,
+   "precrimp": {
+    "part": "loose JST SXH-001T-P0.6 contacts, hand-crimped (Engineer PA-09)",
+    "len": 0,
+    "mode": "none",
+    "source": "hand-crimped"
+   }
+  },
+  {
+   "id": "W30",
+   "name": "basin-full probe",
+   "from": "port:leak",
+   "to": "port:d34-ctrl:J4",
+   "from_desc": "two stainless pins in the basin 90 clip",
+   "to_desc": "ctrl J4 JST XHP-4 SENSE (LEAK pins, shared with W28)",
+   "conductors": 2,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "white",
+    "black"
+   ],
+   "basin_exempt": true,
+   "colour": "Blue",
+   "service": "unhook the clip before lifting the basin; unplug at ctrl",
+   "via": [
+    [
+     45,
+     123,
+     57,
+     50
+    ],
+    [
+     45,
+     115,
+     40,
+     68
+    ],
+    [
+     45,
+     104,
+     18,
+     68
+    ]
+   ],
+   "precrimp": {
+    "part": "JST 01SXHSXH-26L300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   }
+  },
+  {
+   "id": "W31",
+   "name": "home hall sensor",
+   "from": "port:hall",
+   "to": "port:d34-ctrl:J3",
+   "from_desc": "TI DRV5033AJQLPG TO-92 on the bridge post",
+   "to_desc": "ctrl J3 JST XHP-3",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "colour": "Lime",
+   "service": "unplug at ctrl; lifts out with the motor bridge",
+   "via": [
+    {
+     "p": [
+      45,
+      39.9,
+      4.6,
+      79.5
+     ],
+     "fix": true
+    },
+    {
+     "p": [
+      45,
+      97,
+      4.6,
+      79.5
+     ],
+     "fix": true
+    }
+   ],
+   "loose": true,
+   "precrimp": {
+    "part": "JST 01SXHSXH-26L300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   }
+  },
+  {
+   "id": "W32",
+   "name": "24 V inlet pigtail",
+   "from": "port:brick",
+   "to": "port:d34-pwr:J1",
+   "from_desc": "Kycon KPJX-PM-4S pins 1+4 (+24 V), 2+3 (0 V), soldered",
+   "to_desc": "pwr J1 Molex 39-01-2020 Mini-Fit 2",
+   "conductors": 2,
+   "awg": 18,
+   "insulation": "pvc",
+   "loose": true,
+   "colours": [
+    "red",
+    "black"
+   ],
+   "colour": "Maroon",
+   "service": "unplug at pwr; the socket pulls inward out of its collar",
+   "via": [
+    {
+     "p": [
+      225,
+      120,
+      48.6,
+      42
+     ],
+     "fix": true
+    },
+    [
+     225,
+     106,
+     43,
+     45
+    ],
+    [
+     225,
+     97,
+     37,
+     52
+    ]
+   ],
+   "tol": 10,
+   "hot_margin": 1.0,
+   "precrimp": {
+    "part": "Molex 215341-1113 (225 mm, 18 AWG, one end crimped)",
+    "len": 225,
+    "mode": "one-end",
+    "source": "pre-crimped"
+   }
+  },
+  {
+   "id": "W33",
+   "name": "1-Wire bus A tail",
+   "from": "junction:YA",
+   "to": "port:d34-pwr:J4",
+   "from_desc": "Y-splice YA (chamber + near-serving probes)",
+   "to_desc": "pwr J4 JST XHP-3 (1-Wire A)",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "colour": "DarkCyan",
+   "service": "unplug at pwr",
+   "via": [
+    {
+     "slot": 225,
+     "y": -6.5,
+     "z": 63,
+     "dir": "out"
+    }
+   ],
+   "precrimp": {
+    "part": "JST 01SXHSXH-26L300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   }
+  },
+  {
+   "id": "W34",
+   "name": "1-Wire bus B tail",
+   "from": "junction:YB",
+   "to": "port:d34-pwr:J6",
+   "from_desc": "Y-splice YB (hot-sink + room probes)",
+   "to_desc": "pwr J6 JST XHP-3 (1-Wire B)",
+   "conductors": 3,
+   "awg": 26,
+   "insulation": "pvc_thin",
+   "colours": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "colour": "Teal",
+   "service": "unplug at pwr",
+   "via": [],
+   "precrimp": {
+    "part": "JST 01SXHSXH-26L300, cut near one end (~290 mm usable)",
+    "len": 290,
+    "mode": "one-end",
+    "source": "cut"
+   }
+  }
+ ]
+}

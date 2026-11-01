@@ -1,0 +1,1142 @@
+{
+  "plates": [
+    {
+      "file": "01-insulation-coupon-unsliced.3mf",
+      "objects": {
+        "insulation_coupon": {
+          "conservative_brim_bounds_xy_mm": [
+            54.4,
+            54.4,
+            125.6,
+            125.6
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              30.0,
+              30.0,
+              9.199999809265137
+            ],
+            "min_mm": [
+              -30.0,
+              -30.0,
+              0.0
+            ],
+            "size_mm": [
+              60.0,
+              60.0,
+              9.199999809265137
+            ],
+            "triangles": 1484,
+            "vertices": 744,
+            "volume_mm3": 33050.73510535986
+          },
+          "placed_max_mm": [
+            120.0,
+            120.0,
+            9.199999809265137
+          ],
+          "placed_min_mm": [
+            60.0,
+            60.0,
+            0.0
+          ],
+          "source_sha256": "78799327f718ecc71a37e5528f69a90c38a8b5c5f72c4c9c56cdaa45b6d624ab"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "4",
+        "bottom_shell_thickness": "0.8",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "8%",
+        "sparse_infill_pattern": "honeycomb",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "4",
+        "top_shell_thickness": "0.8",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "3"
+      },
+      "sha256": "181ed142d29ac3d3f45081a41a06f3814a1e624fb747e26685e8b82926c1cdc1",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "02-closure-trials-unsliced.3mf",
+      "objects": {
+        "clip": {
+          "conservative_brim_bounds_xy_mm": [
+            127.89999976158143,
+            80.10000004768372,
+            150.10000023841857,
+            99.89999995231628
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              8.600000381469727,
+              6.199999809265137,
+              16.0
+            ],
+            "min_mm": [
+              -2.4000000953674316,
+              -2.4000000953674316,
+              0.0
+            ],
+            "size_mm": [
+              11.000000476837158,
+              8.599999904632568,
+              16.0
+            ],
+            "triangles": 1584,
+            "vertices": 792,
+            "volume_mm3": 669.4877859599678
+          },
+          "placed_max_mm": [
+            144.50000023841858,
+            94.29999995231628,
+            16.0
+          ],
+          "placed_min_mm": [
+            133.49999976158142,
+            85.70000004768372,
+            0.0
+          ],
+          "source_sha256": "c1b848c27467312bc50e6dcc305b11e10ee65c8d5b144f9cecb8617f37c42baf"
+        },
+        "closure_coupon_base": {
+          "conservative_brim_bounds_xy_mm": [
+            29.89999976158142,
+            61.95000019073486,
+            79.09999976158142,
+            118.04999980926513
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              22.0,
+              23.0,
+              17.100000381469727
+            ],
+            "min_mm": [
+              -16.0,
+              -21.899999618530273,
+              0.0
+            ],
+            "size_mm": [
+              38.0,
+              44.89999961853027,
+              17.100000381469727
+            ],
+            "triangles": 9666,
+            "vertices": 4821,
+            "volume_mm3": 8507.473651778395
+          },
+          "placed_max_mm": [
+            73.49999976158142,
+            112.44999980926514,
+            17.100000381469727
+          ],
+          "placed_min_mm": [
+            35.49999976158142,
+            67.55000019073486,
+            0.0
+          ],
+          "source_sha256": "e82a86ff7b348bd457018bf5d6c4690ec6265fbe21aa29c9a3f10147fb10e63e"
+        },
+        "closure_coupon_lid": {
+          "conservative_brim_bounds_xy_mm": [
+            81.89999976158143,
+            62.20000019073486,
+            125.09999976158142,
+            117.79999980926513
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              16.0,
+              21.399999618530273,
+              12.100000381469727
+            ],
+            "min_mm": [
+              -16.0,
+              -23.0,
+              0.0
+            ],
+            "size_mm": [
+              32.0,
+              44.39999961853027,
+              12.100000381469727
+            ],
+            "triangles": 656,
+            "vertices": 328,
+            "volume_mm3": 5647.120297108704
+          },
+          "placed_max_mm": [
+            119.49999976158142,
+            112.19999980926514,
+            12.100000381469727
+          ],
+          "placed_min_mm": [
+            87.49999976158142,
+            67.80000019073486,
+            0.0
+          ],
+          "source_sha256": "6589997dd25eb87039b26d97ee7fa46928a241b00250e94f9ab7572e0bd6f5b0"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "100%",
+        "sparse_infill_pattern": "zig-zag",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "6"
+      },
+      "sha256": "487f2ae3b13655dc999a2f6a4b1b33e7d2de5cdc9228b2cc2108aa173c7b27ef",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "03-drive-unsliced.3mf",
+      "objects": {
+        "drive": {
+          "conservative_brim_bounds_xy_mm": [
+            43.9,
+            43.9,
+            136.1,
+            136.1
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              40.5,
+              40.5,
+              9.0
+            ],
+            "min_mm": [
+              -40.5,
+              -40.5,
+              0.0
+            ],
+            "size_mm": [
+              81.0,
+              81.0,
+              9.0
+            ],
+            "triangles": 6980,
+            "vertices": 3492,
+            "volume_mm3": 37489.98277878544
+          },
+          "placed_max_mm": [
+            130.5,
+            130.5,
+            9.0
+          ],
+          "placed_min_mm": [
+            49.5,
+            49.5,
+            0.0
+          ],
+          "source_sha256": "53b8640b892c379af9fa179ead04977e17e52b73ca28bd36b8ba87fe1cb1cc86"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "100%",
+        "sparse_infill_pattern": "zig-zag",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "6"
+      },
+      "sha256": "0498bcc948ee3a3d65d1459f0fe78a524efb5613e428ea171317dc3566c507fa",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "04-hub-unsliced.3mf",
+      "objects": {
+        "hub": {
+          "conservative_brim_bounds_xy_mm": [
+            24.9,
+            24.9,
+            155.1,
+            155.1
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              59.5,
+              59.5,
+              17.5
+            ],
+            "min_mm": [
+              -59.5,
+              -59.5,
+              0.0
+            ],
+            "size_mm": [
+              119.0,
+              119.0,
+              17.5
+            ],
+            "triangles": 7456,
+            "vertices": 3728,
+            "volume_mm3": 29614.527242314456
+          },
+          "placed_max_mm": [
+            149.5,
+            149.5,
+            17.5
+          ],
+          "placed_min_mm": [
+            30.5,
+            30.5,
+            0.0
+          ],
+          "source_sha256": "008670b8398fba8b46b119df2c7989bb32b447770aa7cc2b4f122b1db01d1243"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "40%",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "6"
+      },
+      "sha256": "0a2d7fcf9082812795652acdb2827db37b6ceb98793354ad38964be5ba72b7a4",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "05-tray-sector-unsliced.3mf",
+      "objects": {
+        "sector": {
+          "conservative_brim_bounds_xy_mm": [
+            14.567189031839371,
+            14.56736450791359,
+            165.43281096816062,
+            165.4326354920864
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              139.9656219482422,
+              139.96527099609375,
+              17.200000762939453
+            ],
+            "min_mm": [
+              0.30000001192092896,
+              0.30000001192092896,
+              0.0
+            ],
+            "size_mm": [
+              139.66562193632126,
+              139.66527098417282,
+              17.200000762939453
+            ],
+            "triangles": 13248,
+            "vertices": 6624,
+            "volume_mm3": 60794.88335907664
+          },
+          "placed_max_mm": [
+            159.83281096816063,
+            159.8326354920864,
+            17.200000762939453
+          ],
+          "placed_min_mm": [
+            20.16718903183937,
+            20.16736450791359,
+            0.0
+          ],
+          "source_sha256": "a102b60bab23fc4b488b4cc9b153703ae0dc98bc2b944289083c7072c349b18e"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "100%",
+        "sparse_infill_pattern": "zig-zag",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "5"
+      },
+      "sha256": "29b8068e8ae275c439515be103a592488a529174f4a044108215620cfddf93d8",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "06-deck-quarter-unsliced.3mf",
+      "objects": {
+        "deck_quarter": {
+          "conservative_brim_bounds_xy_mm": [
+            11.803929144144059,
+            11.803929144144059,
+            168.19607085585594,
+            168.19607085585594
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              145.4921417236328,
+              -0.30000001192092896,
+              18.0
+            ],
+            "min_mm": [
+              0.30000001192092896,
+              -145.4921417236328,
+              0.0
+            ],
+            "size_mm": [
+              145.19214171171188,
+              145.19214171171188,
+              18.0
+            ],
+            "triangles": 540,
+            "vertices": 266,
+            "volume_mm3": 174092.5882283834
+          },
+          "placed_max_mm": [
+            162.59607085585594,
+            162.59607085585594,
+            18.0
+          ],
+          "placed_min_mm": [
+            17.40392914414406,
+            17.40392914414406,
+            0.0
+          ],
+          "source_sha256": "22b6ed828fbbf6de3f40ee833ab437db40eb583b19ad35a5d71aadc038a5b728"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "4",
+        "bottom_shell_thickness": "0.8",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "8%",
+        "sparse_infill_pattern": "honeycomb",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "4",
+        "top_shell_thickness": "0.8",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "3"
+      },
+      "sha256": "c0ae6e1d8ad86f9123cadbc044e12585fe762696302c9288d12d029e40af154f",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "07-lid-access-coupon-unsliced.3mf",
+      "objects": {
+        "lid_access_coupon": {
+          "conservative_brim_bounds_xy_mm": [
+            12.4,
+            29.4,
+            167.6,
+            150.6
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              72.0,
+              110.0,
+              16.83927345275879
+            ],
+            "min_mm": [
+              -72.0,
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              144.0,
+              110.0,
+              16.83927345275879
+            ],
+            "triangles": 4018,
+            "vertices": 2009,
+            "volume_mm3": 75807.41989466295
+          },
+          "placed_max_mm": [
+            162.0,
+            145.0,
+            16.83927345275879
+          ],
+          "placed_min_mm": [
+            18.0,
+            35.0,
+            0.0
+          ],
+          "source_sha256": "539411b83c811b4c9c31ea9647b51ab1cbe7792c244e2655ef589aa818a8567a"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "4",
+        "bottom_shell_thickness": "0.8",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "8%",
+        "sparse_infill_pattern": "honeycomb",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "4",
+        "top_shell_thickness": "0.8",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "3"
+      },
+      "sha256": "2e9f1cb09a568c1e54e92356aefc2b512fea24992c366d8de1b6d3c4bcf60967",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "08-motor-bridge-unsliced.3mf",
+      "objects": {
+        "motor_bridge": {
+          "conservative_brim_bounds_xy_mm": [
+            13.4,
+            59.4,
+            166.6,
+            120.6
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              71.0,
+              25.0,
+              6.800000190734863
+            ],
+            "min_mm": [
+              -71.0,
+              -25.0,
+              0.0
+            ],
+            "size_mm": [
+              142.0,
+              50.0,
+              6.800000190734863
+            ],
+            "triangles": 216,
+            "vertices": 108,
+            "volume_mm3": 12156.20813536084
+          },
+          "placed_max_mm": [
+            161.0,
+            115.0,
+            6.800000190734863
+          ],
+          "placed_min_mm": [
+            19.0,
+            65.0,
+            0.0
+          ],
+          "source_sha256": "24ea11ed6297709875d8fa15dbf7392a840ce5843c8ac5b52b5c5b834353e02d"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "40%",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "6"
+      },
+      "sha256": "a322f4f0e46b44eecb9793388be820ca7d383e16e1cf1dc7bee9d81db18dd9c2",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "09-fan-inlet-coupon-unsliced.3mf",
+      "objects": {
+        "fan_inlet_coupon": {
+          "conservative_brim_bounds_xy_mm": [
+            22.4,
+            22.4,
+            157.6,
+            157.6
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              62.0,
+              62.0,
+              11.0
+            ],
+            "min_mm": [
+              -62.0,
+              -62.0,
+              0.0
+            ],
+            "size_mm": [
+              124.0,
+              124.0,
+              11.0
+            ],
+            "triangles": 51452,
+            "vertices": 25660,
+            "volume_mm3": 31076.061410183676
+          },
+          "placed_max_mm": [
+            152.0,
+            152.0,
+            11.0
+          ],
+          "placed_min_mm": [
+            28.0,
+            28.0,
+            0.0
+          ],
+          "source_sha256": "179027c507130449dd593646341d0980e7c3d2ac90d04d5665eacef376b45043"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "40%",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "6"
+      },
+      "sha256": "dcfbed1e3c95efe40c193dfc463b65bd17358c6d6c5744468f7f5b82ef732bbd",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "10-pcb-cradle-unsliced.3mf",
+      "objects": {
+        "pcb_cradle": {
+          "conservative_brim_bounds_xy_mm": [
+            53.600607299804686,
+            62.4,
+            126.3993927001953,
+            117.6
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              61.598785400390625,
+              44.0,
+              9.0
+            ],
+            "min_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              61.598785400390625,
+              44.0,
+              9.0
+            ],
+            "triangles": 370,
+            "vertices": 179,
+            "volume_mm3": 2258.765521116972
+          },
+          "placed_max_mm": [
+            120.79939270019531,
+            112.0,
+            9.0
+          ],
+          "placed_min_mm": [
+            59.20060729980469,
+            68.0,
+            0.0
+          ],
+          "source_sha256": "76c74d8ee2f2458e547175040d3a448d6dbae338c6d43cfe073160401d10f734"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "40%",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "6"
+      },
+      "sha256": "810c855721687bf0c5e0b7c85bc9ca0f2c8691c627fa4ee3ca0bd50308418370",
+      "status": "UNSLICED"
+    },
+    {
+      "file": "11-pcb-mount-coupon-unsliced.3mf",
+      "objects": {
+        "pcb_mount_coupon": {
+          "conservative_brim_bounds_xy_mm": [
+            51.4,
+            40.4,
+            128.6,
+            139.6
+          ],
+          "mesh": {
+            "enclosed_mesh_voids": 0,
+            "max_mm": [
+              66.0,
+              88.0,
+              32.0
+            ],
+            "min_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              66.0,
+              88.0,
+              32.0
+            ],
+            "triangles": 2054,
+            "vertices": 1029,
+            "volume_mm3": 24306.616427534587
+          },
+          "placed_max_mm": [
+            123.0,
+            134.0,
+            32.0
+          ],
+          "placed_min_mm": [
+            57.0,
+            46.0,
+            0.0
+          ],
+          "source_sha256": "242649f9b7a19f8b7e3c76898be438f275bf200fee3ce04b6e18f34684450c95"
+        }
+      },
+      "process": {
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1.2",
+        "bridge_speed": [
+          "25"
+        ],
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "curr_bed_type": "Textured PEI Plate",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "initial_layer_infill_speed": [
+          "40"
+        ],
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25"
+        ],
+        "inner_wall_speed": [
+          "100"
+        ],
+        "internal_solid_infill_speed": [
+          "80"
+        ],
+        "layer_height": "0.2",
+        "only_one_wall_top": "0",
+        "outer_wall_speed": [
+          "60"
+        ],
+        "override_filament_scarf_seam_setting": "1",
+        "print_sequence": "by layer",
+        "seam_slope_type": "none",
+        "skirt_loops": "0",
+        "sparse_infill_density": "40%",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "100"
+        ],
+        "timelapse_type": "0",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1.2",
+        "top_surface_speed": [
+          "40"
+        ],
+        "wall_generator": "arachne",
+        "wall_loops": "6"
+      },
+      "sha256": "d1b302d2a63b9f7e4cd241b16cda2d0d1cd8e9e60fc45fb882ba831877c4e372",
+      "status": "UNSLICED"
+    }
+  ],
+  "profiles_revision": "79df7ae309be398ed30c9f397c13c9911c2edc57",
+  "status": "UNSLICED; no toolpath, print-time or filament-mass validation"
+}
