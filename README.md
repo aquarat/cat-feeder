@@ -4,6 +4,32 @@ An easy-clean, screwless, refrigerated rotary feeder. **Early mechanical and
 thermal prototype**, developed from [the original brief](initial-design-brief.md)
 and the owner's subsequent decisions in [the project KB](kb/README.md).
 
+<p align="center">
+  <img src="docs/images/feeder-closed.png" width="560" alt="Closed feeder: a round, vented body with a domed lid that slopes down to one feeding opening">
+</p>
+
+Twelve 40 mL portions sit in a lift-out tray. A stepper advances the tray 30°
+at a time under a fixed opening in the lid. Thermoelectric coolers chill the
+air beneath the tray. The lid hinges open and the tray lifts out for washing
+without tools. The prototype is printed in PETG on a Bambu A1 Mini.
+
+| | |
+|:---:|:---:|
+| <img src="docs/images/feeder-opened.png" width="400" alt="Lid open on its rear hinge, showing twelve wedge-shaped compartments around the keyed drive hub"> | <img src="docs/images/feeder-exploded.png" width="400" alt="Exploded view: lid, four-sector food tray, insulated plenum deck and body"> |
+| **Opened:** twelve compartments in four lift-out sectors on a keyed hub | **Exploded:** lid, tray, plenum deck and body |
+| <img src="docs/images/feeder-section.png" width="400" alt="Cross-section through the body: food tray, cold-air plenum and the equipment bay below"> | <img src="docs/images/feeder-harness.png" width="400" alt="Top view with the deck hidden: four TEC sink stacks, controller cards in the side bays and the routed wiring harness"> |
+| **Section:** tray over the cold-air plenum and equipment bay | **Internals (deck hidden):** TEC stacks, [controller cards](electronics/d34/README.md) and modelled harness |
+
+<p align="center">
+  <img src="electronics/d34/d34-ctrl/views/render-top.png" width="480" alt="KiCad render of the through-hole controller card">
+  <br><em>D34 control card, one of three hand-soldered through-hole boards.</em>
+</p>
+
+*These are renders of the CAD model for the
+[cold-air plenum study](kb/plenum-cad.md) (D35, still being compared). They
+are not photographs: nothing has been built or tested yet. Refresh them with
+`bash scripts/export_plenum.sh && bash scripts/readme_images.sh`.*
+
 **[Product-linked BOM](BOM.md)** — UK-oriented sourcing, trial/full quantities,
 observed prices and fit dependencies. Start with one thermal wedge; see the
 [sourcing evidence](kb/sourcing.md) for outstanding component choices.
